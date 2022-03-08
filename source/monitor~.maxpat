@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 43.0, 1920.0, 1127.0 ],
+		"rect" : [ 34.0, 77.0, 1443.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,74 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 14.0,
+					"iconsize" : 20.0,
+					"iconstyle" : 0,
+					"id" : "obj-32",
+					"maxclass" : "icst.button",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offlabeltext" : "Select",
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 656.237451076507568, 261.103825449943542, 69.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 912.0, 170.0, 48.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "icst.button[22]",
+							"parameter_shortname" : "icst.button[1]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"uselabeltext" : 1,
+					"varname" : "icst.button[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 14.0,
+					"iconlinewidth" : 8.0,
+					"iconoffset" : [ -8.0, -8.0 ],
+					"iconsize" : 80.0,
+					"iconstyle" : 0,
+					"id" : "obj-65",
+					"maxclass" : "icst.button",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offlabeltext" : "Record",
+					"offoutputtext" : "",
+					"onlabeltext" : "Capture",
+					"onoutputtext" : "",
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 393.0, 29.0, 62.0, 62.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 912.0, 0.0, 48.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "icst.button[23]",
+							"parameter_shortname" : "icst.button",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"uselabeltext" : 1,
+					"varname" : "icst.button"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-162",
 					"maxclass" : "newobj",
@@ -3732,38 +3800,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontsize" : 14.0,
-					"iconsize" : 20.0,
-					"iconstyle" : 0,
-					"id" : "obj-32",
-					"maxclass" : "icst.button",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offlabeltext" : "Select",
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 656.237451076507568, 261.103825449943542, 69.0, 62.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1027.5, 197.5, 60.0, 60.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "icst.button[22]",
-							"parameter_shortname" : "icst.button[1]",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"uselabeltext" : 1,
-					"varname" : "icst.button[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3883,7 +3919,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.5, 440.954953134059906, 317.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 2.0, 1024.0, 185.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 960.0, 170.0 ],
 					"range" : [ 0.0, 1.0 ],
 					"scroll" : 3,
 					"sono" : 1,
@@ -3902,42 +3938,6 @@
 					"outlettype" : [ "bang", "bang", "" ],
 					"patching_rect" : [ 393.0, 97.0, 44.0, 22.0 ],
 					"text" : "sel 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontsize" : 14.0,
-					"iconlinewidth" : 8.0,
-					"iconoffset" : [ -8.0, -8.0 ],
-					"iconsize" : 80.0,
-					"iconstyle" : 0,
-					"id" : "obj-65",
-					"maxclass" : "icst.button",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offlabeltext" : "Record",
-					"offoutputtext" : "",
-					"onlabeltext" : "Capture",
-					"onoutputtext" : "",
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 393.0, 29.0, 62.0, 62.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1027.5, 63.5, 60.0, 60.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "icst.button[23]",
-							"parameter_shortname" : "icst.button",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"uselabeltext" : 1,
-					"varname" : "icst.button"
 				}
 
 			}
@@ -3990,7 +3990,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 51.5, 521.954953134059906, 317.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.25, 189.0, 1026.75, 79.0 ],
+					"presentation_rect" : [ 0.0, 170.0, 960.0, 80.0 ],
 					"ruler" : 0,
 					"setmode" : 1,
 					"vticks" : 0
@@ -4139,6 +4139,23 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 90.5, 17.0, 35.0, 22.0 ],
 					"text" : "in~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.537254901960784, 0.537254901960784, 0.537254901960784, 1.0 ],
+					"bordercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.0 ],
+					"id" : "obj-38",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 690.0, 372.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 960.0, 250.0 ],
+					"proportion" : 0.5
 				}
 
 			}
