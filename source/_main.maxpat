@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 29.0, 44.0, 1468.0, 723.0 ],
+		"rect" : [ 34.0, 77.0, 1446.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -310,7 +310,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 322.0, 512.0, 62.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "wclose $1"
 				}
 
@@ -430,7 +429,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 979.0, 71.714285612106323, 29.5, 22.0 ],
-					"text" : "10"
+					"text" : "0"
 				}
 
 			}
@@ -442,7 +441,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 927.0, 71.714285612106323, 35.0, 22.0 ],
-					"text" : "1537"
+					"text" : "1920"
 				}
 
 			}
@@ -690,7 +689,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 733.0, 374.0, 256.0, 64.0 ]
+					"patching_rect" : [ 733.0, 374.0, 256.0, 64.0 ],
+					"setmode" : 1
 				}
 
 			}
@@ -700,7 +700,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 401.0, 755.0, 45.0, 45.0 ]
+					"patching_rect" : [ 2.5, 661.0, 45.0, 45.0 ]
 				}
 
 			}
