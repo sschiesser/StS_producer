@@ -2153,28 +2153,20 @@
 			"obj-17" : [ "live.gain~[16]", "live.gain~[16]", 0 ],
 			"obj-19" : [ "amxd~", "amxd~", 0 ],
 			"obj-2::obj-20" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-3.1::obj-25" : [ "icst.button[21]", "icst.button[1]", 0 ],
 			"obj-3.1::obj-32" : [ "icst.button[22]", "icst.button[1]", 0 ],
 			"obj-3.1::obj-65" : [ "icst.button[23]", "icst.button", 0 ],
-			"obj-3.2::obj-25" : [ "icst.button[2]", "icst.button[1]", 0 ],
 			"obj-3.2::obj-32" : [ "icst.button[1]", "icst.button[1]", 0 ],
 			"obj-3.2::obj-65" : [ "icst.button", "icst.button", 0 ],
-			"obj-3.3::obj-25" : [ "icst.button[4]", "icst.button[1]", 0 ],
 			"obj-3.3::obj-32" : [ "icst.button[3]", "icst.button[1]", 0 ],
 			"obj-3.3::obj-65" : [ "icst.button[5]", "icst.button", 0 ],
-			"obj-3.4::obj-25" : [ "icst.button[8]", "icst.button[1]", 0 ],
 			"obj-3.4::obj-32" : [ "icst.button[7]", "icst.button[1]", 0 ],
 			"obj-3.4::obj-65" : [ "icst.button[6]", "icst.button", 0 ],
-			"obj-3.5::obj-25" : [ "icst.button[10]", "icst.button[1]", 0 ],
 			"obj-3.5::obj-32" : [ "icst.button[11]", "icst.button[1]", 0 ],
 			"obj-3.5::obj-65" : [ "icst.button[9]", "icst.button", 0 ],
-			"obj-3.6::obj-25" : [ "icst.button[12]", "icst.button[1]", 0 ],
 			"obj-3.6::obj-32" : [ "icst.button[14]", "icst.button[1]", 0 ],
 			"obj-3.6::obj-65" : [ "icst.button[13]", "icst.button", 0 ],
-			"obj-3.7::obj-25" : [ "icst.button[17]", "icst.button[1]", 0 ],
 			"obj-3.7::obj-32" : [ "icst.button[16]", "icst.button[1]", 0 ],
 			"obj-3.7::obj-65" : [ "icst.button[15]", "icst.button", 0 ],
-			"obj-3.8::obj-25" : [ "icst.button[19]", "icst.button[1]", 0 ],
 			"obj-3.8::obj-32" : [ "icst.button[18]", "icst.button[1]", 0 ],
 			"obj-3.8::obj-65" : [ "icst.button[20]", "icst.button", 0 ],
 			"obj-46::obj-43" : [ "live.gain~", "live.gain~", 0 ],
@@ -2348,18 +2340,6 @@
 				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfknob.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfmodes.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
