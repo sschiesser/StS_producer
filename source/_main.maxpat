@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 93.0, 1329.0, 1042.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 813.0, 243.0, 50.0, 22.0 ]
+					"patching_rect" : [ 243.25, 222.388406336307526, 50.0, 22.0 ]
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 715.0, 244.0, 50.0, 22.0 ]
+					"patching_rect" : [ 192.25, 222.388406336307526, 50.0, 22.0 ]
 				}
 
 			}
@@ -102,7 +102,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 166.0, 250.414952516555786, 115.0, 22.0 ],
+					"patching_rect" : [ 166.0, 275.414952516555786, 124.0, 22.0 ],
 					"text" : "display8 @winCnt 1"
 				}
 
@@ -113,7 +113,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.499999999999886, 250.414952516555786, 144.0, 22.0 ],
+					"patching_rect" : [ 20.499999999999886, 275.414952516555786, 144.0, 22.0 ],
 					"text" : "mc.poly~ monitorInput 32"
 				}
 
@@ -1120,7 +1120,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 497.5, 222.388406336307526, 24.0, 24.0 ]
+					"patching_rect" : [ 906.5, 873.24995493888855, 24.0, 24.0 ]
 				}
 
 			}
@@ -1131,7 +1131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 497.5, 250.414952516555786, 55.0, 22.0 ],
+					"patching_rect" : [ 906.5, 901.27650111913681, 55.0, 22.0 ],
 					"text" : "adc~ 1 2"
 				}
 
@@ -1233,6 +1233,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 4 ],
+					"source" : [ "obj-27", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 3 ],
+					"source" : [ "obj-27", 2 ]
 				}
 
 			}
