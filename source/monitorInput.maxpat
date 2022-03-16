@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 1852.0, 1059.0 ],
+		"rect" : [ 1954.0, 77.0, 1329.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 0,
-		"enablevscroll" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -418,40 +418,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontsize" : 14.0,
-					"iconlinewidth" : 8.0,
-					"iconoffset" : [ -8.0, -8.0 ],
-					"iconsize" : 80.0,
-					"iconstyle" : 0,
-					"id" : "obj-65",
-					"maxclass" : "icst.button",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"offlabeltext" : "Record",
-					"offoutputtext" : "",
-					"onlabeltext" : "Capture",
-					"onoutputtext" : "",
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 464.825840711593628, 31.0, 62.0, 62.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "icst.button[32]",
-							"parameter_shortname" : "icst.button",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"uselabeltext" : 1,
-					"varname" : "icst.button"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -534,7 +500,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.571422576904297, 619.954953134059906, 115.0, 22.0 ],
-					"text" : "1954 77 3806 1136"
+					"text" : "1920 43 3317 1170"
 				}
 
 			}
@@ -1842,7 +1808,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 793.030148983001709, 547.664899110794067, 30.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -1875,8 +1841,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.825840711593628, -183.462390899658203, 83.0, 22.0 ],
-					"text" : "loadmess 100"
+					"patching_rect" : [ 470.825840711593628, -183.462390899658203, 77.0, 22.0 ],
+					"text" : "loadmess 78"
 				}
 
 			}
@@ -1948,7 +1914,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 773.825840711593628, -19.74810528755188, 133.0, 22.0 ],
-					"text" : "sizeinsamps 0"
+					"text" : "sizeinsamps 385215"
 				}
 
 			}
@@ -1984,7 +1950,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 528.825840711593628, -19.74810528755188, 142.065647661685944, 22.0 ],
-					"text" : "sizeinsamps 4410000."
+					"text" : "sizeinsamps 3439800."
 				}
 
 			}
@@ -1995,8 +1961,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 528.825840711593628, 15.25189471244812, 119.0, 22.0 ],
-					"text" : "buffer~ inbuf 100000"
+					"patching_rect" : [ 528.825840711593628, 15.25189471244812, 112.0, 22.0 ],
+					"text" : "buffer~ inbuf 80000"
 				}
 
 			}
@@ -2080,7 +2046,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 170.917176169157074, 995.954953134059906, 424.0, 22.0 ],
-					"text" : "startframe 3917716, numframes 0, bang"
+					"text" : "startframe 3054585, numframes 385215, bang"
 				}
 
 			}
@@ -2104,7 +2070,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 170.700000000000045, 849.954953134059906, 160.5, 22.0 ],
-					"text" : "3785250 0"
+					"text" : "3054585 385215"
 				}
 
 			}
@@ -2176,7 +2142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 354.0, 721.954953134059906, 122.0, 22.0 ],
-					"text" : "0"
+					"text" : "385215"
 				}
 
 			}
@@ -2268,7 +2234,7 @@
 				"box" : 				{
 					"domain" : [ 0.0, 20500.0 ],
 					"id" : "obj-94",
-					"interval" : 105,
+					"interval" : 164,
 					"logfreq" : 1,
 					"maxclass" : "spectroscope~",
 					"monochrome" : 0,
@@ -2363,7 +2329,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 406.0, 240.5, 88.035713970661163, 22.0 ],
-					"text" : "4410000."
+					"text" : "3439800."
 				}
 
 			}
@@ -3191,15 +3157,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
-					"source" : [ "obj-79", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"order" : 0,
 					"source" : [ "obj-79", 0 ]
 				}
 
