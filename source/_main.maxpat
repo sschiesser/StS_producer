@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 1059.0 ],
+		"rect" : [ 29.0, 58.0, 1852.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1415,6 +1415,14 @@
 ,
 				"obj-25.1::obj-4" : 				{
 					"parameter_longname" : "live.text[29]"
+				}
+,
+				"obj-25.2::obj-33" : 				{
+					"parameter_longname" : "live.text[126]"
+				}
+,
+				"obj-25.2::obj-4" : 				{
+					"parameter_longname" : "live.text[127]"
 				}
 ,
 				"obj-25.3::obj-33" : 				{
