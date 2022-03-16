@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 461.010183572769165, 498.0, 310.666666666666742, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -85,7 +96,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 543.010183572769165, 491.209740102291107, 444.0, 34.0 ],
+					"patching_rect" : [ 543.010183572769165, 603.209740102291107, 444.0, 34.0 ],
 					"text" : "Send general window information (top left X/Y, width/height) to all poly~ instances.\nCalculation takes place for each instance separately."
 				}
 
@@ -399,7 +410,7 @@
 				"box" : 				{
 					"comment" : "Number of rows",
 					"id" : "obj-79",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -412,7 +423,7 @@
 				"box" : 				{
 					"comment" : "Number of columns",
 					"id" : "obj-78",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -425,7 +436,7 @@
 				"box" : 				{
 					"comment" : "Window 1 top left Y",
 					"id" : "obj-77",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -438,7 +449,7 @@
 				"box" : 				{
 					"comment" : "Window 1 top left X",
 					"id" : "obj-76",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -730,11 +741,11 @@
 				"box" : 				{
 					"comment" : "Open/close 8 windows (toggle)",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 16.951445341110229, 35.0, 30.0, 30.0 ]
 				}
 
@@ -936,7 +947,7 @@
 				"box" : 				{
 					"comment" : "Instance number",
 					"id" : "obj-89",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -948,7 +959,7 @@
 				"box" : 				{
 					"comment" : "Open/close command to mc.poly~",
 					"id" : "obj-90",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -976,7 +987,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.010183572769165, 497.209740102291107, 80.0, 22.0 ],
+					"patching_rect" : [ 461.010183572769165, 609.209740102291107, 80.0, 22.0 ],
 					"text" : "s winSizePos"
 				}
 
@@ -1294,6 +1305,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"order" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"order" : 1,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -1530,8 +1557,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{

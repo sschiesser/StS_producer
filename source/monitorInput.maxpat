@@ -149,7 +149,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[27]",
+							"parameter_longname" : "live.text[88]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 1
@@ -205,7 +205,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[26]",
+							"parameter_longname" : "live.text[87]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 1
@@ -438,7 +438,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "icst.button[6]",
+							"parameter_longname" : "icst.button[32]",
 							"parameter_shortname" : "icst.button",
 							"parameter_type" : 3
 						}
@@ -484,7 +484,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 888.530148983001709, 280.103825449943542, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 302.808886051177979, 2.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1.5, 24.199999999999999, 24.0, 24.0 ]
 				}
 
 			}
@@ -520,8 +520,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 765.237451076507568, 381.103825449943542, 90.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 93.808886051177979, 2.0, 90.0, 22.0 ],
 					"text" : "window getsize"
 				}
 
@@ -536,9 +534,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.571422576904297, 619.954953134059906, 115.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 185.808886051177979, 2.0, 115.0, 22.0 ],
-					"text" : "1946 85 3798 1144"
+					"text" : "1954 77 3806 1136"
 				}
 
 			}
@@ -584,14 +580,15 @@
 					"fontface" : 1,
 					"gradient" : 1,
 					"id" : "obj-140",
+					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 154.0, 303.538008809089661, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.5, 1.0, 50.0, 22.0 ],
-					"text" : "0",
+					"presentation_rect" : [ 23.0, 1.0, 50.0, 22.0 ],
+					"text" : "1",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
@@ -605,8 +602,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 85.0, 303.538008809089661, 72.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 2.0, 54.0, 20.0 ],
-					"text" : "channel",
+					"presentation_rect" : [ 1.5, 2.0, 26.0, 20.0 ],
+					"text" : "ch.",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
@@ -2280,7 +2277,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.5, 440.954953134059906, 317.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 480.0, 90.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 480.0, 100.0 ],
 					"range" : [ 0.0, 1.0 ],
 					"scroll" : 3,
 					"sono" : 1,
@@ -2341,7 +2338,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "input_buffer_0",
+					"buffername" : "input_buffer_1",
 					"grid" : 1.0,
 					"id" : "obj-72",
 					"labels" : 0,
@@ -2351,7 +2348,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 51.5, 521.954953134059906, 317.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 90.0, 480.0, 45.0 ],
+					"presentation_rect" : [ 0.0, 100.0, 480.0, 50.0 ],
 					"ruler" : 0,
 					"setmode" : 1,
 					"vticks" : 0
@@ -2390,7 +2387,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.5, 297.752252191305161, 148.0, 22.0 ],
-					"text" : "setbuf input_buffer_0 0 1"
+					"text" : "setbuf input_buffer_1 0 1"
 				}
 
 			}
@@ -2499,10 +2496,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 90.5, 17.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in~ 1"
 				}
 
@@ -2519,7 +2512,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.5, -183.462390899658203, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 480.0, 135.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 480.0, 150.0 ],
 					"proportion" : 0.5
 				}
 
@@ -3297,34 +3290,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-33" : [ "live.text[27]", "live.text[1]", 0 ],
-			"obj-4" : [ "live.text[26]", "live.text", 0 ],
-			"obj-65" : [ "icst.button[6]", "icst.button", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.bufcompose~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "icst.button.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "instancePlace.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
