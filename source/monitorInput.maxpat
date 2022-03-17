@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1962.0, 85.0, 480.0, 150.0 ],
+		"rect" : [ 1954.0, 77.0, 1329.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 0,
-		"enablevscroll" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -500,7 +500,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.571422576904297, 619.954953134059906, 115.0, 22.0 ],
-					"text" : "1954 77 3283 1136"
+					"text" : "1962 85 2442 235"
 				}
 
 			}
@@ -554,7 +554,7 @@
 					"patching_rect" : [ 154.0, 303.538008809089661, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.0, 1.0, 50.0, 22.0 ],
-					"text" : "1",
+					"text" : "0",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
@@ -2070,7 +2070,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 170.700000000000045, 849.954953134059906, 160.5, 22.0 ],
-					"text" : "3054585 385215"
+					"text" : "515970 0"
 				}
 
 			}
@@ -2142,7 +2142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 354.0, 721.954953134059906, 122.0, 22.0 ],
-					"text" : "385215"
+					"text" : "0"
 				}
 
 			}
@@ -2304,7 +2304,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "input_buffer_1",
+					"buffername" : "input_buffer_0",
 					"grid" : 1.0,
 					"id" : "obj-72",
 					"labels" : 0,
@@ -2353,7 +2353,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.5, 297.752252191305161, 148.0, 22.0 ],
-					"text" : "setbuf input_buffer_1 0 1"
+					"text" : "setbuf input_buffer_0 0 1"
 				}
 
 			}
@@ -2462,10 +2462,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 90.5, 17.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in~ 1"
 				}
 
@@ -3251,6 +3247,29 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-33" : [ "live.text[88]", "live.text[1]", 0 ],
+			"obj-4" : [ "live.text[87]", "live.text", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.bufcompose~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "instancePlace.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
