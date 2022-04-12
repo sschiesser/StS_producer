@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 29.0, 85.0, 1329.0, 1059.0 ],
+		"rect" : [ 20.0, 85.0, 1852.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,73 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-42",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "X-touch.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 236.842741935484128, 1172.6875, 546.75, 313.9375 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 591.0, 543.0, 92.5, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "vst~",
+					"varname" : "vst~",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 218.0, 73.0, 35.0, 22.0 ],
+					"text" : "1536"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"activebgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 0.0 ],
 					"activebgoncolor" : [ 0.454901960784314, 0.086274509803922, 0.086274509803922, 1.0 ],
 					"activetextcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
@@ -57,7 +124,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 648.0, 643.0, 151.0, 137.0 ],
+					"patching_rect" : [ 1114.0, 214.0, 151.0, 137.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -124,7 +191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 648.0, 593.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1114.0, 164.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -238,7 +305,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-45",
-									"items" : [ 32000, ",", 44100, ",", 48000, ",", 64000, ",", 88200, ",", 96000, ",", 128000, ",", 176400, ",", 192000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -275,7 +342,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-46",
-									"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512 ],
+									"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -432,7 +499,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 648.0, 618.973453999999947, 43.0, 22.0 ],
+					"patching_rect" : [ 1114.0, 189.973453999999947, 43.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -928,7 +995,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 20.500000481445227, 790.063952503093674, 511.035710632801056, 111.928571581840515 ],
+					"patching_rect" : [ 29.500000481445227, 589.063952503093674, 1258.035710632801056, 423.928571581840629 ],
 					"viewvisibility" : 1
 				}
 
@@ -1911,6 +1978,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"source" : [ "obj-60", 1 ]
 				}
@@ -2100,14 +2174,87 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "vst~", "vst~", 0 ],
 			"obj-19" : [ "amxd~", "amxd~", 0 ],
+			"obj-23::obj-120::obj-1" : [ "direct.out", "DO", 0 ],
+			"obj-23::obj-120::obj-25" : [ "FX1", "FX1", 0 ],
+			"obj-23::obj-120::obj-29" : [ "FX2", "FX2", 0 ],
+			"obj-23::obj-120::obj-33" : [ "FX3", "FX3", 0 ],
+			"obj-23::obj-120::obj-37" : [ "FX4", "FX4", 0 ],
+			"obj-23::obj-120::obj-41" : [ "FX5", "FX5", 0 ],
+			"obj-23::obj-120::obj-45" : [ "FX6", "FX6", 0 ],
+			"obj-23::obj-120::obj-51" : [ "FX7", "FX7", 0 ],
+			"obj-23::obj-120::obj-56" : [ "FX8", "FX8", 0 ],
 			"obj-23::obj-17" : [ "live.gain~[16]", "live.gain~[16]", 0 ],
 			"obj-23::obj-19" : [ "live.text[1]", "live.text", 0 ],
 			"obj-23::obj-23" : [ "live.text[2]", "live.text", 0 ],
 			"obj-23::obj-27" : [ "live.text[3]", "live.text", 0 ],
 			"obj-23::obj-29" : [ "live.text", "live.text", 0 ],
 			"obj-23::obj-32" : [ "live.text[4]", "live.text", 0 ],
+			"obj-23::obj-36::obj-1" : [ "direct.out[1]", "DO", 0 ],
+			"obj-23::obj-36::obj-25" : [ "FX1[1]", "FX1", 0 ],
+			"obj-23::obj-36::obj-29" : [ "FX2[1]", "FX2", 0 ],
+			"obj-23::obj-36::obj-33" : [ "FX3[1]", "FX3", 0 ],
+			"obj-23::obj-36::obj-37" : [ "FX4[1]", "FX4", 0 ],
+			"obj-23::obj-36::obj-41" : [ "FX5[1]", "FX5", 0 ],
+			"obj-23::obj-36::obj-45" : [ "FX6[1]", "FX6", 0 ],
+			"obj-23::obj-36::obj-51" : [ "FX7[1]", "FX7", 0 ],
+			"obj-23::obj-36::obj-56" : [ "FX8[1]", "FX8", 0 ],
 			"obj-23::obj-37" : [ "live.text[5]", "live.text", 0 ],
+			"obj-23::obj-40::obj-1" : [ "direct.out[2]", "DO", 0 ],
+			"obj-23::obj-40::obj-25" : [ "FX1[2]", "FX1", 0 ],
+			"obj-23::obj-40::obj-29" : [ "FX2[2]", "FX2", 0 ],
+			"obj-23::obj-40::obj-33" : [ "FX3[2]", "FX3", 0 ],
+			"obj-23::obj-40::obj-37" : [ "FX4[2]", "FX4", 0 ],
+			"obj-23::obj-40::obj-41" : [ "FX5[2]", "FX5", 0 ],
+			"obj-23::obj-40::obj-45" : [ "FX6[2]", "FX6", 0 ],
+			"obj-23::obj-40::obj-51" : [ "FX7[2]", "FX7", 0 ],
+			"obj-23::obj-40::obj-56" : [ "FX8[2]", "FX8", 0 ],
+			"obj-23::obj-41::obj-1" : [ "direct.out[5]", "DO", 0 ],
+			"obj-23::obj-41::obj-25" : [ "FX1[5]", "FX1", 0 ],
+			"obj-23::obj-41::obj-29" : [ "FX2[5]", "FX2", 0 ],
+			"obj-23::obj-41::obj-33" : [ "FX3[5]", "FX3", 0 ],
+			"obj-23::obj-41::obj-37" : [ "FX4[5]", "FX4", 0 ],
+			"obj-23::obj-41::obj-41" : [ "FX5[5]", "FX5", 0 ],
+			"obj-23::obj-41::obj-45" : [ "FX6[5]", "FX6", 0 ],
+			"obj-23::obj-41::obj-51" : [ "FX7[5]", "FX7", 0 ],
+			"obj-23::obj-41::obj-56" : [ "FX8[5]", "FX8", 0 ],
+			"obj-23::obj-42::obj-1" : [ "direct.out[4]", "DO", 0 ],
+			"obj-23::obj-42::obj-25" : [ "FX1[4]", "FX1", 0 ],
+			"obj-23::obj-42::obj-29" : [ "FX2[4]", "FX2", 0 ],
+			"obj-23::obj-42::obj-33" : [ "FX3[4]", "FX3", 0 ],
+			"obj-23::obj-42::obj-37" : [ "FX4[4]", "FX4", 0 ],
+			"obj-23::obj-42::obj-41" : [ "FX5[4]", "FX5", 0 ],
+			"obj-23::obj-42::obj-45" : [ "FX6[4]", "FX6", 0 ],
+			"obj-23::obj-42::obj-51" : [ "FX7[4]", "FX7", 0 ],
+			"obj-23::obj-42::obj-56" : [ "FX8[4]", "FX8", 0 ],
+			"obj-23::obj-43::obj-1" : [ "direct.out[3]", "DO", 0 ],
+			"obj-23::obj-43::obj-25" : [ "FX1[3]", "FX1", 0 ],
+			"obj-23::obj-43::obj-29" : [ "FX2[3]", "FX2", 0 ],
+			"obj-23::obj-43::obj-33" : [ "FX3[3]", "FX3", 0 ],
+			"obj-23::obj-43::obj-37" : [ "FX4[3]", "FX4", 0 ],
+			"obj-23::obj-43::obj-41" : [ "FX5[3]", "FX5", 0 ],
+			"obj-23::obj-43::obj-45" : [ "FX6[3]", "FX6", 0 ],
+			"obj-23::obj-43::obj-51" : [ "FX7[3]", "FX7", 0 ],
+			"obj-23::obj-43::obj-56" : [ "FX8[3]", "FX8", 0 ],
+			"obj-23::obj-44::obj-1" : [ "direct.out[7]", "DO", 0 ],
+			"obj-23::obj-44::obj-25" : [ "FX1[7]", "FX1", 0 ],
+			"obj-23::obj-44::obj-29" : [ "FX2[7]", "FX2", 0 ],
+			"obj-23::obj-44::obj-33" : [ "FX3[7]", "FX3", 0 ],
+			"obj-23::obj-44::obj-37" : [ "FX4[7]", "FX4", 0 ],
+			"obj-23::obj-44::obj-41" : [ "FX5[7]", "FX5", 0 ],
+			"obj-23::obj-44::obj-45" : [ "FX6[7]", "FX6", 0 ],
+			"obj-23::obj-44::obj-51" : [ "FX7[7]", "FX7", 0 ],
+			"obj-23::obj-44::obj-56" : [ "FX8[7]", "FX8", 0 ],
+			"obj-23::obj-45::obj-1" : [ "direct.out[6]", "DO", 0 ],
+			"obj-23::obj-45::obj-25" : [ "FX1[6]", "FX1", 0 ],
+			"obj-23::obj-45::obj-29" : [ "FX2[6]", "FX2", 0 ],
+			"obj-23::obj-45::obj-33" : [ "FX3[6]", "FX3", 0 ],
+			"obj-23::obj-45::obj-37" : [ "FX4[6]", "FX4", 0 ],
+			"obj-23::obj-45::obj-41" : [ "FX5[6]", "FX5", 0 ],
+			"obj-23::obj-45::obj-45" : [ "FX6[6]", "FX6", 0 ],
+			"obj-23::obj-45::obj-51" : [ "FX7[6]", "FX7", 0 ],
+			"obj-23::obj-45::obj-56" : [ "FX8[6]", "FX8", 0 ],
 			"obj-23::obj-56" : [ "live.text[6]", "live.text", 0 ],
 			"obj-23::obj-63" : [ "live.text[7]", "live.text", 0 ],
 			"obj-25.10::obj-33" : [ "live.text[42]", "live.text[1]", 0 ],
@@ -2198,6 +2345,86 @@
 			"obj-34::obj-53::obj-9::obj-20" : [ "live.gain~[54]", "live.gain~", 0 ],
 			"obj-34::obj-53::obj-9::obj-29" : [ "live.text[176]", "live.text", 0 ],
 			"obj-34::obj-53::obj-9::obj-41" : [ "live.text[177]", "live.text[1]", 0 ],
+			"obj-42::obj-100" : [ "dialpress13", "dialpress13", 0 ],
+			"obj-42::obj-101" : [ "dialpress15", "dialpress15", 0 ],
+			"obj-42::obj-102" : [ "dialpress16", "dialpress16", 0 ],
+			"obj-42::obj-103" : [ "dialpress14", "dialpress14", 0 ],
+			"obj-42::obj-104" : [ "dialpress12", "dialpress12", 0 ],
+			"obj-42::obj-105" : [ "dialpress10", "dialpress10", 0 ],
+			"obj-42::obj-16" : [ "dial01", "dial01", 0 ],
+			"obj-42::obj-18" : [ "dial02", "dial02", 0 ],
+			"obj-42::obj-19" : [ "dial03", "dial03", 0 ],
+			"obj-42::obj-20" : [ "dial04", "dial04", 0 ],
+			"obj-42::obj-21" : [ "dial05", "dial05", 0 ],
+			"obj-42::obj-22" : [ "dial06", "dial06", 0 ],
+			"obj-42::obj-23" : [ "dial07", "dial07", 0 ],
+			"obj-42::obj-24" : [ "dial08", "dial08", 0 ],
+			"obj-42::obj-25" : [ "dialpress01", "dialpress01", 0 ],
+			"obj-42::obj-33" : [ "button01-1", "button01-1", 0 ],
+			"obj-42::obj-34" : [ "button01-2", "button01-2", 0 ],
+			"obj-42::obj-35" : [ "button01-3", "button01-3", 0 ],
+			"obj-42::obj-36" : [ "button02-3", "button02-3", 0 ],
+			"obj-42::obj-37" : [ "button02-2", "button02-2", 0 ],
+			"obj-42::obj-38" : [ "button02-1", "button02-1", 0 ],
+			"obj-42::obj-39" : [ "button03-3", "button03-3", 0 ],
+			"obj-42::obj-40" : [ "button03-2", "button03-2", 0 ],
+			"obj-42::obj-41" : [ "button03-1", "button03-1", 0 ],
+			"obj-42::obj-42" : [ "button04-3", "button04-3", 0 ],
+			"obj-42::obj-43" : [ "button04-2", "button04-2", 0 ],
+			"obj-42::obj-44" : [ "button04-1", "button04-1", 0 ],
+			"obj-42::obj-45" : [ "button05-3", "button05-3", 0 ],
+			"obj-42::obj-46" : [ "button05-2", "button05-2", 0 ],
+			"obj-42::obj-47" : [ "button05-1", "button05-1", 0 ],
+			"obj-42::obj-48" : [ "button06-3", "button06-3", 0 ],
+			"obj-42::obj-49" : [ "button06-2", "button06-2", 0 ],
+			"obj-42::obj-50" : [ "button06-1", "button06-1", 0 ],
+			"obj-42::obj-51" : [ "button07-3", "button07-3", 0 ],
+			"obj-42::obj-52" : [ "button07-2", "button07-2", 0 ],
+			"obj-42::obj-53" : [ "button07-1", "button07-1", 0 ],
+			"obj-42::obj-54" : [ "button08-3", "button08-3", 0 ],
+			"obj-42::obj-55" : [ "button08-2", "button08-2", 0 ],
+			"obj-42::obj-56" : [ "button08-1", "button08-1", 0 ],
+			"obj-42::obj-57" : [ "slider01", "slider01", 0 ],
+			"obj-42::obj-58" : [ "slider02", "slider02", 0 ],
+			"obj-42::obj-59" : [ "slider03", "slider03", 0 ],
+			"obj-42::obj-60" : [ "slider04", "slider04", 0 ],
+			"obj-42::obj-61" : [ "slider05", "slider05", 0 ],
+			"obj-42::obj-62" : [ "slider06", "slider06", 0 ],
+			"obj-42::obj-63" : [ "slider07", "slider07", 0 ],
+			"obj-42::obj-64" : [ "slider08", "slider08", 0 ],
+			"obj-42::obj-65" : [ "button08-4", "button08-4", 0 ],
+			"obj-42::obj-66" : [ "button07-4", "button07-4", 0 ],
+			"obj-42::obj-67" : [ "button06-4", "button06-4", 0 ],
+			"obj-42::obj-68" : [ "button05-4", "button05-4", 0 ],
+			"obj-42::obj-69" : [ "button04-4", "button04-4", 0 ],
+			"obj-42::obj-70" : [ "button03-4", "button03-4", 0 ],
+			"obj-42::obj-71" : [ "button02-4", "button02-4", 0 ],
+			"obj-42::obj-72" : [ "button01-4", "button01-4", 0 ],
+			"obj-42::obj-73" : [ "dial09", "dial09", 0 ],
+			"obj-42::obj-74" : [ "dial10", "dial10", 0 ],
+			"obj-42::obj-75" : [ "dial12", "dial12", 0 ],
+			"obj-42::obj-76" : [ "dial11", "dial11", 0 ],
+			"obj-42::obj-77" : [ "dial16", "dial16", 0 ],
+			"obj-42::obj-78" : [ "dial15", "dial15", 0 ],
+			"obj-42::obj-79" : [ "dial14", "dial14", 0 ],
+			"obj-42::obj-80" : [ "dial13", "dial13", 0 ],
+			"obj-42::obj-81" : [ "buttonPLAY", "buttonPLAY", 0 ],
+			"obj-42::obj-82" : [ "buttonREC", "buttonREC", 0 ],
+			"obj-42::obj-83" : [ "buttonFWD", "buttonFWD", 0 ],
+			"obj-42::obj-84" : [ "buttonSTOP", "buttonSTOP", 0 ],
+			"obj-42::obj-85" : [ "buttonLOOP", "buttonLOOP", 0 ],
+			"obj-42::obj-86" : [ "buttonREW", "buttonREW", 0 ],
+			"obj-42::obj-89" : [ "button09", "button09", 0 ],
+			"obj-42::obj-90" : [ "slider09", "slider09", 0 ],
+			"obj-42::obj-91" : [ "dialpress02", "dialpress02", 0 ],
+			"obj-42::obj-92" : [ "dialpress03", "dialpress03", 0 ],
+			"obj-42::obj-93" : [ "dialpress04", "dialpress04", 0 ],
+			"obj-42::obj-94" : [ "dialpress05", "dialpress05", 0 ],
+			"obj-42::obj-95" : [ "dialpress06", "dialpress06", 0 ],
+			"obj-42::obj-96" : [ "dialpress07", "dialpress07", 0 ],
+			"obj-42::obj-97" : [ "dialpress08", "dialpress08", 0 ],
+			"obj-42::obj-98" : [ "dialpress09", "dialpress09", 0 ],
+			"obj-42::obj-99" : [ "dialpress11", "dialpress11", 0 ],
 			"obj-57" : [ "amxd~[2]", "amxd~[2]", 0 ],
 			"obj-58::obj-46::obj-43" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-58::obj-47::obj-43" : [ "live.gain~[17]", "live.gain~", 0 ],
@@ -2311,6 +2538,258 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-23::obj-36::obj-1" : 				{
+					"parameter_longname" : "direct.out[1]"
+				}
+,
+				"obj-23::obj-36::obj-25" : 				{
+					"parameter_longname" : "FX1[1]"
+				}
+,
+				"obj-23::obj-36::obj-29" : 				{
+					"parameter_longname" : "FX2[1]"
+				}
+,
+				"obj-23::obj-36::obj-33" : 				{
+					"parameter_longname" : "FX3[1]"
+				}
+,
+				"obj-23::obj-36::obj-37" : 				{
+					"parameter_longname" : "FX4[1]"
+				}
+,
+				"obj-23::obj-36::obj-41" : 				{
+					"parameter_longname" : "FX5[1]"
+				}
+,
+				"obj-23::obj-36::obj-45" : 				{
+					"parameter_longname" : "FX6[1]"
+				}
+,
+				"obj-23::obj-36::obj-51" : 				{
+					"parameter_longname" : "FX7[1]"
+				}
+,
+				"obj-23::obj-36::obj-56" : 				{
+					"parameter_longname" : "FX8[1]"
+				}
+,
+				"obj-23::obj-40::obj-1" : 				{
+					"parameter_longname" : "direct.out[2]"
+				}
+,
+				"obj-23::obj-40::obj-25" : 				{
+					"parameter_longname" : "FX1[2]"
+				}
+,
+				"obj-23::obj-40::obj-29" : 				{
+					"parameter_longname" : "FX2[2]"
+				}
+,
+				"obj-23::obj-40::obj-33" : 				{
+					"parameter_longname" : "FX3[2]"
+				}
+,
+				"obj-23::obj-40::obj-37" : 				{
+					"parameter_longname" : "FX4[2]"
+				}
+,
+				"obj-23::obj-40::obj-41" : 				{
+					"parameter_longname" : "FX5[2]"
+				}
+,
+				"obj-23::obj-40::obj-45" : 				{
+					"parameter_longname" : "FX6[2]"
+				}
+,
+				"obj-23::obj-40::obj-51" : 				{
+					"parameter_longname" : "FX7[2]"
+				}
+,
+				"obj-23::obj-40::obj-56" : 				{
+					"parameter_longname" : "FX8[2]"
+				}
+,
+				"obj-23::obj-41::obj-1" : 				{
+					"parameter_longname" : "direct.out[5]"
+				}
+,
+				"obj-23::obj-41::obj-25" : 				{
+					"parameter_longname" : "FX1[5]"
+				}
+,
+				"obj-23::obj-41::obj-29" : 				{
+					"parameter_longname" : "FX2[5]"
+				}
+,
+				"obj-23::obj-41::obj-33" : 				{
+					"parameter_longname" : "FX3[5]"
+				}
+,
+				"obj-23::obj-41::obj-37" : 				{
+					"parameter_longname" : "FX4[5]"
+				}
+,
+				"obj-23::obj-41::obj-41" : 				{
+					"parameter_longname" : "FX5[5]"
+				}
+,
+				"obj-23::obj-41::obj-45" : 				{
+					"parameter_longname" : "FX6[5]"
+				}
+,
+				"obj-23::obj-41::obj-51" : 				{
+					"parameter_longname" : "FX7[5]"
+				}
+,
+				"obj-23::obj-41::obj-56" : 				{
+					"parameter_longname" : "FX8[5]"
+				}
+,
+				"obj-23::obj-42::obj-1" : 				{
+					"parameter_longname" : "direct.out[4]"
+				}
+,
+				"obj-23::obj-42::obj-25" : 				{
+					"parameter_longname" : "FX1[4]"
+				}
+,
+				"obj-23::obj-42::obj-29" : 				{
+					"parameter_longname" : "FX2[4]"
+				}
+,
+				"obj-23::obj-42::obj-33" : 				{
+					"parameter_longname" : "FX3[4]"
+				}
+,
+				"obj-23::obj-42::obj-37" : 				{
+					"parameter_longname" : "FX4[4]"
+				}
+,
+				"obj-23::obj-42::obj-41" : 				{
+					"parameter_longname" : "FX5[4]"
+				}
+,
+				"obj-23::obj-42::obj-45" : 				{
+					"parameter_longname" : "FX6[4]"
+				}
+,
+				"obj-23::obj-42::obj-51" : 				{
+					"parameter_longname" : "FX7[4]"
+				}
+,
+				"obj-23::obj-42::obj-56" : 				{
+					"parameter_longname" : "FX8[4]"
+				}
+,
+				"obj-23::obj-43::obj-1" : 				{
+					"parameter_longname" : "direct.out[3]"
+				}
+,
+				"obj-23::obj-43::obj-25" : 				{
+					"parameter_longname" : "FX1[3]"
+				}
+,
+				"obj-23::obj-43::obj-29" : 				{
+					"parameter_longname" : "FX2[3]"
+				}
+,
+				"obj-23::obj-43::obj-33" : 				{
+					"parameter_longname" : "FX3[3]"
+				}
+,
+				"obj-23::obj-43::obj-37" : 				{
+					"parameter_longname" : "FX4[3]"
+				}
+,
+				"obj-23::obj-43::obj-41" : 				{
+					"parameter_longname" : "FX5[3]"
+				}
+,
+				"obj-23::obj-43::obj-45" : 				{
+					"parameter_longname" : "FX6[3]"
+				}
+,
+				"obj-23::obj-43::obj-51" : 				{
+					"parameter_longname" : "FX7[3]"
+				}
+,
+				"obj-23::obj-43::obj-56" : 				{
+					"parameter_longname" : "FX8[3]"
+				}
+,
+				"obj-23::obj-44::obj-1" : 				{
+					"parameter_longname" : "direct.out[7]"
+				}
+,
+				"obj-23::obj-44::obj-25" : 				{
+					"parameter_longname" : "FX1[7]"
+				}
+,
+				"obj-23::obj-44::obj-29" : 				{
+					"parameter_longname" : "FX2[7]"
+				}
+,
+				"obj-23::obj-44::obj-33" : 				{
+					"parameter_longname" : "FX3[7]"
+				}
+,
+				"obj-23::obj-44::obj-37" : 				{
+					"parameter_longname" : "FX4[7]"
+				}
+,
+				"obj-23::obj-44::obj-41" : 				{
+					"parameter_longname" : "FX5[7]"
+				}
+,
+				"obj-23::obj-44::obj-45" : 				{
+					"parameter_longname" : "FX6[7]"
+				}
+,
+				"obj-23::obj-44::obj-51" : 				{
+					"parameter_longname" : "FX7[7]"
+				}
+,
+				"obj-23::obj-44::obj-56" : 				{
+					"parameter_longname" : "FX8[7]"
+				}
+,
+				"obj-23::obj-45::obj-1" : 				{
+					"parameter_longname" : "direct.out[6]"
+				}
+,
+				"obj-23::obj-45::obj-25" : 				{
+					"parameter_longname" : "FX1[6]"
+				}
+,
+				"obj-23::obj-45::obj-29" : 				{
+					"parameter_longname" : "FX2[6]"
+				}
+,
+				"obj-23::obj-45::obj-33" : 				{
+					"parameter_longname" : "FX3[6]"
+				}
+,
+				"obj-23::obj-45::obj-37" : 				{
+					"parameter_longname" : "FX4[6]"
+				}
+,
+				"obj-23::obj-45::obj-41" : 				{
+					"parameter_longname" : "FX5[6]"
+				}
+,
+				"obj-23::obj-45::obj-45" : 				{
+					"parameter_longname" : "FX6[6]"
+				}
+,
+				"obj-23::obj-45::obj-51" : 				{
+					"parameter_longname" : "FX7[6]"
+				}
+,
+				"obj-23::obj-45::obj-56" : 				{
+					"parameter_longname" : "FX8[6]"
+				}
+,
 				"obj-25.10::obj-33" : 				{
 					"parameter_longname" : "live.text[42]"
 				}
@@ -3076,6 +3555,627 @@
 			"inherited_shortname" : 1
 		}
 ,
+		"parameter_map" : 		{
+			"midi" : 			{
+				"button01-1" : 				{
+					"srcname" : "16.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button01-2" : 				{
+					"srcname" : "24.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button01-3" : 				{
+					"srcname" : "32.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-3" : 				{
+					"srcname" : "33.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-2" : 				{
+					"srcname" : "25.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-1" : 				{
+					"srcname" : "17.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-1" : 				{
+					"srcname" : "18.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-2" : 				{
+					"srcname" : "26.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-3" : 				{
+					"srcname" : "34.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-3" : 				{
+					"srcname" : "35.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-2" : 				{
+					"srcname" : "27.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-1" : 				{
+					"srcname" : "19.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-1" : 				{
+					"srcname" : "20.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-2" : 				{
+					"srcname" : "28.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-3" : 				{
+					"srcname" : "36.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-3" : 				{
+					"srcname" : "37.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-2" : 				{
+					"srcname" : "29.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-1" : 				{
+					"srcname" : "21.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-1" : 				{
+					"srcname" : "22.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-2" : 				{
+					"srcname" : "30.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-3" : 				{
+					"srcname" : "38.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-3" : 				{
+					"srcname" : "39.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-2" : 				{
+					"srcname" : "31.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-1" : 				{
+					"srcname" : "23.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress08" : 				{
+					"srcname" : "7.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress07" : 				{
+					"srcname" : "6.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress06" : 				{
+					"srcname" : "5.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress05" : 				{
+					"srcname" : "4.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress04" : 				{
+					"srcname" : "3.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress03" : 				{
+					"srcname" : "2.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress02" : 				{
+					"srcname" : "1.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress01" : 				{
+					"srcname" : "0.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button01-4" : 				{
+					"srcname" : "40.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-4" : 				{
+					"srcname" : "41.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-4" : 				{
+					"srcname" : "42.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-4" : 				{
+					"srcname" : "43.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-4" : 				{
+					"srcname" : "44.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-4" : 				{
+					"srcname" : "45.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-4" : 				{
+					"srcname" : "46.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-4" : 				{
+					"srcname" : "47.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress15" : 				{
+					"srcname" : "14.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress13" : 				{
+					"srcname" : "12.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress11" : 				{
+					"srcname" : "10.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress09" : 				{
+					"srcname" : "8.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress10" : 				{
+					"srcname" : "9.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress12" : 				{
+					"srcname" : "11.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress14" : 				{
+					"srcname" : "13.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress16" : 				{
+					"srcname" : "15.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dial16" : 				{
+					"srcname" : "25.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial14" : 				{
+					"srcname" : "23.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial12" : 				{
+					"srcname" : "21.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial10" : 				{
+					"srcname" : "19.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial09" : 				{
+					"srcname" : "18.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial11" : 				{
+					"srcname" : "20.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial13" : 				{
+					"srcname" : "22.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial15" : 				{
+					"srcname" : "24.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial08" : 				{
+					"srcname" : "17.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial07" : 				{
+					"srcname" : "16.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial06" : 				{
+					"srcname" : "15.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial05" : 				{
+					"srcname" : "14.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial04" : 				{
+					"srcname" : "13.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial03" : 				{
+					"srcname" : "12.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial02" : 				{
+					"srcname" : "11.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial01" : 				{
+					"srcname" : "10.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"buttonREW" : 				{
+					"srcname" : "49.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonFWD" : 				{
+					"srcname" : "50.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonPLAY" : 				{
+					"srcname" : "54.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonSTOP" : 				{
+					"srcname" : "53.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonLOOP" : 				{
+					"srcname" : "51.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonREC" : 				{
+					"srcname" : "52.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"slider04" : 				{
+					"srcname" : "4.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider05" : 				{
+					"srcname" : "5.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider08" : 				{
+					"srcname" : "8.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider01" : 				{
+					"srcname" : "1.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider03" : 				{
+					"srcname" : "3.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider02" : 				{
+					"srcname" : "2.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider07" : 				{
+					"srcname" : "7.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider06" : 				{
+					"srcname" : "6.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider09" : 				{
+					"srcname" : "9.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"button09" : 				{
+					"srcname" : "48.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "ChamberVerb.amxd",
 				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb",
@@ -3129,6 +4229,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "X-Touch-compact_LOGO.png",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
+				"patcherrelativepath" : "../res",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X-touch.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "audioTester.maxpat",
 				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
 				"patcherrelativepath" : ".",
@@ -3152,6 +4266,13 @@
 , 			{
 				"name" : "fluid.bufcompose~.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "fxSend.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "icst.button.mxe64",
@@ -3193,10 +4314,38 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sendMx.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "transportFWD.png",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
+				"patcherrelativepath" : "../res",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transportPLAY.png",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
+				"patcherrelativepath" : "../res",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transportREC.png",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
+				"patcherrelativepath" : "../res",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transportREW.png",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
+				"patcherrelativepath" : "../res",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transportSTOP.png",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
+				"patcherrelativepath" : "../res",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
