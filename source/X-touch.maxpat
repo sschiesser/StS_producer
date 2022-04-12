@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 20.0, 8.0, 1283.0, 1059.0 ],
+		"rect" : [ 20.0, 85.0, 1852.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -668,7 +668,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-31",
-					"items" : [ "Microsoft GS Wavetable Synth", ",", "X-TOUCH COMPACT", ",", "Max EqGraphic31.amxd", ",", "Max CombFilterMulti.amxd", ",", "ChamberVerb.amxd", ",", "Spectral Filter.amxd" ],
+					"items" : [ "Microsoft GS Wavetable Synth", ",", "UFX+ Midi Port 1", ",", "UFX+ Midi Port 2", ",", "UFX+ Midi Port 3", ",", "UFX+ Midi Port 4", ",", "X-TOUCH COMPACT" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3579,7 +3579,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 809.385636150836945, 173.11864048242569, 148.511631011962891, 22.0 ],
-					"text" : "midievent 128 40 0"
+					"text" : "midievent 176 101 0"
 				}
 
 			}
@@ -3636,7 +3636,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 289.385636150836945, 173.11864048242569, 102.0, 22.0 ],
-					"text" : "102 0"
+					"text" : "101 0"
 				}
 
 			}
