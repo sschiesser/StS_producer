@@ -102,7 +102,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1091.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1041.5, 178.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 1152.5, 108.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -125,7 +125,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 744.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 694.5, 178.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 768.5, 108.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -148,7 +148,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 397.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 347.5, 178.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 384.5, 108.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -171,7 +171,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 50.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.5, 178.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 0.5, 108.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -194,7 +194,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 1091.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1041.5, 0.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 1152.5, 0.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -217,7 +217,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 744.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 694.5, 0.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 768.5, 0.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -240,7 +240,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 397.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 347.5, 0.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 384.5, 0.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -263,7 +263,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 50.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.5, 0.616298, 345.0, 106.0 ],
+									"presentation_rect" : [ 0.5, 0.616298, 382.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
