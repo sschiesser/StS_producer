@@ -274,7 +274,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 50.0, 100.0, 308.0, 99.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.5, 0.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 0.5, 0.616298, 345.0, 114.0 ],
 									"viewvisibility" : 1
 								}
 
