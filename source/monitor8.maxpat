@@ -55,7 +55,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 83.0, 398.0, 1394.0, 346.0 ],
+						"rect" : [ 83.0, 398.0, 1683.0, 647.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -86,17 +86,6 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 924.5, 529.5, 100.0, 22.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"args" : [ 8 ],
 									"bgmode" : 0,
 									"border" : 0,
@@ -111,9 +100,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 1016.0, 278.0, 320.0, 176.0 ],
+									"patching_rect" : [ 1091.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1041.5, 178.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 1041.5, 178.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -134,9 +123,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 694.0, 278.0, 320.0, 176.0 ],
+									"patching_rect" : [ 744.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 694.5, 178.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 694.5, 178.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -157,9 +146,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 372.0, 278.0, 320.0, 176.0 ],
+									"patching_rect" : [ 397.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 347.5, 178.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 347.5, 178.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -180,9 +169,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 50.0, 278.0, 320.0, 176.0 ],
+									"patching_rect" : [ 50.0, 237.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.5, 178.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 0.5, 178.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -203,9 +192,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 1016.0, 100.0, 320.0, 176.0 ],
+									"patching_rect" : [ 1091.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1041.5, 0.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 1041.5, 0.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -226,9 +215,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 694.0, 100.0, 320.0, 176.0 ],
+									"patching_rect" : [ 744.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 694.5, 0.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 694.5, 0.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -249,9 +238,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 372.0, 100.0, 320.0, 78.0 ],
+									"patching_rect" : [ 397.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 347.5, 0.616298, 345.0, 78.0 ],
+									"presentation_rect" : [ 347.5, 0.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -272,9 +261,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 50.0, 100.0, 308.0, 99.0 ],
+									"patching_rect" : [ 50.0, 100.0, 345.0, 106.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.5, 0.616298, 345.0, 114.0 ],
+									"presentation_rect" : [ 0.5, 0.616298, 345.0, 106.0 ],
 									"viewvisibility" : 1
 								}
 
