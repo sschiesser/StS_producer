@@ -40,6 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-78",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "loop_playback1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 782.0, 533.414952516555786, 300.0, 131.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -2705,6 +2725,8 @@
 			"obj-69" : [ "live.gain~[54]", "live.gain~[92]", 0 ],
 			"obj-70" : [ "live.gain~[55]", "live.gain~[92]", 0 ],
 			"obj-71" : [ "live.gain~[56]", "live.gain~[92]", 0 ],
+			"obj-78::obj-61::obj-68" : [ "live.text[292]", "live.text", 0 ],
+			"obj-78::obj-68" : [ "live.text[293]", "live.text", 0 ],
 			"obj-7::obj-53::obj-10::obj-39" : [ "live.text[289]", "live.text[1]", 0 ],
 			"obj-7::obj-53::obj-10::obj-68" : [ "live.text[290]", "live.text", 0 ],
 			"obj-7::obj-53::obj-10::obj-94::obj-68" : [ "live.text[288]", "live.text", 0 ],
@@ -3360,6 +3382,14 @@
 ,
 				"obj-63::obj-53::obj-43" : 				{
 					"parameter_longname" : "live.gain~[20]"
+				}
+,
+				"obj-78::obj-61::obj-68" : 				{
+					"parameter_longname" : "live.text[292]"
+				}
+,
+				"obj-78::obj-68" : 				{
+					"parameter_longname" : "live.text[293]"
 				}
 ,
 				"obj-7::obj-53::obj-10::obj-39" : 				{
@@ -4336,6 +4366,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "filepath.txt",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
+				"patcherrelativepath" : "../res",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "fluid.bufcompose~.mxe64",
 				"type" : "mx64"
 			}
@@ -4362,6 +4399,20 @@
 			}
 , 			{
 				"name" : "loop_monitor8.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loop_playback1.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mix_sendFXbus.maxpat",
 				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
