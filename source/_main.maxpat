@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1495.0, 389.0, 1468.0, 723.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1165.0, 775.153878211975098, 114.0, 22.0 ],
+					"text" : "scale 0. 127. -70. 6."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1165.0, 752.0, 80.0, 22.0 ],
+					"text" : "r XT_slider09"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"channels" : 1,
 					"id" : "obj-68",
@@ -2413,6 +2437,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-1" : [ "vst~", "vst~", 0 ],
@@ -3470,6 +3508,627 @@
 			}
 ,
 			"inherited_shortname" : 1
+		}
+,
+		"parameter_map" : 		{
+			"midi" : 			{
+				"button01-1" : 				{
+					"srcname" : "16.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button01-2" : 				{
+					"srcname" : "24.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button01-3" : 				{
+					"srcname" : "32.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-3" : 				{
+					"srcname" : "33.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-2" : 				{
+					"srcname" : "25.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-1" : 				{
+					"srcname" : "17.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-1" : 				{
+					"srcname" : "18.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-2" : 				{
+					"srcname" : "26.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-3" : 				{
+					"srcname" : "34.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-3" : 				{
+					"srcname" : "35.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-2" : 				{
+					"srcname" : "27.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-1" : 				{
+					"srcname" : "19.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-1" : 				{
+					"srcname" : "20.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-2" : 				{
+					"srcname" : "28.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-3" : 				{
+					"srcname" : "36.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-3" : 				{
+					"srcname" : "37.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-2" : 				{
+					"srcname" : "29.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-1" : 				{
+					"srcname" : "21.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-1" : 				{
+					"srcname" : "22.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-2" : 				{
+					"srcname" : "30.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-3" : 				{
+					"srcname" : "38.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-3" : 				{
+					"srcname" : "39.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-2" : 				{
+					"srcname" : "31.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-1" : 				{
+					"srcname" : "23.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress08" : 				{
+					"srcname" : "7.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress07" : 				{
+					"srcname" : "6.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress06" : 				{
+					"srcname" : "5.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress05" : 				{
+					"srcname" : "4.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress04" : 				{
+					"srcname" : "3.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress03" : 				{
+					"srcname" : "2.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress02" : 				{
+					"srcname" : "1.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress01" : 				{
+					"srcname" : "0.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button01-4" : 				{
+					"srcname" : "40.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button02-4" : 				{
+					"srcname" : "41.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button03-4" : 				{
+					"srcname" : "42.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button04-4" : 				{
+					"srcname" : "43.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button05-4" : 				{
+					"srcname" : "44.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button06-4" : 				{
+					"srcname" : "45.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button07-4" : 				{
+					"srcname" : "46.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"button08-4" : 				{
+					"srcname" : "47.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress15" : 				{
+					"srcname" : "14.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress13" : 				{
+					"srcname" : "12.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress11" : 				{
+					"srcname" : "10.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress09" : 				{
+					"srcname" : "8.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress10" : 				{
+					"srcname" : "9.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress12" : 				{
+					"srcname" : "11.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress14" : 				{
+					"srcname" : "13.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dialpress16" : 				{
+					"srcname" : "15.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"dial16" : 				{
+					"srcname" : "25.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial14" : 				{
+					"srcname" : "23.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial12" : 				{
+					"srcname" : "21.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial10" : 				{
+					"srcname" : "19.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial09" : 				{
+					"srcname" : "18.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial11" : 				{
+					"srcname" : "20.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial13" : 				{
+					"srcname" : "22.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial15" : 				{
+					"srcname" : "24.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial08" : 				{
+					"srcname" : "17.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial07" : 				{
+					"srcname" : "16.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial06" : 				{
+					"srcname" : "15.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial05" : 				{
+					"srcname" : "14.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial04" : 				{
+					"srcname" : "13.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial03" : 				{
+					"srcname" : "12.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial02" : 				{
+					"srcname" : "11.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"dial01" : 				{
+					"srcname" : "10.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"buttonREW" : 				{
+					"srcname" : "49.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonFWD" : 				{
+					"srcname" : "50.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonPLAY" : 				{
+					"srcname" : "54.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonSTOP" : 				{
+					"srcname" : "53.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonLOOP" : 				{
+					"srcname" : "51.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"buttonREC" : 				{
+					"srcname" : "52.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+,
+				"slider04" : 				{
+					"srcname" : "4.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider05" : 				{
+					"srcname" : "5.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider08" : 				{
+					"srcname" : "8.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider01" : 				{
+					"srcname" : "1.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider03" : 				{
+					"srcname" : "3.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider02" : 				{
+					"srcname" : "2.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider07" : 				{
+					"srcname" : "7.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider06" : 				{
+					"srcname" : "6.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"slider09" : 				{
+					"srcname" : "9.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 127.0,
+					"flags" : 2
+				}
+,
+				"button09" : 				{
+					"srcname" : "48.note.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 3,
+					"trigger" : 1
+				}
+
+			}
+
 		}
 ,
 		"dependency_cache" : [ 			{
