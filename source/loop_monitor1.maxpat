@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 1059.0 ],
+		"rect" : [ 63.0, 85.0, 1247.0, 991.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3478,7 +3478,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "wfModes.maxpat",
+					"name" : "utils_wfModes.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"offset" : [ -11.022727608680725, -8.477272987365723 ],
@@ -3494,7 +3494,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4275,6 +4275,42 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-39" : [ "live.text[105]", "live.text[1]", 0 ],
+			"obj-68" : [ "live.text[106]", "live.text", 0 ],
+			"obj-94::obj-68" : [ "live.text", "live.text", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.bufcompose~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "utils_wfModes.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfknob.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "wfmodes.png",
+				"bootpath" : "C74:/media/max/picts",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

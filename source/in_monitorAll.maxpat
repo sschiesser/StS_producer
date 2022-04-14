@@ -1752,8 +1752,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 154.0, 280.103825449943542, 83.0, 22.0 ],
-					"text" : "instancePlace"
+					"patching_rect" : [ 154.0, 280.103825449943542, 111.0, 22.0 ],
+					"text" : "utils_instancePlace"
 				}
 
 			}
@@ -1893,7 +1893,7 @@
 					"patching_rect" : [ 234.0, 246.325242638587952, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.5, 79.0, 50.0, 22.0 ],
-					"text" : "1",
+					"text" : "0",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
@@ -3176,7 +3176,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 793.030148983001709, 547.664899110794067, 30.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -3675,7 +3675,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"bgcolor" : [ 0.016, 0.212, 0.102, 1.0 ],
-					"buffername" : "input_buffer_1",
+					"buffername" : "input_buffer_0",
 					"grid" : 1.0,
 					"id" : "obj-72",
 					"labels" : 0,
@@ -3724,7 +3724,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.5, 297.752252191305161, 148.0, 22.0 ],
-					"text" : "setbuf input_buffer_1 0 1"
+					"text" : "setbuf input_buffer_0 0 1"
 				}
 
 			}
@@ -3833,10 +3833,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 90.5, 17.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in~ 1"
 				}
 
@@ -4340,7 +4336,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 227.5, 426.0, 910.530148983001709, 426.0 ],
+					"midpoints" : [ 255.5, 426.0, 910.530148983001709, 426.0 ],
 					"source" : [ "obj-168", 1 ]
 				}
 
@@ -4967,6 +4963,30 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-33" : [ "live.text[88]", "live.text[1]", 0 ],
+			"obj-4" : [ "live.text[87]", "live.text", 0 ],
+			"obj-51" : [ "live.text[151]", "live.text", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.bufcompose~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "utils_instancePlace.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
