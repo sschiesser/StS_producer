@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 29.0, 57.0, 1852.0, 1059.0 ],
+		"rect" : [ 34.0, 77.0, 1315.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,27 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-41",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fx_vst1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 702.0, 460.0, 417.0, 332.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-78",
 					"maxclass" : "comment",
@@ -219,8 +240,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 172.038548469543457, 925.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus8"
+					"patching_rect" : [ 172.038548469543457, 925.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix8"
 				}
 
 			}
@@ -231,8 +252,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 172.038548469543457, 809.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus7"
+					"patching_rect" : [ 172.038548469543457, 809.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix7"
 				}
 
 			}
@@ -243,8 +264,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 172.038548469543457, 693.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus6"
+					"patching_rect" : [ 172.038548469543457, 693.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix6"
 				}
 
 			}
@@ -255,8 +276,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 172.038548469543457, 577.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus5"
+					"patching_rect" : [ 172.038548469543457, 577.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix5"
 				}
 
 			}
@@ -383,8 +404,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 57.038548469543457, 925.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus4"
+					"patching_rect" : [ 57.038548469543457, 925.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix4"
 				}
 
 			}
@@ -395,8 +416,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 57.038548469543457, 809.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus3"
+					"patching_rect" : [ 57.038548469543457, 809.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix3"
 				}
 
 			}
@@ -407,8 +428,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 57.038548469543457, 693.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus2"
+					"patching_rect" : [ 57.038548469543457, 693.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix2"
 				}
 
 			}
@@ -419,8 +440,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 57.038548469543457, 577.153878211975098, 109.0, 22.0 ],
-					"text" : "receive~ toFXbus1"
+					"patching_rect" : [ 57.038548469543457, 577.153878211975098, 107.0, 22.0 ],
+					"text" : "receive~ toMatrix1"
 				}
 
 			}
@@ -2598,6 +2619,11 @@
 			"obj-34::obj-53::obj-9::obj-39" : [ "live.text[144]", "live.text[1]", 0 ],
 			"obj-34::obj-53::obj-9::obj-68" : [ "live.text[145]", "live.text", 0 ],
 			"obj-34::obj-53::obj-9::obj-94::obj-68" : [ "live.text[143]", "live.text", 0 ],
+			"obj-41::obj-10::obj-68" : [ "live.text[171]", "live.text", 0 ],
+			"obj-41::obj-13" : [ "out", "out", 0 ],
+			"obj-41::obj-17" : [ "vst~[7]", "vst~[7]", 0 ],
+			"obj-41::obj-5" : [ "in", "in", 0 ],
+			"obj-41::obj-68" : [ "live.text[172]", "live.text", 0 ],
 			"obj-42::obj-100" : [ "dialpress13", "dialpress13", 0 ],
 			"obj-42::obj-101" : [ "dialpress15", "dialpress15", 0 ],
 			"obj-42::obj-102" : [ "dialpress16", "dialpress16", 0 ],
@@ -3274,6 +3300,14 @@
 ,
 				"obj-34::obj-53::obj-9::obj-94::obj-68" : 				{
 					"parameter_longname" : "live.text[143]"
+				}
+,
+				"obj-41::obj-10::obj-68" : 				{
+					"parameter_longname" : "live.text[171]"
+				}
+,
+				"obj-41::obj-68" : 				{
+					"parameter_longname" : "live.text[172]"
 				}
 ,
 				"obj-58::obj-47::obj-43" : 				{
@@ -4392,6 +4426,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "MAutopan.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Max CombFilterMulti.amxd",
 				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max CombFilterMulti",
 				"type" : "amxd",
@@ -4449,6 +4490,13 @@
 				"type" : "mx64"
 			}
 , 			{
+				"name" : "fx_vst1.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "in_display8.maxpat",
 				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
 				"patcherrelativepath" : ".",
@@ -4492,6 +4540,13 @@
 			}
 , 			{
 				"name" : "mix_sendFXbus.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mix_sendMatrix.maxpat",
 				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
