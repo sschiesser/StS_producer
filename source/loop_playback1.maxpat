@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 1852.0, 1059.0 ],
+		"rect" : [ 29.0, 57.0, 1852.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -269,7 +269,7 @@
 					"patching_rect" : [ 124.0, 671.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 224.512116611003876, -0.649129390716553, 31.0, 22.0 ],
-					"text" : "6",
+					"text" : "5",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -506,7 +506,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[293]",
+							"parameter_longname" : "live.text[299]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 1
@@ -703,8 +703,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.016, 0.212, 0.102, 1.0 ],
-					"buffername" : "sts_buffer.1",
+					"bgcolor" : [ 0.314, 0.243, 0.024, 1.0 ],
+					"buffername" : "7_sts_buffer.5",
 					"id" : "obj-58",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -993,7 +993,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 452.0, 327.0, 22.0 ],
-					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil"
+					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/air"
 				}
 
 			}
@@ -1029,7 +1029,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.0, 330.0, 469.0, 22.0 ],
-					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil Soil"
+					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/air Air"
 				}
 
 			}
@@ -1107,7 +1107,7 @@
 					"patching_rect" : [ 324.369285464286804, 902.555331319570541, 102.292008280754089, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 138.158708542585373, 101.350870609283447, 116.490395814180374, 22.0 ],
-					"text" : "Soil.1",
+					"text" : "Air.5",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1131,8 +1131,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 41.0, 844.861846148967743, 205.0, 22.0 ],
-					"text" : "combine sts_buffer. num @triggers 1"
+					"patching_rect" : [ 41.0, 844.861846148967743, 225.0, 22.0 ],
+					"text" : "combine #1_sts_buffer. num @triggers 1"
 				}
 
 			}
@@ -1152,7 +1152,7 @@
 				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "number",
-					"maximum" : 6,
+					"maximum" : 5,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -1247,12 +1247,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 17.0, 579.0, 124.0, 22.0 ],
+					"patching_rect" : [ 17.0, 579.0, 144.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
-					"text" : "polybuffer~ sts_buffer"
+					"text" : "polybuffer~ #1_sts_buffer"
 				}
 
 			}
@@ -1656,32 +1656,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-61::obj-68" : [ "live.text", "live.text", 0 ],
-			"obj-68" : [ "live.text[293]", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "filepath.txt",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
-				"patcherrelativepath" : "../res",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mix_sendFXbus.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

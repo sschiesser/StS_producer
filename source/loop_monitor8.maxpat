@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2035.0, 137.0, 463.0, 195.0 ],
+		"rect" : [ 855.0, 340.0, 463.0, 195.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 111.0, 44.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "newobj",
@@ -83,7 +95,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 8 ],
@@ -448,11 +459,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 5.0, 5.0, 30.0, 30.0 ]
 				}
 
@@ -732,6 +743,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"order" : 6,
 					"source" : [ "obj-12", 0 ]
@@ -956,157 +974,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-53::obj-10::obj-39" : [ "live.text[21]", "live.text[1]", 0 ],
-			"obj-53::obj-10::obj-68" : [ "live.text[20]", "live.text", 0 ],
-			"obj-53::obj-10::obj-94::obj-68" : [ "live.text[19]", "live.text", 0 ],
-			"obj-53::obj-11::obj-39" : [ "live.text[18]", "live.text[1]", 0 ],
-			"obj-53::obj-11::obj-68" : [ "live.text[17]", "live.text", 0 ],
-			"obj-53::obj-11::obj-94::obj-68" : [ "live.text[16]", "live.text", 0 ],
-			"obj-53::obj-2::obj-39" : [ "live.text[105]", "live.text[1]", 0 ],
-			"obj-53::obj-2::obj-68" : [ "live.text[106]", "live.text", 0 ],
-			"obj-53::obj-2::obj-94::obj-68" : [ "live.text", "live.text", 0 ],
-			"obj-53::obj-4::obj-39" : [ "live.text[3]", "live.text[1]", 0 ],
-			"obj-53::obj-4::obj-68" : [ "live.text[2]", "live.text", 0 ],
-			"obj-53::obj-4::obj-94::obj-68" : [ "live.text[1]", "live.text", 0 ],
-			"obj-53::obj-5::obj-39" : [ "live.text[9]", "live.text[1]", 0 ],
-			"obj-53::obj-5::obj-68" : [ "live.text[8]", "live.text", 0 ],
-			"obj-53::obj-5::obj-94::obj-68" : [ "live.text[7]", "live.text", 0 ],
-			"obj-53::obj-7::obj-39" : [ "live.text[5]", "live.text[1]", 0 ],
-			"obj-53::obj-7::obj-68" : [ "live.text[6]", "live.text", 0 ],
-			"obj-53::obj-7::obj-94::obj-68" : [ "live.text[4]", "live.text", 0 ],
-			"obj-53::obj-8::obj-39" : [ "live.text[14]", "live.text[1]", 0 ],
-			"obj-53::obj-8::obj-68" : [ "live.text[15]", "live.text", 0 ],
-			"obj-53::obj-8::obj-94::obj-68" : [ "live.text[13]", "live.text", 0 ],
-			"obj-53::obj-9::obj-39" : [ "live.text[12]", "live.text[1]", 0 ],
-			"obj-53::obj-9::obj-68" : [ "live.text[11]", "live.text", 0 ],
-			"obj-53::obj-9::obj-94::obj-68" : [ "live.text[10]", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-53::obj-10::obj-39" : 				{
-					"parameter_longname" : "live.text[21]"
-				}
-,
-				"obj-53::obj-10::obj-68" : 				{
-					"parameter_longname" : "live.text[20]"
-				}
-,
-				"obj-53::obj-10::obj-94::obj-68" : 				{
-					"parameter_longname" : "live.text[19]"
-				}
-,
-				"obj-53::obj-11::obj-39" : 				{
-					"parameter_longname" : "live.text[18]"
-				}
-,
-				"obj-53::obj-11::obj-68" : 				{
-					"parameter_longname" : "live.text[17]"
-				}
-,
-				"obj-53::obj-11::obj-94::obj-68" : 				{
-					"parameter_longname" : "live.text[16]"
-				}
-,
-				"obj-53::obj-4::obj-39" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-53::obj-4::obj-68" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-53::obj-4::obj-94::obj-68" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-53::obj-5::obj-39" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-,
-				"obj-53::obj-5::obj-68" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-,
-				"obj-53::obj-5::obj-94::obj-68" : 				{
-					"parameter_longname" : "live.text[7]"
-				}
-,
-				"obj-53::obj-7::obj-39" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-53::obj-7::obj-68" : 				{
-					"parameter_longname" : "live.text[6]"
-				}
-,
-				"obj-53::obj-7::obj-94::obj-68" : 				{
-					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-53::obj-8::obj-39" : 				{
-					"parameter_longname" : "live.text[14]"
-				}
-,
-				"obj-53::obj-8::obj-68" : 				{
-					"parameter_longname" : "live.text[15]"
-				}
-,
-				"obj-53::obj-8::obj-94::obj-68" : 				{
-					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-53::obj-9::obj-39" : 				{
-					"parameter_longname" : "live.text[12]"
-				}
-,
-				"obj-53::obj-9::obj-68" : 				{
-					"parameter_longname" : "live.text[11]"
-				}
-,
-				"obj-53::obj-9::obj-94::obj-68" : 				{
-					"parameter_longname" : "live.text[10]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.bufcompose~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "loop_monitor1.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "utils_wfModes.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfknob.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfmodes.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
