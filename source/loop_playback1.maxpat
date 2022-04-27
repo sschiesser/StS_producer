@@ -1192,7 +1192,7 @@
 					"patching_rect" : [ 324.369285464286804, 902.555331319570541, 102.292008280754089, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 138.158708542585373, 101.350870609283447, 116.490395814180374, 22.0 ],
-					"text" : "Metal.0",
+					"text" : "buf.0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1848,6 +1848,37 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-61::obj-68" : [ "live.text", "live.text", 0 ],
+			"obj-68" : [ "live.text[296]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "filepath.txt",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res",
+				"patcherrelativepath" : "../res",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mix_sendFXbus.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
