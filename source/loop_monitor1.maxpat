@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 63.0, 85.0, 1247.0, 991.0 ],
+		"rect" : [ 63.0, 85.0, 1386.0, 991.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -124,8 +124,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1703.65854024887085, 52.292882919311523, 289.0, 22.0 ],
-					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/"
+					"patching_rect" : [ 1703.65854024887085, 52.292882919311523, 296.0, 22.0 ],
+					"text" : "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/"
 				}
 
 			}
@@ -396,8 +396,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -451,8 +451,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 996.025224208831787, 163.414836406707764, 289.0, 22.0 ],
-									"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/"
+									"patching_rect" : [ 996.025224208831787, 163.414836406707764, 296.0, 22.0 ],
+									"text" : "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/"
 								}
 
 							}
@@ -467,8 +467,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1398,12 +1398,12 @@
 												"name" : "Audiomix",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "gradient",
+														"angle" : 270.0,
+														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
-														"proportion" : 0.39
+														"proportion" : 0.39,
+														"type" : "gradient"
 													}
 
 												}
@@ -1990,8 +1990,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 779.468086123466492, 799.698022723197937, 351.0, 22.0 ],
-					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil/"
+					"patching_rect" : [ 779.468086123466492, 799.698022723197937, 317.0, 22.0 ],
+					"text" : "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/soil/"
 				}
 
 			}
@@ -2074,8 +2074,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1344.271691799163818, 525.698022723197937, 410.883216857910156, 22.0 ],
-					"text" : "readfolder C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil/"
+					"patching_rect" : [ 1344.271691799163818, 525.698022723197937, 375.0, 22.0 ],
+					"text" : "readfolder C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/soil/"
 				}
 
 			}
@@ -2387,7 +2387,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.468086123466492, 904.698022723197937, 495.0, 22.0 ],
-					"text" : "write C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil/sound_12.wav"
+					"text" : "write C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/soil/filename"
 				}
 
 			}
@@ -2530,7 +2530,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3311,60 +3311,17 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-39" : [ "live.text[105]", "live.text[1]", 0 ],
-			"obj-68" : [ "live.text[106]", "live.text", 0 ],
-			"obj-94::obj-68" : [ "live.text", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.bufcompose~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "mix_sendFXbus.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "utils_wfModes.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfknob.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wfmodes.png",
-				"bootpath" : "C74:/media/max/picts",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
@@ -3376,12 +3333,12 @@
 				"name" : "Audiomix",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39
+						"proportion" : 0.39,
+						"type" : "gradient"
 					}
 
 				}
