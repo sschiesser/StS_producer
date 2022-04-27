@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 1059.0 ],
+		"rect" : [ 42.0, 85.0, 1359.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,278 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 682.0, 987.0, 45.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 672.0, 822.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 923.0, 264.0, 124.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 830.0, 270.0, 124.0, 36.0 ],
+					"text" : "signal input sets oscillator frequency",
+					"textcolor" : [ 0.50196099281311, 0.50196099281311, 0.50196099281311, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 911.0, 167.0, 45.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 818.0, 173.0, 45.0, 23.0 ],
+					"text" : "$1 20"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "bang" ],
+					"patching_rect" : [ 911.0, 210.0, 40.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 818.0, 216.0, 40.0, 23.0 ],
+					"text" : "line~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"channels" : 1,
+					"fontsize" : 13.0,
+					"id" : "obj-27",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"orientation" : 1,
+					"outlettype" : [ "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 911.0, 379.0, 136.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 818.0, 385.0, 136.0, 35.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ -70 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"showname" : 0,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"format" : 6,
+					"id" : "obj-15",
+					"maxclass" : "flonum",
+					"maximum" : 10000.0,
+					"minimum" : 10.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 911.0, 117.0, 54.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 818.0, 123.0, 54.0, 23.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 440 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "flonum",
+							"parameter_mmax" : 10000.0,
+							"parameter_mmin" : 10.0,
+							"parameter_shortname" : "flonum",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"triscale" : 0.9,
+					"varname" : "flonum"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 911.0, 302.0, 157.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 818.0, 308.0, 157.0, 23.0 ],
+					"text" : "cycle~ 440."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-10",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 16.789476633071899, 572.736841201782227, 599.0, 196.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 396.0, 599.0, 196.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"patchername" : "StS_TapDelays.amxd",
+						"patchername_fallback" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "StS_TapDelays.amxd",
+							"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"DelaysMax" : 0.0,
+									"DelaysMin" : 0.0,
+									"Dry/Wet" : 0.0,
+									"Feedback" : 0.0,
+									"LevelsMax" : 0.0,
+									"LevelsMin" : 0.0,
+									"number" : 1.0,
+									"out" : 0.0,
+									"tap.button" : 0.0,
+									"blob" : 									{
+										"Delays" : [ 0.0 ],
+										"Levels" : [ 0.0 ]
+									}
+
+								}
+
+							}
+
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Tap Delays.amxd",
+									"origin" : "StS_TapDelays.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "StS_TapDelays.amxd",
+										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"DelaysMax" : 0.0,
+												"DelaysMin" : 0.0,
+												"Dry/Wet" : 0.0,
+												"Feedback" : 0.0,
+												"LevelsMax" : 0.0,
+												"LevelsMin" : 0.0,
+												"number" : 1.0,
+												"out" : 0.0,
+												"tap.button" : 0.0,
+												"blob" : 												{
+													"Delays" : [ 0.0 ],
+													"Levels" : [ 0.0 ]
+												}
+
+											}
+
+										}
+
+									}
+,
+									"fileref" : 									{
+										"name" : "Tap Delays.amxd",
+										"filename" : "Tap Delays.amxd.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "f2e5c71a231ba5aaef8f57acc1a2396e"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "amxd~ C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
+					"varname" : "amxd~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"autosave" : 1,
 					"bgmode" : 1,
 					"border" : 0,
@@ -55,7 +327,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 17.0, 164.0, 577.0, 196.0 ],
+					"patching_rect" : [ 17.0, 154.131579041481018, 577.0, 196.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.0, 0.0, 577.0, 196.0 ],
@@ -186,138 +458,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 965.0, 147.0, 22.0 ],
+					"patching_rect" : [ 17.0, 1019.0, 147.0, 22.0 ],
 					"text" : "mix_sendToPhones"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-14",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 17.0, 564.0, 599.0, 196.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 400.0, 599.0, 196.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "amxd~[4]",
-							"parameter_shortname" : "amxd~[4]",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"active" : 0,
-						"parameter_enable" : 1,
-						"patchername" : "StS_TapDelays.amxd",
-						"patchername_fallback" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "max~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"name" : "StS_TapDelays.amxd",
-							"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"DelaysMax" : 0.0,
-									"DelaysMin" : 0.0,
-									"Dry/Wet" : 0.0,
-									"Feedback" : 0.0,
-									"LevelsMax" : 0.0,
-									"LevelsMin" : 0.0,
-									"MasterGain" : 0.0,
-									"PansMax" : 0.0,
-									"PansMin" : 0.0,
-									"blob" : 									{
-										"Taps" : [ 1.0 ],
-										"Delays" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-										"Levels" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-										"Pans" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
-									}
-
-								}
-
-							}
-
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Tap Delays.amxd",
-									"origin" : "StS_TapDelays.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 1,
-									"snapshot" : 									{
-										"name" : "StS_TapDelays.amxd",
-										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
-										"valuedictionary" : 										{
-											"parameter_values" : 											{
-												"DelaysMax" : 0.0,
-												"DelaysMin" : 0.0,
-												"Dry/Wet" : 0.0,
-												"Feedback" : 0.0,
-												"LevelsMax" : 0.0,
-												"LevelsMin" : 0.0,
-												"MasterGain" : 0.0,
-												"PansMax" : 0.0,
-												"PansMin" : 0.0,
-												"blob" : 												{
-													"Taps" : [ 1.0 ],
-													"Delays" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-													"Levels" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
-													"Pans" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
-												}
-
-											}
-
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "Tap Delays.amxd",
-										"filename" : "Tap Delays.amxd.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "f2e5c71a231ba5aaef8f57acc1a2396e"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "amxd~ \"C74:/packages/Max for Live/patchers/Max Audio Effect/Max DelayTaps/Max DelayTaps.amxd\"",
-					"varname" : "amxd~[4]",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -350,10 +492,10 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 17.0, 762.0, 403.0, 196.0 ],
+					"patching_rect" : [ 17.0, 784.368420839309692, 403.0, 196.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 0.0, 598.0, 403.0, 196.0 ],
+					"presentation_rect" : [ 0.0, 626.0, 403.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -518,7 +660,7 @@
 									"in" : 0.0,
 									"out" : 0.0,
 									"randomize" : 0.0,
-									"wet/dry" : 100.0,
+									"wet/dry" : 0.0,
 									"blob" : 									{
 										"spectral_filter" : [ 115, 60, 113, 112, 112, 32, 111, 110, 110, 109, 108, 64, 107, 107, 106, 41, 41, 12, 11, 11, 11, 11, 11, 11, 61, 62, 63, 10, 64, 64, 65, 65, 65, 65, 65, 65, 10, 15, 15, 16, 16, 50, 51, 51, 52, 53, 53, 54, 55, 55, 56, 56, 57, 57, 58, 58, 59, 59, 11, 14, 18, 14, 14, 14, 116, 117, 118, 118, 119, 120, 120, 14, 121, 121, 121, 121, 121, 121, 121, 121, 123, 44, 40, 38, 80, 83, 6, 6, 7, 7, 91, 93, 94, 95, 96, 97, 99, 101, 103, 69, 70, 70, 104, 104, 11, 11, 11, 11, 70, 70, 70, 13, 14, 16, 17, 70, 82, 99, 98, 97, 97, 96, 20, 95, 94, 94, 93, 92, 90, 90, 35, 34, 32, 31, 29, 28, 90, 25, 24, 23, 23, 22, 21, 20, 19, 18, 17, 91, 91, 92, 92, 92, 93, 93, 93, 11, 11, 10, 10, 96, 96, 10, 10, 10, 10, 101, 103, 104, 106, 11, 11, 12, 109, 12, 13, 13, 14, 14, 15, 15, 16, 115, 115, 17, 18, 18, 18, 18, 19, 8, 8, 8, 8, 108, 108, 107, 107, 106, 106, 105, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 0, 105, 105, 105, 0, 107, 107, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 109, 109, 109, 1, 1, 2, 4, 5, 6, 110, 110, 112, 11, 112, 112, 14, 14, 14, 112, 12, 11, 10, 5 ]
 									}
@@ -548,7 +690,7 @@
 												"in" : 0.0,
 												"out" : 0.0,
 												"randomize" : 0.0,
-												"wet/dry" : 100.0,
+												"wet/dry" : 0.0,
 												"blob" : 												{
 													"spectral_filter" : [ 115, 60, 113, 112, 112, 32, 111, 110, 110, 109, 108, 64, 107, 107, 106, 41, 41, 12, 11, 11, 11, 11, 11, 11, 61, 62, 63, 10, 64, 64, 65, 65, 65, 65, 65, 65, 10, 15, 15, 16, 16, 50, 51, 51, 52, 53, 53, 54, 55, 55, 56, 56, 57, 57, 58, 58, 59, 59, 11, 14, 18, 14, 14, 14, 116, 117, 118, 118, 119, 120, 120, 14, 121, 121, 121, 121, 121, 121, 121, 121, 123, 44, 40, 38, 80, 83, 6, 6, 7, 7, 91, 93, 94, 95, 96, 97, 99, 101, 103, 69, 70, 70, 104, 104, 11, 11, 11, 11, 70, 70, 70, 13, 14, 16, 17, 70, 82, 99, 98, 97, 97, 96, 20, 95, 94, 94, 93, 92, 90, 90, 35, 34, 32, 31, 29, 28, 90, 25, 24, 23, 23, 22, 21, 20, 19, 18, 17, 91, 91, 92, 92, 92, 93, 93, 93, 11, 11, 10, 10, 96, 96, 10, 10, 10, 10, 101, 103, 104, 106, 11, 11, 12, 109, 12, 13, 13, 14, 14, 15, 15, 16, 115, 115, 17, 18, 18, 18, 18, 19, 8, 8, 8, 8, 108, 108, 107, 107, 106, 106, 105, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 0, 105, 105, 105, 0, 107, 107, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 109, 109, 109, 1, 1, 2, 4, 5, 6, 110, 110, 112, 11, 112, 112, 14, 14, 14, 112, 12, 11, 10, 5 ]
 												}
@@ -643,31 +785,36 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
-					"source" : [ "obj-14", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -675,6 +822,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -694,13 +855,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"source" : [ "obj-6", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -715,21 +869,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
-					"source" : [ "obj-8", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"order" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
+					"order" : 1,
 					"source" : [ "obj-9", 1 ]
 				}
 
@@ -737,13 +901,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-14" : [ "amxd~[4]", "amxd~[4]", 0 ],
+			"obj-10" : [ "amxd~", "amxd~", 0 ],
+			"obj-15" : [ "flonum", "flonum", 0 ],
+			"obj-27" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-6" : [ "amxd~[6]", "amxd~[6]", 0 ],
 			"obj-8" : [ "amxd~[1]", "amxd~[1]", 0 ],
 			"obj-9" : [ "amxd~[2]", "amxd~[2]", 0 ],

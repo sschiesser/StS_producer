@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1359.0, 1059.0 ],
+		"rect" : [ 34.0, 77.0, 1359.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,28 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-83",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fx_chain1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 711.0, 246.24995493888855, 637.0, 723.0 ],
+					"varname" : "fx_chain1",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-78",
 					"maxclass" : "comment",
@@ -2733,6 +2755,12 @@
 			"obj-7::obj-53::obj-9::obj-39" : [ "live.text[267]", "live.text[1]", 0 ],
 			"obj-7::obj-53::obj-9::obj-68" : [ "live.text[268]", "live.text", 0 ],
 			"obj-7::obj-53::obj-9::obj-94::obj-68" : [ "live.text[266]", "live.text", 0 ],
+			"obj-83::obj-10" : [ "amxd~[8]", "amxd~", 0 ],
+			"obj-83::obj-15" : [ "flonum", "flonum", 0 ],
+			"obj-83::obj-27" : [ "live.gain~[32]", "live.gain~", 0 ],
+			"obj-83::obj-6" : [ "amxd~[6]", "amxd~[6]", 0 ],
+			"obj-83::obj-8" : [ "amxd~[1]", "amxd~[1]", 0 ],
+			"obj-83::obj-9" : [ "amxd~[7]", "amxd~[2]", 0 ],
 			"obj-8::obj-53::obj-10::obj-39" : [ "live.text[255]", "live.text[1]", 0 ],
 			"obj-8::obj-53::obj-10::obj-68" : [ "live.text[304]", "live.text", 0 ],
 			"obj-8::obj-53::obj-10::obj-94::obj-68" : [ "live.text[254]", "live.text", 0 ],
@@ -3536,6 +3564,10 @@
 ,
 				"obj-7::obj-53::obj-9::obj-94::obj-68" : 				{
 					"parameter_longname" : "live.text[266]"
+				}
+,
+				"obj-83::obj-27" : 				{
+					"parameter_longname" : "live.gain~[32]"
 				}
 ,
 				"obj-8::obj-53::obj-10::obj-39" : 				{
@@ -4357,6 +4389,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Chamber Verb.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ChamberVerb.amxd",
 				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Chamberverb",
 				"type" : "amxd",
@@ -4364,6 +4403,13 @@
 			}
 , 			{
 				"name" : "ChamberVerb.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "EQ Parametric4.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
 				"type" : "mx@s",
@@ -4409,6 +4455,48 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "StS_EQParametric4.amxd",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx",
+				"patcherrelativepath" : "../res/fx",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "StS_Reverb.amxd",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx",
+				"patcherrelativepath" : "../res/fx",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "StS_SpectralFilter.amxd",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx",
+				"patcherrelativepath" : "../res/fx",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "StS_SpectralFilter.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "StS_TapDelays.amxd",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx",
+				"patcherrelativepath" : "../res/fx",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tap Delays.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "filepath.txt",
 				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res",
 				"patcherrelativepath" : "../res",
@@ -4418,6 +4506,13 @@
 , 			{
 				"name" : "fluid.bufcompose~.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "fx_chain1.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "in_display8.maxpat",
@@ -4470,6 +4565,13 @@
 			}
 , 			{
 				"name" : "mix_sendFXbus.maxpat",
+				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/source",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mix_sendToPhones.maxpat",
 				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/source",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
