@@ -1,2 +1,2 @@
-# StS_monitor
-max development of a multi-channel audio monitor
+# StS_producer
+max development of a multi-channel audio production tool for unheard sounds.
