@@ -1,4 +1,4 @@
-0, C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil Soil;
-1, C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/metal Metal;
-2, C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/water Water;
-3, C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/air Air;
+0, C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/soil Soil;
+1, C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/metal Metal;
+2, C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/water Water;
+3, C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/air Air;

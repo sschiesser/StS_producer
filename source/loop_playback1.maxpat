@@ -3,14 +3,18 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
+<<<<<<< HEAD
 		"rect" : [ -13.0, 57.0, 1315.0, 1059.0 ],
+=======
+		"rect" : [ 34.0, 77.0, 1852.0, 1059.0 ],
+>>>>>>> develop
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -133,8 +137,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -590,7 +594,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[299]",
+							"parameter_longname" : "live.text[296]",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 1
@@ -787,7 +791,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.016, 0.212, 0.102, 1.0 ],
+					"bgcolor" : [ 0.243, 0.251, 0.247, 1.0 ],
 					"buffername" : "#1_sts_buffer.0",
 					"id" : "obj-58",
 					"maxclass" : "waveform~",
@@ -855,19 +859,19 @@
 						"count" : 4,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil", "Soil" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/soil", "Soil" ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/metal", "Metal" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/metal", "Metal" ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/water", "Water" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/water", "Water" ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/air", "Air" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/air", "Air" ]
 							}
  ]
 					}
@@ -1052,8 +1056,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 49.0, 349.0, 22.0 ],
-					"text" : "read C:/_MYdocs/07-code/3.01-max/StS_monitor/res/filepath.txt"
+					"patching_rect" : [ 17.0, 49.0, 356.0, 22.0 ],
+					"text" : "read C:/_MYdocs/07-code/3.01-max/StS_producer/res/filepath.txt"
 				}
 
 			}
@@ -1076,8 +1080,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 452.0, 327.0, 22.0 ],
-					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil"
+					"patching_rect" : [ 75.0, 452.0, 325.0, 22.0 ],
+					"text" : "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/metal"
 				}
 
 			}
@@ -1112,8 +1116,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 128.0, 330.0, 469.0, 22.0 ],
-					"text" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil Soil"
+					"patching_rect" : [ 128.0, 330.0, 358.0, 22.0 ],
+					"text" : "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/metal Metal"
 				}
 
 			}
@@ -1123,19 +1127,19 @@
 						"count" : 4,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/soil", "Soil" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/soil", "Soil" ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/metal", "Metal" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/metal", "Metal" ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/water", "Water" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/water", "Water" ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_monitor/sounds/air", "Air" ]
+								"value" : [ "C:/_MYdocs/07-code/3.01-max/StS_producer/sounds/air", "Air" ]
 							}
  ]
 					}
@@ -1192,7 +1196,7 @@
 					"patching_rect" : [ 324.369285464286804, 902.555331319570541, 102.292008280754089, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 138.158708542585373, 101.350870609283447, 116.490395814180374, 22.0 ],
-					"text" : "buf.0",
+					"text" : "Metal.0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1848,43 +1852,17 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-61::obj-68" : [ "live.text", "live.text", 0 ],
-			"obj-68" : [ "live.text[299]", "live.text", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "filepath.txt",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/res",
-				"patcherrelativepath" : "../res",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mix_sendFXbus.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_monitor/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
@@ -1896,12 +1874,12 @@
 				"name" : "Audiomix",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39
+						"proportion" : 0.39,
+						"type" : "gradient"
 					}
 
 				}
