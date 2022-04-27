@@ -215,6 +215,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
+						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "StS_TapDelays.amxd",
 						"patchername_fallback" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd"
@@ -637,7 +638,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "StS_SpectralFilter.amxd",
 						"patchername_fallback" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_SpectralFilter.amxd"
@@ -657,7 +657,6 @@
 							"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_SpectralFilter.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"in" : 0.0,
 									"out" : 0.0,
 									"randomize" : 0.0,
 									"wet/dry" : 0.0,
@@ -687,7 +686,6 @@
 										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_SpectralFilter.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
-												"in" : 0.0,
 												"out" : 0.0,
 												"randomize" : 0.0,
 												"wet/dry" : 0.0,
