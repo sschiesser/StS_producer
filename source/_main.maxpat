@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1359.0, 1059.0 ],
+		"rect" : [ 42.0, 85.0, 1359.0, 1059.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,21 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 1 ],
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 817.0, 1164.6875, 113.0, 22.0 ],
+					"text" : "mix_sendToPhones"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-83",
+					"id" : "obj-80",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "fx_chain1.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 711.0, 246.24995493888855, 637.0, 723.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 817.0, 350.24995493888855, 610.0, 787.0 ],
 					"varname" : "fx_chain1",
 					"viewvisibility" : 1
 				}
@@ -490,7 +501,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 6,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.535711114246283, 1063.076969146728516, 227.464288885753717, 22.0 ],
+					"patching_rect" : [ 355.535711114246283, 1104.076969146728516, 227.464288885753717, 22.0 ],
 					"text" : "dac~ 1 2 3 4 9 10"
 				}
 
@@ -654,8 +665,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 360.538548469543457, 577.153878211975098, 113.0, 22.0 ],
-					"text" : "receive~ directOut1"
+					"patching_rect" : [ 360.538548469543457, 577.153878211975098, 109.0, 22.0 ],
+					"text" : "receive~ toFXbus1"
 				}
 
 			}
@@ -2066,7 +2077,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
+					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2458,6 +2469,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-82", 1 ],
+					"order" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"order" : 1,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-81", 0 ]
 				}
@@ -2755,12 +2782,10 @@
 			"obj-7::obj-53::obj-9::obj-39" : [ "live.text[267]", "live.text[1]", 0 ],
 			"obj-7::obj-53::obj-9::obj-68" : [ "live.text[268]", "live.text", 0 ],
 			"obj-7::obj-53::obj-9::obj-94::obj-68" : [ "live.text[266]", "live.text", 0 ],
-			"obj-83::obj-10" : [ "amxd~[8]", "amxd~", 0 ],
-			"obj-83::obj-15" : [ "flonum", "flonum", 0 ],
-			"obj-83::obj-27" : [ "live.gain~[32]", "live.gain~", 0 ],
-			"obj-83::obj-6" : [ "amxd~[6]", "amxd~[6]", 0 ],
-			"obj-83::obj-8" : [ "amxd~[1]", "amxd~[1]", 0 ],
-			"obj-83::obj-9" : [ "amxd~[7]", "amxd~[2]", 0 ],
+			"obj-80::obj-10" : [ "amxd~[8]", "amxd~", 0 ],
+			"obj-80::obj-6" : [ "amxd~[6]", "amxd~[6]", 0 ],
+			"obj-80::obj-8" : [ "amxd~[1]", "amxd~[1]", 0 ],
+			"obj-80::obj-9" : [ "amxd~[7]", "amxd~[2]", 0 ],
 			"obj-8::obj-53::obj-10::obj-39" : [ "live.text[255]", "live.text[1]", 0 ],
 			"obj-8::obj-53::obj-10::obj-68" : [ "live.text[304]", "live.text", 0 ],
 			"obj-8::obj-53::obj-10::obj-94::obj-68" : [ "live.text[254]", "live.text", 0 ],
@@ -3564,10 +3589,6 @@
 ,
 				"obj-7::obj-53::obj-9::obj-94::obj-68" : 				{
 					"parameter_longname" : "live.text[266]"
-				}
-,
-				"obj-83::obj-27" : 				{
-					"parameter_longname" : "live.gain~[32]"
 				}
 ,
 				"obj-8::obj-53::obj-10::obj-39" : 				{
