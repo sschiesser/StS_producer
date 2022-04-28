@@ -40,6 +40,113 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 748.0, 222.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 787.0, 274.0, 300.0, 100.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, "C74_VST3:/MCharmVerb", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "MCharmVerb.vst3info",
+							"plugindisplayname" : "MCharmVerb",
+							"pluginsavedname" : "C74_VST3:/MCharmVerb",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"sliderorder" : [  ],
+							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+							"blob" : "654.VMjLgTn....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLy3xLuM1UOYjbZIDQDQTQ2PWYEMzbW0zcUUTPCMCbPYTUPYWQEQ0M4HGcyk1PuICcqQlQEcWcjkTbXY1LvHDbnISX2nWXvnFMJA2clYGMPU2S44xP3cjZv4hM4c1RukVYLIDaN8FLyHjMI0lU0cDL3gDaRETLG0zb4cFYl8FNLwjQ2vDbVcFRxPCRVAiYyITaTcFRTkVdYcUR3rjSCwTdwITRQIiQzkFMPYUaLYGUyP2bZcWM0kDM18zSuMTMCwlPLclV2TmYgMkanI0Twf1Z4YEcQUTc0.2bsIlbGUlQ08FNFUCZOYmMDclRiU2brsxaXMVR5sjVy3DbMQlMkMVN0YTSXMic4.kLIMGYxQkRhcWP77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.yLtLyaic0SFImVBQDQDUzMzUVQCM2UMcWUEEzPy.GTFUET1UTQTcSNxQ2boMzaxP2ZjYTQ2UGYIEGVlMCLBAGZxD1M5EFLpQiRvcmY1QCT08TdtLDdGoFbtXSdmszaoUFSBwlSuAyLBYSRsYUcGACdHwlTAEyQMMWdmQlYugCSLYzMLAmUmgjLzfjUvX1bB0FUmgDUokWVWkDNK4zPLkWbBkTTxXDcoQCTV0FS1Q0LzMmV2UScIQicO8zaCUyPrIDSmo0M0YVXS4FZRMULnsVdVQWTEUWMvMWahI2QkYTcugiQ0f1S1YCQmozX0MGaq7FVikjdKo0LNAWSjYSYikScF0DVyXWNPISRyQlbTojX2EDOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "MCharmVerb",
+									"origin" : "MCharmVerb.vst3info",
+									"type" : "VST3",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "MCharmVerb.vst3info",
+										"plugindisplayname" : "MCharmVerb",
+										"pluginsavedname" : "C74_VST3:/MCharmVerb",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"sliderorder" : [  ],
+										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+										"blob" : "654.VMjLgTn....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLy3xLuM1UOYjbZIDQDQTQ2PWYEMzbW0zcUUTPCMCbPYTUPYWQEQ0M4HGcyk1PuICcqQlQEcWcjkTbXY1LvHDbnISX2nWXvnFMJA2clYGMPU2S44xP3cjZv4hM4c1RukVYLIDaN8FLyHjMI0lU0cDL3gDaRETLG0zb4cFYl8FNLwjQ2vDbVcFRxPCRVAiYyITaTcFRTkVdYcUR3rjSCwTdwITRQIiQzkFMPYUaLYGUyP2bZcWM0kDM18zSuMTMCwlPLclV2TmYgMkanI0Twf1Z4YEcQUTc0.2bsIlbGUlQ08FNFUCZOYmMDclRiU2brsxaXMVR5sjVy3DbMQlMkMVN0YTSXMic4.kLIMGYxQkRhcWP77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.yLtLyaic0SFImVBQDQDUzMzUVQCM2UMcWUEEzPy.GTFUET1UTQTcSNxQ2boMzaxP2ZjYTQ2UGYIEGVlMCLBAGZxD1M5EFLpQiRvcmY1QCT08TdtLDdGoFbtXSdmszaoUFSBwlSuAyLBYSRsYUcGACdHwlTAEyQMMWdmQlYugCSLYzMLAmUmgjLzfjUvX1bB0FUmgDUokWVWkDNK4zPLkWbBkTTxXDcoQCTV0FS1Q0LzMmV2UScIQicO8zaCUyPrIDSmo0M0YVXS4FZRMULnsVdVQWTEUWMvMWahI2QkYTcugiQ0f1S1YCQmozX0MGaq7FVikjdKo0LNAWSjYSYikScF0DVyXWNPISRyQlbTojX2EDOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
+									}
+,
+									"fileref" : 									{
+										"name" : "MCharmVerb",
+										"filename" : "MCharmVerb.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "b8382a8dc735ba2372041081ed08d020"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "vst~ C74_VST3:/MCharmVerb",
+					"varname" : "vst~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -332,6 +439,39 @@
 					"presentation_rect" : [ 0.0, 396.0, 578.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "StS_TapDelays.amxd",
+									"origin" : "StS_TapDelays.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 1,
+									"snapshot" : 									{
+										"name" : "StS_TapDelays.amxd",
+										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"DelaysMax" : 5000.0,
+												"DelaysMin" : 0.0,
+												"Dry/Wet" : 50.0,
+												"Feedback" : 50.0,
+												"LevelsMax" : 100.0,
+												"LevelsMin" : 0.0,
+												"fx_enable" : 0.0,
+												"number" : 1.0,
+												"out" : 0.0,
+												"tap.button" : 0.0
+											}
+
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "amxd~[8]",
 							"parameter_shortname" : "amxd~",
@@ -363,11 +503,11 @@
 							"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"DelaysMax" : 0.0,
+									"DelaysMax" : 5000.0,
 									"DelaysMin" : 0.0,
-									"Dry/Wet" : 0.0,
-									"Feedback" : 0.0,
-									"LevelsMax" : 0.0,
+									"Dry/Wet" : 50.0,
+									"Feedback" : 50.0,
+									"LevelsMax" : 100.0,
 									"LevelsMin" : 0.0,
 									"fx_enable" : 0.0,
 									"number" : 1.0,
@@ -395,11 +535,11 @@
 										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_TapDelays.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
-												"DelaysMax" : 0.0,
+												"DelaysMax" : 5000.0,
 												"DelaysMin" : 0.0,
-												"Dry/Wet" : 0.0,
-												"Feedback" : 0.0,
-												"LevelsMax" : 0.0,
+												"Dry/Wet" : 50.0,
+												"Feedback" : 50.0,
+												"LevelsMax" : 100.0,
 												"LevelsMin" : 0.0,
 												"fx_enable" : 0.0,
 												"number" : 1.0,
@@ -454,6 +594,51 @@
 					"presentation_rect" : [ 0.0, 0.0, 578.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "StS_EQParametric4.amxd",
+									"origin" : "StS_EQParametric4.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 1,
+									"snapshot" : 									{
+										"name" : "StS_EQParametric4.amxd",
+										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_EQParametric4.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"Active[1]" : 1.0,
+												"Active[2]" : 1.0,
+												"Active[3]" : 1.0,
+												"Active[4]" : 1.0,
+												"Freq[1]" : 4546.408489643978101,
+												"Freq[2]" : 7590.38304835449344,
+												"Freq[3]" : 9039.777839948348628,
+												"Freq[4]" : 13306.442163870837248,
+												"Gain[1]" : -19.961110915828719,
+												"Gain[2]" : -19.961110915828719,
+												"Gain[3]" : -19.961110915828719,
+												"Gain[4]" : -19.961110915828719,
+												"Q[1]" : 5.089929702831586,
+												"Q[2]" : 5.089929702831586,
+												"Q[3]" : 5.089929702831586,
+												"Q[4]" : 5.089929702831586,
+												"Type[1]" : 5.0,
+												"Type[2]" : 4.0,
+												"Type[3]" : 4.0,
+												"Type[4]" : 6.0,
+												"fx_enable" : 0.0,
+												"out" : 0.0
+											}
+
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "amxd~[6]",
 							"parameter_shortname" : "amxd~[6]",
@@ -486,26 +671,26 @@
 							"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_EQParametric4.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"Active[1]" : 0.0,
-									"Active[2]" : 0.0,
-									"Active[3]" : 0.0,
-									"Active[4]" : 0.0,
-									"Freq[1]" : 50.0,
-									"Freq[2]" : 50.0,
-									"Freq[3]" : 50.0,
-									"Freq[4]" : 50.0,
+									"Active[1]" : 1.0,
+									"Active[2]" : 1.0,
+									"Active[3]" : 1.0,
+									"Active[4]" : 1.0,
+									"Freq[1]" : 100.0,
+									"Freq[2]" : 500.0,
+									"Freq[3]" : 1000.0,
+									"Freq[4]" : 5000.0,
 									"Gain[1]" : 0.0,
 									"Gain[2]" : 0.0,
 									"Gain[3]" : 0.0,
 									"Gain[4]" : 0.0,
-									"Q[1]" : 0.1,
-									"Q[2]" : 0.1,
-									"Q[3]" : 0.1,
-									"Q[4]" : 0.1,
-									"Type[1]" : 0.0,
-									"Type[2]" : 0.0,
-									"Type[3]" : 0.0,
-									"Type[4]" : 0.0,
+									"Q[1]" : 1.0,
+									"Q[2]" : 1.0,
+									"Q[3]" : 1.0,
+									"Q[4]" : 1.0,
+									"Type[1]" : 5.0,
+									"Type[2]" : 4.0,
+									"Type[3]" : 4.0,
+									"Type[4]" : 6.0,
 									"fx_enable" : 0.0,
 									"out" : 0.0
 								}
@@ -530,26 +715,26 @@
 										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_EQParametric4.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
-												"Active[1]" : 0.0,
-												"Active[2]" : 0.0,
-												"Active[3]" : 0.0,
-												"Active[4]" : 0.0,
-												"Freq[1]" : 50.0,
-												"Freq[2]" : 50.0,
-												"Freq[3]" : 50.0,
-												"Freq[4]" : 50.0,
+												"Active[1]" : 1.0,
+												"Active[2]" : 1.0,
+												"Active[3]" : 1.0,
+												"Active[4]" : 1.0,
+												"Freq[1]" : 100.0,
+												"Freq[2]" : 500.0,
+												"Freq[3]" : 1000.0,
+												"Freq[4]" : 5000.0,
 												"Gain[1]" : 0.0,
 												"Gain[2]" : 0.0,
 												"Gain[3]" : 0.0,
 												"Gain[4]" : 0.0,
-												"Q[1]" : 0.1,
-												"Q[2]" : 0.1,
-												"Q[3]" : 0.1,
-												"Q[4]" : 0.1,
-												"Type[1]" : 0.0,
-												"Type[2]" : 0.0,
-												"Type[3]" : 0.0,
-												"Type[4]" : 0.0,
+												"Q[1]" : 1.0,
+												"Q[2]" : 1.0,
+												"Q[3]" : 1.0,
+												"Q[4]" : 1.0,
+												"Type[1]" : 5.0,
+												"Type[2]" : 4.0,
+												"Type[3]" : 4.0,
+												"Type[4]" : 6.0,
 												"fx_enable" : 0.0,
 												"out" : 0.0
 											}
@@ -599,6 +784,46 @@
 					"presentation_rect" : [ 0.0, 594.0, 578.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "StS_Reverb.amxd",
+									"origin" : "StS_Reverb.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 1,
+									"snapshot" : 									{
+										"name" : "StS_Reverb.amxd",
+										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_Reverb.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"1_delay" : 49.599997999999999,
+												"1_feedback" : 75.0,
+												"2_delay" : 34.650002000000001,
+												"2_feedback" : 72.0,
+												"3_delay" : 24.200001,
+												"3_feedback" : 69.0,
+												"45_delay" : 17.799999,
+												"45_feedback" : 64.0,
+												"45_moddepth" : 0.0,
+												"45_modfreq" : 0.0,
+												"67_delay" : 10.800000000000001,
+												"67_feedback" : 66.0,
+												"filter_cutoff" : 20000.0,
+												"fx_enable" : 0.0,
+												"live.toggle" : 0.0,
+												"out" : 0.0,
+												"wet_dry" : 50.0
+											}
+
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "amxd~[7]",
 							"parameter_shortname" : "amxd~[2]",
@@ -630,23 +855,23 @@
 							"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_Reverb.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"1_delay" : 1.0,
-									"1_feedback" : 0.0,
-									"2_delay" : 1.0,
-									"2_feedback" : 0.0,
-									"3_delay" : 1.0,
-									"3_feedback" : 0.0,
-									"45_delay" : 1.0,
-									"45_feedback" : 0.0,
+									"1_delay" : 49.599997999999999,
+									"1_feedback" : 75.0,
+									"2_delay" : 34.650002000000001,
+									"2_feedback" : 72.0,
+									"3_delay" : 24.200001,
+									"3_feedback" : 69.0,
+									"45_delay" : 17.799999,
+									"45_feedback" : 64.0,
 									"45_moddepth" : 0.0,
 									"45_modfreq" : 0.0,
-									"67_delay" : 1.0,
-									"67_feedback" : 0.0,
-									"filter_cutoff" : 100.0,
+									"67_delay" : 10.800000000000001,
+									"67_feedback" : 66.0,
+									"filter_cutoff" : 20000.0,
 									"fx_enable" : 0.0,
 									"live.toggle" : 0.0,
 									"out" : 0.0,
-									"wet_dry" : 0.0
+									"wet_dry" : 50.0
 								}
 
 							}
@@ -669,23 +894,23 @@
 										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_Reverb.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
-												"1_delay" : 1.0,
-												"1_feedback" : 0.0,
-												"2_delay" : 1.0,
-												"2_feedback" : 0.0,
-												"3_delay" : 1.0,
-												"3_feedback" : 0.0,
-												"45_delay" : 1.0,
-												"45_feedback" : 0.0,
+												"1_delay" : 49.599997999999999,
+												"1_feedback" : 75.0,
+												"2_delay" : 34.650002000000001,
+												"2_feedback" : 72.0,
+												"3_delay" : 24.200001,
+												"3_feedback" : 69.0,
+												"45_delay" : 17.799999,
+												"45_feedback" : 64.0,
 												"45_moddepth" : 0.0,
 												"45_modfreq" : 0.0,
-												"67_delay" : 1.0,
-												"67_feedback" : 0.0,
-												"filter_cutoff" : 100.0,
+												"67_delay" : 10.800000000000001,
+												"67_feedback" : 66.0,
+												"filter_cutoff" : 20000.0,
 												"fx_enable" : 0.0,
 												"live.toggle" : 0.0,
 												"out" : 0.0,
-												"wet_dry" : 0.0
+												"wet_dry" : 50.0
 											}
 
 										}
@@ -734,6 +959,37 @@
 					"presentation_rect" : [ 0.0, 198.0, 578.0, 196.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "StS_SpectralFilter.amxd",
+									"origin" : "StS_SpectralFilter.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 1,
+									"snapshot" : 									{
+										"name" : "StS_SpectralFilter.amxd",
+										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_SpectralFilter.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"fx_enable" : 0.0,
+												"out" : 0.0,
+												"randomize" : 0.0,
+												"wet/dry" : 50.0,
+												"blob" : 												{
+													"spectral_filter" : [ 115, 60, 113, 112, 112, 32, 111, 110, 110, 109, 108, 64, 107, 107, 106, 41, 41, 12, 11, 11, 11, 11, 11, 11, 61, 62, 63, 10, 64, 64, 65, 65, 65, 65, 65, 65, 10, 15, 15, 16, 16, 50, 51, 51, 52, 53, 53, 54, 55, 55, 56, 56, 57, 57, 58, 58, 59, 59, 11, 14, 18, 14, 14, 14, 116, 117, 118, 118, 119, 120, 120, 14, 121, 121, 121, 121, 121, 121, 121, 121, 123, 44, 40, 38, 80, 83, 6, 6, 7, 7, 91, 93, 94, 95, 96, 97, 99, 101, 103, 69, 70, 70, 104, 104, 11, 11, 11, 11, 70, 70, 70, 13, 14, 16, 17, 70, 82, 99, 98, 97, 97, 96, 20, 95, 94, 94, 93, 92, 90, 90, 35, 34, 32, 31, 29, 28, 90, 25, 24, 23, 23, 22, 21, 20, 19, 18, 17, 91, 91, 92, 92, 92, 93, 93, 93, 11, 11, 10, 10, 96, 96, 10, 10, 10, 10, 101, 103, 104, 106, 11, 11, 12, 109, 12, 13, 13, 14, 14, 15, 15, 16, 115, 115, 17, 18, 18, 18, 18, 19, 8, 8, 8, 8, 108, 108, 107, 107, 106, 106, 105, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 0, 105, 105, 105, 0, 107, 107, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 109, 109, 109, 1, 1, 2, 4, 5, 6, 110, 110, 112, 11, 112, 112, 14, 14, 14, 112, 12, 11, 10, 5 ]
+												}
+
+											}
+
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "amxd~[1]",
 							"parameter_shortname" : "amxd~[1]",
@@ -768,9 +1024,9 @@
 									"fx_enable" : 0.0,
 									"out" : 0.0,
 									"randomize" : 0.0,
-									"wet/dry" : 0.0,
+									"wet/dry" : 50.0,
 									"blob" : 									{
-										"spectral_filter" : [ 49, 91, 74, 89, 62, 20, 40, 104, 105, 111, 28, 22, 35, 48, 25, 96, 106, 4, 95, 44, 127, 45, 56, 102, 64, 81, 32, 113, 116, 26, 13, 26, 44, 17, 31, 68, 88, 46, 86, 93, 92, 26, 10, 92, 119, 33, 81, 92, 107, 44, 45, 78, 36, 113, 89, 57, 11, 46, 92, 116, 65, 68, 125, 49, 96, 29, 73, 69, 106, 55, 89, 95, 117, 67, 24, 14, 29, 46, 96, 28, 81, 4, 38, 94, 51, 97, 87, 60, 29, 83, 45, 24, 81, 117, 108, 77, 78, 117, 118, 34, 20, 66, 61, 63, 104, 111, 114, 17, 31, 46, 99, 40, 19, 56, 122, 33, 117, 51, 122, 115, 59, 85, 16, 3, 107, 22, 32, 7, 126, 32, 3, 116, 4, 11, 12, 54, 85, 20, 32, 59, 8, 70, 92, 72, 52, 14, 110, 120, 35, 36, 119, 46, 25, 74, 62, 73, 126, 50, 38, 89, 85, 116, 41, 11, 113, 38, 74, 54, 89, 105, 75, 35, 69, 40, 121, 88, 103, 126, 112, 37, 53, 125, 102, 87, 48, 19, 77, 40, 48, 43, 11, 78, 32, 14, 87, 74, 31, 22, 34, 85, 12, 100, 64, 91, 42, 79, 23, 100, 9, 95, 62, 69, 95, 58, 116, 32, 120, 86, 102, 55, 22, 71, 9, 19, 64, 51, 59, 117, 15, 64, 127, 112, 127, 100, 86, 73, 42, 11, 66, 65, 1, 93, 16, 20, 45, 64, 119, 57, 39, 126, 42, 112, 18, 118, 115, 90 ]
+										"spectral_filter" : [ 115, 60, 113, 112, 112, 32, 111, 110, 110, 109, 108, 64, 107, 107, 106, 41, 41, 12, 11, 11, 11, 11, 11, 11, 61, 62, 63, 10, 64, 64, 65, 65, 65, 65, 65, 65, 10, 15, 15, 16, 16, 50, 51, 51, 52, 53, 53, 54, 55, 55, 56, 56, 57, 57, 58, 58, 59, 59, 11, 14, 18, 14, 14, 14, 116, 117, 118, 118, 119, 120, 120, 14, 121, 121, 121, 121, 121, 121, 121, 121, 123, 44, 40, 38, 80, 83, 6, 6, 7, 7, 91, 93, 94, 95, 96, 97, 99, 101, 103, 69, 70, 70, 104, 104, 11, 11, 11, 11, 70, 70, 70, 13, 14, 16, 17, 70, 82, 99, 98, 97, 97, 96, 20, 95, 94, 94, 93, 92, 90, 90, 35, 34, 32, 31, 29, 28, 90, 25, 24, 23, 23, 22, 21, 20, 19, 18, 17, 91, 91, 92, 92, 92, 93, 93, 93, 11, 11, 10, 10, 96, 96, 10, 10, 10, 10, 101, 103, 104, 106, 11, 11, 12, 109, 12, 13, 13, 14, 14, 15, 15, 16, 115, 115, 17, 18, 18, 18, 18, 19, 8, 8, 8, 8, 108, 108, 107, 107, 106, 106, 105, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 0, 105, 105, 105, 0, 107, 107, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 109, 109, 109, 1, 1, 2, 4, 5, 6, 110, 110, 112, 11, 112, 112, 14, 14, 14, 112, 12, 11, 10, 5 ]
 									}
 
 								}
@@ -798,9 +1054,9 @@
 												"fx_enable" : 0.0,
 												"out" : 0.0,
 												"randomize" : 0.0,
-												"wet/dry" : 0.0,
+												"wet/dry" : 50.0,
 												"blob" : 												{
-													"spectral_filter" : [ 49, 91, 74, 89, 62, 20, 40, 104, 105, 111, 28, 22, 35, 48, 25, 96, 106, 4, 95, 44, 127, 45, 56, 102, 64, 81, 32, 113, 116, 26, 13, 26, 44, 17, 31, 68, 88, 46, 86, 93, 92, 26, 10, 92, 119, 33, 81, 92, 107, 44, 45, 78, 36, 113, 89, 57, 11, 46, 92, 116, 65, 68, 125, 49, 96, 29, 73, 69, 106, 55, 89, 95, 117, 67, 24, 14, 29, 46, 96, 28, 81, 4, 38, 94, 51, 97, 87, 60, 29, 83, 45, 24, 81, 117, 108, 77, 78, 117, 118, 34, 20, 66, 61, 63, 104, 111, 114, 17, 31, 46, 99, 40, 19, 56, 122, 33, 117, 51, 122, 115, 59, 85, 16, 3, 107, 22, 32, 7, 126, 32, 3, 116, 4, 11, 12, 54, 85, 20, 32, 59, 8, 70, 92, 72, 52, 14, 110, 120, 35, 36, 119, 46, 25, 74, 62, 73, 126, 50, 38, 89, 85, 116, 41, 11, 113, 38, 74, 54, 89, 105, 75, 35, 69, 40, 121, 88, 103, 126, 112, 37, 53, 125, 102, 87, 48, 19, 77, 40, 48, 43, 11, 78, 32, 14, 87, 74, 31, 22, 34, 85, 12, 100, 64, 91, 42, 79, 23, 100, 9, 95, 62, 69, 95, 58, 116, 32, 120, 86, 102, 55, 22, 71, 9, 19, 64, 51, 59, 117, 15, 64, 127, 112, 127, 100, 86, 73, 42, 11, 66, 65, 1, 93, 16, 20, 45, 64, 119, 57, 39, 126, 42, 112, 18, 118, 115, 90 ]
+													"spectral_filter" : [ 115, 60, 113, 112, 112, 32, 111, 110, 110, 109, 108, 64, 107, 107, 106, 41, 41, 12, 11, 11, 11, 11, 11, 11, 61, 62, 63, 10, 64, 64, 65, 65, 65, 65, 65, 65, 10, 15, 15, 16, 16, 50, 51, 51, 52, 53, 53, 54, 55, 55, 56, 56, 57, 57, 58, 58, 59, 59, 11, 14, 18, 14, 14, 14, 116, 117, 118, 118, 119, 120, 120, 14, 121, 121, 121, 121, 121, 121, 121, 121, 123, 44, 40, 38, 80, 83, 6, 6, 7, 7, 91, 93, 94, 95, 96, 97, 99, 101, 103, 69, 70, 70, 104, 104, 11, 11, 11, 11, 70, 70, 70, 13, 14, 16, 17, 70, 82, 99, 98, 97, 97, 96, 20, 95, 94, 94, 93, 92, 90, 90, 35, 34, 32, 31, 29, 28, 90, 25, 24, 23, 23, 22, 21, 20, 19, 18, 17, 91, 91, 92, 92, 92, 93, 93, 93, 11, 11, 10, 10, 96, 96, 10, 10, 10, 10, 101, 103, 104, 106, 11, 11, 12, 109, 12, 13, 13, 14, 14, 15, 15, 16, 115, 115, 17, 18, 18, 18, 18, 19, 8, 8, 8, 8, 108, 108, 107, 107, 106, 106, 105, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 0, 105, 105, 105, 0, 107, 107, 108, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 109, 109, 109, 1, 1, 2, 4, 5, 6, 110, 110, 112, 11, 112, 112, 14, 14, 14, 112, 12, 11, 10, 5 ]
 												}
 
 											}
@@ -855,6 +1111,38 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 3,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"order" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"order" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 2,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1008,6 +1296,7 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "amxd~[8]", "amxd~", 0 ],
+			"obj-12" : [ "vst~", "vst~", 0 ],
 			"obj-17" : [ "toggle[1]", "toggle[1]", 0 ],
 			"obj-20" : [ "toggle[2]", "toggle", 0 ],
 			"obj-25" : [ "toggle[3]", "toggle", 0 ],
@@ -1036,6 +1325,13 @@
 			}
 , 			{
 				"name" : "EQ Parametric4.amxd.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MCharmVerb.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
 				"type" : "mx@s",
