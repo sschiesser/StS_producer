@@ -67,7 +67,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 346.0, 216.0, 1213.0, 320.0 ],
+						"rect" : [ 346.0, 220.0, 1189.0, 258.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -95,6 +95,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 8 ],
@@ -113,7 +114,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 897.0, 171.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 897.0, 171.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 893.0, 130.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -136,7 +137,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 600.0, 171.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 600.0, 171.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 596.0, 130.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -159,7 +160,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 303.0, 171.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 303.0, 171.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 299.0, 130.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -182,7 +183,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 6.0, 171.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 171.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 2.0, 130.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -205,7 +206,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 897.0, 42.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 897.0, 42.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 893.0, 1.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -228,7 +229,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 600.0, 42.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 600.0, 42.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 596.0, 1.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -251,7 +252,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 303.0, 42.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 303.0, 42.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 299.0, 1.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -274,7 +275,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"patching_rect" : [ 6.0, 42.0, 295.0, 127.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 6.0, 42.0, 295.0, 127.0 ],
+									"presentation_rect" : [ 2.0, 1.0, 295.0, 127.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -360,11 +361,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 2.0, 3.0, 30.0, 30.0 ]
 				}
 
@@ -419,118 +420,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-7::obj-2::obj-61::obj-68" : [ "live.text", "live.text", 0 ],
-			"obj-7::obj-2::obj-68" : [ "live.text[299]", "live.text", 0 ],
-			"obj-7::obj-3::obj-61::obj-68" : [ "live.text[1]", "live.text", 0 ],
-			"obj-7::obj-3::obj-68" : [ "live.text[2]", "live.text", 0 ],
-			"obj-7::obj-4::obj-61::obj-68" : [ "live.text[3]", "live.text", 0 ],
-			"obj-7::obj-4::obj-68" : [ "live.text[4]", "live.text", 0 ],
-			"obj-7::obj-5::obj-61::obj-68" : [ "live.text[5]", "live.text", 0 ],
-			"obj-7::obj-5::obj-68" : [ "live.text[6]", "live.text", 0 ],
-			"obj-7::obj-6::obj-61::obj-68" : [ "live.text[13]", "live.text", 0 ],
-			"obj-7::obj-6::obj-68" : [ "live.text[14]", "live.text", 0 ],
-			"obj-7::obj-7::obj-61::obj-68" : [ "live.text[11]", "live.text", 0 ],
-			"obj-7::obj-7::obj-68" : [ "live.text[12]", "live.text", 0 ],
-			"obj-7::obj-8::obj-61::obj-68" : [ "live.text[9]", "live.text", 0 ],
-			"obj-7::obj-8::obj-68" : [ "live.text[10]", "live.text", 0 ],
-			"obj-7::obj-9::obj-61::obj-68" : [ "live.text[7]", "live.text", 0 ],
-			"obj-7::obj-9::obj-68" : [ "live.text[8]", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-7::obj-3::obj-61::obj-68" : 				{
-					"parameter_longname" : "live.text[1]"
-				}
-,
-				"obj-7::obj-3::obj-68" : 				{
-					"parameter_longname" : "live.text[2]"
-				}
-,
-				"obj-7::obj-4::obj-61::obj-68" : 				{
-					"parameter_longname" : "live.text[3]"
-				}
-,
-				"obj-7::obj-4::obj-68" : 				{
-					"parameter_longname" : "live.text[4]"
-				}
-,
-				"obj-7::obj-5::obj-61::obj-68" : 				{
-					"parameter_longname" : "live.text[5]"
-				}
-,
-				"obj-7::obj-5::obj-68" : 				{
-					"parameter_longname" : "live.text[6]"
-				}
-,
-				"obj-7::obj-6::obj-61::obj-68" : 				{
-					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-7::obj-6::obj-68" : 				{
-					"parameter_longname" : "live.text[14]"
-				}
-,
-				"obj-7::obj-7::obj-61::obj-68" : 				{
-					"parameter_longname" : "live.text[11]"
-				}
-,
-				"obj-7::obj-7::obj-68" : 				{
-					"parameter_longname" : "live.text[12]"
-				}
-,
-				"obj-7::obj-8::obj-61::obj-68" : 				{
-					"parameter_longname" : "live.text[9]"
-				}
-,
-				"obj-7::obj-8::obj-68" : 				{
-					"parameter_longname" : "live.text[10]"
-				}
-,
-				"obj-7::obj-9::obj-61::obj-68" : 				{
-					"parameter_longname" : "live.text[7]"
-				}
-,
-				"obj-7::obj-9::obj-68" : 				{
-					"parameter_longname" : "live.text[8]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "filepath.txt",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res",
-				"patcherrelativepath" : "../res",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loop_playback1.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mix_sendFXbus.maxpat",
-				"bootpath" : "C:/_MYdocs/07-code/3.01-max/StS_producer/source",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

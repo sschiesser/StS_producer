@@ -46,102 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 748.0, 222.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 8,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 787.0, 274.0, 300.0, 100.0 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, "C74_VST3:/MCharmVerb", ";" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~",
-							"parameter_shortname" : "vst~",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "MCharmVerb.vst3info",
-							"plugindisplayname" : "MCharmVerb",
-							"pluginsavedname" : "C74_VST3:/MCharmVerb",
-							"pluginsaveduniqueid" : 0,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"sliderorder" : [  ],
-							"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-							"blob" : "654.VMjLgTn....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLy3xLuM1UOYjbZIDQDQTQ2PWYEMzbW0zcUUTPCMCbPYTUPYWQEQ0M4HGcyk1PuICcqQlQEcWcjkTbXY1LvHDbnISX2nWXvnFMJA2clYGMPU2S44xP3cjZv4hM4c1RukVYLIDaN8FLyHjMI0lU0cDL3gDaRETLG0zb4cFYl8FNLwjQ2vDbVcFRxPCRVAiYyITaTcFRTkVdYcUR3rjSCwTdwITRQIiQzkFMPYUaLYGUyP2bZcWM0kDM18zSuMTMCwlPLclV2TmYgMkanI0Twf1Z4YEcQUTc0.2bsIlbGUlQ08FNFUCZOYmMDclRiU2brsxaXMVR5sjVy3DbMQlMkMVN0YTSXMic4.kLIMGYxQkRhcWP77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.yLtLyaic0SFImVBQDQDUzMzUVQCM2UMcWUEEzPy.GTFUET1UTQTcSNxQ2boMzaxP2ZjYTQ2UGYIEGVlMCLBAGZxD1M5EFLpQiRvcmY1QCT08TdtLDdGoFbtXSdmszaoUFSBwlSuAyLBYSRsYUcGACdHwlTAEyQMMWdmQlYugCSLYzMLAmUmgjLzfjUvX1bB0FUmgDUokWVWkDNK4zPLkWbBkTTxXDcoQCTV0FS1Q0LzMmV2UScIQicO8zaCUyPrIDSmo0M0YVXS4FZRMULnsVdVQWTEUWMvMWahI2QkYTcugiQ0f1S1YCQmozX0MGaq7FVikjdKo0LNAWSjYSYikScF0DVyXWNPISRyQlbTojX2EDOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "MCharmVerb",
-									"origin" : "MCharmVerb.vst3info",
-									"type" : "VST3",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "MCharmVerb.vst3info",
-										"plugindisplayname" : "MCharmVerb",
-										"pluginsavedname" : "C74_VST3:/MCharmVerb",
-										"pluginsaveduniqueid" : 0,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"sliderorder" : [  ],
-										"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
-										"blob" : "654.VMjLgTn....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLy3xLuM1UOYjbZIDQDQTQ2PWYEMzbW0zcUUTPCMCbPYTUPYWQEQ0M4HGcyk1PuICcqQlQEcWcjkTbXY1LvHDbnISX2nWXvnFMJA2clYGMPU2S44xP3cjZv4hM4c1RukVYLIDaN8FLyHjMI0lU0cDL3gDaRETLG0zb4cFYl8FNLwjQ2vDbVcFRxPCRVAiYyITaTcFRTkVdYcUR3rjSCwTdwITRQIiQzkFMPYUaLYGUyP2bZcWM0kDM18zSuMTMCwlPLclV2TmYgMkanI0Twf1Z4YEcQUTc0.2bsIlbGUlQ08FNFUCZOYmMDclRiU2brsxaXMVR5sjVy3DbMQlMkMVN0YTSXMic4.kLIMGYxQkRhcWP77RRC8Vav8lak4Fc9vSREQVZzMzatQmbuwFakImOx.yLtLyaic0SFImVBQDQDUzMzUVQCM2UMcWUEEzPy.GTFUET1UTQTcSNxQ2boMzaxP2ZjYTQ2UGYIEGVlMCLBAGZxD1M5EFLpQiRvcmY1QCT08TdtLDdGoFbtXSdmszaoUFSBwlSuAyLBYSRsYUcGACdHwlTAEyQMMWdmQlYugCSLYzMLAmUmgjLzfjUvX1bB0FUmgDUokWVWkDNK4zPLkWbBkTTxXDcoQCTV0FS1Q0LzMmV2UScIQicO8zaCUyPrIDSmo0M0YVXS4FZRMULnsVdVQWTEUWMvMWahI2QkYTcugiQ0f1S1YCQmozX0MGaq7FVikjdKo0LNAWSjYSYikScF0DVyXWNPISRyQlbTojX2EDOujTQjkFcC8lazI2arwVYx4COuX0TTMCTrU2Yo41TzEFck4C."
-									}
-,
-									"fileref" : 									{
-										"name" : "MCharmVerb",
-										"filename" : "MCharmVerb.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "b8382a8dc735ba2372041081ed08d020"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "vst~ C74_VST3:/MCharmVerb",
-					"varname" : "vst~",
-					"viewvisibility" : 1
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -481,7 +386,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"autosize" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "StS_TapDelays.amxd",
@@ -509,7 +413,7 @@
 									"Feedback" : 50.0,
 									"LevelsMax" : 100.0,
 									"LevelsMin" : 0.0,
-									"fx_enable" : 0.0,
+									"fx_enable" : 1.0,
 									"number" : 1.0,
 									"out" : 0.0,
 									"tap.button" : 0.0
@@ -541,7 +445,7 @@
 												"Feedback" : 50.0,
 												"LevelsMax" : 100.0,
 												"LevelsMin" : 0.0,
-												"fx_enable" : 0.0,
+												"fx_enable" : 1.0,
 												"number" : 1.0,
 												"out" : 0.0,
 												"tap.button" : 0.0
@@ -648,7 +552,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"autosize" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "StS_EQParametric4.amxd",
@@ -691,7 +594,7 @@
 									"Type[2]" : 4.0,
 									"Type[3]" : 4.0,
 									"Type[4]" : 6.0,
-									"fx_enable" : 0.0,
+									"fx_enable" : 1.0,
 									"out" : 0.0
 								}
 
@@ -735,7 +638,7 @@
 												"Type[2]" : 4.0,
 												"Type[3]" : 4.0,
 												"Type[4]" : 6.0,
-												"fx_enable" : 0.0,
+												"fx_enable" : 1.0,
 												"out" : 0.0
 											}
 
@@ -833,7 +736,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"autosize" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "StS_Reverb.amxd",
@@ -868,7 +770,7 @@
 									"67_delay" : 10.800000000000001,
 									"67_feedback" : 66.0,
 									"filter_cutoff" : 20000.0,
-									"fx_enable" : 0.0,
+									"fx_enable" : 1.0,
 									"live.toggle" : 0.0,
 									"out" : 0.0,
 									"wet_dry" : 50.0
@@ -907,7 +809,7 @@
 												"67_delay" : 10.800000000000001,
 												"67_feedback" : 66.0,
 												"filter_cutoff" : 20000.0,
-												"fx_enable" : 0.0,
+												"fx_enable" : 1.0,
 												"live.toggle" : 0.0,
 												"out" : 0.0,
 												"wet_dry" : 50.0
@@ -999,7 +901,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"autosize" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "StS_SpectralFilter.amxd",
@@ -1021,7 +922,7 @@
 							"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_SpectralFilter.amxd",
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
-									"fx_enable" : 0.0,
+									"fx_enable" : 1.0,
 									"out" : 0.0,
 									"randomize" : 0.0,
 									"wet/dry" : 50.0,
@@ -1051,7 +952,7 @@
 										"origname" : "C:/_MYdocs/07-code/3.01-max/StS_producer/res/fx/StS_SpectralFilter.amxd",
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
-												"fx_enable" : 0.0,
+												"fx_enable" : 1.0,
 												"out" : 0.0,
 												"randomize" : 0.0,
 												"wet/dry" : 50.0,
@@ -1296,7 +1197,6 @@
  ],
 		"parameters" : 		{
 			"obj-10" : [ "amxd~[8]", "amxd~", 0 ],
-			"obj-12" : [ "vst~", "vst~", 0 ],
 			"obj-17" : [ "toggle[1]", "toggle[1]", 0 ],
 			"obj-20" : [ "toggle[2]", "toggle", 0 ],
 			"obj-25" : [ "toggle[3]", "toggle", 0 ],
@@ -1325,13 +1225,6 @@
 			}
 , 			{
 				"name" : "EQ Parametric4.amxd.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MCharmVerb.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../../Users/sebastien/Documents/Max 8/Snapshots",
 				"type" : "mx@s",
