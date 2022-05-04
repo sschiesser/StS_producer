@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -71,8 +71,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.0, 111.038239000000033, 71.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.881354868412018, 39.637772000000041, 71.0, 20.0 ],
-					"text" : "audio driver"
+					"presentation_rect" : [ 34.881354868412018, 39.637772000000041, 39.0, 20.0 ],
+					"text" : "driver"
 				}
 
 			}
@@ -84,8 +84,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 769.0, 87.038239000000033, 80.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.881354868412018, 104.597562728084597, 80.0, 20.0 ],
-					"text" : "signal bit rate"
+					"presentation_rect" : [ 26.881354868412018, 104.597562728084597, 45.0, 20.0 ],
+					"text" : "bit rate"
 				}
 
 			}
@@ -97,8 +97,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 553.0, 87.038239000000033, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.694940745830536, 72.631460008777651, 101.0, 20.0 ],
-					"text" : "signal vector size"
+					"presentation_rect" : [ 4.694940745830536, 72.631460008777651, 66.0, 20.0 ],
+					"text" : "vector size"
 				}
 
 			}
@@ -110,8 +110,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 61.637772000000041, 79.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.881354868412018, 6.0, 79.0, 20.0 ],
-					"text" : "turn on audio"
+					"presentation_rect" : [ 26.881354868412018, 6.0, 46.0, 20.0 ],
+					"text" : "turn on"
 				}
 
 			}
@@ -159,6 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 558.0, 230.798096000000044, 150.0, 22.0 ]
 				}
 
@@ -246,7 +247,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 319.319335999999964, 412.0, 85.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.446545541286469, 27.131460008777651, 59.0, 34.0 ],
+					"presentation_rect" : [ 191.881354868412018, 65.631460008777651, 59.0, 34.0 ],
 					"text" : "CPU",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -291,7 +292,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 217.0, 412.0, 150.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 317.446545541286469, 63.131460008777651, 95.0, 39.0 ],
+					"presentation_rect" : [ 173.881354868412018, 95.097562728084597, 95.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -428,7 +429,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 339.0, 87.038239000000033, 194.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.881354868412018, 38.637772000000041, 194.0, 22.0 ]
+					"presentation_rect" : [ 74.881354868412018, 38.637772000000041, 194.0, 22.0 ]
 				}
 
 			}
@@ -505,7 +506,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 769.0, 61.637772000000041, 78.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.881354868412018, 103.597562728084597, 78.0, 22.0 ]
+					"presentation_rect" : [ 74.881354868412018, 103.597562728084597, 78.0, 22.0 ]
 				}
 
 			}
@@ -544,7 +545,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 553.0, 61.637772000000041, 78.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.881354868412018, 71.631460008777651, 78.0, 22.0 ]
+					"presentation_rect" : [ 74.881354868412018, 71.631460008777651, 78.0, 22.0 ]
 				}
 
 			}
@@ -582,7 +583,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 89.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.881354868412018, 4.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 74.881354868412018, 4.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -926,12 +927,12 @@
 				"name" : "Audiomix",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "gradient",
+						"angle" : 270.0,
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39
+						"proportion" : 0.39,
+						"type" : "gradient"
 					}
 
 				}
