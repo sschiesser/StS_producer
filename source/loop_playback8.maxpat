@@ -67,7 +67,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 600.0, 700.0, 1180.0, 280.0 ],
+						"rect" : [ 600.0, 890.0, 1200.0, 280.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -103,8 +103,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 426.0, 255.0, 22.0 ],
-									"text" : "window size 600 700 18000 980, window exec"
+									"patching_rect" : [ 62.0, 426.0, 254.0, 22.0 ],
+									"text" : "window size 600 900 1800 1180, window exec"
 								}
 
 							}
