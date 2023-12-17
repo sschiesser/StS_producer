@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 658.0, 293.0, 1132.0, 584.0 ],
+		"rect" : [ 658.0, 293.0, 673.0, 584.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3561,7 +3561,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"items" : [ "BasicUSHO", ",", "JRF", ",", "Geofon", ",", "Bodensensor", ",", "Hydro" ],
+					"items" : [ "Air", ",", "Contact", ",", "Geofon", ",", "Boden", ",", "Hydro" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
