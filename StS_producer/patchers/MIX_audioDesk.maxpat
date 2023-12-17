@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1119.0, 850.0 ],
+		"rect" : [ 0.0, 53.0, 1920.0, 1027.0 ],
 		"openrect" : [ 0.0, 0.0, 782.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -3914,7 +3914,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 836.771423161029816, 1461.421698600053787, 91.0, 22.0 ],
+					"patching_rect" : [ 853.867679625749588, 1461.421698600053787, 91.0, 22.0 ],
 					"text" : "r cueActiveFlag"
 				}
 

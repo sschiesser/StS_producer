@@ -1,3 +1,42 @@
 {
+	"231217182707" : 	{
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ 0.502, 0.251, 0.01, 1.0 ],
+		"label" : "Zugspitze",
+		"length" : 2.921,
+		"datetime" : [ "17.12.23", "/", "18:27:7" ],
+		"fname" : "231217182707.wav"
+	}
+,
+	"231217183501" : 	{
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ 0.6, 0.6, 0.6, 1.0 ],
+		"label" : "label#5",
+		"length" : 1.907,
+		"datetime" : [ "17.12.23", "/", "18:35:1" ],
+		"fname" : "231217183501.wav"
+	}
+,
+	"231217183506" : 	{
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ 0.6, 0.6, 0.6, 1.0 ],
+		"label" : "label#5",
+		"length" : 0.91,
+		"datetime" : [ "17.12.23", "/", "18:35:6" ],
+		"fname" : "231217183506.wav"
+	}
+,
+	"231217183509" : 	{
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ 0.6, 0.6, 0.6, 1.0 ],
+		"label" : "label#5",
+		"length" : 0.91,
+		"datetime" : [ "17.12.23", "/", "18:35:9" ],
+		"fname" : "231217183509.wav"
+	}
 
 }

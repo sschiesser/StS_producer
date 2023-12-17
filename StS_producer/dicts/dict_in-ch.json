@@ -1,6 +1,6 @@
 {
 	"1" : 	{
-		"label" : "label#1",
+		"label" : "Zugspitze",
 		"location" : "Aletsch",
 		"type" : "Air",
 		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
