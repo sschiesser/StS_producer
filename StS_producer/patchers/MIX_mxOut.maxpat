@@ -222,7 +222,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX7", "ä" ],
+					"args" : [ "MX7", "à" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -246,7 +246,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX6", "ö" ],
+					"args" : [ "MX6", "é" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -519,7 +519,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 45.5, 153.0 ],
-					"order" : 7,
+					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -528,7 +528,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-79", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 170.5, 153.0 ],
-					"order" : 6,
+					"order" : 3,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -537,7 +537,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 295.5, 153.0 ],
-					"order" : 5,
+					"order" : 4,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -546,7 +546,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 420.5, 153.0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -555,7 +555,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-82", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 545.5, 153.0 ],
-					"order" : 3,
+					"order" : 6,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -564,7 +564,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 670.5, 153.0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -582,7 +582,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 920.5, 153.0 ],
-					"order" : 0,
+					"order" : 7,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -844,12 +844,12 @@
 			"obj-82::obj-2" : [ "fader_l", "fader", 0 ],
 			"obj-82::obj-68" : [ "cue_l", "cue", 0 ],
 			"obj-82::obj-9" : [ "ON_l", "ON", 0 ],
-			"obj-83::obj-2" : [ "fader_ö", "fader", 0 ],
-			"obj-83::obj-68" : [ "cue_ö", "cue", 0 ],
-			"obj-83::obj-9" : [ "ON_ö", "ON", 0 ],
-			"obj-84::obj-2" : [ "fader_ä", "fader", 0 ],
-			"obj-84::obj-68" : [ "cue_ä", "cue", 0 ],
-			"obj-84::obj-9" : [ "ON_ä", "ON", 0 ],
+			"obj-83::obj-2" : [ "fader_é", "fader", 0 ],
+			"obj-83::obj-68" : [ "cue_é", "cue", 0 ],
+			"obj-83::obj-9" : [ "ON_é", "ON", 0 ],
+			"obj-84::obj-2" : [ "fader_à", "fader", 0 ],
+			"obj-84::obj-68" : [ "cue_à", "cue", 0 ],
+			"obj-84::obj-9" : [ "ON_à", "ON", 0 ],
 			"obj-85::obj-2" : [ "fader_$", "fader", 0 ],
 			"obj-85::obj-68" : [ "cue_$", "cue", 0 ],
 			"obj-85::obj-9" : [ "ON_$", "ON", 0 ],
@@ -924,27 +924,27 @@
 				}
 ,
 				"obj-83::obj-2" : 				{
-					"parameter_longname" : "fader_ö"
+					"parameter_longname" : "fader_é"
 				}
 ,
 				"obj-83::obj-68" : 				{
-					"parameter_longname" : "cue_ö"
+					"parameter_longname" : "cue_é"
 				}
 ,
 				"obj-83::obj-9" : 				{
-					"parameter_longname" : "ON_ö"
+					"parameter_longname" : "ON_é"
 				}
 ,
 				"obj-84::obj-2" : 				{
-					"parameter_longname" : "fader_ä"
+					"parameter_longname" : "fader_à"
 				}
 ,
 				"obj-84::obj-68" : 				{
-					"parameter_longname" : "cue_ä"
+					"parameter_longname" : "cue_à"
 				}
 ,
 				"obj-84::obj-9" : 				{
-					"parameter_longname" : "ON_ä"
+					"parameter_longname" : "ON_à"
 				}
 ,
 				"obj-85::obj-2" : 				{
