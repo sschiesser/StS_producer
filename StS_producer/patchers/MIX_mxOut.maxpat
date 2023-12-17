@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1332.0, 1047.0 ],
+		"rect" : [ 34.0, 87.0, 1332.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -198,7 +198,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX8", 12 ],
+					"args" : [ "MX8", "\u0024" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -222,7 +222,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX7", 11 ],
+					"args" : [ "MX7", "ä" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -246,7 +246,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX6", 10 ],
+					"args" : [ "MX6", "ö" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -270,7 +270,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX5", 9 ],
+					"args" : [ "MX5", "l" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -294,7 +294,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX4", 8 ],
+					"args" : [ "MX4", "k" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -318,7 +318,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX3", 7 ],
+					"args" : [ "MX3", "j" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -342,7 +342,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX2", 6 ],
+					"args" : [ "MX2", "h" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -366,7 +366,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "MX1", 5 ],
+					"args" : [ "MX1", "g" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -519,7 +519,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 45.5, 153.0 ],
-					"order" : 0,
+					"order" : 7,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -528,7 +528,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-79", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 170.5, 153.0 ],
-					"order" : 1,
+					"order" : 6,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -537,7 +537,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 295.5, 153.0 ],
-					"order" : 2,
+					"order" : 5,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -546,7 +546,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 420.5, 153.0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -555,7 +555,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-82", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 545.5, 153.0 ],
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -564,7 +564,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 670.5, 153.0 ],
-					"order" : 5,
+					"order" : 2,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -573,7 +573,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-84", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 795.5, 153.0 ],
-					"order" : 6,
+					"order" : 1,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -582,7 +582,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 1 ],
 					"midpoints" : [ 1026.5, 153.0, 920.5, 153.0 ],
-					"order" : 7,
+					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -829,30 +829,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-77::obj-2" : [ "fader_5", "fader", 0 ],
-			"obj-77::obj-68" : [ "cue_5", "cue", 0 ],
-			"obj-77::obj-9" : [ "ON_5", "ON", 0 ],
-			"obj-79::obj-2" : [ "fader_6", "fader", 0 ],
-			"obj-79::obj-68" : [ "cue_6", "cue", 0 ],
-			"obj-79::obj-9" : [ "ON_6", "ON", 0 ],
-			"obj-80::obj-2" : [ "fader_7", "fader", 0 ],
-			"obj-80::obj-68" : [ "cue_7", "cue", 0 ],
-			"obj-80::obj-9" : [ "ON_7", "ON", 0 ],
-			"obj-81::obj-2" : [ "fader_8", "fader", 0 ],
-			"obj-81::obj-68" : [ "cue_8", "cue", 0 ],
-			"obj-81::obj-9" : [ "ON_8", "ON", 0 ],
-			"obj-82::obj-2" : [ "fader_9", "fader", 0 ],
-			"obj-82::obj-68" : [ "cue_9", "cue", 0 ],
-			"obj-82::obj-9" : [ "ON_9", "ON", 0 ],
-			"obj-83::obj-2" : [ "fader_10", "fader", 0 ],
-			"obj-83::obj-68" : [ "cue_10", "cue", 0 ],
-			"obj-83::obj-9" : [ "ON_10", "ON", 0 ],
-			"obj-84::obj-2" : [ "fader_11", "fader", 0 ],
-			"obj-84::obj-68" : [ "cue_11", "cue", 0 ],
-			"obj-84::obj-9" : [ "ON_11", "ON", 0 ],
-			"obj-85::obj-2" : [ "fader_12", "fader", 0 ],
-			"obj-85::obj-68" : [ "cue_12", "cue", 0 ],
-			"obj-85::obj-9" : [ "ON_12", "ON", 0 ],
+			"obj-77::obj-2" : [ "fader_g", "fader", 0 ],
+			"obj-77::obj-68" : [ "cue_g", "cue", 0 ],
+			"obj-77::obj-9" : [ "ON_g", "ON", 0 ],
+			"obj-79::obj-2" : [ "fader_h", "fader", 0 ],
+			"obj-79::obj-68" : [ "cue_h", "cue", 0 ],
+			"obj-79::obj-9" : [ "ON_h", "ON", 0 ],
+			"obj-80::obj-2" : [ "fader_j", "fader", 0 ],
+			"obj-80::obj-68" : [ "cue_j", "cue", 0 ],
+			"obj-80::obj-9" : [ "ON_j", "ON", 0 ],
+			"obj-81::obj-2" : [ "fader_k", "fader", 0 ],
+			"obj-81::obj-68" : [ "cue_k", "cue", 0 ],
+			"obj-81::obj-9" : [ "ON_k", "ON", 0 ],
+			"obj-82::obj-2" : [ "fader_l", "fader", 0 ],
+			"obj-82::obj-68" : [ "cue_l", "cue", 0 ],
+			"obj-82::obj-9" : [ "ON_l", "ON", 0 ],
+			"obj-83::obj-2" : [ "fader_ö", "fader", 0 ],
+			"obj-83::obj-68" : [ "cue_ö", "cue", 0 ],
+			"obj-83::obj-9" : [ "ON_ö", "ON", 0 ],
+			"obj-84::obj-2" : [ "fader_ä", "fader", 0 ],
+			"obj-84::obj-68" : [ "cue_ä", "cue", 0 ],
+			"obj-84::obj-9" : [ "ON_ä", "ON", 0 ],
+			"obj-85::obj-2" : [ "fader_$", "fader", 0 ],
+			"obj-85::obj-68" : [ "cue_$", "cue", 0 ],
+			"obj-85::obj-9" : [ "ON_$", "ON", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -864,99 +864,99 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-77::obj-2" : 				{
-					"parameter_longname" : "fader_5"
+					"parameter_longname" : "fader_g"
 				}
 ,
 				"obj-77::obj-68" : 				{
-					"parameter_longname" : "cue_5"
+					"parameter_longname" : "cue_g"
 				}
 ,
 				"obj-77::obj-9" : 				{
-					"parameter_longname" : "ON_5"
+					"parameter_longname" : "ON_g"
 				}
 ,
 				"obj-79::obj-2" : 				{
-					"parameter_longname" : "fader_6"
+					"parameter_longname" : "fader_h"
 				}
 ,
 				"obj-79::obj-68" : 				{
-					"parameter_longname" : "cue_6"
+					"parameter_longname" : "cue_h"
 				}
 ,
 				"obj-79::obj-9" : 				{
-					"parameter_longname" : "ON_6"
+					"parameter_longname" : "ON_h"
 				}
 ,
 				"obj-80::obj-2" : 				{
-					"parameter_longname" : "fader_7"
+					"parameter_longname" : "fader_j"
 				}
 ,
 				"obj-80::obj-68" : 				{
-					"parameter_longname" : "cue_7"
+					"parameter_longname" : "cue_j"
 				}
 ,
 				"obj-80::obj-9" : 				{
-					"parameter_longname" : "ON_7"
+					"parameter_longname" : "ON_j"
 				}
 ,
 				"obj-81::obj-2" : 				{
-					"parameter_longname" : "fader_8"
+					"parameter_longname" : "fader_k"
 				}
 ,
 				"obj-81::obj-68" : 				{
-					"parameter_longname" : "cue_8"
+					"parameter_longname" : "cue_k"
 				}
 ,
 				"obj-81::obj-9" : 				{
-					"parameter_longname" : "ON_8"
+					"parameter_longname" : "ON_k"
 				}
 ,
 				"obj-82::obj-2" : 				{
-					"parameter_longname" : "fader_9"
+					"parameter_longname" : "fader_l"
 				}
 ,
 				"obj-82::obj-68" : 				{
-					"parameter_longname" : "cue_9"
+					"parameter_longname" : "cue_l"
 				}
 ,
 				"obj-82::obj-9" : 				{
-					"parameter_longname" : "ON_9"
+					"parameter_longname" : "ON_l"
 				}
 ,
 				"obj-83::obj-2" : 				{
-					"parameter_longname" : "fader_10"
+					"parameter_longname" : "fader_ö"
 				}
 ,
 				"obj-83::obj-68" : 				{
-					"parameter_longname" : "cue_10"
+					"parameter_longname" : "cue_ö"
 				}
 ,
 				"obj-83::obj-9" : 				{
-					"parameter_longname" : "ON_10"
+					"parameter_longname" : "ON_ö"
 				}
 ,
 				"obj-84::obj-2" : 				{
-					"parameter_longname" : "fader_11"
+					"parameter_longname" : "fader_ä"
 				}
 ,
 				"obj-84::obj-68" : 				{
-					"parameter_longname" : "cue_11"
+					"parameter_longname" : "cue_ä"
 				}
 ,
 				"obj-84::obj-9" : 				{
-					"parameter_longname" : "ON_11"
+					"parameter_longname" : "ON_ä"
 				}
 ,
 				"obj-85::obj-2" : 				{
-					"parameter_longname" : "fader_12"
+					"parameter_longname" : "fader_$"
 				}
 ,
 				"obj-85::obj-68" : 				{
-					"parameter_longname" : "cue_12"
+					"parameter_longname" : "cue_$"
 				}
 ,
 				"obj-85::obj-9" : 				{
-					"parameter_longname" : "ON_12"
+					"parameter_longname" : "ON_$"
 				}
 
 			}
@@ -968,6 +968,12 @@
 				"name" : "MIX_fader.maxpat",
 				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1209.0, 808.0 ],
+		"rect" : [ 34.0, 87.0, 1296.0, 719.0 ],
 		"openrect" : [ 0.0, 0.0, 120.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -162,7 +162,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "PianoFX", "15-16" ],
+					"args" : [ "PianoFX", 14 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -210,7 +210,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Piano", "13-14" ],
+					"args" : [ "Piano", 13 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -387,12 +387,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22::obj-2" : [ "fader_13-14", "fader", 0 ],
-			"obj-22::obj-68" : [ "cue_13-14", "cue", 0 ],
-			"obj-22::obj-9" : [ "ON_13-14", "ON", 0 ],
-			"obj-34::obj-2" : [ "fader_15-16", "fader", 0 ],
-			"obj-34::obj-68" : [ "cue_15-16", "cue", 0 ],
-			"obj-34::obj-9" : [ "ON_15-16", "ON", 0 ],
+			"obj-22::obj-2" : [ "fader_13", "fader", 0 ],
+			"obj-22::obj-68" : [ "cue_13", "cue", 0 ],
+			"obj-22::obj-9" : [ "ON_13", "ON", 0 ],
+			"obj-34::obj-2" : [ "fader_14", "fader", 0 ],
+			"obj-34::obj-68" : [ "cue_14", "cue", 0 ],
+			"obj-34::obj-9" : [ "ON_14", "ON", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -404,27 +404,27 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-22::obj-2" : 				{
-					"parameter_longname" : "fader_13-14"
+					"parameter_longname" : "fader_13"
 				}
 ,
 				"obj-22::obj-68" : 				{
-					"parameter_longname" : "cue_13-14"
+					"parameter_longname" : "cue_13"
 				}
 ,
 				"obj-22::obj-9" : 				{
-					"parameter_longname" : "ON_13-14"
+					"parameter_longname" : "ON_13"
 				}
 ,
 				"obj-34::obj-2" : 				{
-					"parameter_longname" : "fader_15-16"
+					"parameter_longname" : "fader_14"
 				}
 ,
 				"obj-34::obj-68" : 				{
-					"parameter_longname" : "cue_15-16"
+					"parameter_longname" : "cue_14"
 				}
 ,
 				"obj-34::obj-9" : 				{
-					"parameter_longname" : "ON_15-16"
+					"parameter_longname" : "ON_14"
 				}
 
 			}
