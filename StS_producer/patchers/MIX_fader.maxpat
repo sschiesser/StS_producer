@@ -41,6 +41,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 199.292391121387482, 455.0, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -468,7 +480,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 691.612119019031525, 283.378835916519165, 36.0, 20.0 ],
-					"text" : "1",
+					"text" : "a",
 					"textjustification" : 1
 				}
 
@@ -579,7 +591,7 @@
 					"patching_rect" : [ 333.5, 548.62247568644716, 5.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.396644999999999, 100.0, 5.0, 137.0 ],
-					"varname" : "level_1"
+					"varname" : "level_a"
 				}
 
 			}
@@ -602,7 +614,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.235304057598114, 8.000000686447144, 71.0, 22.0 ],
+					"patching_rect" : [ 199.292391121387482, 418.000000686447152, 71.0, 22.0 ],
 					"text" : "r killAllCues"
 				}
 
@@ -1148,7 +1160,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1160,7 +1172,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1345,7 +1357,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "ON_1",
+							"parameter_longname" : "ON_a",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "ON",
 							"parameter_type" : 1
@@ -1355,7 +1367,7 @@
 ,
 					"text" : "ON",
 					"texton" : "ON",
-					"varname" : "ON_1"
+					"varname" : "ON_a"
 				}
 
 			}
@@ -1427,7 +1439,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "cue_1",
+							"parameter_longname" : "cue_a",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "cue",
 							"parameter_type" : 1
@@ -1435,9 +1447,9 @@
 
 					}
 ,
-					"text" : "x",
-					"texton" : "x",
-					"varname" : "cue_1"
+					"text" : "a",
+					"texton" : "a",
+					"varname" : "cue_a"
 				}
 
 			}
@@ -1471,7 +1483,7 @@
 							"parameter_initial" : [ "-inf" ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "fader_1",
+							"parameter_longname" : "fader_a",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "fader",
@@ -1485,7 +1497,7 @@
 					"tribordercolor" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
 					"tricolor" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
 					"trioncolor" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
-					"varname" : "fader_1"
+					"varname" : "fader_a"
 				}
 
 			}
@@ -1493,11 +1505,11 @@
 				"box" : 				{
 					"comment" : "signal IN",
 					"id" : "obj-77",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 17.5, 8.000000686447144, 30.0, 30.0 ]
 				}
 
@@ -1506,7 +1518,7 @@
 				"box" : 				{
 					"comment" : "PFL OUT",
 					"id" : "obj-79",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1518,7 +1530,7 @@
 				"box" : 				{
 					"comment" : "left OUT",
 					"id" : "obj-82",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1846,7 +1858,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1913,6 +1925,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -2095,31 +2114,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-2" : [ "fader_1", "fader", 0 ],
-			"obj-68" : [ "cue_1", "cue", 0 ],
-			"obj-9" : [ "ON_1", "ON", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

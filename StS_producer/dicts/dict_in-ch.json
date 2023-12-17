@@ -3,7 +3,7 @@
 		"label" : "label#1",
 		"location" : "Aletsch",
 		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
 	}
 ,
 	"2" : 	{

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 511.0, 194.0, 656.0, 704.0 ],
+		"rect" : [ 511.0, 194.0, 542.0, 424.0 ],
 		"openrect" : [ 0.0, 0.0, 44.0, 119.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.275226831436157, 93.449537992477417, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
@@ -81,7 +93,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.275226831436157, 93.449537992477417, 71.0, 22.0 ],
+					"patching_rect" : [ 160.275226831436157, 55.449537992477417, 71.0, 22.0 ],
 					"text" : "r killAllCues"
 				}
 
@@ -362,7 +374,7 @@
 					"comment" : "level meter",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -374,7 +386,7 @@
 				"box" : 				{
 					"comment" : "cue signal out",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -386,7 +398,7 @@
 				"box" : 				{
 					"comment" : "Signal out",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -398,7 +410,7 @@
 				"box" : 				{
 					"comment" : "Cue command",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -506,7 +518,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "bCueOut",
+							"parameter_longname" : "bCueOut[42]",
 							"parameter_mmax" : 2.0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 1
@@ -525,7 +537,7 @@
 				"box" : 				{
 					"comment" : "External cue command",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -580,7 +592,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "fGainOut",
+							"parameter_longname" : "fGainOut[34]",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "out",
@@ -602,11 +614,11 @@
 				"box" : 				{
 					"comment" : "Signal input",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 50.275226831436157, 47.449537992477417, 30.0, 30.0 ]
 				}
 
@@ -724,6 +736,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -787,7 +806,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -927,24 +946,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-13" : [ "fGainOut", "out", 0 ],
-			"obj-71" : [ "bCueOut", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
