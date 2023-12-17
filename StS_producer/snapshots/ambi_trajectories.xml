@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ambiscore>
+	<trajectory index="_diago1">
+		<point>
+			<time>0</time>
+			<xyz>-1.000000 -1.000000 0.000000</xyz>
+		</point>
+		<point>
+			<time>2000</time>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<time>4000</time>
+			<xyz>1.000000 1.000000 0.000000</xyz>
+		</point>
+	</trajectory>
+</ambiscore>

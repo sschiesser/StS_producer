@@ -1,0 +1,375 @@
+{
+	"parameter_map" : 	{
+		"midi" : 		{
+			"fader_main" : 			{
+				"srcname" : "100.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"ON_8" : 			{
+				"srcname" : "28.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_7" : 			{
+				"srcname" : "27.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_6" : 			{
+				"srcname" : "26.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_5" : 			{
+				"srcname" : "25.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_3-4" : 			{
+				"srcname" : "23.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_1-2" : 			{
+				"srcname" : "21.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_1-2" : 			{
+				"srcname" : "1.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_3-4" : 			{
+				"srcname" : "3.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_5" : 			{
+				"srcname" : "5.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_6" : 			{
+				"srcname" : "6.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_7" : 			{
+				"srcname" : "7.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_8" : 			{
+				"srcname" : "8.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"fader_8" : 			{
+				"srcname" : "8.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_7" : 			{
+				"srcname" : "7.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_6" : 			{
+				"srcname" : "6.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_5" : 			{
+				"srcname" : "5.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_3-4" : 			{
+				"srcname" : "3.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_1-2" : 			{
+				"srcname" : "1.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_10" : 			{
+				"srcname" : "10.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_9" : 			{
+				"srcname" : "9.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_11" : 			{
+				"srcname" : "11.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_12" : 			{
+				"srcname" : "12.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_13" : 			{
+				"srcname" : "13.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_14" : 			{
+				"srcname" : "14.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_15" : 			{
+				"srcname" : "15.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"fader_16" : 			{
+				"srcname" : "16.ctrl.0.chan.1.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2,
+				"trigger" : 1
+			}
+,
+			"ON_16" : 			{
+				"srcname" : "36.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_15" : 			{
+				"srcname" : "35.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_14" : 			{
+				"srcname" : "34.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_13" : 			{
+				"srcname" : "33.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_12" : 			{
+				"srcname" : "32.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_11" : 			{
+				"srcname" : "31.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_10" : 			{
+				"srcname" : "30.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_9" : 			{
+				"srcname" : "29.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_9" : 			{
+				"srcname" : "9.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_10" : 			{
+				"srcname" : "10.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_11" : 			{
+				"srcname" : "11.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_12" : 			{
+				"srcname" : "12.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_13" : 			{
+				"srcname" : "13.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_14" : 			{
+				"srcname" : "14.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_15" : 			{
+				"srcname" : "15.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"cue_16" : 			{
+				"srcname" : "16.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"ON_main" : 			{
+				"srcname" : "100.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"live.text[517]" : 			{
+				"srcname" : "101.note.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 3,
+				"trigger" : 1
+			}
+,
+			"rotary_phones" : 			{
+				"srcname" : "101.ctrl.0.chan.1.port.midi",
+				"min" : 0.0,
+				"max" : 100.0,
+				"flags" : 2
+			}
+
+		}
+
+	}
+
+}

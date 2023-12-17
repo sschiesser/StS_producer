@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ambiscore>
+	<snapshot index="1">
+		<point>
+			<number>1</number>
+			<xyz>-0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>9</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>10</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>11</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>12</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>13</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>14</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>15</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>16</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+	</snapshot>
+	<snapshot index="2">
+		<point>
+			<number>1</number>
+			<xyz>-0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<group>2</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>9</number>
+			<group>3</group>
+			<xyz>-0.958649 0.227315 0.000000</xyz>
+		</point>
+		<point>
+			<number>10</number>
+			<group>3</group>
+			<xyz>0.776059 0.321454 0.000000</xyz>
+		</point>
+		<point>
+			<number>11</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>12</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>13</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>14</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>15</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>16</number>
+			<group>3</group>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<xyz>0.000000 0.000000 0.000000</xyz>
+		</point>
+	</snapshot>
+	<snapshot index="3">
+		<point>
+			<number>1</number>
+			<xyz>-0.273224 0.775601 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.321734 0.779933 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<group>2</group>
+			<xyz>-0.001738 -0.623706 0.000000</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<group>2</group>
+			<xyz>0.025699 -0.376769 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<group>2</group>
+			<xyz>-0.004626 0.034791 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<group>2</group>
+			<xyz>0.008370 0.421803 0.000000</xyz>
+		</point>
+		<point>
+			<number>9</number>
+			<group>3</group>
+			<xyz>-0.901395 0.210968 0.000000</xyz>
+		</point>
+		<point>
+			<number>10</number>
+			<group>3</group>
+			<xyz>-0.573591 -0.089399 0.000000</xyz>
+		</point>
+		<point>
+			<number>11</number>
+			<group>3</group>
+			<xyz>-0.371421 0.316386 0.000000</xyz>
+		</point>
+		<point>
+			<number>12</number>
+			<group>3</group>
+			<xyz>-0.086939 -0.148606 0.000000</xyz>
+		</point>
+		<point>
+			<number>13</number>
+			<group>3</group>
+			<xyz>0.168662 0.268731 0.000000</xyz>
+		</point>
+		<point>
+			<number>14</number>
+			<group>3</group>
+			<xyz>0.404046 -0.200592 0.000000</xyz>
+		</point>
+		<point>
+			<number>15</number>
+			<group>3</group>
+			<xyz>0.728962 0.249958 0.000000</xyz>
+		</point>
+		<point>
+			<number>16</number>
+			<group>3</group>
+			<xyz>0.957126 -0.293013 0.000000</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<xyz>-0.544709 -0.383989 0.000000</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<xyz>0.561450 -0.433088 0.000000</xyz>
+		</point>
+	</snapshot>
+	<snapshot index="4">
+		<point>
+			<number>1</number>
+			<xyz>-0.707107 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.707107 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<group>2</group>
+			<xyz>-0.500000 0.500000 0.000000</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<group>2</group>
+			<xyz>-0.250000 0.500000 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<group>2</group>
+			<xyz>0.250000 0.500000 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<group>2</group>
+			<xyz>0.500000 0.500000 0.000000</xyz>
+		</point>
+		<point>
+			<number>9</number>
+			<group>3</group>
+			<xyz>-0.700000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>10</number>
+			<group>3</group>
+			<xyz>-0.500000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>11</number>
+			<group>3</group>
+			<xyz>-0.300000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>12</number>
+			<group>3</group>
+			<xyz>-0.100000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>13</number>
+			<group>3</group>
+			<xyz>0.100000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>14</number>
+			<group>3</group>
+			<xyz>0.300000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>15</number>
+			<group>3</group>
+			<xyz>0.500000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>16</number>
+			<group>3</group>
+			<xyz>0.700000 -0.900000 0.000000</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<xyz>-0.500000 0.000000 0.000000</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<xyz>0.500000 0.000000 0.000000</xyz>
+		</point>
+	</snapshot>
+</ambiscore>

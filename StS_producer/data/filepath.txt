@@ -1,0 +1,4 @@
+0, C:/_MYdocs/07-code/3.01-max/StS_producer/StS_producer/media/soil Soil;
+1, C:/_MYdocs/07-code/3.01-max/StS_producer/StS_producer/media/metal Metal;
+2, C:/_MYdocs/07-code/3.01-max/StS_producer/StS_producer/media/water Water;
+3, C:/_MYdocs/07-code/3.01-max/StS_producer/StS_producer/media/air Air;

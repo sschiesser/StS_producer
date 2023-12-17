@@ -1,0 +1,15 @@
+{
+	"preset_data" : [ 		{
+			"number" : 1,
+			"data" : [ 5, "obj-156", "umenu", "int", 2, 5, "obj-116", "live.dial", "float", 0.699999988079071, 5, "obj-115", "live.dial", "float", 20000.0, 5, "obj-112", "live.text", "float", 0.0, 5, "obj-150", "umenu", "int", 2, 5, "obj-119", "live.dial", "float", 0.699999988079071, 5, "obj-113", "live.dial", "float", 20.0, 5, "obj-111", "live.text", "float", 0.0, 5, "obj-125", "live.dial", "float", 50.0, 5, "obj-97", "live.text", "float", 0.0 ]
+		}
+, 		{
+			"number" : 2,
+			"data" : [ 5, "obj-156", "umenu", "int", 2, 5, "obj-116", "live.dial", "float", 100.0, 5, "obj-115", "live.dial", "float", 20000.0, 5, "obj-112", "live.text", "float", 0.0, 5, "obj-150", "umenu", "int", 2, 5, "obj-119", "live.dial", "float", 0.050000000745058, 5, "obj-113", "live.dial", "float", 20.0, 5, "obj-111", "live.text", "float", 0.0, 5, "obj-125", "live.dial", "float", 100.0, 5, "obj-97", "live.text", "float", 0.0 ]
+		}
+, 		{
+			"number" : 3,
+			"data" : [ 5, "obj-156", "umenu", "int", 2, 5, "obj-116", "live.dial", "float", 0.699999928474426, 5, "obj-115", "live.dial", "float", 19993.89453125, 5, "obj-112", "live.text", "float", 1.0, 5, "obj-150", "umenu", "int", 2, 5, "obj-119", "live.dial", "float", 0.699999928474426, 5, "obj-113", "live.dial", "float", 20.012336730957031, 5, "obj-111", "live.text", "float", 1.0, 5, "obj-125", "live.dial", "float", 50.0, 5, "obj-97", "live.text", "float", 1.0 ]
+		}
+ ]
+}

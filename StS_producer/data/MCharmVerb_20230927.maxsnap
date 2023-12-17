@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "MCharmVerb",
+	"origin" : "MCharmVerb.vst3info",
+	"type" : "VST3",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "MCharmVerb.vst3info",
+		"plugindisplayname" : "MCharmVerb",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : -1354592284,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+		"blob" : "796.VMjLgLw....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HSM13xLuMVUNQmbBIzPCQTQiIVaKgyTP4VXiE0Ry7DT0LzYBYjbPUzagM0bCcmYukkZIEEThc1J0nEbBgFc2jiY4giP3cCcNk0cIUzSj4BMj8jQBYTawLDZDgTXrgzaDgiQyMDMBgmVUc0MyXmZgImax.kSX0DSkEDRpAyZvzDSukELXQTZSkVUNUUcEcFSPcSaiclRloEZMISTjoTbZYGQHQWSJETY0.GUPQETz4xQskjPqLzYm8lVRwDQMkiSkEFUmomdIokbWAiQxPFZxgCbkUmLScFUiElMrMFMVUyLzHyL4YUNyTzZ5U0T2IjKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3BOujzPu0Fbu4VYtQmO7jTQjkFcC8lazI2arwVYx4iL0XiKy71XU4DcxIjPCMDQEMlXssDNSAkagMVTKMySPUyPmIjQxAUQuE1TyMzcl8VVpkTTPI1YqTiVvIDZzcSNlkGNBg2Mz4TV2kTQOQlKzP1SFIjQsEyPnQDRgwFRuQDNFM2PzHDdZU0U2LicpElbtICTNgUSLUVPHoFLqASSL8VVvfEQoMUZU4TU0UzYLA0MsM1YJYlVn0jLQQlRwokcDgDcMoTPkUCbTAEUPQmKG0VRBsxPmc1aZIESD0TNNUVXTcld5kjVxcELFICYnIGNvUVcxL0YTMVX1v1XzXUMyPiLyjmU4LSQqoWUScmPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hK77RREQVZzMzatQmbuwFakImO77hUSQ0LPwVcmklaSQWXzUlO.."
+	}
+
+}

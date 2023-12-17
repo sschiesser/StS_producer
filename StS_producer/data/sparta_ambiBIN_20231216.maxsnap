@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "sparta_ambiBIN",
+	"origin" : "BinauralDecoder_Sparta.vst",
+	"type" : "VST",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "BinauralDecoder_Sparta.vst",
+		"plugindisplayname" : "sparta_ambiBIN",
+		"pluginsavedname" : "~/Desktop/StS/StS_producer/StS_producer/plugins/mac/BinauralDecoder_Sparta.vst",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+		"blob" : "367.CMlaKA....fQPMDZ....ADjPOED.ATPA....A........................................DvLVMjLgnR....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOA0jPIITRNAESUcTRNMUQTQURNczTf7lbjUlb8HBMh.RUyUFQkYVX0wFcHIURRMWYz0iHwHBHN8lbs0iHxHBHCg1SxQVYx0iHwHBHsEFdxUTOhDiHfPVZlYVSgQ2Xn0iHvHBHzIWctMVXzk1atUTT8HRLh.RakQGZuQVOhTiHf.mbkAmbuMVOhHiHfTjSAIDSEI0ST0iHvHBHYEzU8HBLt.iHf.URTMDR8HBLt.iHfH0SLwTOh.iKvHBHFwTRP8UVAcUOh.iHfXDSIA0WPkDUCgTOh.iHfXDSIA0WR8DSL0iHvHBHRAUVeYDSAcTOh.iHf7zTC8ETOIEU8HRNv.CLh7hO.."
+	}
+
+}

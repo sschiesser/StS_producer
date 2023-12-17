@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "MBandPass",
+	"origin" : "MBandPass.vst3info",
+	"type" : "VST3",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "MBandPass.vst3info",
+		"plugindisplayname" : "MBandPass",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 1832148612,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+		"blob" : "796.VMjLgLw....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HSM13xLuMVUNYjbBIzPCQDQigCaGgyTPYWbj4VP2bDRyY0YBYjbPUzaWIiVVgVPok0ZpgDRjYWYi0TUAEzSNUWVybmKvgWNjUUR0.ybXwjQuQEd0zTTPQmKDMkZG4FT5gGYXUDSiYDRU0Tbgo0PxkjYWAmSmQ1PUYycAcTPBAUNGQmPSo1YCEyQTgkbwYUXSIlaKczYXcGdBAkU2kCUlMFcxcScFoWZ4QEUJMDb3I1MZoldiQCQ2kVatAyX4gEN1jULMY1YkgiYyrFUmIiLzk0Uuk1SjkSZjc2MsUWPT4lYEUkSt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3BOujzPu0Fbu4VYtQmO7jTQjkFcC8lazI2arwVYx4iL0XiKy71XU4jQxIjPCMDQDMFNrcDNSAkcwQlaAcyQHMmUmIjQxAUQuckLZYEZAkVVqoFRHQlckMVSUETPO4TcYMyct.Gd4PVUIUCLygESF8FU3USSQAEctPzTpcjaPoGdjgUQLMlQHUUSwElVCIWRlcEbNcFYCUkM2EzQAIDT4bDcBMkZmMTLGQEVxEmUgMkXtszQmg0c3IDTVcWNTY1XzI2M0YjdokGUTozPvgmX2nkZ5MFMDcWZs4FLikGV3XSVwzjYmUFNlMyZTclLxPWVW8VZOQVNoQ1c2zVcAQkalUTUN4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hK77RREQVZzMzatQmbuwFakImO77hUSQ0LPwVcmklaSQWXzUlO.."
+	}
+
+}

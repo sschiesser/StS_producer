@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "MCharmVerb",
+	"origin" : "MCharmVerb.vst3info",
+	"type" : "VST3",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "MCharmVerb.vst3info",
+		"plugindisplayname" : "MCharmVerb",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "776.VMjLg7u....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCM43xLuMVVPYDLRMzPDQDQ4fyMwMyL0DGbI0DLtE0LRoDVZUjRXYmKQA2SkkTV1r1P0IVbxISQuoWY3fVRDEDLW0VVqvVVYQTXO8DVXUlPpMUZwvTN0DFZyvjcwf1XZEmRo8TMOM1XJUVXjYlax41URMzQAA2cAQVcw.mXxUUV2.iXw.2XlMUbx4RUlYTZ2LzQ50TRWYlUOclQCAEc3XUVoQSXzfjSgUVawjFUykiPpcWcOkTMvEVcKsVdJsVakkyaWQldlMWcOYibIwVdJEzSPQWYBMWLCQjYSE0UjgkLmojPUolXt41UZUkchEzTzbUVFUkV1DGRZokZqPSZ4TjTmo2PJoldW4hVnYyL34xMPUCapoFVjQGVzsxLhcWX03TYkkEctYzQuYkYUEkcIM2cComdtTzcCkWQmsTaDQmKEgjPqHiYzf2P4fmVzv1QxwyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9HCM43xLuMVVPYDLRMzPDQDQ4fyMwMyL0DGbI0DLtE0LRoDVZUjRXYmKQA2SkkTV1r1P0IVbxISQuoWY3fVRDEDLW0VVqvVVYQTXO8DVXUlPpMUZwvTN0DFZyvjcwf1XZEmRo8TMOM1XJUVXjYlax41URMzQAA2cAQVcw.mXxUUV2.iXw.2XlMUbx4RUlYTZ2LzQ50TRWYlUOclQCAEc3XUVoQSXzfjSgUVawjFUykiPpcWcOkTMvEVcKsVdJsVakkyaWQldlMWcOYibIwVdJEzSPQWYBMWLCQjYSE0UjgkLmojPUolXt41UZUkchEzTzbUVFUkV1DGRZokZqPSZ4TjTmo2PJoldW4hVnYyL34xMPUCapoFVjQGVzsxLhcWX03TYkkEctYzQuYkYUEkcIM2cComdtTzcCkWQmsTaDQmKEgjPqHiYzf2P4fmVzv1QxwyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+	}
+
+}
