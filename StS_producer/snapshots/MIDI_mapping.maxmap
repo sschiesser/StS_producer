@@ -1,0 +1,190 @@
+{
+	"parameter_map" : 	{
+		"midi" : 		{
+			"ON_a" : 			{
+				"srcname" : "5.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_s" : 			{
+				"srcname" : "7.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_d" : 			{
+				"srcname" : "9.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_f" : 			{
+				"srcname" : "11.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_g" : 			{
+				"srcname" : "13.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_h" : 			{
+				"srcname" : "15.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_j" : 			{
+				"srcname" : "17.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_k" : 			{
+				"srcname" : "19.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_l" : 			{
+				"srcname" : "21.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_ö" : 			{
+				"srcname" : "23.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_ä" : 			{
+				"srcname" : "25.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"ON_$" : 			{
+				"srcname" : "27.ctrl.0.chan.2.port.midi",
+				"min" : 0.0,
+				"max" : 1.0,
+				"flags" : 2
+			}
+,
+			"fader_a" : 			{
+				"srcname" : "6.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_s" : 			{
+				"srcname" : "8.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_d" : 			{
+				"srcname" : "10.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_f" : 			{
+				"srcname" : "12.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_g" : 			{
+				"srcname" : "14.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_h" : 			{
+				"srcname" : "16.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_j" : 			{
+				"srcname" : "18.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_k" : 			{
+				"srcname" : "20.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_l" : 			{
+				"srcname" : "22.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_ö" : 			{
+				"srcname" : "24.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_ä" : 			{
+				"srcname" : "26.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_$" : 			{
+				"srcname" : "28.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_13" : 			{
+				"srcname" : "2.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+,
+			"fader_14" : 			{
+				"srcname" : "4.ctrl.0.chan.2.port.midi",
+				"min" : -70.0,
+				"max" : 6.0,
+				"flags" : 2
+			}
+
+		}
+
+	}
+
+}
