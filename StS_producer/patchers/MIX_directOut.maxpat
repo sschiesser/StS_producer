@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1079.0, 704.0 ],
 		"openrect" : [ 0.0, 0.0, 168.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -163,7 +163,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "DO4", 4 ],
+					"args" : [ "DO4", "f" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -187,7 +187,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "DO3", 3 ],
+					"args" : [ "DO3", "d" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -211,7 +211,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "DO2", 2 ],
+					"args" : [ "DO2", "s" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -235,7 +235,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "DO1", 1 ],
+					"args" : [ "DO1", "a" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -397,7 +397,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"midpoints" : [ 1030.5, 192.0, 937.5, 192.0 ],
-					"order" : 3,
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -415,7 +415,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
 					"midpoints" : [ 1030.5, 192.0, 687.5, 192.0 ],
-					"order" : 1,
+					"order" : 3,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -482,18 +482,18 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-14::obj-2" : [ "fader_3", "fader", 0 ],
-			"obj-14::obj-68" : [ "cue_3", "cue", 0 ],
-			"obj-14::obj-9" : [ "ON_3", "ON", 0 ],
-			"obj-15::obj-2" : [ "fader_4", "fader", 0 ],
-			"obj-15::obj-68" : [ "cue_4", "cue", 0 ],
-			"obj-15::obj-9" : [ "ON_4", "ON", 0 ],
-			"obj-77::obj-2" : [ "fader_1", "fader", 0 ],
-			"obj-77::obj-68" : [ "cue_1", "cue", 0 ],
-			"obj-77::obj-9" : [ "ON_1", "ON", 0 ],
-			"obj-9::obj-2" : [ "fader_2", "fader", 0 ],
-			"obj-9::obj-68" : [ "cue_2", "cue", 0 ],
-			"obj-9::obj-9" : [ "ON_2", "ON", 0 ],
+			"obj-14::obj-2" : [ "fader_d", "fader", 0 ],
+			"obj-14::obj-68" : [ "cue_d", "cue", 0 ],
+			"obj-14::obj-9" : [ "ON_d", "ON", 0 ],
+			"obj-15::obj-2" : [ "fader_f", "fader", 0 ],
+			"obj-15::obj-68" : [ "cue_f", "cue", 0 ],
+			"obj-15::obj-9" : [ "ON_f", "ON", 0 ],
+			"obj-77::obj-2" : [ "fader_a", "fader", 0 ],
+			"obj-77::obj-68" : [ "cue_a", "cue", 0 ],
+			"obj-77::obj-9" : [ "ON_a", "ON", 0 ],
+			"obj-9::obj-2" : [ "fader_s", "fader", 0 ],
+			"obj-9::obj-68" : [ "cue_s", "cue", 0 ],
+			"obj-9::obj-9" : [ "ON_s", "ON", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -505,51 +505,51 @@
 ,
 			"parameter_overrides" : 			{
 				"obj-14::obj-2" : 				{
-					"parameter_longname" : "fader_3"
+					"parameter_longname" : "fader_d"
 				}
 ,
 				"obj-14::obj-68" : 				{
-					"parameter_longname" : "cue_3"
+					"parameter_longname" : "cue_d"
 				}
 ,
 				"obj-14::obj-9" : 				{
-					"parameter_longname" : "ON_3"
+					"parameter_longname" : "ON_d"
 				}
 ,
 				"obj-15::obj-2" : 				{
-					"parameter_longname" : "fader_4"
+					"parameter_longname" : "fader_f"
 				}
 ,
 				"obj-15::obj-68" : 				{
-					"parameter_longname" : "cue_4"
+					"parameter_longname" : "cue_f"
 				}
 ,
 				"obj-15::obj-9" : 				{
-					"parameter_longname" : "ON_4"
+					"parameter_longname" : "ON_f"
 				}
 ,
 				"obj-77::obj-2" : 				{
-					"parameter_longname" : "fader_1"
+					"parameter_longname" : "fader_a"
 				}
 ,
 				"obj-77::obj-68" : 				{
-					"parameter_longname" : "cue_1"
+					"parameter_longname" : "cue_a"
 				}
 ,
 				"obj-77::obj-9" : 				{
-					"parameter_longname" : "ON_1"
+					"parameter_longname" : "ON_a"
 				}
 ,
 				"obj-9::obj-2" : 				{
-					"parameter_longname" : "fader_2"
+					"parameter_longname" : "fader_s"
 				}
 ,
 				"obj-9::obj-68" : 				{
-					"parameter_longname" : "cue_2"
+					"parameter_longname" : "cue_s"
 				}
 ,
 				"obj-9::obj-9" : 				{
-					"parameter_longname" : "ON_2"
+					"parameter_longname" : "ON_s"
 				}
 
 			}
@@ -561,6 +561,12 @@
 				"name" : "MIX_fader.maxpat",
 				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
