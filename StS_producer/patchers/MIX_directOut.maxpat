@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 1047.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"openrect" : [ 0.0, 0.0, 168.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -42,12 +42,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1021.0, 133.0, 59.0, 22.0 ],
+					"text" : "r levelDO"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1085.0, 634.0, 35.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "OSC"
 				}
 
@@ -56,7 +67,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-23",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -68,7 +79,7 @@
 				"box" : 				{
 					"comment" : "OUT8",
 					"id" : "obj-8",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -80,7 +91,7 @@
 				"box" : 				{
 					"comment" : "OUT7",
 					"id" : "obj-7",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -92,7 +103,7 @@
 				"box" : 				{
 					"comment" : "OUT6",
 					"id" : "obj-6",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -115,7 +126,7 @@
 				"box" : 				{
 					"comment" : "OUT5",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -127,7 +138,7 @@
 				"box" : 				{
 					"comment" : "cue OUT",
 					"id" : "obj-2",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -375,6 +386,42 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 1 ],
+					"midpoints" : [ 1030.5, 192.0, 812.5, 192.0 ],
+					"order" : 2,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"midpoints" : [ 1030.5, 192.0, 937.5, 192.0 ],
+					"order" : 3,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 1 ],
+					"midpoints" : [ 1030.5, 192.0, 564.0, 192.0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"midpoints" : [ 1030.5, 192.0, 687.5, 192.0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
@@ -433,7 +480,92 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-14::obj-2" : [ "fader_3", "fader", 0 ],
+			"obj-14::obj-68" : [ "cue_3", "cue", 0 ],
+			"obj-14::obj-9" : [ "ON_3", "ON", 0 ],
+			"obj-15::obj-2" : [ "fader_4", "fader", 0 ],
+			"obj-15::obj-68" : [ "cue_4", "cue", 0 ],
+			"obj-15::obj-9" : [ "ON_4", "ON", 0 ],
+			"obj-77::obj-2" : [ "fader_1", "fader", 0 ],
+			"obj-77::obj-68" : [ "cue_1", "cue", 0 ],
+			"obj-77::obj-9" : [ "ON_1", "ON", 0 ],
+			"obj-9::obj-2" : [ "fader_2", "fader", 0 ],
+			"obj-9::obj-68" : [ "cue_2", "cue", 0 ],
+			"obj-9::obj-9" : [ "ON_2", "ON", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-14::obj-2" : 				{
+					"parameter_longname" : "fader_3"
+				}
+,
+				"obj-14::obj-68" : 				{
+					"parameter_longname" : "cue_3"
+				}
+,
+				"obj-14::obj-9" : 				{
+					"parameter_longname" : "ON_3"
+				}
+,
+				"obj-15::obj-2" : 				{
+					"parameter_longname" : "fader_4"
+				}
+,
+				"obj-15::obj-68" : 				{
+					"parameter_longname" : "cue_4"
+				}
+,
+				"obj-15::obj-9" : 				{
+					"parameter_longname" : "ON_4"
+				}
+,
+				"obj-77::obj-2" : 				{
+					"parameter_longname" : "fader_1"
+				}
+,
+				"obj-77::obj-68" : 				{
+					"parameter_longname" : "cue_1"
+				}
+,
+				"obj-77::obj-9" : 				{
+					"parameter_longname" : "ON_1"
+				}
+,
+				"obj-9::obj-2" : 				{
+					"parameter_longname" : "fader_2"
+				}
+,
+				"obj-9::obj-68" : 				{
+					"parameter_longname" : "cue_2"
+				}
+,
+				"obj-9::obj-9" : 				{
+					"parameter_longname" : "ON_2"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "MIX_fader.maxpat",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
