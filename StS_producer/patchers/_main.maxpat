@@ -7003,228 +7003,198 @@
 			"obj-25.9::obj-23::obj-13::obj-161" : [ "cue.level[85]", "cue.level", 0 ],
 			"obj-25.9::obj-23::obj-39" : [ "live.text[259]", "live.text[1]", 0 ],
 			"obj-25.9::obj-4" : [ "live.text[69]", "live.text", 0 ],
-			"obj-2::obj-1::obj-4" : [ "live.dial[17]", "live.dial[1]", 0 ],
-			"obj-2::obj-20::obj-4" : [ "live.dial[19]", "live.dial[1]", 0 ],
-			"obj-2::obj-21::obj-4" : [ "live.dial[20]", "live.dial[1]", 0 ],
-			"obj-2::obj-22::obj-4" : [ "live.dial[24]", "live.dial[1]", 0 ],
-			"obj-2::obj-26::obj-4" : [ "live.dial[23]", "live.dial[1]", 0 ],
-			"obj-2::obj-27::obj-4" : [ "live.dial[22]", "live.dial[1]", 0 ],
-			"obj-2::obj-28::obj-4" : [ "live.dial[21]", "live.dial[1]", 0 ],
-			"obj-2::obj-29::obj-4" : [ "live.dial[32]", "live.dial[1]", 0 ],
-			"obj-2::obj-30::obj-4" : [ "live.dial[31]", "live.dial[1]", 0 ],
-			"obj-2::obj-31::obj-4" : [ "live.dial[30]", "live.dial[1]", 0 ],
-			"obj-2::obj-32::obj-4" : [ "live.dial[29]", "live.dial[1]", 0 ],
-			"obj-2::obj-33::obj-4" : [ "live.dial[28]", "live.dial[1]", 0 ],
-			"obj-2::obj-34::obj-4" : [ "live.dial[27]", "live.dial[1]", 0 ],
-			"obj-2::obj-35::obj-4" : [ "live.dial[26]", "live.dial[1]", 0 ],
-			"obj-2::obj-36::obj-4" : [ "live.dial[25]", "live.dial[1]", 0 ],
-			"obj-2::obj-3::obj-100" : [ "VST4_size[8]", "size", 0 ],
-			"obj-2::obj-3::obj-107" : [ "vst~[76]", "vst~[3]", 0 ],
-			"obj-2::obj-3::obj-111" : [ "VST2_HPF[8]", "live.text[8]", 0 ],
-			"obj-2::obj-3::obj-112" : [ "VST2_LPF[8]", "live.text[8]", 0 ],
-			"obj-2::obj-3::obj-113" : [ "VST2_HPFfreq[8]", "freq.", 0 ],
-			"obj-2::obj-3::obj-115" : [ "VST2_LPFfreq[8]", "freq.", 0 ],
-			"obj-2::obj-3::obj-116" : [ "VST2_LPFq[8]", "Q", 0 ],
-			"obj-2::obj-3::obj-119" : [ "VST2_HPFq[8]", "Q", 0 ],
-			"obj-2::obj-3::obj-11::obj-71" : [ "bCueIn[29]", "live.text", 0 ],
-			"obj-2::obj-3::obj-125" : [ "VST2_drywet[8]", "dry/wet", 0 ],
-			"obj-2::obj-3::obj-138" : [ "VST4_lowcut[8]", "low-cut", 0 ],
-			"obj-2::obj-3::obj-139" : [ "VST4_highcut[8]", "high-cut", 0 ],
-			"obj-2::obj-3::obj-143" : [ "VST4_damplow[8]", "live.text[10]", 0 ],
-			"obj-2::obj-3::obj-145" : [ "VST4_damphigh[8]", "live.text[10]", 0 ],
-			"obj-2::obj-3::obj-148" : [ "VST4_damplowfreq[8]", "freq.", 0 ],
-			"obj-2::obj-3::obj-150" : [ "VST2_HPFslope[1]", "VST2_HPFslope", 0 ],
-			"obj-2::obj-3::obj-156" : [ "VST2_LPFslope[1]", "umenu", 0 ],
-			"obj-2::obj-3::obj-15::obj-13" : [ "fGainOut[28]", "out", 0 ],
-			"obj-2::obj-3::obj-15::obj-71" : [ "bCueOut[36]", "live.text", 0 ],
-			"obj-2::obj-3::obj-170" : [ "VST1_LPF[8]", "live.text[8]", 0 ],
-			"obj-2::obj-3::obj-171" : [ "VST1_HPF[8]", "live.text[8]", 0 ],
-			"obj-2::obj-3::obj-196" : [ "VST4_predelay[1]", "slider", 0 ],
-			"obj-2::obj-3::obj-1::obj-13" : [ "fGainOut[27]", "out", 0 ],
-			"obj-2::obj-3::obj-1::obj-71" : [ "bCueOut[35]", "live.text", 0 ],
-			"obj-2::obj-3::obj-214" : [ "VST4_damphighfreq[8]", "freq.", 0 ],
-			"obj-2::obj-3::obj-23::obj-71" : [ "bCueIn[30]", "live.text", 0 ],
-			"obj-2::obj-3::obj-25::obj-13" : [ "fGainOut[29]", "out", 0 ],
-			"obj-2::obj-3::obj-25::obj-71" : [ "bCueOut[37]", "live.text", 0 ],
-			"obj-2::obj-3::obj-286" : [ "VST4_drywet[8]", "dry/wet", 0 ],
-			"obj-2::obj-3::obj-297" : [ "VST4_length[8]", "length", 0 ],
-			"obj-2::obj-3::obj-33" : [ "VST3_freeze[8]", "live.text[12]", 0 ],
-			"obj-2::obj-3::obj-35::obj-13" : [ "fGainOut[26]", "out", 0 ],
-			"obj-2::obj-3::obj-35::obj-71" : [ "bCueOut[34]", "live.text", 0 ],
-			"obj-2::obj-3::obj-38" : [ "bDelTap[18]", "tap", 0 ],
-			"obj-2::obj-3::obj-42" : [ "VST3_time[1]", "slider", 0 ],
-			"obj-2::obj-3::obj-5" : [ "vst~[77]", "vst~", 0 ],
-			"obj-2::obj-3::obj-51" : [ "VST3_drywet[8]", "dry/wet", 0 ],
-			"obj-2::obj-3::obj-52" : [ "VST3_mode[8]", "live.tab", 0 ],
-			"obj-2::obj-3::obj-65::obj-71" : [ "bCueIn[27]", "live.text", 0 ],
-			"obj-2::obj-3::obj-66::obj-71" : [ "bCueIn[28]", "live.text", 0 ],
-			"obj-2::obj-3::obj-69" : [ "VST3_feedback[8]", "feedback", 0 ],
-			"obj-2::obj-3::obj-85" : [ "vst~[74]", "vst~[1]", 0 ],
-			"obj-2::obj-3::obj-86" : [ "vst~[75]", "vst~[1]", 0 ],
-			"obj-2::obj-3::obj-92" : [ "amxd~[100]", "live.text", 0 ],
-			"obj-2::obj-3::obj-93" : [ "VST1_threshold[1]", "VST1_threshold", 0 ],
-			"obj-2::obj-3::obj-97" : [ "amxd~[99]", "live.text", 0 ],
-			"obj-2::obj-3::obj-98" : [ "amxd~[102]", "live.text", 0 ],
-			"obj-2::obj-3::obj-99" : [ "amxd~[101]", "live.text", 0 ],
-			"obj-2::obj-4::obj-100" : [ "VST4_size[9]", "size", 0 ],
-			"obj-2::obj-4::obj-107" : [ "vst~[81]", "vst~[3]", 0 ],
-			"obj-2::obj-4::obj-111" : [ "VST2_HPF[9]", "live.text[8]", 0 ],
-			"obj-2::obj-4::obj-112" : [ "VST2_LPF[9]", "live.text[8]", 0 ],
-			"obj-2::obj-4::obj-113" : [ "VST2_HPFfreq[9]", "freq.", 0 ],
-			"obj-2::obj-4::obj-115" : [ "VST2_LPFfreq[9]", "freq.", 0 ],
-			"obj-2::obj-4::obj-116" : [ "VST2_LPFq[9]", "Q", 0 ],
-			"obj-2::obj-4::obj-119" : [ "VST2_HPFq[9]", "Q", 0 ],
-			"obj-2::obj-4::obj-11::obj-71" : [ "bCueIn[33]", "live.text", 0 ],
-			"obj-2::obj-4::obj-125" : [ "VST2_drywet[9]", "dry/wet", 0 ],
-			"obj-2::obj-4::obj-138" : [ "VST4_lowcut[9]", "low-cut", 0 ],
-			"obj-2::obj-4::obj-139" : [ "VST4_highcut[9]", "high-cut", 0 ],
-			"obj-2::obj-4::obj-143" : [ "VST4_damplow[9]", "live.text[10]", 0 ],
-			"obj-2::obj-4::obj-145" : [ "VST4_damphigh[9]", "live.text[10]", 0 ],
-			"obj-2::obj-4::obj-148" : [ "VST4_damplowfreq[9]", "freq.", 0 ],
-			"obj-2::obj-4::obj-150" : [ "VST2_HPFslope[18]", "VST2_HPFslope", 0 ],
-			"obj-2::obj-4::obj-156" : [ "VST2_LPFslope[18]", "umenu", 0 ],
-			"obj-2::obj-4::obj-15::obj-13" : [ "fGainOut[32]", "out", 0 ],
-			"obj-2::obj-4::obj-15::obj-71" : [ "bCueOut[40]", "live.text", 0 ],
-			"obj-2::obj-4::obj-170" : [ "VST1_LPF[9]", "live.text[8]", 0 ],
-			"obj-2::obj-4::obj-171" : [ "VST1_HPF[9]", "live.text[8]", 0 ],
-			"obj-2::obj-4::obj-196" : [ "VST4_predelay[18]", "slider", 0 ],
-			"obj-2::obj-4::obj-1::obj-13" : [ "fGainOut[31]", "out", 0 ],
-			"obj-2::obj-4::obj-1::obj-71" : [ "bCueOut[39]", "live.text", 0 ],
-			"obj-2::obj-4::obj-214" : [ "VST4_damphighfreq[9]", "freq.", 0 ],
-			"obj-2::obj-4::obj-23::obj-71" : [ "bCueIn[34]", "live.text", 0 ],
-			"obj-2::obj-4::obj-25::obj-13" : [ "fGainOut[33]", "out", 0 ],
-			"obj-2::obj-4::obj-25::obj-71" : [ "bCueOut[41]", "live.text", 0 ],
-			"obj-2::obj-4::obj-286" : [ "VST4_drywet[9]", "dry/wet", 0 ],
-			"obj-2::obj-4::obj-297" : [ "VST4_length[9]", "length", 0 ],
-			"obj-2::obj-4::obj-33" : [ "VST3_freeze[9]", "live.text[12]", 0 ],
-			"obj-2::obj-4::obj-35::obj-13" : [ "fGainOut[30]", "out", 0 ],
-			"obj-2::obj-4::obj-35::obj-71" : [ "bCueOut[38]", "live.text", 0 ],
-			"obj-2::obj-4::obj-38" : [ "bDelTap[19]", "tap", 0 ],
-			"obj-2::obj-4::obj-42" : [ "VST3_time[18]", "slider", 0 ],
-			"obj-2::obj-4::obj-5" : [ "vst~[79]", "vst~", 0 ],
-			"obj-2::obj-4::obj-51" : [ "VST3_drywet[9]", "dry/wet", 0 ],
-			"obj-2::obj-4::obj-52" : [ "VST3_mode[9]", "live.tab", 0 ],
-			"obj-2::obj-4::obj-65::obj-71" : [ "bCueIn[31]", "live.text", 0 ],
-			"obj-2::obj-4::obj-66::obj-71" : [ "bCueIn[32]", "live.text", 0 ],
-			"obj-2::obj-4::obj-69" : [ "VST3_feedback[9]", "feedback", 0 ],
-			"obj-2::obj-4::obj-85" : [ "vst~[78]", "vst~[1]", 0 ],
-			"obj-2::obj-4::obj-86" : [ "vst~[80]", "vst~[1]", 0 ],
-			"obj-2::obj-4::obj-92" : [ "amxd~[106]", "live.text", 0 ],
-			"obj-2::obj-4::obj-93" : [ "VST1_threshold[18]", "VST1_threshold", 0 ],
-			"obj-2::obj-4::obj-97" : [ "amxd~[103]", "live.text", 0 ],
-			"obj-2::obj-4::obj-98" : [ "amxd~[104]", "live.text", 0 ],
-			"obj-2::obj-4::obj-99" : [ "amxd~[105]", "live.text", 0 ],
-			"obj-2::obj-5::obj-100" : [ "VST4_size[10]", "size", 0 ],
-			"obj-2::obj-5::obj-107" : [ "vst~[12]", "vst~[3]", 0 ],
-			"obj-2::obj-5::obj-111" : [ "VST2_HPF[10]", "live.text[8]", 0 ],
-			"obj-2::obj-5::obj-112" : [ "VST2_LPF[10]", "live.text[8]", 0 ],
-			"obj-2::obj-5::obj-113" : [ "VST2_HPFfreq[10]", "freq.", 0 ],
-			"obj-2::obj-5::obj-115" : [ "VST2_LPFfreq[10]", "freq.", 0 ],
-			"obj-2::obj-5::obj-116" : [ "VST2_LPFq[10]", "Q", 0 ],
-			"obj-2::obj-5::obj-119" : [ "VST2_HPFq[10]", "Q", 0 ],
-			"obj-2::obj-5::obj-11::obj-71" : [ "bCueIn[37]", "live.text", 0 ],
-			"obj-2::obj-5::obj-125" : [ "VST2_drywet[10]", "dry/wet", 0 ],
-			"obj-2::obj-5::obj-138" : [ "VST4_lowcut[10]", "low-cut", 0 ],
-			"obj-2::obj-5::obj-139" : [ "VST4_highcut[10]", "high-cut", 0 ],
-			"obj-2::obj-5::obj-143" : [ "VST4_damplow[10]", "live.text[10]", 0 ],
-			"obj-2::obj-5::obj-145" : [ "VST4_damphigh[10]", "live.text[10]", 0 ],
-			"obj-2::obj-5::obj-148" : [ "VST4_damplowfreq[10]", "freq.", 0 ],
-			"obj-2::obj-5::obj-150" : [ "VST2_HPFslope[19]", "VST2_HPFslope", 0 ],
-			"obj-2::obj-5::obj-156" : [ "VST2_LPFslope[19]", "umenu", 0 ],
-			"obj-2::obj-5::obj-15::obj-13" : [ "fGainOut[36]", "out", 0 ],
-			"obj-2::obj-5::obj-15::obj-71" : [ "bCueOut[44]", "live.text", 0 ],
-			"obj-2::obj-5::obj-170" : [ "VST1_LPF[10]", "live.text[8]", 0 ],
-			"obj-2::obj-5::obj-171" : [ "VST1_HPF[10]", "live.text[8]", 0 ],
-			"obj-2::obj-5::obj-196" : [ "VST4_predelay[19]", "slider", 0 ],
-			"obj-2::obj-5::obj-1::obj-13" : [ "fGainOut[35]", "out", 0 ],
-			"obj-2::obj-5::obj-1::obj-71" : [ "bCueOut[43]", "live.text", 0 ],
-			"obj-2::obj-5::obj-214" : [ "VST4_damphighfreq[10]", "freq.", 0 ],
-			"obj-2::obj-5::obj-23::obj-71" : [ "bCueIn[38]", "live.text", 0 ],
-			"obj-2::obj-5::obj-25::obj-13" : [ "fGainOut[37]", "out", 0 ],
-			"obj-2::obj-5::obj-25::obj-71" : [ "bCueOut[45]", "live.text", 0 ],
-			"obj-2::obj-5::obj-286" : [ "VST4_drywet[10]", "dry/wet", 0 ],
-			"obj-2::obj-5::obj-297" : [ "VST4_length[10]", "length", 0 ],
-			"obj-2::obj-5::obj-33" : [ "VST3_freeze[10]", "live.text[12]", 0 ],
-			"obj-2::obj-5::obj-35::obj-13" : [ "fGainOut[34]", "out", 0 ],
-			"obj-2::obj-5::obj-35::obj-71" : [ "bCueOut[42]", "live.text", 0 ],
-			"obj-2::obj-5::obj-38" : [ "bDelTap[3]", "tap", 0 ],
-			"obj-2::obj-5::obj-42" : [ "VST3_time[19]", "slider", 0 ],
-			"obj-2::obj-5::obj-5" : [ "vst~[10]", "vst~", 0 ],
-			"obj-2::obj-5::obj-51" : [ "VST3_drywet[10]", "dry/wet", 0 ],
-			"obj-2::obj-5::obj-52" : [ "VST3_mode[10]", "live.tab", 0 ],
-			"obj-2::obj-5::obj-65::obj-71" : [ "bCueIn[35]", "live.text", 0 ],
-			"obj-2::obj-5::obj-66::obj-71" : [ "bCueIn[36]", "live.text", 0 ],
-			"obj-2::obj-5::obj-69" : [ "VST3_feedback[10]", "feedback", 0 ],
-			"obj-2::obj-5::obj-85" : [ "vst~[11]", "vst~[1]", 0 ],
-			"obj-2::obj-5::obj-86" : [ "vst~[9]", "vst~[1]", 0 ],
-			"obj-2::obj-5::obj-92" : [ "amxd~[108]", "live.text", 0 ],
-			"obj-2::obj-5::obj-93" : [ "VST1_threshold[19]", "VST1_threshold", 0 ],
-			"obj-2::obj-5::obj-97" : [ "amxd~[109]", "live.text", 0 ],
-			"obj-2::obj-5::obj-98" : [ "amxd~[110]", "live.text", 0 ],
-			"obj-2::obj-5::obj-99" : [ "amxd~[107]", "live.text", 0 ],
-			"obj-2::obj-6::obj-100" : [ "VST4_size[11]", "size", 0 ],
-			"obj-2::obj-6::obj-107" : [ "vst~[15]", "vst~[3]", 0 ],
-			"obj-2::obj-6::obj-111" : [ "VST2_HPF[11]", "live.text[8]", 0 ],
-			"obj-2::obj-6::obj-112" : [ "VST2_LPF[11]", "live.text[8]", 0 ],
-			"obj-2::obj-6::obj-113" : [ "VST2_HPFfreq[11]", "freq.", 0 ],
-			"obj-2::obj-6::obj-115" : [ "VST2_LPFfreq[11]", "freq.", 0 ],
-			"obj-2::obj-6::obj-116" : [ "VST2_LPFq[11]", "Q", 0 ],
-			"obj-2::obj-6::obj-119" : [ "VST2_HPFq[11]", "Q", 0 ],
-			"obj-2::obj-6::obj-11::obj-71" : [ "bCueIn[41]", "live.text", 0 ],
-			"obj-2::obj-6::obj-125" : [ "VST2_drywet[11]", "dry/wet", 0 ],
-			"obj-2::obj-6::obj-138" : [ "VST4_lowcut[11]", "low-cut", 0 ],
-			"obj-2::obj-6::obj-139" : [ "VST4_highcut[11]", "high-cut", 0 ],
-			"obj-2::obj-6::obj-143" : [ "VST4_damplow[11]", "live.text[10]", 0 ],
-			"obj-2::obj-6::obj-145" : [ "VST4_damphigh[11]", "live.text[10]", 0 ],
-			"obj-2::obj-6::obj-148" : [ "VST4_damplowfreq[11]", "freq.", 0 ],
-			"obj-2::obj-6::obj-150" : [ "VST2_HPFslope[20]", "VST2_HPFslope", 0 ],
-			"obj-2::obj-6::obj-156" : [ "VST2_LPFslope[20]", "umenu", 0 ],
-			"obj-2::obj-6::obj-15::obj-13" : [ "fGainOut[40]", "out", 0 ],
-			"obj-2::obj-6::obj-15::obj-71" : [ "bCueOut[48]", "live.text", 0 ],
-			"obj-2::obj-6::obj-170" : [ "VST1_LPF[11]", "live.text[8]", 0 ],
-			"obj-2::obj-6::obj-171" : [ "VST1_HPF[11]", "live.text[8]", 0 ],
-			"obj-2::obj-6::obj-196" : [ "VST4_predelay[20]", "slider", 0 ],
-			"obj-2::obj-6::obj-1::obj-13" : [ "fGainOut[39]", "out", 0 ],
-			"obj-2::obj-6::obj-1::obj-71" : [ "bCueOut[47]", "live.text", 0 ],
-			"obj-2::obj-6::obj-214" : [ "VST4_damphighfreq[11]", "freq.", 0 ],
-			"obj-2::obj-6::obj-23::obj-71" : [ "bCueIn[42]", "live.text", 0 ],
-			"obj-2::obj-6::obj-25::obj-13" : [ "fGainOut[41]", "out", 0 ],
-			"obj-2::obj-6::obj-25::obj-71" : [ "bCueOut[69]", "live.text", 0 ],
-			"obj-2::obj-6::obj-286" : [ "VST4_drywet[11]", "dry/wet", 0 ],
-			"obj-2::obj-6::obj-297" : [ "VST4_length[11]", "length", 0 ],
-			"obj-2::obj-6::obj-33" : [ "VST3_freeze[11]", "live.text[12]", 0 ],
-			"obj-2::obj-6::obj-35::obj-13" : [ "fGainOut[38]", "out", 0 ],
-			"obj-2::obj-6::obj-35::obj-71" : [ "bCueOut[46]", "live.text", 0 ],
-			"obj-2::obj-6::obj-38" : [ "bDelTap[20]", "tap", 0 ],
-			"obj-2::obj-6::obj-42" : [ "VST3_time[20]", "slider", 0 ],
-			"obj-2::obj-6::obj-5" : [ "vst~[16]", "vst~", 0 ],
-			"obj-2::obj-6::obj-51" : [ "VST3_drywet[11]", "dry/wet", 0 ],
-			"obj-2::obj-6::obj-52" : [ "VST3_mode[11]", "live.tab", 0 ],
-			"obj-2::obj-6::obj-65::obj-71" : [ "bCueIn[39]", "live.text", 0 ],
-			"obj-2::obj-6::obj-66::obj-71" : [ "bCueIn[40]", "live.text", 0 ],
-			"obj-2::obj-6::obj-69" : [ "VST3_feedback[11]", "feedback", 0 ],
-			"obj-2::obj-6::obj-85" : [ "vst~[14]", "vst~[1]", 0 ],
-			"obj-2::obj-6::obj-86" : [ "vst~[13]", "vst~[1]", 0 ],
-			"obj-2::obj-6::obj-92" : [ "amxd~[113]", "live.text", 0 ],
-			"obj-2::obj-6::obj-93" : [ "VST1_threshold[20]", "VST1_threshold", 0 ],
-			"obj-2::obj-6::obj-97" : [ "amxd~[114]", "live.text", 0 ],
-			"obj-2::obj-6::obj-98" : [ "amxd~[112]", "live.text", 0 ],
-			"obj-2::obj-6::obj-99" : [ "amxd~[111]", "live.text", 0 ],
-			"obj-2::obj-8::obj-4" : [ "live.dial[18]", "live.dial[1]", 0 ],
-			"obj-54::obj-10::obj-4" : [ "live.dial[4]", "live.dial[1]", 0 ],
-			"obj-54::obj-11::obj-4" : [ "live.dial[3]", "live.dial[1]", 0 ],
-			"obj-54::obj-15::obj-4" : [ "live.dial[8]", "live.dial[1]", 0 ],
-			"obj-54::obj-16::obj-4" : [ "live.dial[7]", "live.dial[1]", 0 ],
-			"obj-54::obj-17::obj-4" : [ "live.dial[6]", "live.dial[1]", 0 ],
-			"obj-54::obj-20::obj-4" : [ "live.dial[5]", "live.dial[1]", 0 ],
-			"obj-54::obj-21::obj-4" : [ "live.dial[16]", "live.dial[1]", 0 ],
-			"obj-54::obj-24::obj-4" : [ "live.dial[15]", "live.dial[1]", 0 ],
-			"obj-54::obj-25::obj-4" : [ "live.dial[14]", "live.dial[1]", 0 ],
-			"obj-54::obj-26::obj-4" : [ "live.dial[13]", "live.dial[1]", 0 ],
-			"obj-54::obj-27::obj-4" : [ "live.dial[12]", "live.dial[1]", 0 ],
-			"obj-54::obj-28::obj-4" : [ "live.dial[11]", "live.dial[1]", 0 ],
-			"obj-54::obj-29::obj-4" : [ "live.dial[10]", "live.dial[1]", 0 ],
-			"obj-54::obj-30::obj-4" : [ "live.dial[9]", "live.dial[1]", 0 ],
+			"obj-2::obj-3::obj-100" : [ "VST4_size[1]", "size", 0 ],
+			"obj-2::obj-3::obj-107" : [ "vst~[100]", "vst~[3]", 0 ],
+			"obj-2::obj-3::obj-111" : [ "VST2_HPF[1]", "live.text[8]", 0 ],
+			"obj-2::obj-3::obj-112" : [ "VST2_LPF[1]", "live.text[8]", 0 ],
+			"obj-2::obj-3::obj-113" : [ "VST2_HPFfreq[1]", "freq.", 0 ],
+			"obj-2::obj-3::obj-115" : [ "VST2_LPFfreq[1]", "freq.", 0 ],
+			"obj-2::obj-3::obj-116" : [ "VST2_LPFq[1]", "Q", 0 ],
+			"obj-2::obj-3::obj-119" : [ "VST2_HPFq[1]", "Q", 0 ],
+			"obj-2::obj-3::obj-11::obj-71" : [ "bCueIn[3]", "live.text", 0 ],
+			"obj-2::obj-3::obj-125" : [ "VST2_drywet[1]", "dry/wet", 0 ],
+			"obj-2::obj-3::obj-138" : [ "VST4_lowcut[1]", "low-cut", 0 ],
+			"obj-2::obj-3::obj-139" : [ "VST4_highcut[1]", "high-cut", 0 ],
+			"obj-2::obj-3::obj-143" : [ "VST4_damplow[1]", "live.text[10]", 0 ],
+			"obj-2::obj-3::obj-145" : [ "VST4_damphigh[1]", "live.text[10]", 0 ],
+			"obj-2::obj-3::obj-148" : [ "VST4_damplowfreq[1]", "freq.", 0 ],
+			"obj-2::obj-3::obj-150" : [ "VST2_HPFslope[9]", "VST2_HPFslope", 0 ],
+			"obj-2::obj-3::obj-156" : [ "VST2_LPFslope[9]", "umenu", 0 ],
+			"obj-2::obj-3::obj-15::obj-13" : [ "fGainOut[85]", "out", 0 ],
+			"obj-2::obj-3::obj-15::obj-71" : [ "bCueOut[86]", "live.text", 0 ],
+			"obj-2::obj-3::obj-170" : [ "VST1_LPF[1]", "live.text[8]", 0 ],
+			"obj-2::obj-3::obj-171" : [ "VST1_HPF[1]", "live.text[8]", 0 ],
+			"obj-2::obj-3::obj-196" : [ "VST4_predelay[9]", "slider", 0 ],
+			"obj-2::obj-3::obj-1::obj-13" : [ "fGainOut[84]", "out", 0 ],
+			"obj-2::obj-3::obj-1::obj-71" : [ "bCueOut[85]", "live.text", 0 ],
+			"obj-2::obj-3::obj-214" : [ "VST4_damphighfreq[1]", "freq.", 0 ],
+			"obj-2::obj-3::obj-23::obj-71" : [ "bCueIn[4]", "live.text", 0 ],
+			"obj-2::obj-3::obj-25::obj-13" : [ "fGainOut[86]", "out", 0 ],
+			"obj-2::obj-3::obj-25::obj-71" : [ "bCueOut[87]", "live.text", 0 ],
+			"obj-2::obj-3::obj-286" : [ "VST4_drywet[1]", "dry/wet", 0 ],
+			"obj-2::obj-3::obj-297" : [ "VST4_length[1]", "length", 0 ],
+			"obj-2::obj-3::obj-33" : [ "VST3_freeze[1]", "live.text[12]", 0 ],
+			"obj-2::obj-3::obj-35::obj-13" : [ "fGainOut[83]", "out", 0 ],
+			"obj-2::obj-3::obj-35::obj-71" : [ "bCueOut[84]", "live.text", 0 ],
+			"obj-2::obj-3::obj-38" : [ "bDelTap[26]", "tap", 0 ],
+			"obj-2::obj-3::obj-42" : [ "VST3_time[9]", "slider", 0 ],
+			"obj-2::obj-3::obj-5" : [ "vst~[101]", "vst~", 0 ],
+			"obj-2::obj-3::obj-51" : [ "VST3_drywet[1]", "dry/wet", 0 ],
+			"obj-2::obj-3::obj-52" : [ "VST3_mode[1]", "live.tab", 0 ],
+			"obj-2::obj-3::obj-65::obj-71" : [ "bCueIn[1]", "live.text", 0 ],
+			"obj-2::obj-3::obj-66::obj-71" : [ "bCueIn[2]", "live.text", 0 ],
+			"obj-2::obj-3::obj-69" : [ "VST3_feedback[1]", "feedback", 0 ],
+			"obj-2::obj-3::obj-85" : [ "vst~[102]", "vst~[1]", 0 ],
+			"obj-2::obj-3::obj-86" : [ "vst~[1]", "vst~[1]", 0 ],
+			"obj-2::obj-3::obj-92" : [ "amxd~[22]", "live.text", 0 ],
+			"obj-2::obj-3::obj-93" : [ "VST1_threshold[9]", "VST1_threshold", 0 ],
+			"obj-2::obj-3::obj-97" : [ "amxd~[23]", "live.text", 0 ],
+			"obj-2::obj-3::obj-98" : [ "amxd~[24]", "live.text", 0 ],
+			"obj-2::obj-3::obj-99" : [ "amxd~[25]", "live.text", 0 ],
+			"obj-2::obj-4::obj-100" : [ "VST4_size[19]", "size", 0 ],
+			"obj-2::obj-4::obj-107" : [ "vst~[104]", "vst~[3]", 0 ],
+			"obj-2::obj-4::obj-111" : [ "VST2_HPF[2]", "live.text[8]", 0 ],
+			"obj-2::obj-4::obj-112" : [ "VST2_LPF[19]", "live.text[8]", 0 ],
+			"obj-2::obj-4::obj-113" : [ "VST2_HPFfreq[19]", "freq.", 0 ],
+			"obj-2::obj-4::obj-115" : [ "VST2_LPFfreq[19]", "freq.", 0 ],
+			"obj-2::obj-4::obj-116" : [ "VST2_LPFq[19]", "Q", 0 ],
+			"obj-2::obj-4::obj-119" : [ "VST2_HPFq[19]", "Q", 0 ],
+			"obj-2::obj-4::obj-11::obj-71" : [ "bCueIn[76]", "live.text", 0 ],
+			"obj-2::obj-4::obj-125" : [ "VST2_drywet[2]", "dry/wet", 0 ],
+			"obj-2::obj-4::obj-138" : [ "VST4_lowcut[2]", "low-cut", 0 ],
+			"obj-2::obj-4::obj-139" : [ "VST4_highcut[19]", "high-cut", 0 ],
+			"obj-2::obj-4::obj-143" : [ "VST4_damplow[19]", "live.text[10]", 0 ],
+			"obj-2::obj-4::obj-145" : [ "VST4_damphigh[2]", "live.text[10]", 0 ],
+			"obj-2::obj-4::obj-148" : [ "VST4_damplowfreq[2]", "freq.", 0 ],
+			"obj-2::obj-4::obj-150" : [ "VST2_HPFslope[10]", "VST2_HPFslope", 0 ],
+			"obj-2::obj-4::obj-156" : [ "VST2_LPFslope[10]", "umenu", 0 ],
+			"obj-2::obj-4::obj-15::obj-13" : [ "fGainOut[89]", "out", 0 ],
+			"obj-2::obj-4::obj-15::obj-71" : [ "bCueOut[90]", "live.text", 0 ],
+			"obj-2::obj-4::obj-170" : [ "VST1_LPF[19]", "live.text[8]", 0 ],
+			"obj-2::obj-4::obj-171" : [ "VST1_HPF[19]", "live.text[8]", 0 ],
+			"obj-2::obj-4::obj-196" : [ "VST4_predelay[10]", "slider", 0 ],
+			"obj-2::obj-4::obj-1::obj-13" : [ "fGainOut[88]", "out", 0 ],
+			"obj-2::obj-4::obj-1::obj-71" : [ "bCueOut[89]", "live.text", 0 ],
+			"obj-2::obj-4::obj-214" : [ "VST4_damphighfreq[19]", "freq.", 0 ],
+			"obj-2::obj-4::obj-23::obj-71" : [ "bCueIn[77]", "live.text", 0 ],
+			"obj-2::obj-4::obj-25::obj-13" : [ "fGainOut[90]", "out", 0 ],
+			"obj-2::obj-4::obj-25::obj-71" : [ "bCueOut[91]", "live.text", 0 ],
+			"obj-2::obj-4::obj-286" : [ "VST4_drywet[19]", "dry/wet", 0 ],
+			"obj-2::obj-4::obj-297" : [ "VST4_length[19]", "length", 0 ],
+			"obj-2::obj-4::obj-33" : [ "VST3_freeze[19]", "live.text[12]", 0 ],
+			"obj-2::obj-4::obj-35::obj-13" : [ "fGainOut[87]", "out", 0 ],
+			"obj-2::obj-4::obj-35::obj-71" : [ "bCueOut[88]", "live.text", 0 ],
+			"obj-2::obj-4::obj-38" : [ "bDelTap[27]", "tap", 0 ],
+			"obj-2::obj-4::obj-42" : [ "VST3_time[10]", "slider", 0 ],
+			"obj-2::obj-4::obj-5" : [ "vst~[106]", "vst~", 0 ],
+			"obj-2::obj-4::obj-51" : [ "VST3_drywet[2]", "dry/wet", 0 ],
+			"obj-2::obj-4::obj-52" : [ "VST3_mode[19]", "live.tab", 0 ],
+			"obj-2::obj-4::obj-65::obj-71" : [ "bCueIn[74]", "live.text", 0 ],
+			"obj-2::obj-4::obj-66::obj-71" : [ "bCueIn[75]", "live.text", 0 ],
+			"obj-2::obj-4::obj-69" : [ "VST3_feedback[2]", "feedback", 0 ],
+			"obj-2::obj-4::obj-85" : [ "vst~[105]", "vst~[1]", 0 ],
+			"obj-2::obj-4::obj-86" : [ "vst~[103]", "vst~[1]", 0 ],
+			"obj-2::obj-4::obj-92" : [ "amxd~[29]", "live.text", 0 ],
+			"obj-2::obj-4::obj-93" : [ "VST1_threshold[10]", "VST1_threshold", 0 ],
+			"obj-2::obj-4::obj-97" : [ "amxd~[26]", "live.text", 0 ],
+			"obj-2::obj-4::obj-98" : [ "amxd~[27]", "live.text", 0 ],
+			"obj-2::obj-4::obj-99" : [ "amxd~[28]", "live.text", 0 ],
+			"obj-2::obj-5::obj-100" : [ "VST4_size[20]", "size", 0 ],
+			"obj-2::obj-5::obj-107" : [ "vst~[107]", "vst~[3]", 0 ],
+			"obj-2::obj-5::obj-111" : [ "VST2_HPF[19]", "live.text[8]", 0 ],
+			"obj-2::obj-5::obj-112" : [ "VST2_LPF[20]", "live.text[8]", 0 ],
+			"obj-2::obj-5::obj-113" : [ "VST2_HPFfreq[20]", "freq.", 0 ],
+			"obj-2::obj-5::obj-115" : [ "VST2_LPFfreq[20]", "freq.", 0 ],
+			"obj-2::obj-5::obj-116" : [ "VST2_LPFq[20]", "Q", 0 ],
+			"obj-2::obj-5::obj-119" : [ "VST2_HPFq[20]", "Q", 0 ],
+			"obj-2::obj-5::obj-11::obj-71" : [ "bCueIn[80]", "live.text", 0 ],
+			"obj-2::obj-5::obj-125" : [ "VST2_drywet[19]", "dry/wet", 0 ],
+			"obj-2::obj-5::obj-138" : [ "VST4_lowcut[19]", "low-cut", 0 ],
+			"obj-2::obj-5::obj-139" : [ "VST4_highcut[20]", "high-cut", 0 ],
+			"obj-2::obj-5::obj-143" : [ "VST4_damplow[20]", "live.text[10]", 0 ],
+			"obj-2::obj-5::obj-145" : [ "VST4_damphigh[19]", "live.text[10]", 0 ],
+			"obj-2::obj-5::obj-148" : [ "VST4_damplowfreq[19]", "freq.", 0 ],
+			"obj-2::obj-5::obj-150" : [ "VST2_HPFslope[11]", "VST2_HPFslope", 0 ],
+			"obj-2::obj-5::obj-156" : [ "VST2_LPFslope[11]", "umenu", 0 ],
+			"obj-2::obj-5::obj-15::obj-13" : [ "fGainOut[65]", "out", 0 ],
+			"obj-2::obj-5::obj-15::obj-71" : [ "bCueOut[3]", "live.text", 0 ],
+			"obj-2::obj-5::obj-170" : [ "VST1_LPF[20]", "live.text[8]", 0 ],
+			"obj-2::obj-5::obj-171" : [ "VST1_HPF[20]", "live.text[8]", 0 ],
+			"obj-2::obj-5::obj-196" : [ "VST4_predelay[11]", "slider", 0 ],
+			"obj-2::obj-5::obj-1::obj-13" : [ "fGainOut[64]", "out", 0 ],
+			"obj-2::obj-5::obj-1::obj-71" : [ "bCueOut[2]", "live.text", 0 ],
+			"obj-2::obj-5::obj-214" : [ "VST4_damphighfreq[20]", "freq.", 0 ],
+			"obj-2::obj-5::obj-23::obj-71" : [ "bCueIn[81]", "live.text", 0 ],
+			"obj-2::obj-5::obj-25::obj-13" : [ "fGainOut[66]", "out", 0 ],
+			"obj-2::obj-5::obj-25::obj-71" : [ "bCueOut[4]", "live.text", 0 ],
+			"obj-2::obj-5::obj-286" : [ "VST4_drywet[20]", "dry/wet", 0 ],
+			"obj-2::obj-5::obj-297" : [ "VST4_length[20]", "length", 0 ],
+			"obj-2::obj-5::obj-33" : [ "VST3_freeze[20]", "live.text[12]", 0 ],
+			"obj-2::obj-5::obj-35::obj-13" : [ "fGainOut[63]", "out", 0 ],
+			"obj-2::obj-5::obj-35::obj-71" : [ "bCueOut[1]", "live.text", 0 ],
+			"obj-2::obj-5::obj-38" : [ "bDelTap[28]", "tap", 0 ],
+			"obj-2::obj-5::obj-42" : [ "VST3_time[11]", "slider", 0 ],
+			"obj-2::obj-5::obj-5" : [ "vst~[110]", "vst~", 0 ],
+			"obj-2::obj-5::obj-51" : [ "VST3_drywet[19]", "dry/wet", 0 ],
+			"obj-2::obj-5::obj-52" : [ "VST3_mode[20]", "live.tab", 0 ],
+			"obj-2::obj-5::obj-65::obj-71" : [ "bCueIn[78]", "live.text", 0 ],
+			"obj-2::obj-5::obj-66::obj-71" : [ "bCueIn[79]", "live.text", 0 ],
+			"obj-2::obj-5::obj-69" : [ "VST3_feedback[19]", "feedback", 0 ],
+			"obj-2::obj-5::obj-85" : [ "vst~[109]", "vst~[1]", 0 ],
+			"obj-2::obj-5::obj-86" : [ "vst~[108]", "vst~[1]", 0 ],
+			"obj-2::obj-5::obj-92" : [ "amxd~[31]", "live.text", 0 ],
+			"obj-2::obj-5::obj-93" : [ "VST1_threshold[11]", "VST1_threshold", 0 ],
+			"obj-2::obj-5::obj-97" : [ "amxd~[30]", "live.text", 0 ],
+			"obj-2::obj-5::obj-98" : [ "amxd~[32]", "live.text", 0 ],
+			"obj-2::obj-5::obj-99" : [ "amxd~[33]", "live.text", 0 ],
+			"obj-2::obj-6::obj-100" : [ "VST4_size[21]", "size", 0 ],
+			"obj-2::obj-6::obj-107" : [ "vst~[111]", "vst~[3]", 0 ],
+			"obj-2::obj-6::obj-111" : [ "VST2_HPF[20]", "live.text[8]", 0 ],
+			"obj-2::obj-6::obj-112" : [ "VST2_LPF[21]", "live.text[8]", 0 ],
+			"obj-2::obj-6::obj-113" : [ "VST2_HPFfreq[21]", "freq.", 0 ],
+			"obj-2::obj-6::obj-115" : [ "VST2_LPFfreq[21]", "freq.", 0 ],
+			"obj-2::obj-6::obj-116" : [ "VST2_LPFq[21]", "Q", 0 ],
+			"obj-2::obj-6::obj-119" : [ "VST2_HPFq[21]", "Q", 0 ],
+			"obj-2::obj-6::obj-11::obj-71" : [ "bCueIn[84]", "live.text", 0 ],
+			"obj-2::obj-6::obj-125" : [ "VST2_drywet[20]", "dry/wet", 0 ],
+			"obj-2::obj-6::obj-138" : [ "VST4_lowcut[20]", "low-cut", 0 ],
+			"obj-2::obj-6::obj-139" : [ "VST4_highcut[21]", "high-cut", 0 ],
+			"obj-2::obj-6::obj-143" : [ "VST4_damplow[21]", "live.text[10]", 0 ],
+			"obj-2::obj-6::obj-145" : [ "VST4_damphigh[20]", "live.text[10]", 0 ],
+			"obj-2::obj-6::obj-148" : [ "VST4_damplowfreq[20]", "freq.", 0 ],
+			"obj-2::obj-6::obj-150" : [ "VST2_HPFslope[12]", "VST2_HPFslope", 0 ],
+			"obj-2::obj-6::obj-156" : [ "VST2_LPFslope[12]", "umenu", 0 ],
+			"obj-2::obj-6::obj-15::obj-13" : [ "fGainOut[93]", "out", 0 ],
+			"obj-2::obj-6::obj-15::obj-71" : [ "bCueOut[94]", "live.text", 0 ],
+			"obj-2::obj-6::obj-170" : [ "VST1_LPF[21]", "live.text[8]", 0 ],
+			"obj-2::obj-6::obj-171" : [ "VST1_HPF[21]", "live.text[8]", 0 ],
+			"obj-2::obj-6::obj-196" : [ "VST4_predelay[12]", "slider", 0 ],
+			"obj-2::obj-6::obj-1::obj-13" : [ "fGainOut[92]", "out", 0 ],
+			"obj-2::obj-6::obj-1::obj-71" : [ "bCueOut[93]", "live.text", 0 ],
+			"obj-2::obj-6::obj-214" : [ "VST4_damphighfreq[21]", "freq.", 0 ],
+			"obj-2::obj-6::obj-23::obj-71" : [ "bCueIn[85]", "live.text", 0 ],
+			"obj-2::obj-6::obj-25::obj-13" : [ "fGainOut[94]", "out", 0 ],
+			"obj-2::obj-6::obj-25::obj-71" : [ "bCueOut[95]", "live.text", 0 ],
+			"obj-2::obj-6::obj-286" : [ "VST4_drywet[21]", "dry/wet", 0 ],
+			"obj-2::obj-6::obj-297" : [ "VST4_length[21]", "length", 0 ],
+			"obj-2::obj-6::obj-33" : [ "VST3_freeze[21]", "live.text[12]", 0 ],
+			"obj-2::obj-6::obj-35::obj-13" : [ "fGainOut[91]", "out", 0 ],
+			"obj-2::obj-6::obj-35::obj-71" : [ "bCueOut[92]", "live.text", 0 ],
+			"obj-2::obj-6::obj-38" : [ "bDelTap[29]", "tap", 0 ],
+			"obj-2::obj-6::obj-42" : [ "VST3_time[12]", "slider", 0 ],
+			"obj-2::obj-6::obj-5" : [ "vst~[112]", "vst~", 0 ],
+			"obj-2::obj-6::obj-51" : [ "VST3_drywet[20]", "dry/wet", 0 ],
+			"obj-2::obj-6::obj-52" : [ "VST3_mode[21]", "live.tab", 0 ],
+			"obj-2::obj-6::obj-65::obj-71" : [ "bCueIn[82]", "live.text", 0 ],
+			"obj-2::obj-6::obj-66::obj-71" : [ "bCueIn[83]", "live.text", 0 ],
+			"obj-2::obj-6::obj-69" : [ "VST3_feedback[20]", "feedback", 0 ],
+			"obj-2::obj-6::obj-85" : [ "vst~[114]", "vst~[1]", 0 ],
+			"obj-2::obj-6::obj-86" : [ "vst~[113]", "vst~[1]", 0 ],
+			"obj-2::obj-6::obj-92" : [ "amxd~[34]", "live.text", 0 ],
+			"obj-2::obj-6::obj-93" : [ "VST1_threshold[12]", "VST1_threshold", 0 ],
+			"obj-2::obj-6::obj-97" : [ "amxd~[35]", "live.text", 0 ],
+			"obj-2::obj-6::obj-98" : [ "amxd~[37]", "live.text", 0 ],
+			"obj-2::obj-6::obj-99" : [ "amxd~[36]", "live.text", 0 ],
 			"obj-54::obj-3::obj-100" : [ "VST4_size", "size", 0 ],
 			"obj-54::obj-3::obj-107" : [ "vst~[61]", "vst~[3]", 0 ],
 			"obj-54::obj-3::obj-111" : [ "VST2_HPF", "live.text[8]", 0 ],
@@ -7233,7 +7203,7 @@
 			"obj-54::obj-3::obj-115" : [ "VST2_LPFfreq", "freq.", 0 ],
 			"obj-54::obj-3::obj-116" : [ "VST2_LPFq", "Q", 0 ],
 			"obj-54::obj-3::obj-119" : [ "VST2_HPFq", "Q", 0 ],
-			"obj-54::obj-3::obj-11::obj-71" : [ "bCueIn[2]", "live.text", 0 ],
+			"obj-54::obj-3::obj-11::obj-71" : [ "bCueIn[44]", "live.text", 0 ],
 			"obj-54::obj-3::obj-125" : [ "VST2_drywet", "dry/wet", 0 ],
 			"obj-54::obj-3::obj-138" : [ "VST4_lowcut", "low-cut", 0 ],
 			"obj-54::obj-3::obj-139" : [ "VST4_highcut", "high-cut", 0 ],
@@ -7242,17 +7212,17 @@
 			"obj-54::obj-3::obj-148" : [ "VST4_damplowfreq", "freq.", 0 ],
 			"obj-54::obj-3::obj-150" : [ "VST2_HPFslope", "VST2_HPFslope", 0 ],
 			"obj-54::obj-3::obj-156" : [ "VST2_LPFslope", "umenu", 0 ],
-			"obj-54::obj-3::obj-15::obj-13" : [ "fGainOut[55]", "out", 0 ],
-			"obj-54::obj-3::obj-15::obj-71" : [ "bCueOut[53]", "live.text", 0 ],
+			"obj-54::obj-3::obj-15::obj-13" : [ "fGainOut[43]", "out", 0 ],
+			"obj-54::obj-3::obj-15::obj-71" : [ "bCueOut[50]", "live.text", 0 ],
 			"obj-54::obj-3::obj-170" : [ "VST1_LPF", "live.text[8]", 0 ],
 			"obj-54::obj-3::obj-171" : [ "VST1_HPF", "live.text[8]", 0 ],
 			"obj-54::obj-3::obj-196" : [ "VST4_predelay", "slider", 0 ],
-			"obj-54::obj-3::obj-1::obj-13" : [ "fGainOut[54]", "out", 0 ],
-			"obj-54::obj-3::obj-1::obj-71" : [ "bCueOut[52]", "live.text", 0 ],
+			"obj-54::obj-3::obj-1::obj-13" : [ "fGainOut[42]", "out", 0 ],
+			"obj-54::obj-3::obj-1::obj-71" : [ "bCueOut[49]", "live.text", 0 ],
 			"obj-54::obj-3::obj-214" : [ "VST4_damphighfreq", "freq.", 0 ],
-			"obj-54::obj-3::obj-23::obj-71" : [ "bCueIn[3]", "live.text", 0 ],
-			"obj-54::obj-3::obj-25::obj-13" : [ "fGainOut[56]", "out", 0 ],
-			"obj-54::obj-3::obj-25::obj-71" : [ "bCueOut[54]", "live.text", 0 ],
+			"obj-54::obj-3::obj-23::obj-71" : [ "bCueIn[45]", "live.text", 0 ],
+			"obj-54::obj-3::obj-25::obj-13" : [ "fGainOut[44]", "out", 0 ],
+			"obj-54::obj-3::obj-25::obj-71" : [ "bCueOut[51]", "live.text", 0 ],
 			"obj-54::obj-3::obj-286" : [ "VST4_drywet", "dry/wet", 0 ],
 			"obj-54::obj-3::obj-297" : [ "VST4_length", "length", 0 ],
 			"obj-54::obj-3::obj-33" : [ "VST3_freeze", "live.text[12]", 0 ],
@@ -7264,7 +7234,7 @@
 			"obj-54::obj-3::obj-51" : [ "VST3_drywet", "dry/wet", 0 ],
 			"obj-54::obj-3::obj-52" : [ "VST3_mode", "live.tab", 0 ],
 			"obj-54::obj-3::obj-65::obj-71" : [ "bCueIn", "live.text", 0 ],
-			"obj-54::obj-3::obj-66::obj-71" : [ "bCueIn[1]", "live.text", 0 ],
+			"obj-54::obj-3::obj-66::obj-71" : [ "bCueIn[43]", "live.text", 0 ],
 			"obj-54::obj-3::obj-69" : [ "VST3_feedback", "feedback", 0 ],
 			"obj-54::obj-3::obj-85" : [ "vst~[58]", "vst~[1]", 0 ],
 			"obj-54::obj-3::obj-86" : [ "vst~[59]", "vst~[1]", 0 ],
@@ -7273,361 +7243,343 @@
 			"obj-54::obj-3::obj-97" : [ "amxd~[6]", "live.text", 0 ],
 			"obj-54::obj-3::obj-98" : [ "amxd~[3]", "live.text", 0 ],
 			"obj-54::obj-3::obj-99" : [ "amxd~[4]", "live.text", 0 ],
-			"obj-54::obj-4::obj-100" : [ "VST4_size[1]", "size", 0 ],
-			"obj-54::obj-4::obj-107" : [ "vst~[65]", "vst~[3]", 0 ],
-			"obj-54::obj-4::obj-111" : [ "VST2_HPF[1]", "live.text[8]", 0 ],
-			"obj-54::obj-4::obj-112" : [ "VST2_LPF[1]", "live.text[8]", 0 ],
-			"obj-54::obj-4::obj-113" : [ "VST2_HPFfreq[1]", "freq.", 0 ],
-			"obj-54::obj-4::obj-115" : [ "VST2_LPFfreq[1]", "freq.", 0 ],
-			"obj-54::obj-4::obj-116" : [ "VST2_LPFq[1]", "Q", 0 ],
-			"obj-54::obj-4::obj-119" : [ "VST2_HPFq[1]", "Q", 0 ],
-			"obj-54::obj-4::obj-11::obj-71" : [ "bCueIn[6]", "live.text", 0 ],
-			"obj-54::obj-4::obj-125" : [ "VST2_drywet[1]", "dry/wet", 0 ],
-			"obj-54::obj-4::obj-138" : [ "VST4_lowcut[1]", "low-cut", 0 ],
-			"obj-54::obj-4::obj-139" : [ "VST4_highcut[1]", "high-cut", 0 ],
-			"obj-54::obj-4::obj-143" : [ "VST4_damplow[1]", "live.text[10]", 0 ],
-			"obj-54::obj-4::obj-145" : [ "VST4_damphigh[1]", "live.text[10]", 0 ],
-			"obj-54::obj-4::obj-148" : [ "VST4_damplowfreq[1]", "freq.", 0 ],
-			"obj-54::obj-4::obj-150" : [ "VST2_HPFslope[12]", "VST2_HPFslope", 0 ],
-			"obj-54::obj-4::obj-156" : [ "VST2_LPFslope[12]", "umenu", 0 ],
-			"obj-54::obj-4::obj-15::obj-13" : [ "fGainOut[59]", "out", 0 ],
-			"obj-54::obj-4::obj-15::obj-71" : [ "bCueOut[57]", "live.text", 0 ],
-			"obj-54::obj-4::obj-170" : [ "VST1_LPF[1]", "live.text[8]", 0 ],
-			"obj-54::obj-4::obj-171" : [ "VST1_HPF[1]", "live.text[8]", 0 ],
-			"obj-54::obj-4::obj-196" : [ "VST4_predelay[12]", "slider", 0 ],
-			"obj-54::obj-4::obj-1::obj-13" : [ "fGainOut[58]", "out", 0 ],
-			"obj-54::obj-4::obj-1::obj-71" : [ "bCueOut[56]", "live.text", 0 ],
-			"obj-54::obj-4::obj-214" : [ "VST4_damphighfreq[1]", "freq.", 0 ],
-			"obj-54::obj-4::obj-23::obj-71" : [ "bCueIn[7]", "live.text", 0 ],
-			"obj-54::obj-4::obj-25::obj-13" : [ "fGainOut[60]", "out", 0 ],
-			"obj-54::obj-4::obj-25::obj-71" : [ "bCueOut[58]", "live.text", 0 ],
-			"obj-54::obj-4::obj-286" : [ "VST4_drywet[1]", "dry/wet", 0 ],
-			"obj-54::obj-4::obj-297" : [ "VST4_length[1]", "length", 0 ],
-			"obj-54::obj-4::obj-33" : [ "VST3_freeze[1]", "live.text[12]", 0 ],
-			"obj-54::obj-4::obj-35::obj-13" : [ "fGainOut[57]", "out", 0 ],
-			"obj-54::obj-4::obj-35::obj-71" : [ "bCueOut[55]", "live.text", 0 ],
-			"obj-54::obj-4::obj-38" : [ "bDelTap[14]", "tap", 0 ],
-			"obj-54::obj-4::obj-42" : [ "VST3_time[12]", "slider", 0 ],
-			"obj-54::obj-4::obj-5" : [ "vst~[64]", "vst~", 0 ],
-			"obj-54::obj-4::obj-51" : [ "VST3_drywet[1]", "dry/wet", 0 ],
-			"obj-54::obj-4::obj-52" : [ "VST3_mode[1]", "live.tab", 0 ],
-			"obj-54::obj-4::obj-65::obj-71" : [ "bCueIn[4]", "live.text", 0 ],
-			"obj-54::obj-4::obj-66::obj-71" : [ "bCueIn[5]", "live.text", 0 ],
-			"obj-54::obj-4::obj-69" : [ "VST3_feedback[1]", "feedback", 0 ],
-			"obj-54::obj-4::obj-85" : [ "vst~[63]", "vst~[1]", 0 ],
-			"obj-54::obj-4::obj-86" : [ "vst~[62]", "vst~[1]", 0 ],
-			"obj-54::obj-4::obj-92" : [ "amxd~[87]", "live.text", 0 ],
-			"obj-54::obj-4::obj-93" : [ "VST1_threshold[12]", "VST1_threshold", 0 ],
-			"obj-54::obj-4::obj-97" : [ "amxd~[84]", "live.text", 0 ],
-			"obj-54::obj-4::obj-98" : [ "amxd~[85]", "live.text", 0 ],
-			"obj-54::obj-4::obj-99" : [ "amxd~[86]", "live.text", 0 ],
-			"obj-54::obj-5::obj-100" : [ "VST4_size[2]", "size", 0 ],
-			"obj-54::obj-5::obj-107" : [ "vst~[67]", "vst~[3]", 0 ],
-			"obj-54::obj-5::obj-111" : [ "VST2_HPF[2]", "live.text[8]", 0 ],
-			"obj-54::obj-5::obj-112" : [ "VST2_LPF[2]", "live.text[8]", 0 ],
-			"obj-54::obj-5::obj-113" : [ "VST2_HPFfreq[2]", "freq.", 0 ],
-			"obj-54::obj-5::obj-115" : [ "VST2_LPFfreq[2]", "freq.", 0 ],
-			"obj-54::obj-5::obj-116" : [ "VST2_LPFq[2]", "Q", 0 ],
-			"obj-54::obj-5::obj-119" : [ "VST2_HPFq[2]", "Q", 0 ],
-			"obj-54::obj-5::obj-11::obj-71" : [ "bCueIn[10]", "live.text", 0 ],
-			"obj-54::obj-5::obj-125" : [ "VST2_drywet[2]", "dry/wet", 0 ],
-			"obj-54::obj-5::obj-138" : [ "VST4_lowcut[2]", "low-cut", 0 ],
-			"obj-54::obj-5::obj-139" : [ "VST4_highcut[2]", "high-cut", 0 ],
-			"obj-54::obj-5::obj-143" : [ "VST4_damplow[2]", "live.text[10]", 0 ],
-			"obj-54::obj-5::obj-145" : [ "VST4_damphigh[2]", "live.text[10]", 0 ],
-			"obj-54::obj-5::obj-148" : [ "VST4_damplowfreq[2]", "freq.", 0 ],
-			"obj-54::obj-5::obj-150" : [ "VST2_HPFslope[13]", "VST2_HPFslope", 0 ],
-			"obj-54::obj-5::obj-156" : [ "VST2_LPFslope[13]", "umenu", 0 ],
-			"obj-54::obj-5::obj-15::obj-13" : [ "fGainOut[63]", "out", 0 ],
-			"obj-54::obj-5::obj-15::obj-71" : [ "bCueOut[61]", "live.text", 0 ],
-			"obj-54::obj-5::obj-170" : [ "VST1_LPF[2]", "live.text[8]", 0 ],
-			"obj-54::obj-5::obj-171" : [ "VST1_HPF[2]", "live.text[8]", 0 ],
-			"obj-54::obj-5::obj-196" : [ "VST4_predelay[13]", "slider", 0 ],
-			"obj-54::obj-5::obj-1::obj-13" : [ "fGainOut[62]", "out", 0 ],
-			"obj-54::obj-5::obj-1::obj-71" : [ "bCueOut[60]", "live.text", 0 ],
-			"obj-54::obj-5::obj-214" : [ "VST4_damphighfreq[2]", "freq.", 0 ],
-			"obj-54::obj-5::obj-23::obj-71" : [ "bCueIn[57]", "live.text", 0 ],
-			"obj-54::obj-5::obj-25::obj-13" : [ "fGainOut[64]", "out", 0 ],
-			"obj-54::obj-5::obj-25::obj-71" : [ "bCueOut[62]", "live.text", 0 ],
-			"obj-54::obj-5::obj-286" : [ "VST4_drywet[2]", "dry/wet", 0 ],
-			"obj-54::obj-5::obj-297" : [ "VST4_length[2]", "length", 0 ],
-			"obj-54::obj-5::obj-33" : [ "VST3_freeze[2]", "live.text[12]", 0 ],
-			"obj-54::obj-5::obj-35::obj-13" : [ "fGainOut[61]", "out", 0 ],
-			"obj-54::obj-5::obj-35::obj-71" : [ "bCueOut[59]", "live.text", 0 ],
-			"obj-54::obj-5::obj-38" : [ "bDelTap[15]", "tap", 0 ],
-			"obj-54::obj-5::obj-42" : [ "VST3_time[13]", "slider", 0 ],
-			"obj-54::obj-5::obj-5" : [ "vst~[69]", "vst~", 0 ],
-			"obj-54::obj-5::obj-51" : [ "VST3_drywet[2]", "dry/wet", 0 ],
-			"obj-54::obj-5::obj-52" : [ "VST3_mode[2]", "live.tab", 0 ],
-			"obj-54::obj-5::obj-65::obj-71" : [ "bCueIn[8]", "live.text", 0 ],
-			"obj-54::obj-5::obj-66::obj-71" : [ "bCueIn[9]", "live.text", 0 ],
-			"obj-54::obj-5::obj-69" : [ "VST3_feedback[2]", "feedback", 0 ],
-			"obj-54::obj-5::obj-85" : [ "vst~[68]", "vst~[1]", 0 ],
-			"obj-54::obj-5::obj-86" : [ "vst~[66]", "vst~[1]", 0 ],
-			"obj-54::obj-5::obj-92" : [ "amxd~[89]", "live.text", 0 ],
-			"obj-54::obj-5::obj-93" : [ "VST1_threshold[13]", "VST1_threshold", 0 ],
-			"obj-54::obj-5::obj-97" : [ "amxd~[88]", "live.text", 0 ],
-			"obj-54::obj-5::obj-98" : [ "amxd~[90]", "live.text", 0 ],
-			"obj-54::obj-5::obj-99" : [ "amxd~[7]", "live.text", 0 ],
-			"obj-54::obj-6::obj-100" : [ "VST4_size[3]", "size", 0 ],
-			"obj-54::obj-6::obj-107" : [ "vst~[72]", "vst~[3]", 0 ],
-			"obj-54::obj-6::obj-111" : [ "VST2_HPF[3]", "live.text[8]", 0 ],
-			"obj-54::obj-6::obj-112" : [ "VST2_LPF[3]", "live.text[8]", 0 ],
-			"obj-54::obj-6::obj-113" : [ "VST2_HPFfreq[3]", "freq.", 0 ],
-			"obj-54::obj-6::obj-115" : [ "VST2_LPFfreq[3]", "freq.", 0 ],
-			"obj-54::obj-6::obj-116" : [ "VST2_LPFq[3]", "Q", 0 ],
-			"obj-54::obj-6::obj-119" : [ "VST2_HPFq[3]", "Q", 0 ],
-			"obj-54::obj-6::obj-11::obj-71" : [ "bCueIn[60]", "live.text", 0 ],
-			"obj-54::obj-6::obj-125" : [ "VST2_drywet[3]", "dry/wet", 0 ],
-			"obj-54::obj-6::obj-138" : [ "VST4_lowcut[3]", "low-cut", 0 ],
-			"obj-54::obj-6::obj-139" : [ "VST4_highcut[3]", "high-cut", 0 ],
-			"obj-54::obj-6::obj-143" : [ "VST4_damplow[3]", "live.text[10]", 0 ],
-			"obj-54::obj-6::obj-145" : [ "VST4_damphigh[3]", "live.text[10]", 0 ],
-			"obj-54::obj-6::obj-148" : [ "VST4_damplowfreq[3]", "freq.", 0 ],
-			"obj-54::obj-6::obj-150" : [ "VST2_HPFslope[14]", "VST2_HPFslope", 0 ],
-			"obj-54::obj-6::obj-156" : [ "VST2_LPFslope[14]", "umenu", 0 ],
-			"obj-54::obj-6::obj-15::obj-13" : [ "fGainOut[67]", "out", 0 ],
-			"obj-54::obj-6::obj-15::obj-71" : [ "bCueOut[65]", "live.text", 0 ],
-			"obj-54::obj-6::obj-170" : [ "VST1_LPF[3]", "live.text[8]", 0 ],
-			"obj-54::obj-6::obj-171" : [ "VST1_HPF[3]", "live.text[8]", 0 ],
-			"obj-54::obj-6::obj-196" : [ "VST4_predelay[14]", "slider", 0 ],
-			"obj-54::obj-6::obj-1::obj-13" : [ "fGainOut[66]", "out", 0 ],
-			"obj-54::obj-6::obj-1::obj-71" : [ "bCueOut[64]", "live.text", 0 ],
-			"obj-54::obj-6::obj-214" : [ "VST4_damphighfreq[3]", "freq.", 0 ],
-			"obj-54::obj-6::obj-23::obj-71" : [ "bCueIn[61]", "live.text", 0 ],
-			"obj-54::obj-6::obj-25::obj-13" : [ "fGainOut[68]", "out", 0 ],
-			"obj-54::obj-6::obj-25::obj-71" : [ "bCueOut[66]", "live.text", 0 ],
-			"obj-54::obj-6::obj-286" : [ "VST4_drywet[3]", "dry/wet", 0 ],
-			"obj-54::obj-6::obj-297" : [ "VST4_length[3]", "length", 0 ],
-			"obj-54::obj-6::obj-33" : [ "VST3_freeze[3]", "live.text[12]", 0 ],
-			"obj-54::obj-6::obj-35::obj-13" : [ "fGainOut[65]", "out", 0 ],
-			"obj-54::obj-6::obj-35::obj-71" : [ "bCueOut[63]", "live.text", 0 ],
-			"obj-54::obj-6::obj-38" : [ "bDelTap[16]", "tap", 0 ],
-			"obj-54::obj-6::obj-42" : [ "VST3_time[14]", "slider", 0 ],
-			"obj-54::obj-6::obj-5" : [ "vst~[71]", "vst~", 0 ],
-			"obj-54::obj-6::obj-51" : [ "VST3_drywet[3]", "dry/wet", 0 ],
-			"obj-54::obj-6::obj-52" : [ "VST3_mode[3]", "live.tab", 0 ],
-			"obj-54::obj-6::obj-65::obj-71" : [ "bCueIn[58]", "live.text", 0 ],
-			"obj-54::obj-6::obj-66::obj-71" : [ "bCueIn[59]", "live.text", 0 ],
-			"obj-54::obj-6::obj-69" : [ "VST3_feedback[3]", "feedback", 0 ],
-			"obj-54::obj-6::obj-85" : [ "vst~[70]", "vst~[1]", 0 ],
-			"obj-54::obj-6::obj-86" : [ "vst~[73]", "vst~[1]", 0 ],
-			"obj-54::obj-6::obj-92" : [ "amxd~[8]", "live.text", 0 ],
-			"obj-54::obj-6::obj-93" : [ "VST1_threshold[14]", "VST1_threshold", 0 ],
-			"obj-54::obj-6::obj-97" : [ "amxd~[9]", "live.text", 0 ],
-			"obj-54::obj-6::obj-98" : [ "amxd~[11]", "live.text", 0 ],
-			"obj-54::obj-6::obj-99" : [ "amxd~[10]", "live.text", 0 ],
-			"obj-54::obj-8::obj-4" : [ "live.dial[1]", "live.dial[1]", 0 ],
-			"obj-54::obj-9::obj-4" : [ "live.dial[2]", "live.dial[1]", 0 ],
+			"obj-54::obj-4::obj-100" : [ "VST4_size[12]", "size", 0 ],
+			"obj-54::obj-4::obj-107" : [ "vst~[51]", "vst~[3]", 0 ],
+			"obj-54::obj-4::obj-111" : [ "VST2_HPF[12]", "live.text[8]", 0 ],
+			"obj-54::obj-4::obj-112" : [ "VST2_LPF[12]", "live.text[8]", 0 ],
+			"obj-54::obj-4::obj-113" : [ "VST2_HPFfreq[12]", "freq.", 0 ],
+			"obj-54::obj-4::obj-115" : [ "VST2_LPFfreq[12]", "freq.", 0 ],
+			"obj-54::obj-4::obj-116" : [ "VST2_LPFq[12]", "Q", 0 ],
+			"obj-54::obj-4::obj-119" : [ "VST2_HPFq[12]", "Q", 0 ],
+			"obj-54::obj-4::obj-11::obj-71" : [ "bCueIn[48]", "live.text", 0 ],
+			"obj-54::obj-4::obj-125" : [ "VST2_drywet[12]", "dry/wet", 0 ],
+			"obj-54::obj-4::obj-138" : [ "VST4_lowcut[12]", "low-cut", 0 ],
+			"obj-54::obj-4::obj-139" : [ "VST4_highcut[12]", "high-cut", 0 ],
+			"obj-54::obj-4::obj-143" : [ "VST4_damplow[12]", "live.text[10]", 0 ],
+			"obj-54::obj-4::obj-145" : [ "VST4_damphigh[12]", "live.text[10]", 0 ],
+			"obj-54::obj-4::obj-148" : [ "VST4_damplowfreq[12]", "freq.", 0 ],
+			"obj-54::obj-4::obj-150" : [ "VST2_HPFslope[2]", "VST2_HPFslope", 0 ],
+			"obj-54::obj-4::obj-156" : [ "VST2_LPFslope[2]", "umenu", 0 ],
+			"obj-54::obj-4::obj-15::obj-13" : [ "fGainOut[47]", "out", 0 ],
+			"obj-54::obj-4::obj-15::obj-71" : [ "bCueOut[54]", "live.text", 0 ],
+			"obj-54::obj-4::obj-170" : [ "VST1_LPF[12]", "live.text[8]", 0 ],
+			"obj-54::obj-4::obj-171" : [ "VST1_HPF[12]", "live.text[8]", 0 ],
+			"obj-54::obj-4::obj-196" : [ "VST4_predelay[2]", "slider", 0 ],
+			"obj-54::obj-4::obj-1::obj-13" : [ "fGainOut[46]", "out", 0 ],
+			"obj-54::obj-4::obj-1::obj-71" : [ "bCueOut[53]", "live.text", 0 ],
+			"obj-54::obj-4::obj-214" : [ "VST4_damphighfreq[12]", "freq.", 0 ],
+			"obj-54::obj-4::obj-23::obj-71" : [ "bCueIn[49]", "live.text", 0 ],
+			"obj-54::obj-4::obj-25::obj-13" : [ "fGainOut[48]", "out", 0 ],
+			"obj-54::obj-4::obj-25::obj-71" : [ "bCueOut[55]", "live.text", 0 ],
+			"obj-54::obj-4::obj-286" : [ "VST4_drywet[12]", "dry/wet", 0 ],
+			"obj-54::obj-4::obj-297" : [ "VST4_length[12]", "length", 0 ],
+			"obj-54::obj-4::obj-33" : [ "VST3_freeze[12]", "live.text[12]", 0 ],
+			"obj-54::obj-4::obj-35::obj-13" : [ "fGainOut[45]", "out", 0 ],
+			"obj-54::obj-4::obj-35::obj-71" : [ "bCueOut[52]", "live.text", 0 ],
+			"obj-54::obj-4::obj-38" : [ "bDelTap[21]", "tap", 0 ],
+			"obj-54::obj-4::obj-42" : [ "VST3_time[2]", "slider", 0 ],
+			"obj-54::obj-4::obj-5" : [ "vst~[52]", "vst~", 0 ],
+			"obj-54::obj-4::obj-51" : [ "VST3_drywet[12]", "dry/wet", 0 ],
+			"obj-54::obj-4::obj-52" : [ "VST3_mode[12]", "live.tab", 0 ],
+			"obj-54::obj-4::obj-65::obj-71" : [ "bCueIn[46]", "live.text", 0 ],
+			"obj-54::obj-4::obj-66::obj-71" : [ "bCueIn[47]", "live.text", 0 ],
+			"obj-54::obj-4::obj-69" : [ "VST3_feedback[12]", "feedback", 0 ],
+			"obj-54::obj-4::obj-85" : [ "vst~[49]", "vst~[1]", 0 ],
+			"obj-54::obj-4::obj-86" : [ "vst~[50]", "vst~[1]", 0 ],
+			"obj-54::obj-4::obj-92" : [ "amxd~[9]", "live.text", 0 ],
+			"obj-54::obj-4::obj-93" : [ "VST1_threshold[2]", "VST1_threshold", 0 ],
+			"obj-54::obj-4::obj-97" : [ "amxd~[115]", "live.text", 0 ],
+			"obj-54::obj-4::obj-98" : [ "amxd~[7]", "live.text", 0 ],
+			"obj-54::obj-4::obj-99" : [ "amxd~[8]", "live.text", 0 ],
+			"obj-54::obj-5::obj-100" : [ "VST4_size[13]", "size", 0 ],
+			"obj-54::obj-5::obj-107" : [ "vst~[62]", "vst~[3]", 0 ],
+			"obj-54::obj-5::obj-111" : [ "VST2_HPF[13]", "live.text[8]", 0 ],
+			"obj-54::obj-5::obj-112" : [ "VST2_LPF[13]", "live.text[8]", 0 ],
+			"obj-54::obj-5::obj-113" : [ "VST2_HPFfreq[13]", "freq.", 0 ],
+			"obj-54::obj-5::obj-115" : [ "VST2_LPFfreq[13]", "freq.", 0 ],
+			"obj-54::obj-5::obj-116" : [ "VST2_LPFq[13]", "Q", 0 ],
+			"obj-54::obj-5::obj-119" : [ "VST2_HPFq[13]", "Q", 0 ],
+			"obj-54::obj-5::obj-11::obj-71" : [ "bCueIn[52]", "live.text", 0 ],
+			"obj-54::obj-5::obj-125" : [ "VST2_drywet[13]", "dry/wet", 0 ],
+			"obj-54::obj-5::obj-138" : [ "VST4_lowcut[13]", "low-cut", 0 ],
+			"obj-54::obj-5::obj-139" : [ "VST4_highcut[13]", "high-cut", 0 ],
+			"obj-54::obj-5::obj-143" : [ "VST4_damplow[13]", "live.text[10]", 0 ],
+			"obj-54::obj-5::obj-145" : [ "VST4_damphigh[13]", "live.text[10]", 0 ],
+			"obj-54::obj-5::obj-148" : [ "VST4_damplowfreq[13]", "freq.", 0 ],
+			"obj-54::obj-5::obj-150" : [ "VST2_HPFslope[3]", "VST2_HPFslope", 0 ],
+			"obj-54::obj-5::obj-156" : [ "VST2_LPFslope[3]", "umenu", 0 ],
+			"obj-54::obj-5::obj-15::obj-13" : [ "fGainOut[75]", "out", 0 ],
+			"obj-54::obj-5::obj-15::obj-71" : [ "bCueOut[72]", "live.text", 0 ],
+			"obj-54::obj-5::obj-170" : [ "VST1_LPF[13]", "live.text[8]", 0 ],
+			"obj-54::obj-5::obj-171" : [ "VST1_HPF[13]", "live.text[8]", 0 ],
+			"obj-54::obj-5::obj-196" : [ "VST4_predelay[3]", "slider", 0 ],
+			"obj-54::obj-5::obj-1::obj-13" : [ "fGainOut[74]", "out", 0 ],
+			"obj-54::obj-5::obj-1::obj-71" : [ "bCueOut[71]", "live.text", 0 ],
+			"obj-54::obj-5::obj-214" : [ "VST4_damphighfreq[13]", "freq.", 0 ],
+			"obj-54::obj-5::obj-23::obj-71" : [ "bCueIn[53]", "live.text", 0 ],
+			"obj-54::obj-5::obj-25::obj-13" : [ "fGainOut[76]", "out", 0 ],
+			"obj-54::obj-5::obj-25::obj-71" : [ "bCueOut[73]", "live.text", 0 ],
+			"obj-54::obj-5::obj-286" : [ "VST4_drywet[13]", "dry/wet", 0 ],
+			"obj-54::obj-5::obj-297" : [ "VST4_length[13]", "length", 0 ],
+			"obj-54::obj-5::obj-33" : [ "VST3_freeze[13]", "live.text[12]", 0 ],
+			"obj-54::obj-5::obj-35::obj-13" : [ "fGainOut[73]", "out", 0 ],
+			"obj-54::obj-5::obj-35::obj-71" : [ "bCueOut[70]", "live.text", 0 ],
+			"obj-54::obj-5::obj-38" : [ "bDelTap[22]", "tap", 0 ],
+			"obj-54::obj-5::obj-42" : [ "VST3_time[3]", "slider", 0 ],
+			"obj-54::obj-5::obj-5" : [ "vst~[65]", "vst~", 0 ],
+			"obj-54::obj-5::obj-51" : [ "VST3_drywet[13]", "dry/wet", 0 ],
+			"obj-54::obj-5::obj-52" : [ "VST3_mode[13]", "live.tab", 0 ],
+			"obj-54::obj-5::obj-65::obj-71" : [ "bCueIn[50]", "live.text", 0 ],
+			"obj-54::obj-5::obj-66::obj-71" : [ "bCueIn[51]", "live.text", 0 ],
+			"obj-54::obj-5::obj-69" : [ "VST3_feedback[13]", "feedback", 0 ],
+			"obj-54::obj-5::obj-85" : [ "vst~[64]", "vst~[1]", 0 ],
+			"obj-54::obj-5::obj-86" : [ "vst~[63]", "vst~[1]", 0 ],
+			"obj-54::obj-5::obj-92" : [ "amxd~[117]", "live.text", 0 ],
+			"obj-54::obj-5::obj-93" : [ "VST1_threshold[3]", "VST1_threshold", 0 ],
+			"obj-54::obj-5::obj-97" : [ "amxd~[116]", "live.text", 0 ],
+			"obj-54::obj-5::obj-98" : [ "amxd~[118]", "live.text", 0 ],
+			"obj-54::obj-5::obj-99" : [ "amxd~[119]", "live.text", 0 ],
+			"obj-54::obj-6::obj-100" : [ "VST4_size[14]", "size", 0 ],
+			"obj-54::obj-6::obj-107" : [ "vst~[85]", "vst~[3]", 0 ],
+			"obj-54::obj-6::obj-111" : [ "VST2_HPF[14]", "live.text[8]", 0 ],
+			"obj-54::obj-6::obj-112" : [ "VST2_LPF[14]", "live.text[8]", 0 ],
+			"obj-54::obj-6::obj-113" : [ "VST2_HPFfreq[14]", "freq.", 0 ],
+			"obj-54::obj-6::obj-115" : [ "VST2_LPFfreq[14]", "freq.", 0 ],
+			"obj-54::obj-6::obj-116" : [ "VST2_LPFq[14]", "Q", 0 ],
+			"obj-54::obj-6::obj-119" : [ "VST2_HPFq[14]", "Q", 0 ],
+			"obj-54::obj-6::obj-11::obj-71" : [ "bCueIn[56]", "live.text", 0 ],
+			"obj-54::obj-6::obj-125" : [ "VST2_drywet[14]", "dry/wet", 0 ],
+			"obj-54::obj-6::obj-138" : [ "VST4_lowcut[14]", "low-cut", 0 ],
+			"obj-54::obj-6::obj-139" : [ "VST4_highcut[14]", "high-cut", 0 ],
+			"obj-54::obj-6::obj-143" : [ "VST4_damplow[14]", "live.text[10]", 0 ],
+			"obj-54::obj-6::obj-145" : [ "VST4_damphigh[14]", "live.text[10]", 0 ],
+			"obj-54::obj-6::obj-148" : [ "VST4_damplowfreq[14]", "freq.", 0 ],
+			"obj-54::obj-6::obj-150" : [ "VST2_HPFslope[4]", "VST2_HPFslope", 0 ],
+			"obj-54::obj-6::obj-156" : [ "VST2_LPFslope[4]", "umenu", 0 ],
+			"obj-54::obj-6::obj-15::obj-13" : [ "fGainOut[78]", "out", 0 ],
+			"obj-54::obj-6::obj-15::obj-71" : [ "bCueOut[58]", "live.text", 0 ],
+			"obj-54::obj-6::obj-170" : [ "VST1_LPF[14]", "live.text[8]", 0 ],
+			"obj-54::obj-6::obj-171" : [ "VST1_HPF[14]", "live.text[8]", 0 ],
+			"obj-54::obj-6::obj-196" : [ "VST4_predelay[4]", "slider", 0 ],
+			"obj-54::obj-6::obj-1::obj-13" : [ "fGainOut[77]", "out", 0 ],
+			"obj-54::obj-6::obj-1::obj-71" : [ "bCueOut[57]", "live.text", 0 ],
+			"obj-54::obj-6::obj-214" : [ "VST4_damphighfreq[14]", "freq.", 0 ],
+			"obj-54::obj-6::obj-23::obj-71" : [ "bCueIn[57]", "live.text", 0 ],
+			"obj-54::obj-6::obj-25::obj-13" : [ "fGainOut[50]", "out", 0 ],
+			"obj-54::obj-6::obj-25::obj-71" : [ "bCueOut[59]", "live.text", 0 ],
+			"obj-54::obj-6::obj-286" : [ "VST4_drywet[14]", "dry/wet", 0 ],
+			"obj-54::obj-6::obj-297" : [ "VST4_length[14]", "length", 0 ],
+			"obj-54::obj-6::obj-33" : [ "VST3_freeze[14]", "live.text[12]", 0 ],
+			"obj-54::obj-6::obj-35::obj-13" : [ "fGainOut[49]", "out", 0 ],
+			"obj-54::obj-6::obj-35::obj-71" : [ "bCueOut[56]", "live.text", 0 ],
+			"obj-54::obj-6::obj-38" : [ "bDelTap[4]", "tap", 0 ],
+			"obj-54::obj-6::obj-42" : [ "VST3_time[4]", "slider", 0 ],
+			"obj-54::obj-6::obj-5" : [ "vst~[84]", "vst~", 0 ],
+			"obj-54::obj-6::obj-51" : [ "VST3_drywet[14]", "dry/wet", 0 ],
+			"obj-54::obj-6::obj-52" : [ "VST3_mode[14]", "live.tab", 0 ],
+			"obj-54::obj-6::obj-65::obj-71" : [ "bCueIn[54]", "live.text", 0 ],
+			"obj-54::obj-6::obj-66::obj-71" : [ "bCueIn[55]", "live.text", 0 ],
+			"obj-54::obj-6::obj-69" : [ "VST3_feedback[14]", "feedback", 0 ],
+			"obj-54::obj-6::obj-85" : [ "vst~[83]", "vst~[1]", 0 ],
+			"obj-54::obj-6::obj-86" : [ "vst~[82]", "vst~[1]", 0 ],
+			"obj-54::obj-6::obj-92" : [ "amxd~[123]", "live.text", 0 ],
+			"obj-54::obj-6::obj-93" : [ "VST1_threshold[4]", "VST1_threshold", 0 ],
+			"obj-54::obj-6::obj-97" : [ "amxd~[120]", "live.text", 0 ],
+			"obj-54::obj-6::obj-98" : [ "amxd~[122]", "live.text", 0 ],
+			"obj-54::obj-6::obj-99" : [ "amxd~[121]", "live.text", 0 ],
 			"obj-55::obj-22" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-66::obj-1::obj-4" : [ "live.dial[33]", "live.dial[1]", 0 ],
-			"obj-66::obj-20::obj-4" : [ "live.dial[35]", "live.dial[1]", 0 ],
-			"obj-66::obj-21::obj-4" : [ "live.dial[36]", "live.dial[1]", 0 ],
-			"obj-66::obj-22::obj-4" : [ "live.dial[40]", "live.dial[1]", 0 ],
-			"obj-66::obj-26::obj-4" : [ "live.dial[39]", "live.dial[1]", 0 ],
-			"obj-66::obj-27::obj-4" : [ "live.dial[38]", "live.dial[1]", 0 ],
-			"obj-66::obj-28::obj-4" : [ "live.dial[37]", "live.dial[1]", 0 ],
-			"obj-66::obj-29::obj-4" : [ "live.dial[48]", "live.dial[1]", 0 ],
-			"obj-66::obj-30::obj-4" : [ "live.dial[47]", "live.dial[1]", 0 ],
-			"obj-66::obj-31::obj-4" : [ "live.dial[46]", "live.dial[1]", 0 ],
-			"obj-66::obj-32::obj-4" : [ "live.dial[45]", "live.dial[1]", 0 ],
-			"obj-66::obj-33::obj-4" : [ "live.dial[44]", "live.dial[1]", 0 ],
-			"obj-66::obj-34::obj-4" : [ "live.dial[43]", "live.dial[1]", 0 ],
-			"obj-66::obj-35::obj-4" : [ "live.dial[42]", "live.dial[1]", 0 ],
-			"obj-66::obj-36::obj-4" : [ "live.dial[41]", "live.dial[1]", 0 ],
-			"obj-66::obj-3::obj-100" : [ "VST4_size[4]", "size", 0 ],
-			"obj-66::obj-3::obj-107" : [ "vst~[1]", "vst~[3]", 0 ],
-			"obj-66::obj-3::obj-111" : [ "VST2_HPF[4]", "live.text[8]", 0 ],
-			"obj-66::obj-3::obj-112" : [ "VST2_LPF[4]", "live.text[8]", 0 ],
-			"obj-66::obj-3::obj-113" : [ "VST2_HPFfreq[4]", "freq.", 0 ],
-			"obj-66::obj-3::obj-115" : [ "VST2_LPFfreq[4]", "freq.", 0 ],
-			"obj-66::obj-3::obj-116" : [ "VST2_LPFq[4]", "Q", 0 ],
-			"obj-66::obj-3::obj-119" : [ "VST2_HPFq[4]", "Q", 0 ],
-			"obj-66::obj-3::obj-11::obj-71" : [ "bCueIn[13]", "live.text", 0 ],
-			"obj-66::obj-3::obj-125" : [ "VST2_drywet[4]", "dry/wet", 0 ],
-			"obj-66::obj-3::obj-138" : [ "VST4_lowcut[4]", "low-cut", 0 ],
-			"obj-66::obj-3::obj-139" : [ "VST4_highcut[4]", "high-cut", 0 ],
-			"obj-66::obj-3::obj-143" : [ "VST4_damplow[4]", "live.text[10]", 0 ],
-			"obj-66::obj-3::obj-145" : [ "VST4_damphigh[4]", "live.text[10]", 0 ],
-			"obj-66::obj-3::obj-148" : [ "VST4_damplowfreq[4]", "freq.", 0 ],
-			"obj-66::obj-3::obj-150" : [ "VST2_HPFslope[8]", "VST2_HPFslope", 0 ],
-			"obj-66::obj-3::obj-156" : [ "VST2_LPFslope[8]", "umenu", 0 ],
-			"obj-66::obj-3::obj-15::obj-13" : [ "fGainOut[16]", "out", 0 ],
-			"obj-66::obj-3::obj-15::obj-71" : [ "bCueOut[22]", "live.text", 0 ],
-			"obj-66::obj-3::obj-170" : [ "VST1_LPF[4]", "live.text[8]", 0 ],
-			"obj-66::obj-3::obj-171" : [ "VST1_HPF[4]", "live.text[8]", 0 ],
-			"obj-66::obj-3::obj-196" : [ "VST4_predelay[8]", "slider", 0 ],
-			"obj-66::obj-3::obj-1::obj-13" : [ "fGainOut[15]", "out", 0 ],
-			"obj-66::obj-3::obj-1::obj-71" : [ "bCueOut[21]", "live.text", 0 ],
-			"obj-66::obj-3::obj-214" : [ "VST4_damphighfreq[4]", "freq.", 0 ],
-			"obj-66::obj-3::obj-23::obj-71" : [ "bCueIn[14]", "live.text", 0 ],
-			"obj-66::obj-3::obj-25::obj-13" : [ "fGainOut[17]", "out", 0 ],
-			"obj-66::obj-3::obj-25::obj-71" : [ "bCueOut[23]", "live.text", 0 ],
-			"obj-66::obj-3::obj-286" : [ "VST4_drywet[4]", "dry/wet", 0 ],
-			"obj-66::obj-3::obj-297" : [ "VST4_length[4]", "length", 0 ],
-			"obj-66::obj-3::obj-33" : [ "VST3_freeze[4]", "live.text[12]", 0 ],
-			"obj-66::obj-3::obj-35::obj-13" : [ "fGainOut[14]", "out", 0 ],
-			"obj-66::obj-3::obj-35::obj-71" : [ "bCueOut[20]", "live.text", 0 ],
-			"obj-66::obj-3::obj-38" : [ "bDelTap[10]", "tap", 0 ],
-			"obj-66::obj-3::obj-42" : [ "VST3_time[8]", "slider", 0 ],
-			"obj-66::obj-3::obj-5" : [ "vst~[4]", "vst~", 0 ],
-			"obj-66::obj-3::obj-51" : [ "VST3_drywet[4]", "dry/wet", 0 ],
-			"obj-66::obj-3::obj-52" : [ "VST3_mode[4]", "live.tab", 0 ],
-			"obj-66::obj-3::obj-65::obj-71" : [ "bCueIn[11]", "live.text", 0 ],
-			"obj-66::obj-3::obj-66::obj-71" : [ "bCueIn[12]", "live.text", 0 ],
-			"obj-66::obj-3::obj-69" : [ "VST3_feedback[4]", "feedback", 0 ],
-			"obj-66::obj-3::obj-85" : [ "vst~[3]", "vst~[1]", 0 ],
-			"obj-66::obj-3::obj-86" : [ "vst~[2]", "vst~[1]", 0 ],
-			"obj-66::obj-3::obj-92" : [ "amxd~[92]", "live.text", 0 ],
-			"obj-66::obj-3::obj-93" : [ "VST1_threshold[8]", "VST1_threshold", 0 ],
-			"obj-66::obj-3::obj-97" : [ "amxd~[91]", "live.text", 0 ],
-			"obj-66::obj-3::obj-98" : [ "amxd~[93]", "live.text", 0 ],
-			"obj-66::obj-3::obj-99" : [ "amxd~[94]", "live.text", 0 ],
-			"obj-66::obj-4::obj-100" : [ "VST4_size[5]", "size", 0 ],
-			"obj-66::obj-4::obj-107" : [ "vst~[7]", "vst~[3]", 0 ],
-			"obj-66::obj-4::obj-111" : [ "VST2_HPF[5]", "live.text[8]", 0 ],
-			"obj-66::obj-4::obj-112" : [ "VST2_LPF[5]", "live.text[8]", 0 ],
-			"obj-66::obj-4::obj-113" : [ "VST2_HPFfreq[5]", "freq.", 0 ],
-			"obj-66::obj-4::obj-115" : [ "VST2_LPFfreq[5]", "freq.", 0 ],
-			"obj-66::obj-4::obj-116" : [ "VST2_LPFq[5]", "Q", 0 ],
-			"obj-66::obj-4::obj-119" : [ "VST2_HPFq[5]", "Q", 0 ],
-			"obj-66::obj-4::obj-11::obj-71" : [ "bCueIn[17]", "live.text", 0 ],
-			"obj-66::obj-4::obj-125" : [ "VST2_drywet[5]", "dry/wet", 0 ],
-			"obj-66::obj-4::obj-138" : [ "VST4_lowcut[5]", "low-cut", 0 ],
-			"obj-66::obj-4::obj-139" : [ "VST4_highcut[5]", "high-cut", 0 ],
-			"obj-66::obj-4::obj-143" : [ "VST4_damplow[5]", "live.text[10]", 0 ],
-			"obj-66::obj-4::obj-145" : [ "VST4_damphigh[5]", "live.text[10]", 0 ],
-			"obj-66::obj-4::obj-148" : [ "VST4_damplowfreq[5]", "freq.", 0 ],
-			"obj-66::obj-4::obj-150" : [ "VST2_HPFslope[15]", "VST2_HPFslope", 0 ],
-			"obj-66::obj-4::obj-156" : [ "VST2_LPFslope[15]", "umenu", 0 ],
-			"obj-66::obj-4::obj-15::obj-13" : [ "fGainOut[20]", "out", 0 ],
-			"obj-66::obj-4::obj-15::obj-71" : [ "bCueOut[26]", "live.text", 0 ],
-			"obj-66::obj-4::obj-170" : [ "VST1_LPF[5]", "live.text[8]", 0 ],
-			"obj-66::obj-4::obj-171" : [ "VST1_HPF[5]", "live.text[8]", 0 ],
-			"obj-66::obj-4::obj-196" : [ "VST4_predelay[15]", "slider", 0 ],
-			"obj-66::obj-4::obj-1::obj-13" : [ "fGainOut[19]", "out", 0 ],
-			"obj-66::obj-4::obj-1::obj-71" : [ "bCueOut[25]", "live.text", 0 ],
-			"obj-66::obj-4::obj-214" : [ "VST4_damphighfreq[5]", "freq.", 0 ],
-			"obj-66::obj-4::obj-23::obj-71" : [ "bCueIn[18]", "live.text", 0 ],
-			"obj-66::obj-4::obj-25::obj-13" : [ "fGainOut[21]", "out", 0 ],
-			"obj-66::obj-4::obj-25::obj-71" : [ "bCueOut[27]", "live.text", 0 ],
-			"obj-66::obj-4::obj-286" : [ "VST4_drywet[5]", "dry/wet", 0 ],
-			"obj-66::obj-4::obj-297" : [ "VST4_length[5]", "length", 0 ],
-			"obj-66::obj-4::obj-33" : [ "VST3_freeze[5]", "live.text[12]", 0 ],
-			"obj-66::obj-4::obj-35::obj-13" : [ "fGainOut[18]", "out", 0 ],
-			"obj-66::obj-4::obj-35::obj-71" : [ "bCueOut[24]", "live.text", 0 ],
-			"obj-66::obj-4::obj-38" : [ "bDelTap[11]", "tap", 0 ],
-			"obj-66::obj-4::obj-42" : [ "VST3_time[15]", "slider", 0 ],
-			"obj-66::obj-4::obj-5" : [ "vst~[6]", "vst~", 0 ],
-			"obj-66::obj-4::obj-51" : [ "VST3_drywet[5]", "dry/wet", 0 ],
-			"obj-66::obj-4::obj-52" : [ "VST3_mode[5]", "live.tab", 0 ],
-			"obj-66::obj-4::obj-65::obj-71" : [ "bCueIn[15]", "live.text", 0 ],
-			"obj-66::obj-4::obj-66::obj-71" : [ "bCueIn[16]", "live.text", 0 ],
-			"obj-66::obj-4::obj-69" : [ "VST3_feedback[5]", "feedback", 0 ],
-			"obj-66::obj-4::obj-85" : [ "vst~[8]", "vst~[1]", 0 ],
-			"obj-66::obj-4::obj-86" : [ "vst~[5]", "vst~[1]", 0 ],
-			"obj-66::obj-4::obj-92" : [ "amxd~[97]", "live.text", 0 ],
-			"obj-66::obj-4::obj-93" : [ "VST1_threshold[15]", "VST1_threshold", 0 ],
-			"obj-66::obj-4::obj-97" : [ "amxd~[96]", "live.text", 0 ],
-			"obj-66::obj-4::obj-98" : [ "amxd~[98]", "live.text", 0 ],
-			"obj-66::obj-4::obj-99" : [ "amxd~[95]", "live.text", 0 ],
-			"obj-66::obj-5::obj-100" : [ "VST4_size[6]", "size", 0 ],
-			"obj-66::obj-5::obj-107" : [ "vst~[42]", "vst~[3]", 0 ],
-			"obj-66::obj-5::obj-111" : [ "VST2_HPF[6]", "live.text[8]", 0 ],
-			"obj-66::obj-5::obj-112" : [ "VST2_LPF[6]", "live.text[8]", 0 ],
-			"obj-66::obj-5::obj-113" : [ "VST2_HPFfreq[6]", "freq.", 0 ],
-			"obj-66::obj-5::obj-115" : [ "VST2_LPFfreq[6]", "freq.", 0 ],
-			"obj-66::obj-5::obj-116" : [ "VST2_LPFq[6]", "Q", 0 ],
-			"obj-66::obj-5::obj-119" : [ "VST2_HPFq[6]", "Q", 0 ],
-			"obj-66::obj-5::obj-11::obj-71" : [ "bCueIn[21]", "live.text", 0 ],
-			"obj-66::obj-5::obj-125" : [ "VST2_drywet[6]", "dry/wet", 0 ],
-			"obj-66::obj-5::obj-138" : [ "VST4_lowcut[6]", "low-cut", 0 ],
-			"obj-66::obj-5::obj-139" : [ "VST4_highcut[6]", "high-cut", 0 ],
-			"obj-66::obj-5::obj-143" : [ "VST4_damplow[6]", "live.text[10]", 0 ],
-			"obj-66::obj-5::obj-145" : [ "VST4_damphigh[6]", "live.text[10]", 0 ],
-			"obj-66::obj-5::obj-148" : [ "VST4_damplowfreq[6]", "freq.", 0 ],
-			"obj-66::obj-5::obj-150" : [ "VST2_HPFslope[16]", "VST2_HPFslope", 0 ],
-			"obj-66::obj-5::obj-156" : [ "VST2_LPFslope[16]", "umenu", 0 ],
-			"obj-66::obj-5::obj-15::obj-13" : [ "fGainOut[24]", "out", 0 ],
-			"obj-66::obj-5::obj-15::obj-71" : [ "bCueOut[30]", "live.text", 0 ],
-			"obj-66::obj-5::obj-170" : [ "VST1_LPF[6]", "live.text[8]", 0 ],
-			"obj-66::obj-5::obj-171" : [ "VST1_HPF[6]", "live.text[8]", 0 ],
-			"obj-66::obj-5::obj-196" : [ "VST4_predelay[16]", "slider", 0 ],
-			"obj-66::obj-5::obj-1::obj-13" : [ "fGainOut[23]", "out", 0 ],
-			"obj-66::obj-5::obj-1::obj-71" : [ "bCueOut[29]", "live.text", 0 ],
-			"obj-66::obj-5::obj-214" : [ "VST4_damphighfreq[6]", "freq.", 0 ],
-			"obj-66::obj-5::obj-23::obj-71" : [ "bCueIn[22]", "live.text", 0 ],
-			"obj-66::obj-5::obj-25::obj-13" : [ "fGainOut[25]", "out", 0 ],
-			"obj-66::obj-5::obj-25::obj-71" : [ "bCueOut[31]", "live.text", 0 ],
-			"obj-66::obj-5::obj-286" : [ "VST4_drywet[6]", "dry/wet", 0 ],
-			"obj-66::obj-5::obj-297" : [ "VST4_length[6]", "length", 0 ],
-			"obj-66::obj-5::obj-33" : [ "VST3_freeze[6]", "live.text[12]", 0 ],
-			"obj-66::obj-5::obj-35::obj-13" : [ "fGainOut[22]", "out", 0 ],
-			"obj-66::obj-5::obj-35::obj-71" : [ "bCueOut[28]", "live.text", 0 ],
-			"obj-66::obj-5::obj-38" : [ "bDelTap[12]", "tap", 0 ],
-			"obj-66::obj-5::obj-42" : [ "VST3_time[16]", "slider", 0 ],
-			"obj-66::obj-5::obj-5" : [ "vst~[43]", "vst~", 0 ],
-			"obj-66::obj-5::obj-51" : [ "VST3_drywet[6]", "dry/wet", 0 ],
-			"obj-66::obj-5::obj-52" : [ "VST3_mode[6]", "live.tab", 0 ],
-			"obj-66::obj-5::obj-65::obj-71" : [ "bCueIn[19]", "live.text", 0 ],
-			"obj-66::obj-5::obj-66::obj-71" : [ "bCueIn[20]", "live.text", 0 ],
-			"obj-66::obj-5::obj-69" : [ "VST3_feedback[6]", "feedback", 0 ],
-			"obj-66::obj-5::obj-85" : [ "vst~[44]", "vst~[1]", 0 ],
-			"obj-66::obj-5::obj-86" : [ "vst~[41]", "vst~[1]", 0 ],
-			"obj-66::obj-5::obj-92" : [ "amxd~[15]", "live.text", 0 ],
-			"obj-66::obj-5::obj-93" : [ "VST1_threshold[16]", "VST1_threshold", 0 ],
-			"obj-66::obj-5::obj-97" : [ "amxd~[12]", "live.text", 0 ],
-			"obj-66::obj-5::obj-98" : [ "amxd~[13]", "live.text", 0 ],
-			"obj-66::obj-5::obj-99" : [ "amxd~[14]", "live.text", 0 ],
-			"obj-66::obj-6::obj-100" : [ "VST4_size[7]", "size", 0 ],
-			"obj-66::obj-6::obj-107" : [ "vst~[47]", "vst~[3]", 0 ],
-			"obj-66::obj-6::obj-111" : [ "VST2_HPF[7]", "live.text[8]", 0 ],
-			"obj-66::obj-6::obj-112" : [ "VST2_LPF[7]", "live.text[8]", 0 ],
-			"obj-66::obj-6::obj-113" : [ "VST2_HPFfreq[7]", "freq.", 0 ],
-			"obj-66::obj-6::obj-115" : [ "VST2_LPFfreq[7]", "freq.", 0 ],
-			"obj-66::obj-6::obj-116" : [ "VST2_LPFq[7]", "Q", 0 ],
-			"obj-66::obj-6::obj-119" : [ "VST2_HPFq[7]", "Q", 0 ],
-			"obj-66::obj-6::obj-11::obj-71" : [ "bCueIn[25]", "live.text", 0 ],
-			"obj-66::obj-6::obj-125" : [ "VST2_drywet[7]", "dry/wet", 0 ],
-			"obj-66::obj-6::obj-138" : [ "VST4_lowcut[7]", "low-cut", 0 ],
-			"obj-66::obj-6::obj-139" : [ "VST4_highcut[7]", "high-cut", 0 ],
-			"obj-66::obj-6::obj-143" : [ "VST4_damplow[7]", "live.text[10]", 0 ],
-			"obj-66::obj-6::obj-145" : [ "VST4_damphigh[7]", "live.text[10]", 0 ],
-			"obj-66::obj-6::obj-148" : [ "VST4_damplowfreq[7]", "freq.", 0 ],
-			"obj-66::obj-6::obj-150" : [ "VST2_HPFslope[17]", "VST2_HPFslope", 0 ],
-			"obj-66::obj-6::obj-156" : [ "VST2_LPFslope[17]", "umenu", 0 ],
-			"obj-66::obj-6::obj-15::obj-13" : [ "fGainOut[71]", "out", 0 ],
-			"obj-66::obj-6::obj-15::obj-71" : [ "bCueOut[67]", "live.text", 0 ],
-			"obj-66::obj-6::obj-170" : [ "VST1_LPF[7]", "live.text[8]", 0 ],
-			"obj-66::obj-6::obj-171" : [ "VST1_HPF[7]", "live.text[8]", 0 ],
-			"obj-66::obj-6::obj-196" : [ "VST4_predelay[17]", "slider", 0 ],
-			"obj-66::obj-6::obj-1::obj-13" : [ "fGainOut[70]", "out", 0 ],
-			"obj-66::obj-6::obj-1::obj-71" : [ "bCueOut[33]", "live.text", 0 ],
-			"obj-66::obj-6::obj-214" : [ "VST4_damphighfreq[7]", "freq.", 0 ],
-			"obj-66::obj-6::obj-23::obj-71" : [ "bCueIn[26]", "live.text", 0 ],
-			"obj-66::obj-6::obj-25::obj-13" : [ "fGainOut[72]", "out", 0 ],
-			"obj-66::obj-6::obj-25::obj-71" : [ "bCueOut[68]", "live.text", 0 ],
-			"obj-66::obj-6::obj-286" : [ "VST4_drywet[7]", "dry/wet", 0 ],
-			"obj-66::obj-6::obj-297" : [ "VST4_length[7]", "length", 0 ],
-			"obj-66::obj-6::obj-33" : [ "VST3_freeze[7]", "live.text[12]", 0 ],
-			"obj-66::obj-6::obj-35::obj-13" : [ "fGainOut[69]", "out", 0 ],
-			"obj-66::obj-6::obj-35::obj-71" : [ "bCueOut[32]", "live.text", 0 ],
-			"obj-66::obj-6::obj-38" : [ "bDelTap[17]", "tap", 0 ],
-			"obj-66::obj-6::obj-42" : [ "VST3_time[17]", "slider", 0 ],
-			"obj-66::obj-6::obj-5" : [ "vst~[45]", "vst~", 0 ],
-			"obj-66::obj-6::obj-51" : [ "VST3_drywet[7]", "dry/wet", 0 ],
-			"obj-66::obj-6::obj-52" : [ "VST3_mode[7]", "live.tab", 0 ],
-			"obj-66::obj-6::obj-65::obj-71" : [ "bCueIn[23]", "live.text", 0 ],
-			"obj-66::obj-6::obj-66::obj-71" : [ "bCueIn[24]", "live.text", 0 ],
-			"obj-66::obj-6::obj-69" : [ "VST3_feedback[7]", "feedback", 0 ],
-			"obj-66::obj-6::obj-85" : [ "vst~[46]", "vst~[1]", 0 ],
-			"obj-66::obj-6::obj-86" : [ "vst~[48]", "vst~[1]", 0 ],
-			"obj-66::obj-6::obj-92" : [ "amxd~[23]", "live.text", 0 ],
-			"obj-66::obj-6::obj-93" : [ "VST1_threshold[17]", "VST1_threshold", 0 ],
-			"obj-66::obj-6::obj-97" : [ "amxd~[16]", "live.text", 0 ],
-			"obj-66::obj-6::obj-98" : [ "amxd~[25]", "live.text", 0 ],
-			"obj-66::obj-6::obj-99" : [ "amxd~[24]", "live.text", 0 ],
-			"obj-66::obj-8::obj-4" : [ "live.dial[34]", "live.dial[1]", 0 ],
+			"obj-66::obj-3::obj-100" : [ "VST4_size[15]", "size", 0 ],
+			"obj-66::obj-3::obj-107" : [ "vst~[86]", "vst~[3]", 0 ],
+			"obj-66::obj-3::obj-111" : [ "VST2_HPF[15]", "live.text[8]", 0 ],
+			"obj-66::obj-3::obj-112" : [ "VST2_LPF[15]", "live.text[8]", 0 ],
+			"obj-66::obj-3::obj-113" : [ "VST2_HPFfreq[15]", "freq.", 0 ],
+			"obj-66::obj-3::obj-115" : [ "VST2_LPFfreq[15]", "freq.", 0 ],
+			"obj-66::obj-3::obj-116" : [ "VST2_LPFq[15]", "Q", 0 ],
+			"obj-66::obj-3::obj-119" : [ "VST2_HPFq[15]", "Q", 0 ],
+			"obj-66::obj-3::obj-11::obj-71" : [ "bCueIn[60]", "live.text", 0 ],
+			"obj-66::obj-3::obj-125" : [ "VST2_drywet[15]", "dry/wet", 0 ],
+			"obj-66::obj-3::obj-138" : [ "VST4_lowcut[15]", "low-cut", 0 ],
+			"obj-66::obj-3::obj-139" : [ "VST4_highcut[15]", "high-cut", 0 ],
+			"obj-66::obj-3::obj-143" : [ "VST4_damplow[15]", "live.text[10]", 0 ],
+			"obj-66::obj-3::obj-145" : [ "VST4_damphigh[15]", "live.text[10]", 0 ],
+			"obj-66::obj-3::obj-148" : [ "VST4_damplowfreq[15]", "freq.", 0 ],
+			"obj-66::obj-3::obj-150" : [ "VST2_HPFslope[5]", "VST2_HPFslope", 0 ],
+			"obj-66::obj-3::obj-156" : [ "VST2_LPFslope[5]", "umenu", 0 ],
+			"obj-66::obj-3::obj-15::obj-13" : [ "fGainOut[53]", "out", 0 ],
+			"obj-66::obj-3::obj-15::obj-71" : [ "bCueOut[75]", "live.text", 0 ],
+			"obj-66::obj-3::obj-170" : [ "VST1_LPF[15]", "live.text[8]", 0 ],
+			"obj-66::obj-3::obj-171" : [ "VST1_HPF[15]", "live.text[8]", 0 ],
+			"obj-66::obj-3::obj-196" : [ "VST4_predelay[5]", "slider", 0 ],
+			"obj-66::obj-3::obj-1::obj-13" : [ "fGainOut[52]", "out", 0 ],
+			"obj-66::obj-3::obj-1::obj-71" : [ "bCueOut[74]", "live.text", 0 ],
+			"obj-66::obj-3::obj-214" : [ "VST4_damphighfreq[15]", "freq.", 0 ],
+			"obj-66::obj-3::obj-23::obj-71" : [ "bCueIn[61]", "live.text", 0 ],
+			"obj-66::obj-3::obj-25::obj-13" : [ "fGainOut[54]", "out", 0 ],
+			"obj-66::obj-3::obj-25::obj-71" : [ "bCueOut[61]", "live.text", 0 ],
+			"obj-66::obj-3::obj-286" : [ "VST4_drywet[15]", "dry/wet", 0 ],
+			"obj-66::obj-3::obj-297" : [ "VST4_length[15]", "length", 0 ],
+			"obj-66::obj-3::obj-33" : [ "VST3_freeze[15]", "live.text[12]", 0 ],
+			"obj-66::obj-3::obj-35::obj-13" : [ "fGainOut[51]", "out", 0 ],
+			"obj-66::obj-3::obj-35::obj-71" : [ "bCueOut[60]", "live.text", 0 ],
+			"obj-66::obj-3::obj-38" : [ "bDelTap[23]", "tap", 0 ],
+			"obj-66::obj-3::obj-42" : [ "VST3_time[5]", "slider", 0 ],
+			"obj-66::obj-3::obj-5" : [ "vst~[89]", "vst~", 0 ],
+			"obj-66::obj-3::obj-51" : [ "VST3_drywet[15]", "dry/wet", 0 ],
+			"obj-66::obj-3::obj-52" : [ "VST3_mode[15]", "live.tab", 0 ],
+			"obj-66::obj-3::obj-65::obj-71" : [ "bCueIn[58]", "live.text", 0 ],
+			"obj-66::obj-3::obj-66::obj-71" : [ "bCueIn[59]", "live.text", 0 ],
+			"obj-66::obj-3::obj-69" : [ "VST3_feedback[15]", "feedback", 0 ],
+			"obj-66::obj-3::obj-85" : [ "vst~[88]", "vst~[1]", 0 ],
+			"obj-66::obj-3::obj-86" : [ "vst~[87]", "vst~[1]", 0 ],
+			"obj-66::obj-3::obj-92" : [ "amxd~[13]", "live.text", 0 ],
+			"obj-66::obj-3::obj-93" : [ "VST1_threshold[5]", "VST1_threshold", 0 ],
+			"obj-66::obj-3::obj-97" : [ "amxd~[10]", "live.text", 0 ],
+			"obj-66::obj-3::obj-98" : [ "amxd~[11]", "live.text", 0 ],
+			"obj-66::obj-3::obj-99" : [ "amxd~[12]", "live.text", 0 ],
+			"obj-66::obj-4::obj-100" : [ "VST4_size[16]", "size", 0 ],
+			"obj-66::obj-4::obj-107" : [ "vst~[93]", "vst~[3]", 0 ],
+			"obj-66::obj-4::obj-111" : [ "VST2_HPF[16]", "live.text[8]", 0 ],
+			"obj-66::obj-4::obj-112" : [ "VST2_LPF[16]", "live.text[8]", 0 ],
+			"obj-66::obj-4::obj-113" : [ "VST2_HPFfreq[16]", "freq.", 0 ],
+			"obj-66::obj-4::obj-115" : [ "VST2_LPFfreq[16]", "freq.", 0 ],
+			"obj-66::obj-4::obj-116" : [ "VST2_LPFq[16]", "Q", 0 ],
+			"obj-66::obj-4::obj-119" : [ "VST2_HPFq[16]", "Q", 0 ],
+			"obj-66::obj-4::obj-11::obj-71" : [ "bCueIn[64]", "live.text", 0 ],
+			"obj-66::obj-4::obj-125" : [ "VST2_drywet[16]", "dry/wet", 0 ],
+			"obj-66::obj-4::obj-138" : [ "VST4_lowcut[16]", "low-cut", 0 ],
+			"obj-66::obj-4::obj-139" : [ "VST4_highcut[16]", "high-cut", 0 ],
+			"obj-66::obj-4::obj-143" : [ "VST4_damplow[16]", "live.text[10]", 0 ],
+			"obj-66::obj-4::obj-145" : [ "VST4_damphigh[16]", "live.text[10]", 0 ],
+			"obj-66::obj-4::obj-148" : [ "VST4_damplowfreq[16]", "freq.", 0 ],
+			"obj-66::obj-4::obj-150" : [ "VST2_HPFslope[6]", "VST2_HPFslope", 0 ],
+			"obj-66::obj-4::obj-156" : [ "VST2_LPFslope[6]", "umenu", 0 ],
+			"obj-66::obj-4::obj-15::obj-13" : [ "fGainOut[57]", "out", 0 ],
+			"obj-66::obj-4::obj-15::obj-71" : [ "bCueOut[64]", "live.text", 0 ],
+			"obj-66::obj-4::obj-170" : [ "VST1_LPF[16]", "live.text[8]", 0 ],
+			"obj-66::obj-4::obj-171" : [ "VST1_HPF[16]", "live.text[8]", 0 ],
+			"obj-66::obj-4::obj-196" : [ "VST4_predelay[6]", "slider", 0 ],
+			"obj-66::obj-4::obj-1::obj-13" : [ "fGainOut[56]", "out", 0 ],
+			"obj-66::obj-4::obj-1::obj-71" : [ "bCueOut[63]", "live.text", 0 ],
+			"obj-66::obj-4::obj-214" : [ "VST4_damphighfreq[16]", "freq.", 0 ],
+			"obj-66::obj-4::obj-23::obj-71" : [ "bCueIn[65]", "live.text", 0 ],
+			"obj-66::obj-4::obj-25::obj-13" : [ "fGainOut[58]", "out", 0 ],
+			"obj-66::obj-4::obj-25::obj-71" : [ "bCueOut[65]", "live.text", 0 ],
+			"obj-66::obj-4::obj-286" : [ "VST4_drywet[16]", "dry/wet", 0 ],
+			"obj-66::obj-4::obj-297" : [ "VST4_length[16]", "length", 0 ],
+			"obj-66::obj-4::obj-33" : [ "VST3_freeze[16]", "live.text[12]", 0 ],
+			"obj-66::obj-4::obj-35::obj-13" : [ "fGainOut[55]", "out", 0 ],
+			"obj-66::obj-4::obj-35::obj-71" : [ "bCueOut[62]", "live.text", 0 ],
+			"obj-66::obj-4::obj-38" : [ "bDelTap[24]", "tap", 0 ],
+			"obj-66::obj-4::obj-42" : [ "VST3_time[6]", "slider", 0 ],
+			"obj-66::obj-4::obj-5" : [ "vst~[92]", "vst~", 0 ],
+			"obj-66::obj-4::obj-51" : [ "VST3_drywet[16]", "dry/wet", 0 ],
+			"obj-66::obj-4::obj-52" : [ "VST3_mode[16]", "live.tab", 0 ],
+			"obj-66::obj-4::obj-65::obj-71" : [ "bCueIn[62]", "live.text", 0 ],
+			"obj-66::obj-4::obj-66::obj-71" : [ "bCueIn[63]", "live.text", 0 ],
+			"obj-66::obj-4::obj-69" : [ "VST3_feedback[16]", "feedback", 0 ],
+			"obj-66::obj-4::obj-85" : [ "vst~[90]", "vst~[1]", 0 ],
+			"obj-66::obj-4::obj-86" : [ "vst~[91]", "vst~[1]", 0 ],
+			"obj-66::obj-4::obj-92" : [ "amxd~[17]", "live.text", 0 ],
+			"obj-66::obj-4::obj-93" : [ "VST1_threshold[6]", "VST1_threshold", 0 ],
+			"obj-66::obj-4::obj-97" : [ "amxd~[14]", "live.text", 0 ],
+			"obj-66::obj-4::obj-98" : [ "amxd~[15]", "live.text", 0 ],
+			"obj-66::obj-4::obj-99" : [ "amxd~[16]", "live.text", 0 ],
+			"obj-66::obj-5::obj-100" : [ "VST4_size[17]", "size", 0 ],
+			"obj-66::obj-5::obj-107" : [ "vst~[94]", "vst~[3]", 0 ],
+			"obj-66::obj-5::obj-111" : [ "VST2_HPF[17]", "live.text[8]", 0 ],
+			"obj-66::obj-5::obj-112" : [ "VST2_LPF[17]", "live.text[8]", 0 ],
+			"obj-66::obj-5::obj-113" : [ "VST2_HPFfreq[17]", "freq.", 0 ],
+			"obj-66::obj-5::obj-115" : [ "VST2_LPFfreq[17]", "freq.", 0 ],
+			"obj-66::obj-5::obj-116" : [ "VST2_LPFq[17]", "Q", 0 ],
+			"obj-66::obj-5::obj-119" : [ "VST2_HPFq[17]", "Q", 0 ],
+			"obj-66::obj-5::obj-11::obj-71" : [ "bCueIn[68]", "live.text", 0 ],
+			"obj-66::obj-5::obj-125" : [ "VST2_drywet[17]", "dry/wet", 0 ],
+			"obj-66::obj-5::obj-138" : [ "VST4_lowcut[17]", "low-cut", 0 ],
+			"obj-66::obj-5::obj-139" : [ "VST4_highcut[17]", "high-cut", 0 ],
+			"obj-66::obj-5::obj-143" : [ "VST4_damplow[17]", "live.text[10]", 0 ],
+			"obj-66::obj-5::obj-145" : [ "VST4_damphigh[17]", "live.text[10]", 0 ],
+			"obj-66::obj-5::obj-148" : [ "VST4_damplowfreq[17]", "freq.", 0 ],
+			"obj-66::obj-5::obj-150" : [ "VST2_HPFslope[7]", "VST2_HPFslope", 0 ],
+			"obj-66::obj-5::obj-156" : [ "VST2_LPFslope[7]", "umenu", 0 ],
+			"obj-66::obj-5::obj-15::obj-13" : [ "fGainOut[61]", "out", 0 ],
+			"obj-66::obj-5::obj-15::obj-71" : [ "bCueOut[78]", "live.text", 0 ],
+			"obj-66::obj-5::obj-170" : [ "VST1_LPF[17]", "live.text[8]", 0 ],
+			"obj-66::obj-5::obj-171" : [ "VST1_HPF[17]", "live.text[8]", 0 ],
+			"obj-66::obj-5::obj-196" : [ "VST4_predelay[7]", "slider", 0 ],
+			"obj-66::obj-5::obj-1::obj-13" : [ "fGainOut[60]", "out", 0 ],
+			"obj-66::obj-5::obj-1::obj-71" : [ "bCueOut[77]", "live.text", 0 ],
+			"obj-66::obj-5::obj-214" : [ "VST4_damphighfreq[17]", "freq.", 0 ],
+			"obj-66::obj-5::obj-23::obj-71" : [ "bCueIn[69]", "live.text", 0 ],
+			"obj-66::obj-5::obj-25::obj-13" : [ "fGainOut[62]", "out", 0 ],
+			"obj-66::obj-5::obj-25::obj-71" : [ "bCueOut[79]", "live.text", 0 ],
+			"obj-66::obj-5::obj-286" : [ "VST4_drywet[17]", "dry/wet", 0 ],
+			"obj-66::obj-5::obj-297" : [ "VST4_length[17]", "length", 0 ],
+			"obj-66::obj-5::obj-33" : [ "VST3_freeze[17]", "live.text[12]", 0 ],
+			"obj-66::obj-5::obj-35::obj-13" : [ "fGainOut[59]", "out", 0 ],
+			"obj-66::obj-5::obj-35::obj-71" : [ "bCueOut[76]", "live.text", 0 ],
+			"obj-66::obj-5::obj-38" : [ "bDelTap[25]", "tap", 0 ],
+			"obj-66::obj-5::obj-42" : [ "VST3_time[7]", "slider", 0 ],
+			"obj-66::obj-5::obj-5" : [ "vst~[66]", "vst~", 0 ],
+			"obj-66::obj-5::obj-51" : [ "VST3_drywet[17]", "dry/wet", 0 ],
+			"obj-66::obj-5::obj-52" : [ "VST3_mode[17]", "live.tab", 0 ],
+			"obj-66::obj-5::obj-65::obj-71" : [ "bCueIn[66]", "live.text", 0 ],
+			"obj-66::obj-5::obj-66::obj-71" : [ "bCueIn[67]", "live.text", 0 ],
+			"obj-66::obj-5::obj-69" : [ "VST3_feedback[17]", "feedback", 0 ],
+			"obj-66::obj-5::obj-85" : [ "vst~[17]", "vst~[1]", 0 ],
+			"obj-66::obj-5::obj-86" : [ "vst~[95]", "vst~[1]", 0 ],
+			"obj-66::obj-5::obj-92" : [ "amxd~[21]", "live.text", 0 ],
+			"obj-66::obj-5::obj-93" : [ "VST1_threshold[7]", "VST1_threshold", 0 ],
+			"obj-66::obj-5::obj-97" : [ "amxd~[18]", "live.text", 0 ],
+			"obj-66::obj-5::obj-98" : [ "amxd~[19]", "live.text", 0 ],
+			"obj-66::obj-5::obj-99" : [ "amxd~[20]", "live.text", 0 ],
+			"obj-66::obj-6::obj-100" : [ "VST4_size[18]", "size", 0 ],
+			"obj-66::obj-6::obj-107" : [ "vst~[97]", "vst~[3]", 0 ],
+			"obj-66::obj-6::obj-111" : [ "VST2_HPF[18]", "live.text[8]", 0 ],
+			"obj-66::obj-6::obj-112" : [ "VST2_LPF[18]", "live.text[8]", 0 ],
+			"obj-66::obj-6::obj-113" : [ "VST2_HPFfreq[18]", "freq.", 0 ],
+			"obj-66::obj-6::obj-115" : [ "VST2_LPFfreq[18]", "freq.", 0 ],
+			"obj-66::obj-6::obj-116" : [ "VST2_LPFq[18]", "Q", 0 ],
+			"obj-66::obj-6::obj-119" : [ "VST2_HPFq[18]", "Q", 0 ],
+			"obj-66::obj-6::obj-11::obj-71" : [ "bCueIn[72]", "live.text", 0 ],
+			"obj-66::obj-6::obj-125" : [ "VST2_drywet[18]", "dry/wet", 0 ],
+			"obj-66::obj-6::obj-138" : [ "VST4_lowcut[18]", "low-cut", 0 ],
+			"obj-66::obj-6::obj-139" : [ "VST4_highcut[18]", "high-cut", 0 ],
+			"obj-66::obj-6::obj-143" : [ "VST4_damplow[18]", "live.text[10]", 0 ],
+			"obj-66::obj-6::obj-145" : [ "VST4_damphigh[18]", "live.text[10]", 0 ],
+			"obj-66::obj-6::obj-148" : [ "VST4_damplowfreq[18]", "freq.", 0 ],
+			"obj-66::obj-6::obj-150" : [ "VST2_HPFslope[8]", "VST2_HPFslope", 0 ],
+			"obj-66::obj-6::obj-156" : [ "VST2_LPFslope[8]", "umenu", 0 ],
+			"obj-66::obj-6::obj-15::obj-13" : [ "fGainOut[81]", "out", 0 ],
+			"obj-66::obj-6::obj-15::obj-71" : [ "bCueOut[82]", "live.text", 0 ],
+			"obj-66::obj-6::obj-170" : [ "VST1_LPF[18]", "live.text[8]", 0 ],
+			"obj-66::obj-6::obj-171" : [ "VST1_HPF[18]", "live.text[8]", 0 ],
+			"obj-66::obj-6::obj-196" : [ "VST4_predelay[8]", "slider", 0 ],
+			"obj-66::obj-6::obj-1::obj-13" : [ "fGainOut[80]", "out", 0 ],
+			"obj-66::obj-6::obj-1::obj-71" : [ "bCueOut[81]", "live.text", 0 ],
+			"obj-66::obj-6::obj-214" : [ "VST4_damphighfreq[18]", "freq.", 0 ],
+			"obj-66::obj-6::obj-23::obj-71" : [ "bCueIn[73]", "live.text", 0 ],
+			"obj-66::obj-6::obj-25::obj-13" : [ "fGainOut[82]", "out", 0 ],
+			"obj-66::obj-6::obj-25::obj-71" : [ "bCueOut[83]", "live.text", 0 ],
+			"obj-66::obj-6::obj-286" : [ "VST4_drywet[18]", "dry/wet", 0 ],
+			"obj-66::obj-6::obj-297" : [ "VST4_length[18]", "length", 0 ],
+			"obj-66::obj-6::obj-33" : [ "VST3_freeze[18]", "live.text[12]", 0 ],
+			"obj-66::obj-6::obj-35::obj-13" : [ "fGainOut[79]", "out", 0 ],
+			"obj-66::obj-6::obj-35::obj-71" : [ "bCueOut[80]", "live.text", 0 ],
+			"obj-66::obj-6::obj-38" : [ "bDelTap[5]", "tap", 0 ],
+			"obj-66::obj-6::obj-42" : [ "VST3_time[8]", "slider", 0 ],
+			"obj-66::obj-6::obj-5" : [ "vst~[98]", "vst~", 0 ],
+			"obj-66::obj-6::obj-51" : [ "VST3_drywet[18]", "dry/wet", 0 ],
+			"obj-66::obj-6::obj-52" : [ "VST3_mode[18]", "live.tab", 0 ],
+			"obj-66::obj-6::obj-65::obj-71" : [ "bCueIn[70]", "live.text", 0 ],
+			"obj-66::obj-6::obj-66::obj-71" : [ "bCueIn[71]", "live.text", 0 ],
+			"obj-66::obj-6::obj-69" : [ "VST3_feedback[18]", "feedback", 0 ],
+			"obj-66::obj-6::obj-85" : [ "vst~[96]", "vst~[1]", 0 ],
+			"obj-66::obj-6::obj-86" : [ "vst~[99]", "vst~[1]", 0 ],
+			"obj-66::obj-6::obj-92" : [ "amxd~[127]", "live.text", 0 ],
+			"obj-66::obj-6::obj-93" : [ "VST1_threshold[8]", "VST1_threshold", 0 ],
+			"obj-66::obj-6::obj-97" : [ "amxd~[126]", "live.text", 0 ],
+			"obj-66::obj-6::obj-98" : [ "amxd~[125]", "live.text", 0 ],
+			"obj-66::obj-6::obj-99" : [ "amxd~[124]", "live.text", 0 ],
 			"obj-72::obj-109" : [ "vst~[233]", "vst~[1]", 0 ],
 			"obj-72::obj-136::obj-22::obj-2" : [ "fader_13", "fader", 0 ],
 			"obj-72::obj-136::obj-22::obj-68" : [ "cue_13", "cue", 0 ],
@@ -8262,1944 +8214,1756 @@
 					"parameter_longname" : "live.text[69]"
 				}
 ,
-				"obj-2::obj-1::obj-4" : 				{
-					"parameter_longname" : "live.dial[17]"
-				}
-,
-				"obj-2::obj-20::obj-4" : 				{
-					"parameter_longname" : "live.dial[19]"
-				}
-,
-				"obj-2::obj-21::obj-4" : 				{
-					"parameter_longname" : "live.dial[20]"
-				}
-,
-				"obj-2::obj-22::obj-4" : 				{
-					"parameter_longname" : "live.dial[24]"
-				}
-,
-				"obj-2::obj-26::obj-4" : 				{
-					"parameter_longname" : "live.dial[23]"
-				}
-,
-				"obj-2::obj-27::obj-4" : 				{
-					"parameter_longname" : "live.dial[22]"
-				}
-,
-				"obj-2::obj-28::obj-4" : 				{
-					"parameter_longname" : "live.dial[21]"
-				}
-,
-				"obj-2::obj-29::obj-4" : 				{
-					"parameter_longname" : "live.dial[32]"
-				}
-,
-				"obj-2::obj-30::obj-4" : 				{
-					"parameter_longname" : "live.dial[31]"
-				}
-,
-				"obj-2::obj-31::obj-4" : 				{
-					"parameter_longname" : "live.dial[30]"
-				}
-,
-				"obj-2::obj-32::obj-4" : 				{
-					"parameter_longname" : "live.dial[29]"
-				}
-,
-				"obj-2::obj-33::obj-4" : 				{
-					"parameter_longname" : "live.dial[28]"
-				}
-,
-				"obj-2::obj-34::obj-4" : 				{
-					"parameter_longname" : "live.dial[27]"
-				}
-,
-				"obj-2::obj-35::obj-4" : 				{
-					"parameter_longname" : "live.dial[26]"
-				}
-,
-				"obj-2::obj-36::obj-4" : 				{
-					"parameter_longname" : "live.dial[25]"
-				}
-,
 				"obj-2::obj-3::obj-100" : 				{
-					"parameter_longname" : "VST4_size[8]"
-				}
-,
-				"obj-2::obj-3::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[8]"
-				}
-,
-				"obj-2::obj-3::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[8]"
-				}
-,
-				"obj-2::obj-3::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[8]"
-				}
-,
-				"obj-2::obj-3::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[8]"
-				}
-,
-				"obj-2::obj-3::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[8]"
-				}
-,
-				"obj-2::obj-3::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[8]"
-				}
-,
-				"obj-2::obj-3::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[29]"
-				}
-,
-				"obj-2::obj-3::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[8]"
-				}
-,
-				"obj-2::obj-3::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[8]"
-				}
-,
-				"obj-2::obj-3::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[8]"
-				}
-,
-				"obj-2::obj-3::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[8]"
-				}
-,
-				"obj-2::obj-3::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[8]"
-				}
-,
-				"obj-2::obj-3::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[8]"
-				}
-,
-				"obj-2::obj-3::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[28]"
-				}
-,
-				"obj-2::obj-3::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[36]"
-				}
-,
-				"obj-2::obj-3::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[8]"
-				}
-,
-				"obj-2::obj-3::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[8]"
-				}
-,
-				"obj-2::obj-3::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[27]"
-				}
-,
-				"obj-2::obj-3::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[35]"
-				}
-,
-				"obj-2::obj-3::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[8]"
-				}
-,
-				"obj-2::obj-3::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[30]"
-				}
-,
-				"obj-2::obj-3::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[29]"
-				}
-,
-				"obj-2::obj-3::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[37]"
-				}
-,
-				"obj-2::obj-3::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[8]"
-				}
-,
-				"obj-2::obj-3::obj-297" : 				{
-					"parameter_longname" : "VST4_length[8]"
-				}
-,
-				"obj-2::obj-3::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[8]"
-				}
-,
-				"obj-2::obj-3::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[26]"
-				}
-,
-				"obj-2::obj-3::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[34]"
-				}
-,
-				"obj-2::obj-3::obj-38" : 				{
-					"parameter_longname" : "bDelTap[18]"
-				}
-,
-				"obj-2::obj-3::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[8]"
-				}
-,
-				"obj-2::obj-3::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[8]"
-				}
-,
-				"obj-2::obj-3::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[27]"
-				}
-,
-				"obj-2::obj-3::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[28]"
-				}
-,
-				"obj-2::obj-3::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[8]"
-				}
-,
-				"obj-2::obj-3::obj-92" : 				{
-					"parameter_longname" : "amxd~[100]"
-				}
-,
-				"obj-2::obj-3::obj-97" : 				{
-					"parameter_longname" : "amxd~[99]"
-				}
-,
-				"obj-2::obj-3::obj-98" : 				{
-					"parameter_longname" : "amxd~[102]"
-				}
-,
-				"obj-2::obj-3::obj-99" : 				{
-					"parameter_longname" : "amxd~[101]"
-				}
-,
-				"obj-2::obj-4::obj-100" : 				{
-					"parameter_longname" : "VST4_size[9]"
-				}
-,
-				"obj-2::obj-4::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[9]"
-				}
-,
-				"obj-2::obj-4::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[9]"
-				}
-,
-				"obj-2::obj-4::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[9]"
-				}
-,
-				"obj-2::obj-4::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[9]"
-				}
-,
-				"obj-2::obj-4::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[9]"
-				}
-,
-				"obj-2::obj-4::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[9]"
-				}
-,
-				"obj-2::obj-4::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[33]"
-				}
-,
-				"obj-2::obj-4::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[9]"
-				}
-,
-				"obj-2::obj-4::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[9]"
-				}
-,
-				"obj-2::obj-4::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[9]"
-				}
-,
-				"obj-2::obj-4::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[9]"
-				}
-,
-				"obj-2::obj-4::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[9]"
-				}
-,
-				"obj-2::obj-4::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[9]"
-				}
-,
-				"obj-2::obj-4::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[32]"
-				}
-,
-				"obj-2::obj-4::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[40]"
-				}
-,
-				"obj-2::obj-4::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[9]"
-				}
-,
-				"obj-2::obj-4::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[9]"
-				}
-,
-				"obj-2::obj-4::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[31]"
-				}
-,
-				"obj-2::obj-4::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[39]"
-				}
-,
-				"obj-2::obj-4::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[9]"
-				}
-,
-				"obj-2::obj-4::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[34]"
-				}
-,
-				"obj-2::obj-4::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[33]"
-				}
-,
-				"obj-2::obj-4::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[41]"
-				}
-,
-				"obj-2::obj-4::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[9]"
-				}
-,
-				"obj-2::obj-4::obj-297" : 				{
-					"parameter_longname" : "VST4_length[9]"
-				}
-,
-				"obj-2::obj-4::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[9]"
-				}
-,
-				"obj-2::obj-4::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[30]"
-				}
-,
-				"obj-2::obj-4::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[38]"
-				}
-,
-				"obj-2::obj-4::obj-38" : 				{
-					"parameter_longname" : "bDelTap[19]"
-				}
-,
-				"obj-2::obj-4::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[9]"
-				}
-,
-				"obj-2::obj-4::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[9]"
-				}
-,
-				"obj-2::obj-4::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[31]"
-				}
-,
-				"obj-2::obj-4::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[32]"
-				}
-,
-				"obj-2::obj-4::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[9]"
-				}
-,
-				"obj-2::obj-4::obj-92" : 				{
-					"parameter_longname" : "amxd~[106]"
-				}
-,
-				"obj-2::obj-4::obj-97" : 				{
-					"parameter_longname" : "amxd~[103]"
-				}
-,
-				"obj-2::obj-4::obj-98" : 				{
-					"parameter_longname" : "amxd~[104]"
-				}
-,
-				"obj-2::obj-4::obj-99" : 				{
-					"parameter_longname" : "amxd~[105]"
-				}
-,
-				"obj-2::obj-5::obj-100" : 				{
-					"parameter_longname" : "VST4_size[10]"
-				}
-,
-				"obj-2::obj-5::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[10]"
-				}
-,
-				"obj-2::obj-5::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[10]"
-				}
-,
-				"obj-2::obj-5::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[10]"
-				}
-,
-				"obj-2::obj-5::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[10]"
-				}
-,
-				"obj-2::obj-5::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[10]"
-				}
-,
-				"obj-2::obj-5::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[10]"
-				}
-,
-				"obj-2::obj-5::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[37]"
-				}
-,
-				"obj-2::obj-5::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[10]"
-				}
-,
-				"obj-2::obj-5::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[10]"
-				}
-,
-				"obj-2::obj-5::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[10]"
-				}
-,
-				"obj-2::obj-5::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[10]"
-				}
-,
-				"obj-2::obj-5::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[10]"
-				}
-,
-				"obj-2::obj-5::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[10]"
-				}
-,
-				"obj-2::obj-5::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[36]"
-				}
-,
-				"obj-2::obj-5::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[44]"
-				}
-,
-				"obj-2::obj-5::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[10]"
-				}
-,
-				"obj-2::obj-5::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[10]"
-				}
-,
-				"obj-2::obj-5::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[35]"
-				}
-,
-				"obj-2::obj-5::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[43]"
-				}
-,
-				"obj-2::obj-5::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[10]"
-				}
-,
-				"obj-2::obj-5::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[38]"
-				}
-,
-				"obj-2::obj-5::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[37]"
-				}
-,
-				"obj-2::obj-5::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[45]"
-				}
-,
-				"obj-2::obj-5::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[10]"
-				}
-,
-				"obj-2::obj-5::obj-297" : 				{
-					"parameter_longname" : "VST4_length[10]"
-				}
-,
-				"obj-2::obj-5::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[10]"
-				}
-,
-				"obj-2::obj-5::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[34]"
-				}
-,
-				"obj-2::obj-5::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[42]"
-				}
-,
-				"obj-2::obj-5::obj-38" : 				{
-					"parameter_longname" : "bDelTap[3]"
-				}
-,
-				"obj-2::obj-5::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[10]"
-				}
-,
-				"obj-2::obj-5::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[10]"
-				}
-,
-				"obj-2::obj-5::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[35]"
-				}
-,
-				"obj-2::obj-5::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[36]"
-				}
-,
-				"obj-2::obj-5::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[10]"
-				}
-,
-				"obj-2::obj-5::obj-92" : 				{
-					"parameter_longname" : "amxd~[108]"
-				}
-,
-				"obj-2::obj-5::obj-97" : 				{
-					"parameter_longname" : "amxd~[109]"
-				}
-,
-				"obj-2::obj-5::obj-98" : 				{
-					"parameter_longname" : "amxd~[110]"
-				}
-,
-				"obj-2::obj-5::obj-99" : 				{
-					"parameter_longname" : "amxd~[107]"
-				}
-,
-				"obj-2::obj-6::obj-100" : 				{
-					"parameter_longname" : "VST4_size[11]"
-				}
-,
-				"obj-2::obj-6::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[11]"
-				}
-,
-				"obj-2::obj-6::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[11]"
-				}
-,
-				"obj-2::obj-6::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[11]"
-				}
-,
-				"obj-2::obj-6::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[11]"
-				}
-,
-				"obj-2::obj-6::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[11]"
-				}
-,
-				"obj-2::obj-6::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[11]"
-				}
-,
-				"obj-2::obj-6::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[41]"
-				}
-,
-				"obj-2::obj-6::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[11]"
-				}
-,
-				"obj-2::obj-6::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[11]"
-				}
-,
-				"obj-2::obj-6::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[11]"
-				}
-,
-				"obj-2::obj-6::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[11]"
-				}
-,
-				"obj-2::obj-6::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[11]"
-				}
-,
-				"obj-2::obj-6::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[11]"
-				}
-,
-				"obj-2::obj-6::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[40]"
-				}
-,
-				"obj-2::obj-6::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[48]"
-				}
-,
-				"obj-2::obj-6::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[11]"
-				}
-,
-				"obj-2::obj-6::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[11]"
-				}
-,
-				"obj-2::obj-6::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[39]"
-				}
-,
-				"obj-2::obj-6::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[47]"
-				}
-,
-				"obj-2::obj-6::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[11]"
-				}
-,
-				"obj-2::obj-6::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[42]"
-				}
-,
-				"obj-2::obj-6::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[41]"
-				}
-,
-				"obj-2::obj-6::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[69]"
-				}
-,
-				"obj-2::obj-6::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[11]"
-				}
-,
-				"obj-2::obj-6::obj-297" : 				{
-					"parameter_longname" : "VST4_length[11]"
-				}
-,
-				"obj-2::obj-6::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[11]"
-				}
-,
-				"obj-2::obj-6::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[38]"
-				}
-,
-				"obj-2::obj-6::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[46]"
-				}
-,
-				"obj-2::obj-6::obj-38" : 				{
-					"parameter_longname" : "bDelTap[20]"
-				}
-,
-				"obj-2::obj-6::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[11]"
-				}
-,
-				"obj-2::obj-6::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[11]"
-				}
-,
-				"obj-2::obj-6::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[39]"
-				}
-,
-				"obj-2::obj-6::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[40]"
-				}
-,
-				"obj-2::obj-6::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[11]"
-				}
-,
-				"obj-2::obj-6::obj-92" : 				{
-					"parameter_longname" : "amxd~[113]"
-				}
-,
-				"obj-2::obj-6::obj-97" : 				{
-					"parameter_longname" : "amxd~[114]"
-				}
-,
-				"obj-2::obj-6::obj-98" : 				{
-					"parameter_longname" : "amxd~[112]"
-				}
-,
-				"obj-2::obj-6::obj-99" : 				{
-					"parameter_longname" : "amxd~[111]"
-				}
-,
-				"obj-2::obj-8::obj-4" : 				{
-					"parameter_longname" : "live.dial[18]"
-				}
-,
-				"obj-54::obj-10::obj-4" : 				{
-					"parameter_longname" : "live.dial[4]"
-				}
-,
-				"obj-54::obj-11::obj-4" : 				{
-					"parameter_longname" : "live.dial[3]"
-				}
-,
-				"obj-54::obj-15::obj-4" : 				{
-					"parameter_longname" : "live.dial[8]"
-				}
-,
-				"obj-54::obj-16::obj-4" : 				{
-					"parameter_longname" : "live.dial[7]"
-				}
-,
-				"obj-54::obj-17::obj-4" : 				{
-					"parameter_longname" : "live.dial[6]"
-				}
-,
-				"obj-54::obj-20::obj-4" : 				{
-					"parameter_longname" : "live.dial[5]"
-				}
-,
-				"obj-54::obj-21::obj-4" : 				{
-					"parameter_longname" : "live.dial[16]"
-				}
-,
-				"obj-54::obj-24::obj-4" : 				{
-					"parameter_longname" : "live.dial[15]"
-				}
-,
-				"obj-54::obj-25::obj-4" : 				{
-					"parameter_longname" : "live.dial[14]"
-				}
-,
-				"obj-54::obj-26::obj-4" : 				{
-					"parameter_longname" : "live.dial[13]"
-				}
-,
-				"obj-54::obj-27::obj-4" : 				{
-					"parameter_longname" : "live.dial[12]"
-				}
-,
-				"obj-54::obj-28::obj-4" : 				{
-					"parameter_longname" : "live.dial[11]"
-				}
-,
-				"obj-54::obj-29::obj-4" : 				{
-					"parameter_longname" : "live.dial[10]"
-				}
-,
-				"obj-54::obj-30::obj-4" : 				{
-					"parameter_longname" : "live.dial[9]"
-				}
-,
-				"obj-54::obj-3::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[2]"
-				}
-,
-				"obj-54::obj-3::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[55]"
-				}
-,
-				"obj-54::obj-3::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[53]"
-				}
-,
-				"obj-54::obj-3::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[54]"
-				}
-,
-				"obj-54::obj-3::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[52]"
-				}
-,
-				"obj-54::obj-3::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[3]"
-				}
-,
-				"obj-54::obj-3::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[56]"
-				}
-,
-				"obj-54::obj-3::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[54]"
-				}
-,
-				"obj-54::obj-3::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[1]"
-				}
-,
-				"obj-54::obj-4::obj-100" : 				{
 					"parameter_longname" : "VST4_size[1]"
 				}
 ,
-				"obj-54::obj-4::obj-111" : 				{
+				"obj-2::obj-3::obj-111" : 				{
 					"parameter_longname" : "VST2_HPF[1]"
 				}
 ,
-				"obj-54::obj-4::obj-112" : 				{
+				"obj-2::obj-3::obj-112" : 				{
 					"parameter_longname" : "VST2_LPF[1]"
 				}
 ,
-				"obj-54::obj-4::obj-113" : 				{
+				"obj-2::obj-3::obj-113" : 				{
 					"parameter_longname" : "VST2_HPFfreq[1]"
 				}
 ,
-				"obj-54::obj-4::obj-115" : 				{
+				"obj-2::obj-3::obj-115" : 				{
 					"parameter_longname" : "VST2_LPFfreq[1]"
 				}
 ,
-				"obj-54::obj-4::obj-116" : 				{
+				"obj-2::obj-3::obj-116" : 				{
 					"parameter_longname" : "VST2_LPFq[1]"
 				}
 ,
-				"obj-54::obj-4::obj-119" : 				{
+				"obj-2::obj-3::obj-119" : 				{
 					"parameter_longname" : "VST2_HPFq[1]"
 				}
 ,
-				"obj-54::obj-4::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[6]"
+				"obj-2::obj-3::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[3]"
 				}
 ,
-				"obj-54::obj-4::obj-125" : 				{
+				"obj-2::obj-3::obj-125" : 				{
 					"parameter_longname" : "VST2_drywet[1]"
 				}
 ,
-				"obj-54::obj-4::obj-138" : 				{
+				"obj-2::obj-3::obj-138" : 				{
 					"parameter_longname" : "VST4_lowcut[1]"
 				}
 ,
-				"obj-54::obj-4::obj-139" : 				{
+				"obj-2::obj-3::obj-139" : 				{
 					"parameter_longname" : "VST4_highcut[1]"
 				}
 ,
-				"obj-54::obj-4::obj-143" : 				{
+				"obj-2::obj-3::obj-143" : 				{
 					"parameter_longname" : "VST4_damplow[1]"
 				}
 ,
-				"obj-54::obj-4::obj-145" : 				{
+				"obj-2::obj-3::obj-145" : 				{
 					"parameter_longname" : "VST4_damphigh[1]"
 				}
 ,
-				"obj-54::obj-4::obj-148" : 				{
+				"obj-2::obj-3::obj-148" : 				{
 					"parameter_longname" : "VST4_damplowfreq[1]"
 				}
 ,
-				"obj-54::obj-4::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[59]"
+				"obj-2::obj-3::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[85]"
 				}
 ,
-				"obj-54::obj-4::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[57]"
+				"obj-2::obj-3::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[86]"
 				}
 ,
-				"obj-54::obj-4::obj-170" : 				{
+				"obj-2::obj-3::obj-170" : 				{
 					"parameter_longname" : "VST1_LPF[1]"
 				}
 ,
-				"obj-54::obj-4::obj-171" : 				{
+				"obj-2::obj-3::obj-171" : 				{
 					"parameter_longname" : "VST1_HPF[1]"
 				}
 ,
-				"obj-54::obj-4::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[58]"
+				"obj-2::obj-3::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[84]"
 				}
 ,
-				"obj-54::obj-4::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[56]"
+				"obj-2::obj-3::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[85]"
 				}
 ,
-				"obj-54::obj-4::obj-214" : 				{
+				"obj-2::obj-3::obj-214" : 				{
 					"parameter_longname" : "VST4_damphighfreq[1]"
 				}
 ,
-				"obj-54::obj-4::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[7]"
-				}
-,
-				"obj-54::obj-4::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[60]"
-				}
-,
-				"obj-54::obj-4::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[58]"
-				}
-,
-				"obj-54::obj-4::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[1]"
-				}
-,
-				"obj-54::obj-4::obj-297" : 				{
-					"parameter_longname" : "VST4_length[1]"
-				}
-,
-				"obj-54::obj-4::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[1]"
-				}
-,
-				"obj-54::obj-4::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[57]"
-				}
-,
-				"obj-54::obj-4::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[55]"
-				}
-,
-				"obj-54::obj-4::obj-38" : 				{
-					"parameter_longname" : "bDelTap[14]"
-				}
-,
-				"obj-54::obj-4::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[1]"
-				}
-,
-				"obj-54::obj-4::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[1]"
-				}
-,
-				"obj-54::obj-4::obj-65::obj-71" : 				{
+				"obj-2::obj-3::obj-23::obj-71" : 				{
 					"parameter_longname" : "bCueIn[4]"
 				}
 ,
-				"obj-54::obj-4::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[5]"
+				"obj-2::obj-3::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[86]"
 				}
 ,
-				"obj-54::obj-4::obj-69" : 				{
+				"obj-2::obj-3::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[87]"
+				}
+,
+				"obj-2::obj-3::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[1]"
+				}
+,
+				"obj-2::obj-3::obj-297" : 				{
+					"parameter_longname" : "VST4_length[1]"
+				}
+,
+				"obj-2::obj-3::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[1]"
+				}
+,
+				"obj-2::obj-3::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[83]"
+				}
+,
+				"obj-2::obj-3::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[84]"
+				}
+,
+				"obj-2::obj-3::obj-38" : 				{
+					"parameter_longname" : "bDelTap[26]"
+				}
+,
+				"obj-2::obj-3::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[1]"
+				}
+,
+				"obj-2::obj-3::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[1]"
+				}
+,
+				"obj-2::obj-3::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[1]"
+				}
+,
+				"obj-2::obj-3::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[2]"
+				}
+,
+				"obj-2::obj-3::obj-69" : 				{
 					"parameter_longname" : "VST3_feedback[1]"
 				}
 ,
-				"obj-54::obj-4::obj-92" : 				{
-					"parameter_longname" : "amxd~[87]"
+				"obj-2::obj-3::obj-92" : 				{
+					"parameter_longname" : "amxd~[22]"
 				}
 ,
-				"obj-54::obj-4::obj-97" : 				{
-					"parameter_longname" : "amxd~[84]"
-				}
-,
-				"obj-54::obj-4::obj-98" : 				{
-					"parameter_longname" : "amxd~[85]"
-				}
-,
-				"obj-54::obj-4::obj-99" : 				{
-					"parameter_longname" : "amxd~[86]"
-				}
-,
-				"obj-54::obj-5::obj-100" : 				{
-					"parameter_longname" : "VST4_size[2]"
-				}
-,
-				"obj-54::obj-5::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[2]"
-				}
-,
-				"obj-54::obj-5::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[2]"
-				}
-,
-				"obj-54::obj-5::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[2]"
-				}
-,
-				"obj-54::obj-5::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[2]"
-				}
-,
-				"obj-54::obj-5::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[2]"
-				}
-,
-				"obj-54::obj-5::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[2]"
-				}
-,
-				"obj-54::obj-5::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[10]"
-				}
-,
-				"obj-54::obj-5::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[2]"
-				}
-,
-				"obj-54::obj-5::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[2]"
-				}
-,
-				"obj-54::obj-5::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[2]"
-				}
-,
-				"obj-54::obj-5::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[2]"
-				}
-,
-				"obj-54::obj-5::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[2]"
-				}
-,
-				"obj-54::obj-5::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[2]"
-				}
-,
-				"obj-54::obj-5::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[63]"
-				}
-,
-				"obj-54::obj-5::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[61]"
-				}
-,
-				"obj-54::obj-5::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[2]"
-				}
-,
-				"obj-54::obj-5::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[2]"
-				}
-,
-				"obj-54::obj-5::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[62]"
-				}
-,
-				"obj-54::obj-5::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[60]"
-				}
-,
-				"obj-54::obj-5::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[2]"
-				}
-,
-				"obj-54::obj-5::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[57]"
-				}
-,
-				"obj-54::obj-5::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[64]"
-				}
-,
-				"obj-54::obj-5::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[62]"
-				}
-,
-				"obj-54::obj-5::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[2]"
-				}
-,
-				"obj-54::obj-5::obj-297" : 				{
-					"parameter_longname" : "VST4_length[2]"
-				}
-,
-				"obj-54::obj-5::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[2]"
-				}
-,
-				"obj-54::obj-5::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[61]"
-				}
-,
-				"obj-54::obj-5::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[59]"
-				}
-,
-				"obj-54::obj-5::obj-38" : 				{
-					"parameter_longname" : "bDelTap[15]"
-				}
-,
-				"obj-54::obj-5::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[2]"
-				}
-,
-				"obj-54::obj-5::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[2]"
-				}
-,
-				"obj-54::obj-5::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[8]"
-				}
-,
-				"obj-54::obj-5::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[9]"
-				}
-,
-				"obj-54::obj-5::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[2]"
-				}
-,
-				"obj-54::obj-5::obj-92" : 				{
-					"parameter_longname" : "amxd~[89]"
-				}
-,
-				"obj-54::obj-5::obj-97" : 				{
-					"parameter_longname" : "amxd~[88]"
-				}
-,
-				"obj-54::obj-5::obj-98" : 				{
-					"parameter_longname" : "amxd~[90]"
-				}
-,
-				"obj-54::obj-5::obj-99" : 				{
-					"parameter_longname" : "amxd~[7]"
-				}
-,
-				"obj-54::obj-6::obj-100" : 				{
-					"parameter_longname" : "VST4_size[3]"
-				}
-,
-				"obj-54::obj-6::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[3]"
-				}
-,
-				"obj-54::obj-6::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[3]"
-				}
-,
-				"obj-54::obj-6::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[3]"
-				}
-,
-				"obj-54::obj-6::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[3]"
-				}
-,
-				"obj-54::obj-6::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[3]"
-				}
-,
-				"obj-54::obj-6::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[3]"
-				}
-,
-				"obj-54::obj-6::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[60]"
-				}
-,
-				"obj-54::obj-6::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[3]"
-				}
-,
-				"obj-54::obj-6::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[3]"
-				}
-,
-				"obj-54::obj-6::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[3]"
-				}
-,
-				"obj-54::obj-6::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[3]"
-				}
-,
-				"obj-54::obj-6::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[3]"
-				}
-,
-				"obj-54::obj-6::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[3]"
-				}
-,
-				"obj-54::obj-6::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[67]"
-				}
-,
-				"obj-54::obj-6::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[65]"
-				}
-,
-				"obj-54::obj-6::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[3]"
-				}
-,
-				"obj-54::obj-6::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[3]"
-				}
-,
-				"obj-54::obj-6::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[66]"
-				}
-,
-				"obj-54::obj-6::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[64]"
-				}
-,
-				"obj-54::obj-6::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[3]"
-				}
-,
-				"obj-54::obj-6::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[61]"
-				}
-,
-				"obj-54::obj-6::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[68]"
-				}
-,
-				"obj-54::obj-6::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[66]"
-				}
-,
-				"obj-54::obj-6::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[3]"
-				}
-,
-				"obj-54::obj-6::obj-297" : 				{
-					"parameter_longname" : "VST4_length[3]"
-				}
-,
-				"obj-54::obj-6::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[3]"
-				}
-,
-				"obj-54::obj-6::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[65]"
-				}
-,
-				"obj-54::obj-6::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[63]"
-				}
-,
-				"obj-54::obj-6::obj-38" : 				{
-					"parameter_longname" : "bDelTap[16]"
-				}
-,
-				"obj-54::obj-6::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[3]"
-				}
-,
-				"obj-54::obj-6::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[3]"
-				}
-,
-				"obj-54::obj-6::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[58]"
-				}
-,
-				"obj-54::obj-6::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[59]"
-				}
-,
-				"obj-54::obj-6::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[3]"
-				}
-,
-				"obj-54::obj-6::obj-92" : 				{
-					"parameter_longname" : "amxd~[8]"
-				}
-,
-				"obj-54::obj-6::obj-97" : 				{
-					"parameter_longname" : "amxd~[9]"
-				}
-,
-				"obj-54::obj-6::obj-98" : 				{
-					"parameter_longname" : "amxd~[11]"
-				}
-,
-				"obj-54::obj-6::obj-99" : 				{
-					"parameter_longname" : "amxd~[10]"
-				}
-,
-				"obj-54::obj-9::obj-4" : 				{
-					"parameter_longname" : "live.dial[2]"
-				}
-,
-				"obj-66::obj-1::obj-4" : 				{
-					"parameter_longname" : "live.dial[33]"
-				}
-,
-				"obj-66::obj-20::obj-4" : 				{
-					"parameter_longname" : "live.dial[35]"
-				}
-,
-				"obj-66::obj-21::obj-4" : 				{
-					"parameter_longname" : "live.dial[36]"
-				}
-,
-				"obj-66::obj-22::obj-4" : 				{
-					"parameter_longname" : "live.dial[40]"
-				}
-,
-				"obj-66::obj-26::obj-4" : 				{
-					"parameter_longname" : "live.dial[39]"
-				}
-,
-				"obj-66::obj-27::obj-4" : 				{
-					"parameter_longname" : "live.dial[38]"
-				}
-,
-				"obj-66::obj-28::obj-4" : 				{
-					"parameter_longname" : "live.dial[37]"
-				}
-,
-				"obj-66::obj-29::obj-4" : 				{
-					"parameter_longname" : "live.dial[48]"
-				}
-,
-				"obj-66::obj-30::obj-4" : 				{
-					"parameter_longname" : "live.dial[47]"
-				}
-,
-				"obj-66::obj-31::obj-4" : 				{
-					"parameter_longname" : "live.dial[46]"
-				}
-,
-				"obj-66::obj-32::obj-4" : 				{
-					"parameter_longname" : "live.dial[45]"
-				}
-,
-				"obj-66::obj-33::obj-4" : 				{
-					"parameter_longname" : "live.dial[44]"
-				}
-,
-				"obj-66::obj-34::obj-4" : 				{
-					"parameter_longname" : "live.dial[43]"
-				}
-,
-				"obj-66::obj-35::obj-4" : 				{
-					"parameter_longname" : "live.dial[42]"
-				}
-,
-				"obj-66::obj-36::obj-4" : 				{
-					"parameter_longname" : "live.dial[41]"
-				}
-,
-				"obj-66::obj-3::obj-100" : 				{
-					"parameter_longname" : "VST4_size[4]"
-				}
-,
-				"obj-66::obj-3::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[4]"
-				}
-,
-				"obj-66::obj-3::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[4]"
-				}
-,
-				"obj-66::obj-3::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[4]"
-				}
-,
-				"obj-66::obj-3::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[4]"
-				}
-,
-				"obj-66::obj-3::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[4]"
-				}
-,
-				"obj-66::obj-3::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[4]"
-				}
-,
-				"obj-66::obj-3::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[13]"
-				}
-,
-				"obj-66::obj-3::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[4]"
-				}
-,
-				"obj-66::obj-3::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[4]"
-				}
-,
-				"obj-66::obj-3::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[4]"
-				}
-,
-				"obj-66::obj-3::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[4]"
-				}
-,
-				"obj-66::obj-3::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[4]"
-				}
-,
-				"obj-66::obj-3::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[4]"
-				}
-,
-				"obj-66::obj-3::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[16]"
-				}
-,
-				"obj-66::obj-3::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[22]"
-				}
-,
-				"obj-66::obj-3::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[4]"
-				}
-,
-				"obj-66::obj-3::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[4]"
-				}
-,
-				"obj-66::obj-3::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[15]"
-				}
-,
-				"obj-66::obj-3::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[21]"
-				}
-,
-				"obj-66::obj-3::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[4]"
-				}
-,
-				"obj-66::obj-3::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[14]"
-				}
-,
-				"obj-66::obj-3::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[17]"
-				}
-,
-				"obj-66::obj-3::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[23]"
-				}
-,
-				"obj-66::obj-3::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[4]"
-				}
-,
-				"obj-66::obj-3::obj-297" : 				{
-					"parameter_longname" : "VST4_length[4]"
-				}
-,
-				"obj-66::obj-3::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[4]"
-				}
-,
-				"obj-66::obj-3::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[14]"
-				}
-,
-				"obj-66::obj-3::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[20]"
-				}
-,
-				"obj-66::obj-3::obj-38" : 				{
-					"parameter_longname" : "bDelTap[10]"
-				}
-,
-				"obj-66::obj-3::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[4]"
-				}
-,
-				"obj-66::obj-3::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[4]"
-				}
-,
-				"obj-66::obj-3::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[11]"
-				}
-,
-				"obj-66::obj-3::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[12]"
-				}
-,
-				"obj-66::obj-3::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[4]"
-				}
-,
-				"obj-66::obj-3::obj-92" : 				{
-					"parameter_longname" : "amxd~[92]"
-				}
-,
-				"obj-66::obj-3::obj-97" : 				{
-					"parameter_longname" : "amxd~[91]"
-				}
-,
-				"obj-66::obj-3::obj-98" : 				{
-					"parameter_longname" : "amxd~[93]"
-				}
-,
-				"obj-66::obj-3::obj-99" : 				{
-					"parameter_longname" : "amxd~[94]"
-				}
-,
-				"obj-66::obj-4::obj-100" : 				{
-					"parameter_longname" : "VST4_size[5]"
-				}
-,
-				"obj-66::obj-4::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[5]"
-				}
-,
-				"obj-66::obj-4::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[5]"
-				}
-,
-				"obj-66::obj-4::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[5]"
-				}
-,
-				"obj-66::obj-4::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[5]"
-				}
-,
-				"obj-66::obj-4::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[5]"
-				}
-,
-				"obj-66::obj-4::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[5]"
-				}
-,
-				"obj-66::obj-4::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[17]"
-				}
-,
-				"obj-66::obj-4::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[5]"
-				}
-,
-				"obj-66::obj-4::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[5]"
-				}
-,
-				"obj-66::obj-4::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[5]"
-				}
-,
-				"obj-66::obj-4::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[5]"
-				}
-,
-				"obj-66::obj-4::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[5]"
-				}
-,
-				"obj-66::obj-4::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[5]"
-				}
-,
-				"obj-66::obj-4::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[20]"
-				}
-,
-				"obj-66::obj-4::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[26]"
-				}
-,
-				"obj-66::obj-4::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[5]"
-				}
-,
-				"obj-66::obj-4::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[5]"
-				}
-,
-				"obj-66::obj-4::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[19]"
-				}
-,
-				"obj-66::obj-4::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[25]"
-				}
-,
-				"obj-66::obj-4::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[5]"
-				}
-,
-				"obj-66::obj-4::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[18]"
-				}
-,
-				"obj-66::obj-4::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[21]"
-				}
-,
-				"obj-66::obj-4::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[27]"
-				}
-,
-				"obj-66::obj-4::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[5]"
-				}
-,
-				"obj-66::obj-4::obj-297" : 				{
-					"parameter_longname" : "VST4_length[5]"
-				}
-,
-				"obj-66::obj-4::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[5]"
-				}
-,
-				"obj-66::obj-4::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[18]"
-				}
-,
-				"obj-66::obj-4::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[24]"
-				}
-,
-				"obj-66::obj-4::obj-38" : 				{
-					"parameter_longname" : "bDelTap[11]"
-				}
-,
-				"obj-66::obj-4::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[5]"
-				}
-,
-				"obj-66::obj-4::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[5]"
-				}
-,
-				"obj-66::obj-4::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[15]"
-				}
-,
-				"obj-66::obj-4::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[16]"
-				}
-,
-				"obj-66::obj-4::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[5]"
-				}
-,
-				"obj-66::obj-4::obj-92" : 				{
-					"parameter_longname" : "amxd~[97]"
-				}
-,
-				"obj-66::obj-4::obj-97" : 				{
-					"parameter_longname" : "amxd~[96]"
-				}
-,
-				"obj-66::obj-4::obj-98" : 				{
-					"parameter_longname" : "amxd~[98]"
-				}
-,
-				"obj-66::obj-4::obj-99" : 				{
-					"parameter_longname" : "amxd~[95]"
-				}
-,
-				"obj-66::obj-5::obj-100" : 				{
-					"parameter_longname" : "VST4_size[6]"
-				}
-,
-				"obj-66::obj-5::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[6]"
-				}
-,
-				"obj-66::obj-5::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[6]"
-				}
-,
-				"obj-66::obj-5::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[6]"
-				}
-,
-				"obj-66::obj-5::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[6]"
-				}
-,
-				"obj-66::obj-5::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[6]"
-				}
-,
-				"obj-66::obj-5::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[6]"
-				}
-,
-				"obj-66::obj-5::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[21]"
-				}
-,
-				"obj-66::obj-5::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[6]"
-				}
-,
-				"obj-66::obj-5::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[6]"
-				}
-,
-				"obj-66::obj-5::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[6]"
-				}
-,
-				"obj-66::obj-5::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[6]"
-				}
-,
-				"obj-66::obj-5::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[6]"
-				}
-,
-				"obj-66::obj-5::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[6]"
-				}
-,
-				"obj-66::obj-5::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[24]"
-				}
-,
-				"obj-66::obj-5::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[30]"
-				}
-,
-				"obj-66::obj-5::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[6]"
-				}
-,
-				"obj-66::obj-5::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[6]"
-				}
-,
-				"obj-66::obj-5::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[23]"
-				}
-,
-				"obj-66::obj-5::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[29]"
-				}
-,
-				"obj-66::obj-5::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[6]"
-				}
-,
-				"obj-66::obj-5::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[22]"
-				}
-,
-				"obj-66::obj-5::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[25]"
-				}
-,
-				"obj-66::obj-5::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[31]"
-				}
-,
-				"obj-66::obj-5::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[6]"
-				}
-,
-				"obj-66::obj-5::obj-297" : 				{
-					"parameter_longname" : "VST4_length[6]"
-				}
-,
-				"obj-66::obj-5::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[6]"
-				}
-,
-				"obj-66::obj-5::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[22]"
-				}
-,
-				"obj-66::obj-5::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[28]"
-				}
-,
-				"obj-66::obj-5::obj-38" : 				{
-					"parameter_longname" : "bDelTap[12]"
-				}
-,
-				"obj-66::obj-5::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[6]"
-				}
-,
-				"obj-66::obj-5::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[6]"
-				}
-,
-				"obj-66::obj-5::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[19]"
-				}
-,
-				"obj-66::obj-5::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[20]"
-				}
-,
-				"obj-66::obj-5::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[6]"
-				}
-,
-				"obj-66::obj-5::obj-92" : 				{
-					"parameter_longname" : "amxd~[15]"
-				}
-,
-				"obj-66::obj-5::obj-97" : 				{
-					"parameter_longname" : "amxd~[12]"
-				}
-,
-				"obj-66::obj-5::obj-98" : 				{
-					"parameter_longname" : "amxd~[13]"
-				}
-,
-				"obj-66::obj-5::obj-99" : 				{
-					"parameter_longname" : "amxd~[14]"
-				}
-,
-				"obj-66::obj-6::obj-100" : 				{
-					"parameter_longname" : "VST4_size[7]"
-				}
-,
-				"obj-66::obj-6::obj-111" : 				{
-					"parameter_longname" : "VST2_HPF[7]"
-				}
-,
-				"obj-66::obj-6::obj-112" : 				{
-					"parameter_longname" : "VST2_LPF[7]"
-				}
-,
-				"obj-66::obj-6::obj-113" : 				{
-					"parameter_longname" : "VST2_HPFfreq[7]"
-				}
-,
-				"obj-66::obj-6::obj-115" : 				{
-					"parameter_longname" : "VST2_LPFfreq[7]"
-				}
-,
-				"obj-66::obj-6::obj-116" : 				{
-					"parameter_longname" : "VST2_LPFq[7]"
-				}
-,
-				"obj-66::obj-6::obj-119" : 				{
-					"parameter_longname" : "VST2_HPFq[7]"
-				}
-,
-				"obj-66::obj-6::obj-11::obj-71" : 				{
-					"parameter_longname" : "bCueIn[25]"
-				}
-,
-				"obj-66::obj-6::obj-125" : 				{
-					"parameter_longname" : "VST2_drywet[7]"
-				}
-,
-				"obj-66::obj-6::obj-138" : 				{
-					"parameter_longname" : "VST4_lowcut[7]"
-				}
-,
-				"obj-66::obj-6::obj-139" : 				{
-					"parameter_longname" : "VST4_highcut[7]"
-				}
-,
-				"obj-66::obj-6::obj-143" : 				{
-					"parameter_longname" : "VST4_damplow[7]"
-				}
-,
-				"obj-66::obj-6::obj-145" : 				{
-					"parameter_longname" : "VST4_damphigh[7]"
-				}
-,
-				"obj-66::obj-6::obj-148" : 				{
-					"parameter_longname" : "VST4_damplowfreq[7]"
-				}
-,
-				"obj-66::obj-6::obj-15::obj-13" : 				{
-					"parameter_longname" : "fGainOut[71]"
-				}
-,
-				"obj-66::obj-6::obj-15::obj-71" : 				{
-					"parameter_longname" : "bCueOut[67]"
-				}
-,
-				"obj-66::obj-6::obj-170" : 				{
-					"parameter_longname" : "VST1_LPF[7]"
-				}
-,
-				"obj-66::obj-6::obj-171" : 				{
-					"parameter_longname" : "VST1_HPF[7]"
-				}
-,
-				"obj-66::obj-6::obj-1::obj-13" : 				{
-					"parameter_longname" : "fGainOut[70]"
-				}
-,
-				"obj-66::obj-6::obj-1::obj-71" : 				{
-					"parameter_longname" : "bCueOut[33]"
-				}
-,
-				"obj-66::obj-6::obj-214" : 				{
-					"parameter_longname" : "VST4_damphighfreq[7]"
-				}
-,
-				"obj-66::obj-6::obj-23::obj-71" : 				{
-					"parameter_longname" : "bCueIn[26]"
-				}
-,
-				"obj-66::obj-6::obj-25::obj-13" : 				{
-					"parameter_longname" : "fGainOut[72]"
-				}
-,
-				"obj-66::obj-6::obj-25::obj-71" : 				{
-					"parameter_longname" : "bCueOut[68]"
-				}
-,
-				"obj-66::obj-6::obj-286" : 				{
-					"parameter_longname" : "VST4_drywet[7]"
-				}
-,
-				"obj-66::obj-6::obj-297" : 				{
-					"parameter_longname" : "VST4_length[7]"
-				}
-,
-				"obj-66::obj-6::obj-33" : 				{
-					"parameter_longname" : "VST3_freeze[7]"
-				}
-,
-				"obj-66::obj-6::obj-35::obj-13" : 				{
-					"parameter_longname" : "fGainOut[69]"
-				}
-,
-				"obj-66::obj-6::obj-35::obj-71" : 				{
-					"parameter_longname" : "bCueOut[32]"
-				}
-,
-				"obj-66::obj-6::obj-38" : 				{
-					"parameter_longname" : "bDelTap[17]"
-				}
-,
-				"obj-66::obj-6::obj-51" : 				{
-					"parameter_longname" : "VST3_drywet[7]"
-				}
-,
-				"obj-66::obj-6::obj-52" : 				{
-					"parameter_longname" : "VST3_mode[7]"
-				}
-,
-				"obj-66::obj-6::obj-65::obj-71" : 				{
-					"parameter_longname" : "bCueIn[23]"
-				}
-,
-				"obj-66::obj-6::obj-66::obj-71" : 				{
-					"parameter_longname" : "bCueIn[24]"
-				}
-,
-				"obj-66::obj-6::obj-69" : 				{
-					"parameter_longname" : "VST3_feedback[7]"
-				}
-,
-				"obj-66::obj-6::obj-92" : 				{
+				"obj-2::obj-3::obj-97" : 				{
 					"parameter_longname" : "amxd~[23]"
 				}
 ,
-				"obj-66::obj-6::obj-97" : 				{
-					"parameter_longname" : "amxd~[16]"
-				}
-,
-				"obj-66::obj-6::obj-98" : 				{
-					"parameter_longname" : "amxd~[25]"
-				}
-,
-				"obj-66::obj-6::obj-99" : 				{
+				"obj-2::obj-3::obj-98" : 				{
 					"parameter_longname" : "amxd~[24]"
 				}
 ,
-				"obj-66::obj-8::obj-4" : 				{
-					"parameter_longname" : "live.dial[34]"
+				"obj-2::obj-3::obj-99" : 				{
+					"parameter_longname" : "amxd~[25]"
+				}
+,
+				"obj-2::obj-4::obj-100" : 				{
+					"parameter_longname" : "VST4_size[19]"
+				}
+,
+				"obj-2::obj-4::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[2]"
+				}
+,
+				"obj-2::obj-4::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[19]"
+				}
+,
+				"obj-2::obj-4::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[19]"
+				}
+,
+				"obj-2::obj-4::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[19]"
+				}
+,
+				"obj-2::obj-4::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[19]"
+				}
+,
+				"obj-2::obj-4::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[19]"
+				}
+,
+				"obj-2::obj-4::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[76]"
+				}
+,
+				"obj-2::obj-4::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[2]"
+				}
+,
+				"obj-2::obj-4::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[2]"
+				}
+,
+				"obj-2::obj-4::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[19]"
+				}
+,
+				"obj-2::obj-4::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[19]"
+				}
+,
+				"obj-2::obj-4::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[2]"
+				}
+,
+				"obj-2::obj-4::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[2]"
+				}
+,
+				"obj-2::obj-4::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[89]"
+				}
+,
+				"obj-2::obj-4::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[90]"
+				}
+,
+				"obj-2::obj-4::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[19]"
+				}
+,
+				"obj-2::obj-4::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[19]"
+				}
+,
+				"obj-2::obj-4::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[88]"
+				}
+,
+				"obj-2::obj-4::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[89]"
+				}
+,
+				"obj-2::obj-4::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[19]"
+				}
+,
+				"obj-2::obj-4::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[77]"
+				}
+,
+				"obj-2::obj-4::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[90]"
+				}
+,
+				"obj-2::obj-4::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[91]"
+				}
+,
+				"obj-2::obj-4::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[19]"
+				}
+,
+				"obj-2::obj-4::obj-297" : 				{
+					"parameter_longname" : "VST4_length[19]"
+				}
+,
+				"obj-2::obj-4::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[19]"
+				}
+,
+				"obj-2::obj-4::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[87]"
+				}
+,
+				"obj-2::obj-4::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[88]"
+				}
+,
+				"obj-2::obj-4::obj-38" : 				{
+					"parameter_longname" : "bDelTap[27]"
+				}
+,
+				"obj-2::obj-4::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[2]"
+				}
+,
+				"obj-2::obj-4::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[19]"
+				}
+,
+				"obj-2::obj-4::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[74]"
+				}
+,
+				"obj-2::obj-4::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[75]"
+				}
+,
+				"obj-2::obj-4::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[2]"
+				}
+,
+				"obj-2::obj-4::obj-92" : 				{
+					"parameter_longname" : "amxd~[29]"
+				}
+,
+				"obj-2::obj-4::obj-97" : 				{
+					"parameter_longname" : "amxd~[26]"
+				}
+,
+				"obj-2::obj-4::obj-98" : 				{
+					"parameter_longname" : "amxd~[27]"
+				}
+,
+				"obj-2::obj-4::obj-99" : 				{
+					"parameter_longname" : "amxd~[28]"
+				}
+,
+				"obj-2::obj-5::obj-100" : 				{
+					"parameter_longname" : "VST4_size[20]"
+				}
+,
+				"obj-2::obj-5::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[19]"
+				}
+,
+				"obj-2::obj-5::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[20]"
+				}
+,
+				"obj-2::obj-5::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[20]"
+				}
+,
+				"obj-2::obj-5::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[20]"
+				}
+,
+				"obj-2::obj-5::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[20]"
+				}
+,
+				"obj-2::obj-5::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[20]"
+				}
+,
+				"obj-2::obj-5::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[80]"
+				}
+,
+				"obj-2::obj-5::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[19]"
+				}
+,
+				"obj-2::obj-5::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[19]"
+				}
+,
+				"obj-2::obj-5::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[20]"
+				}
+,
+				"obj-2::obj-5::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[20]"
+				}
+,
+				"obj-2::obj-5::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[19]"
+				}
+,
+				"obj-2::obj-5::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[19]"
+				}
+,
+				"obj-2::obj-5::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[65]"
+				}
+,
+				"obj-2::obj-5::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[3]"
+				}
+,
+				"obj-2::obj-5::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[20]"
+				}
+,
+				"obj-2::obj-5::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[20]"
+				}
+,
+				"obj-2::obj-5::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[64]"
+				}
+,
+				"obj-2::obj-5::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[2]"
+				}
+,
+				"obj-2::obj-5::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[20]"
+				}
+,
+				"obj-2::obj-5::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[81]"
+				}
+,
+				"obj-2::obj-5::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[66]"
+				}
+,
+				"obj-2::obj-5::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[4]"
+				}
+,
+				"obj-2::obj-5::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[20]"
+				}
+,
+				"obj-2::obj-5::obj-297" : 				{
+					"parameter_longname" : "VST4_length[20]"
+				}
+,
+				"obj-2::obj-5::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[20]"
+				}
+,
+				"obj-2::obj-5::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[63]"
+				}
+,
+				"obj-2::obj-5::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[1]"
+				}
+,
+				"obj-2::obj-5::obj-38" : 				{
+					"parameter_longname" : "bDelTap[28]"
+				}
+,
+				"obj-2::obj-5::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[19]"
+				}
+,
+				"obj-2::obj-5::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[20]"
+				}
+,
+				"obj-2::obj-5::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[78]"
+				}
+,
+				"obj-2::obj-5::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[79]"
+				}
+,
+				"obj-2::obj-5::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[19]"
+				}
+,
+				"obj-2::obj-5::obj-92" : 				{
+					"parameter_longname" : "amxd~[31]"
+				}
+,
+				"obj-2::obj-5::obj-97" : 				{
+					"parameter_longname" : "amxd~[30]"
+				}
+,
+				"obj-2::obj-5::obj-98" : 				{
+					"parameter_longname" : "amxd~[32]"
+				}
+,
+				"obj-2::obj-5::obj-99" : 				{
+					"parameter_longname" : "amxd~[33]"
+				}
+,
+				"obj-2::obj-6::obj-100" : 				{
+					"parameter_longname" : "VST4_size[21]"
+				}
+,
+				"obj-2::obj-6::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[20]"
+				}
+,
+				"obj-2::obj-6::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[21]"
+				}
+,
+				"obj-2::obj-6::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[21]"
+				}
+,
+				"obj-2::obj-6::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[21]"
+				}
+,
+				"obj-2::obj-6::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[21]"
+				}
+,
+				"obj-2::obj-6::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[21]"
+				}
+,
+				"obj-2::obj-6::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[84]"
+				}
+,
+				"obj-2::obj-6::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[20]"
+				}
+,
+				"obj-2::obj-6::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[20]"
+				}
+,
+				"obj-2::obj-6::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[21]"
+				}
+,
+				"obj-2::obj-6::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[21]"
+				}
+,
+				"obj-2::obj-6::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[20]"
+				}
+,
+				"obj-2::obj-6::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[20]"
+				}
+,
+				"obj-2::obj-6::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[93]"
+				}
+,
+				"obj-2::obj-6::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[94]"
+				}
+,
+				"obj-2::obj-6::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[21]"
+				}
+,
+				"obj-2::obj-6::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[21]"
+				}
+,
+				"obj-2::obj-6::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[92]"
+				}
+,
+				"obj-2::obj-6::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[93]"
+				}
+,
+				"obj-2::obj-6::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[21]"
+				}
+,
+				"obj-2::obj-6::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[85]"
+				}
+,
+				"obj-2::obj-6::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[94]"
+				}
+,
+				"obj-2::obj-6::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[95]"
+				}
+,
+				"obj-2::obj-6::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[21]"
+				}
+,
+				"obj-2::obj-6::obj-297" : 				{
+					"parameter_longname" : "VST4_length[21]"
+				}
+,
+				"obj-2::obj-6::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[21]"
+				}
+,
+				"obj-2::obj-6::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[91]"
+				}
+,
+				"obj-2::obj-6::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[92]"
+				}
+,
+				"obj-2::obj-6::obj-38" : 				{
+					"parameter_longname" : "bDelTap[29]"
+				}
+,
+				"obj-2::obj-6::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[20]"
+				}
+,
+				"obj-2::obj-6::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[21]"
+				}
+,
+				"obj-2::obj-6::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[82]"
+				}
+,
+				"obj-2::obj-6::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[83]"
+				}
+,
+				"obj-2::obj-6::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[20]"
+				}
+,
+				"obj-2::obj-6::obj-92" : 				{
+					"parameter_longname" : "amxd~[34]"
+				}
+,
+				"obj-2::obj-6::obj-97" : 				{
+					"parameter_longname" : "amxd~[35]"
+				}
+,
+				"obj-2::obj-6::obj-98" : 				{
+					"parameter_longname" : "amxd~[37]"
+				}
+,
+				"obj-2::obj-6::obj-99" : 				{
+					"parameter_longname" : "amxd~[36]"
+				}
+,
+				"obj-54::obj-3::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[44]"
+				}
+,
+				"obj-54::obj-3::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[43]"
+				}
+,
+				"obj-54::obj-3::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[50]"
+				}
+,
+				"obj-54::obj-3::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[42]"
+				}
+,
+				"obj-54::obj-3::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[49]"
+				}
+,
+				"obj-54::obj-3::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[45]"
+				}
+,
+				"obj-54::obj-3::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[44]"
+				}
+,
+				"obj-54::obj-3::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[51]"
+				}
+,
+				"obj-54::obj-3::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[43]"
+				}
+,
+				"obj-54::obj-4::obj-100" : 				{
+					"parameter_longname" : "VST4_size[12]"
+				}
+,
+				"obj-54::obj-4::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[12]"
+				}
+,
+				"obj-54::obj-4::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[12]"
+				}
+,
+				"obj-54::obj-4::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[12]"
+				}
+,
+				"obj-54::obj-4::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[12]"
+				}
+,
+				"obj-54::obj-4::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[12]"
+				}
+,
+				"obj-54::obj-4::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[12]"
+				}
+,
+				"obj-54::obj-4::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[48]"
+				}
+,
+				"obj-54::obj-4::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[12]"
+				}
+,
+				"obj-54::obj-4::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[12]"
+				}
+,
+				"obj-54::obj-4::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[12]"
+				}
+,
+				"obj-54::obj-4::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[12]"
+				}
+,
+				"obj-54::obj-4::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[12]"
+				}
+,
+				"obj-54::obj-4::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[12]"
+				}
+,
+				"obj-54::obj-4::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[47]"
+				}
+,
+				"obj-54::obj-4::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[54]"
+				}
+,
+				"obj-54::obj-4::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[12]"
+				}
+,
+				"obj-54::obj-4::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[12]"
+				}
+,
+				"obj-54::obj-4::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[46]"
+				}
+,
+				"obj-54::obj-4::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[53]"
+				}
+,
+				"obj-54::obj-4::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[12]"
+				}
+,
+				"obj-54::obj-4::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[49]"
+				}
+,
+				"obj-54::obj-4::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[48]"
+				}
+,
+				"obj-54::obj-4::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[55]"
+				}
+,
+				"obj-54::obj-4::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[12]"
+				}
+,
+				"obj-54::obj-4::obj-297" : 				{
+					"parameter_longname" : "VST4_length[12]"
+				}
+,
+				"obj-54::obj-4::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[12]"
+				}
+,
+				"obj-54::obj-4::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[45]"
+				}
+,
+				"obj-54::obj-4::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[52]"
+				}
+,
+				"obj-54::obj-4::obj-38" : 				{
+					"parameter_longname" : "bDelTap[21]"
+				}
+,
+				"obj-54::obj-4::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[12]"
+				}
+,
+				"obj-54::obj-4::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[12]"
+				}
+,
+				"obj-54::obj-4::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[46]"
+				}
+,
+				"obj-54::obj-4::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[47]"
+				}
+,
+				"obj-54::obj-4::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[12]"
+				}
+,
+				"obj-54::obj-4::obj-92" : 				{
+					"parameter_longname" : "amxd~[9]"
+				}
+,
+				"obj-54::obj-4::obj-97" : 				{
+					"parameter_longname" : "amxd~[115]"
+				}
+,
+				"obj-54::obj-4::obj-98" : 				{
+					"parameter_longname" : "amxd~[7]"
+				}
+,
+				"obj-54::obj-4::obj-99" : 				{
+					"parameter_longname" : "amxd~[8]"
+				}
+,
+				"obj-54::obj-5::obj-100" : 				{
+					"parameter_longname" : "VST4_size[13]"
+				}
+,
+				"obj-54::obj-5::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[13]"
+				}
+,
+				"obj-54::obj-5::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[13]"
+				}
+,
+				"obj-54::obj-5::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[13]"
+				}
+,
+				"obj-54::obj-5::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[13]"
+				}
+,
+				"obj-54::obj-5::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[13]"
+				}
+,
+				"obj-54::obj-5::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[13]"
+				}
+,
+				"obj-54::obj-5::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[52]"
+				}
+,
+				"obj-54::obj-5::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[13]"
+				}
+,
+				"obj-54::obj-5::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[13]"
+				}
+,
+				"obj-54::obj-5::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[13]"
+				}
+,
+				"obj-54::obj-5::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[13]"
+				}
+,
+				"obj-54::obj-5::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[13]"
+				}
+,
+				"obj-54::obj-5::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[13]"
+				}
+,
+				"obj-54::obj-5::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[75]"
+				}
+,
+				"obj-54::obj-5::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[72]"
+				}
+,
+				"obj-54::obj-5::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[13]"
+				}
+,
+				"obj-54::obj-5::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[13]"
+				}
+,
+				"obj-54::obj-5::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[74]"
+				}
+,
+				"obj-54::obj-5::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[71]"
+				}
+,
+				"obj-54::obj-5::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[13]"
+				}
+,
+				"obj-54::obj-5::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[53]"
+				}
+,
+				"obj-54::obj-5::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[76]"
+				}
+,
+				"obj-54::obj-5::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[73]"
+				}
+,
+				"obj-54::obj-5::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[13]"
+				}
+,
+				"obj-54::obj-5::obj-297" : 				{
+					"parameter_longname" : "VST4_length[13]"
+				}
+,
+				"obj-54::obj-5::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[13]"
+				}
+,
+				"obj-54::obj-5::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[73]"
+				}
+,
+				"obj-54::obj-5::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[70]"
+				}
+,
+				"obj-54::obj-5::obj-38" : 				{
+					"parameter_longname" : "bDelTap[22]"
+				}
+,
+				"obj-54::obj-5::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[13]"
+				}
+,
+				"obj-54::obj-5::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[13]"
+				}
+,
+				"obj-54::obj-5::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[50]"
+				}
+,
+				"obj-54::obj-5::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[51]"
+				}
+,
+				"obj-54::obj-5::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[13]"
+				}
+,
+				"obj-54::obj-5::obj-92" : 				{
+					"parameter_longname" : "amxd~[117]"
+				}
+,
+				"obj-54::obj-5::obj-97" : 				{
+					"parameter_longname" : "amxd~[116]"
+				}
+,
+				"obj-54::obj-5::obj-98" : 				{
+					"parameter_longname" : "amxd~[118]"
+				}
+,
+				"obj-54::obj-5::obj-99" : 				{
+					"parameter_longname" : "amxd~[119]"
+				}
+,
+				"obj-54::obj-6::obj-100" : 				{
+					"parameter_longname" : "VST4_size[14]"
+				}
+,
+				"obj-54::obj-6::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[14]"
+				}
+,
+				"obj-54::obj-6::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[14]"
+				}
+,
+				"obj-54::obj-6::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[14]"
+				}
+,
+				"obj-54::obj-6::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[14]"
+				}
+,
+				"obj-54::obj-6::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[14]"
+				}
+,
+				"obj-54::obj-6::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[14]"
+				}
+,
+				"obj-54::obj-6::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[56]"
+				}
+,
+				"obj-54::obj-6::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[14]"
+				}
+,
+				"obj-54::obj-6::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[14]"
+				}
+,
+				"obj-54::obj-6::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[14]"
+				}
+,
+				"obj-54::obj-6::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[14]"
+				}
+,
+				"obj-54::obj-6::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[14]"
+				}
+,
+				"obj-54::obj-6::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[14]"
+				}
+,
+				"obj-54::obj-6::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[78]"
+				}
+,
+				"obj-54::obj-6::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[58]"
+				}
+,
+				"obj-54::obj-6::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[14]"
+				}
+,
+				"obj-54::obj-6::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[14]"
+				}
+,
+				"obj-54::obj-6::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[77]"
+				}
+,
+				"obj-54::obj-6::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[57]"
+				}
+,
+				"obj-54::obj-6::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[14]"
+				}
+,
+				"obj-54::obj-6::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[57]"
+				}
+,
+				"obj-54::obj-6::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[50]"
+				}
+,
+				"obj-54::obj-6::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[59]"
+				}
+,
+				"obj-54::obj-6::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[14]"
+				}
+,
+				"obj-54::obj-6::obj-297" : 				{
+					"parameter_longname" : "VST4_length[14]"
+				}
+,
+				"obj-54::obj-6::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[14]"
+				}
+,
+				"obj-54::obj-6::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[49]"
+				}
+,
+				"obj-54::obj-6::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[56]"
+				}
+,
+				"obj-54::obj-6::obj-38" : 				{
+					"parameter_longname" : "bDelTap[4]"
+				}
+,
+				"obj-54::obj-6::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[14]"
+				}
+,
+				"obj-54::obj-6::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[14]"
+				}
+,
+				"obj-54::obj-6::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[54]"
+				}
+,
+				"obj-54::obj-6::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[55]"
+				}
+,
+				"obj-54::obj-6::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[14]"
+				}
+,
+				"obj-54::obj-6::obj-92" : 				{
+					"parameter_longname" : "amxd~[123]"
+				}
+,
+				"obj-54::obj-6::obj-97" : 				{
+					"parameter_longname" : "amxd~[120]"
+				}
+,
+				"obj-54::obj-6::obj-98" : 				{
+					"parameter_longname" : "amxd~[122]"
+				}
+,
+				"obj-54::obj-6::obj-99" : 				{
+					"parameter_longname" : "amxd~[121]"
+				}
+,
+				"obj-66::obj-3::obj-100" : 				{
+					"parameter_longname" : "VST4_size[15]"
+				}
+,
+				"obj-66::obj-3::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[15]"
+				}
+,
+				"obj-66::obj-3::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[15]"
+				}
+,
+				"obj-66::obj-3::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[15]"
+				}
+,
+				"obj-66::obj-3::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[15]"
+				}
+,
+				"obj-66::obj-3::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[15]"
+				}
+,
+				"obj-66::obj-3::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[15]"
+				}
+,
+				"obj-66::obj-3::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[60]"
+				}
+,
+				"obj-66::obj-3::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[15]"
+				}
+,
+				"obj-66::obj-3::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[15]"
+				}
+,
+				"obj-66::obj-3::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[15]"
+				}
+,
+				"obj-66::obj-3::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[15]"
+				}
+,
+				"obj-66::obj-3::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[15]"
+				}
+,
+				"obj-66::obj-3::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[15]"
+				}
+,
+				"obj-66::obj-3::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[53]"
+				}
+,
+				"obj-66::obj-3::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[75]"
+				}
+,
+				"obj-66::obj-3::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[15]"
+				}
+,
+				"obj-66::obj-3::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[15]"
+				}
+,
+				"obj-66::obj-3::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[52]"
+				}
+,
+				"obj-66::obj-3::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[74]"
+				}
+,
+				"obj-66::obj-3::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[15]"
+				}
+,
+				"obj-66::obj-3::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[61]"
+				}
+,
+				"obj-66::obj-3::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[54]"
+				}
+,
+				"obj-66::obj-3::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[61]"
+				}
+,
+				"obj-66::obj-3::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[15]"
+				}
+,
+				"obj-66::obj-3::obj-297" : 				{
+					"parameter_longname" : "VST4_length[15]"
+				}
+,
+				"obj-66::obj-3::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[15]"
+				}
+,
+				"obj-66::obj-3::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[51]"
+				}
+,
+				"obj-66::obj-3::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[60]"
+				}
+,
+				"obj-66::obj-3::obj-38" : 				{
+					"parameter_longname" : "bDelTap[23]"
+				}
+,
+				"obj-66::obj-3::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[15]"
+				}
+,
+				"obj-66::obj-3::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[15]"
+				}
+,
+				"obj-66::obj-3::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[58]"
+				}
+,
+				"obj-66::obj-3::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[59]"
+				}
+,
+				"obj-66::obj-3::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[15]"
+				}
+,
+				"obj-66::obj-3::obj-92" : 				{
+					"parameter_longname" : "amxd~[13]"
+				}
+,
+				"obj-66::obj-3::obj-97" : 				{
+					"parameter_longname" : "amxd~[10]"
+				}
+,
+				"obj-66::obj-3::obj-98" : 				{
+					"parameter_longname" : "amxd~[11]"
+				}
+,
+				"obj-66::obj-3::obj-99" : 				{
+					"parameter_longname" : "amxd~[12]"
+				}
+,
+				"obj-66::obj-4::obj-100" : 				{
+					"parameter_longname" : "VST4_size[16]"
+				}
+,
+				"obj-66::obj-4::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[16]"
+				}
+,
+				"obj-66::obj-4::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[16]"
+				}
+,
+				"obj-66::obj-4::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[16]"
+				}
+,
+				"obj-66::obj-4::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[16]"
+				}
+,
+				"obj-66::obj-4::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[16]"
+				}
+,
+				"obj-66::obj-4::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[16]"
+				}
+,
+				"obj-66::obj-4::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[64]"
+				}
+,
+				"obj-66::obj-4::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[16]"
+				}
+,
+				"obj-66::obj-4::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[16]"
+				}
+,
+				"obj-66::obj-4::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[16]"
+				}
+,
+				"obj-66::obj-4::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[16]"
+				}
+,
+				"obj-66::obj-4::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[16]"
+				}
+,
+				"obj-66::obj-4::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[16]"
+				}
+,
+				"obj-66::obj-4::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[57]"
+				}
+,
+				"obj-66::obj-4::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[64]"
+				}
+,
+				"obj-66::obj-4::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[16]"
+				}
+,
+				"obj-66::obj-4::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[16]"
+				}
+,
+				"obj-66::obj-4::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[56]"
+				}
+,
+				"obj-66::obj-4::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[63]"
+				}
+,
+				"obj-66::obj-4::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[16]"
+				}
+,
+				"obj-66::obj-4::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[65]"
+				}
+,
+				"obj-66::obj-4::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[58]"
+				}
+,
+				"obj-66::obj-4::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[65]"
+				}
+,
+				"obj-66::obj-4::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[16]"
+				}
+,
+				"obj-66::obj-4::obj-297" : 				{
+					"parameter_longname" : "VST4_length[16]"
+				}
+,
+				"obj-66::obj-4::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[16]"
+				}
+,
+				"obj-66::obj-4::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[55]"
+				}
+,
+				"obj-66::obj-4::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[62]"
+				}
+,
+				"obj-66::obj-4::obj-38" : 				{
+					"parameter_longname" : "bDelTap[24]"
+				}
+,
+				"obj-66::obj-4::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[16]"
+				}
+,
+				"obj-66::obj-4::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[16]"
+				}
+,
+				"obj-66::obj-4::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[62]"
+				}
+,
+				"obj-66::obj-4::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[63]"
+				}
+,
+				"obj-66::obj-4::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[16]"
+				}
+,
+				"obj-66::obj-4::obj-92" : 				{
+					"parameter_longname" : "amxd~[17]"
+				}
+,
+				"obj-66::obj-4::obj-97" : 				{
+					"parameter_longname" : "amxd~[14]"
+				}
+,
+				"obj-66::obj-4::obj-98" : 				{
+					"parameter_longname" : "amxd~[15]"
+				}
+,
+				"obj-66::obj-4::obj-99" : 				{
+					"parameter_longname" : "amxd~[16]"
+				}
+,
+				"obj-66::obj-5::obj-100" : 				{
+					"parameter_longname" : "VST4_size[17]"
+				}
+,
+				"obj-66::obj-5::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[17]"
+				}
+,
+				"obj-66::obj-5::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[17]"
+				}
+,
+				"obj-66::obj-5::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[17]"
+				}
+,
+				"obj-66::obj-5::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[17]"
+				}
+,
+				"obj-66::obj-5::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[17]"
+				}
+,
+				"obj-66::obj-5::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[17]"
+				}
+,
+				"obj-66::obj-5::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[68]"
+				}
+,
+				"obj-66::obj-5::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[17]"
+				}
+,
+				"obj-66::obj-5::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[17]"
+				}
+,
+				"obj-66::obj-5::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[17]"
+				}
+,
+				"obj-66::obj-5::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[17]"
+				}
+,
+				"obj-66::obj-5::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[17]"
+				}
+,
+				"obj-66::obj-5::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[17]"
+				}
+,
+				"obj-66::obj-5::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[61]"
+				}
+,
+				"obj-66::obj-5::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[78]"
+				}
+,
+				"obj-66::obj-5::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[17]"
+				}
+,
+				"obj-66::obj-5::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[17]"
+				}
+,
+				"obj-66::obj-5::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[60]"
+				}
+,
+				"obj-66::obj-5::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[77]"
+				}
+,
+				"obj-66::obj-5::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[17]"
+				}
+,
+				"obj-66::obj-5::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[69]"
+				}
+,
+				"obj-66::obj-5::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[62]"
+				}
+,
+				"obj-66::obj-5::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[79]"
+				}
+,
+				"obj-66::obj-5::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[17]"
+				}
+,
+				"obj-66::obj-5::obj-297" : 				{
+					"parameter_longname" : "VST4_length[17]"
+				}
+,
+				"obj-66::obj-5::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[17]"
+				}
+,
+				"obj-66::obj-5::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[59]"
+				}
+,
+				"obj-66::obj-5::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[76]"
+				}
+,
+				"obj-66::obj-5::obj-38" : 				{
+					"parameter_longname" : "bDelTap[25]"
+				}
+,
+				"obj-66::obj-5::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[17]"
+				}
+,
+				"obj-66::obj-5::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[17]"
+				}
+,
+				"obj-66::obj-5::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[66]"
+				}
+,
+				"obj-66::obj-5::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[67]"
+				}
+,
+				"obj-66::obj-5::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[17]"
+				}
+,
+				"obj-66::obj-5::obj-92" : 				{
+					"parameter_longname" : "amxd~[21]"
+				}
+,
+				"obj-66::obj-5::obj-97" : 				{
+					"parameter_longname" : "amxd~[18]"
+				}
+,
+				"obj-66::obj-5::obj-98" : 				{
+					"parameter_longname" : "amxd~[19]"
+				}
+,
+				"obj-66::obj-5::obj-99" : 				{
+					"parameter_longname" : "amxd~[20]"
+				}
+,
+				"obj-66::obj-6::obj-100" : 				{
+					"parameter_longname" : "VST4_size[18]"
+				}
+,
+				"obj-66::obj-6::obj-111" : 				{
+					"parameter_longname" : "VST2_HPF[18]"
+				}
+,
+				"obj-66::obj-6::obj-112" : 				{
+					"parameter_longname" : "VST2_LPF[18]"
+				}
+,
+				"obj-66::obj-6::obj-113" : 				{
+					"parameter_longname" : "VST2_HPFfreq[18]"
+				}
+,
+				"obj-66::obj-6::obj-115" : 				{
+					"parameter_longname" : "VST2_LPFfreq[18]"
+				}
+,
+				"obj-66::obj-6::obj-116" : 				{
+					"parameter_longname" : "VST2_LPFq[18]"
+				}
+,
+				"obj-66::obj-6::obj-119" : 				{
+					"parameter_longname" : "VST2_HPFq[18]"
+				}
+,
+				"obj-66::obj-6::obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[72]"
+				}
+,
+				"obj-66::obj-6::obj-125" : 				{
+					"parameter_longname" : "VST2_drywet[18]"
+				}
+,
+				"obj-66::obj-6::obj-138" : 				{
+					"parameter_longname" : "VST4_lowcut[18]"
+				}
+,
+				"obj-66::obj-6::obj-139" : 				{
+					"parameter_longname" : "VST4_highcut[18]"
+				}
+,
+				"obj-66::obj-6::obj-143" : 				{
+					"parameter_longname" : "VST4_damplow[18]"
+				}
+,
+				"obj-66::obj-6::obj-145" : 				{
+					"parameter_longname" : "VST4_damphigh[18]"
+				}
+,
+				"obj-66::obj-6::obj-148" : 				{
+					"parameter_longname" : "VST4_damplowfreq[18]"
+				}
+,
+				"obj-66::obj-6::obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[81]"
+				}
+,
+				"obj-66::obj-6::obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[82]"
+				}
+,
+				"obj-66::obj-6::obj-170" : 				{
+					"parameter_longname" : "VST1_LPF[18]"
+				}
+,
+				"obj-66::obj-6::obj-171" : 				{
+					"parameter_longname" : "VST1_HPF[18]"
+				}
+,
+				"obj-66::obj-6::obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[80]"
+				}
+,
+				"obj-66::obj-6::obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[81]"
+				}
+,
+				"obj-66::obj-6::obj-214" : 				{
+					"parameter_longname" : "VST4_damphighfreq[18]"
+				}
+,
+				"obj-66::obj-6::obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[73]"
+				}
+,
+				"obj-66::obj-6::obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[82]"
+				}
+,
+				"obj-66::obj-6::obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[83]"
+				}
+,
+				"obj-66::obj-6::obj-286" : 				{
+					"parameter_longname" : "VST4_drywet[18]"
+				}
+,
+				"obj-66::obj-6::obj-297" : 				{
+					"parameter_longname" : "VST4_length[18]"
+				}
+,
+				"obj-66::obj-6::obj-33" : 				{
+					"parameter_longname" : "VST3_freeze[18]"
+				}
+,
+				"obj-66::obj-6::obj-35::obj-13" : 				{
+					"parameter_longname" : "fGainOut[79]"
+				}
+,
+				"obj-66::obj-6::obj-35::obj-71" : 				{
+					"parameter_longname" : "bCueOut[80]"
+				}
+,
+				"obj-66::obj-6::obj-38" : 				{
+					"parameter_longname" : "bDelTap[5]"
+				}
+,
+				"obj-66::obj-6::obj-51" : 				{
+					"parameter_longname" : "VST3_drywet[18]"
+				}
+,
+				"obj-66::obj-6::obj-52" : 				{
+					"parameter_longname" : "VST3_mode[18]"
+				}
+,
+				"obj-66::obj-6::obj-65::obj-71" : 				{
+					"parameter_longname" : "bCueIn[70]"
+				}
+,
+				"obj-66::obj-6::obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[71]"
+				}
+,
+				"obj-66::obj-6::obj-69" : 				{
+					"parameter_longname" : "VST3_feedback[18]"
+				}
+,
+				"obj-66::obj-6::obj-92" : 				{
+					"parameter_longname" : "amxd~[127]"
+				}
+,
+				"obj-66::obj-6::obj-97" : 				{
+					"parameter_longname" : "amxd~[126]"
+				}
+,
+				"obj-66::obj-6::obj-98" : 				{
+					"parameter_longname" : "amxd~[125]"
+				}
+,
+				"obj-66::obj-6::obj-99" : 				{
+					"parameter_longname" : "amxd~[124]"
 				}
 ,
 				"obj-72::obj-136::obj-22::obj-2" : 				{
@@ -10879,13 +10643,6 @@
 			}
 , 			{
 				"name" : "FX_MX.maxpat",
-				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "FX_presets.maxpat",
 				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
