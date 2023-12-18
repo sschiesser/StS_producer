@@ -5,19 +5,15 @@
 		}
 , 		{
 			"number" : 2,
-			"data" : [ 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "slider", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0 ]
+			"data" : [ 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "slider", "float", 0.0, 5, "<invalid>", "live.text", "float", 1.0 ]
 		}
 , 		{
 			"number" : 3,
-			"data" : [ 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "slider", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0 ]
+			"data" : [ 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "slider", "float", 0.0, 5, "<invalid>", "live.text", "float", 1.0 ]
 		}
 , 		{
 			"number" : 4,
-			"data" : [ 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "live.text", "float", 1.0, 5, "<invalid>", "slider", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0 ]
-		}
-, 		{
-			"number" : 5,
-			"data" : [ 5, "<invalid>", "live.text", "float", 1.0, 5, "<invalid>", "live.text", "float", 1.0, 5, "<invalid>", "slider", "float", 0.0, 5, "<invalid>", "live.text", "float", 1.0 ]
+			"data" : [ 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "live.text", "float", 0.0, 5, "<invalid>", "slider", "float", 0.0, 5, "<invalid>", "live.text", "float", 1.0 ]
 		}
  ]
 }
