@@ -1,14 +1,4 @@
 {
-	"231217182707" : 	{
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ 0.502, 0.251, 0.01, 1.0 ],
-		"label" : "Zugspitze",
-		"length" : 2.921,
-		"datetime" : [ "17.12.23", "/", "18:27:7" ],
-		"fname" : "231217182707.wav"
-	}
-,
 	"231217183501" : 	{
 		"location" : "Aletsch",
 		"type" : "Air",
@@ -37,6 +27,56 @@
 		"length" : 0.91,
 		"datetime" : [ "17.12.23", "/", "18:35:9" ],
 		"fname" : "231217183509.wav"
+	}
+,
+	"231218063541" : 	{
+		"location" : "Rooftop",
+		"type" : "Air",
+		"color" : [ 0.502, 0.251, 0.01, 1.0 ],
+		"label" : "Zugspitze",
+		"length" : 0.715,
+		"datetime" : [ "18.12.23", "/", "6:35:41" ],
+		"fname" : "231218063541.wav"
+	}
+,
+	"231218063550" : 	{
+		"location" : "Rooftop",
+		"type" : "Air",
+		"color" : [ 0.502, 0.251, 0.01, 1.0 ],
+		"label" : "Zugspitze",
+		"length" : 1.367,
+		"datetime" : [ "18.12.23", "/", "6:35:50" ],
+		"fname" : "231218063550.wav"
+	}
+,
+	"231218063835" : 	{
+		"location" : "Elmau",
+		"type" : "Air",
+		"color" : [ 0.6, 0.6, 0.6, 1.0 ],
+		"label" : "label#2",
+		"length" : 42.094999999999999,
+		"datetime" : [ "18.12.23", "/", "6:38:35" ],
+		"fname" : "231218063835.wav"
+	}
+,
+	"231218063854" : 	{
+		"location" : "Heilbrunn",
+		"type" : "Air",
+		"color" : [ 0.6, 0.6, 0.6, 1.0 ],
+		"label" : "label#3",
+		"length" : 3.96,
+		"datetime" : [ "18.12.23", "/", "6:38:54" ],
+		"fname" : "231218063854.wav"
+	}
+,
+	"231218063858" : 	{
+		"location" : "Heilbrunn",
+		"type" : "Air",
+		"color" : [ 0.6, 0.6, 0.6, 1.0 ],
+		"label" : "label#3",
+		"length" : 6.002,
+		"datetime" : [ "18.12.23", "/", "6:38:58" ],
+		"fname" : "231218063858.wav"
 	}
 
 }
