@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1920.0, 1147.0 ],
+		"rect" : [ 0.0, 53.0, 953.0, 1065.0 ],
 		"openrect" : [ 0.0, 0.0, 419.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -946,7 +946,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 398.186296694942371, 1245.142860889434814, 24.0, 24.0 ]
+					"patching_rect" : [ 398.186296694942371, 1245.142860889434814, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.859693080186844, 532.0, 16.0, 16.0 ]
 				}
 
 			}
@@ -1040,7 +1042,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 63.259243278311487, 123.0, 694.0, 22.0 ],
-									"text" : "plug /Users/user/Desktop/StS_producer/StS_producer/plugins/mac/MCharmVerb.vst3"
+									"text" : "plug /Users/stsproducer/Desktop/StS/StS_producer/StS_producer/plugins/mac/MCharmVerb.vst3"
 								}
 
 							}
@@ -1130,7 +1132,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 398.186296694942371, 971.766071677207947, 24.0, 24.0 ]
+					"patching_rect" : [ 398.186296694942371, 971.766071677207947, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.859693080186844, 367.0, 16.0, 16.0 ]
 				}
 
 			}
@@ -1224,7 +1228,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 63.259243278311487, 123.0, 694.0, 22.0 ],
-									"text" : "plug /Users/user/Desktop/StS_producer/StS_producer/plugins/mac/MDelayMB.vst3"
+									"text" : "plug /Users/stsproducer/Desktop/StS/StS_producer/StS_producer/plugins/mac/MDelayMB.vst3"
 								}
 
 							}
@@ -1314,7 +1318,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 398.186296694942371, 718.046199167182976, 24.0, 24.0 ]
+					"patching_rect" : [ 398.186296694942371, 718.046199167182976, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.859693080186844, 202.0, 16.0, 16.0 ]
 				}
 
 			}
@@ -1408,7 +1414,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 63.259243278311487, 123.0, 694.0, 22.0 ],
-									"text" : "plug /Users/user/Desktop/StS_producer/StS_producer/plugins/mac/MBandPass.vst3"
+									"text" : "plug /Users/stsproducer/Desktop/StS/StS_producer/StS_producer/plugins/mac/MBandPass.vst3"
 								}
 
 							}
@@ -1580,7 +1586,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 102.259243278311487, 148.0, 694.0, 22.0 ],
-									"text" : "plug /Users/user/Desktop/StS_producer/StS_producer/plugins/mac/Bertom_DenoiserClassic.vst3"
+									"text" : "plug /Users/stsproducer/Desktop/StS/StS_producer/StS_producer/plugins/mac/Bertom_DenoiserClassic.vst3"
 								}
 
 							}
@@ -1670,7 +1676,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 398.186296694942371, 458.857151746749878, 24.0, 24.0 ]
+					"patching_rect" : [ 398.186296694942371, 458.857151746749878, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.859693, 37.0, 16.0, 16.0 ]
 				}
 
 			}
@@ -12905,14 +12913,14 @@
 			}
 , 			{
 				"name" : "utils_cueIN.maxpat",
-				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_cueOUT.maxpat",
-				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -1,86 +1,86 @@
 {
 	"1" : 	{
 		"label" : "label#1",
-		"location" : "Aletsch",
+		"location" : "Elmau",
 		"type" : "Air",
-		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
+		"color" : [ "clover", 0.0659, 0.5018, 0.0068, 1.0 ]
 	}
 ,
 	"2" : 	{
 		"label" : "label#2",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Elmau",
+		"type" : "Hydro",
+		"color" : [ "aqua", 0.0595, 0.5019, 0.9985, 1.0 ]
 	}
 ,
 	"3" : 	{
 		"label" : "label#3",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Elmau",
+		"type" : "Hydro",
+		"color" : [ "aqua", 0.0595, 0.5019, 0.9985, 1.0 ]
 	}
 ,
 	"4" : 	{
 		"label" : "label#4",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Elmau",
+		"type" : "Geofon",
+		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
 	}
 ,
 	"5" : 	{
 		"label" : "label#5",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
 	}
 ,
 	"6" : 	{
 		"label" : "label#6",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
 	}
 ,
 	"7" : 	{
 		"label" : "label#7",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
 	}
 ,
 	"8" : 	{
 		"label" : "label#8",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
 	}
 ,
 	"9" : 	{
 		"label" : "label#9",
-		"location" : "Aletsch",
+		"location" : "Zugspitze",
 		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"color" : [ "clover", 0.0659, 0.5018, 0.0068, 1.0 ]
 	}
 ,
 	"10" : 	{
 		"label" : "label#10",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Zugspitze",
+		"type" : "Hydro",
+		"color" : [ "aqua", 0.0595, 0.5019, 0.9985, 1.0 ]
 	}
 ,
 	"11" : 	{
 		"label" : "label#11",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Zugspitze",
+		"type" : "Geofon",
+		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
 	}
 ,
 	"12" : 	{
 		"label" : "label#12",
-		"location" : "Aletsch",
-		"type" : "Air",
-		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+		"location" : "Zugspitze",
+		"type" : "Contact",
+		"color" : [ "banana", 1.0, 1.0, 0.4, 1.0 ]
 	}
 ,
 	"13" : 	{

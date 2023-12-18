@@ -1,7 +1,15 @@
 {
 	"preset_data" : [ 		{
 			"number" : 1,
-			"data" : [ 5, "obj-214", "live.dial", "float", 19995.89453125, 5, "obj-145", "live.text", "float", 0.0, 5, "obj-148", "live.dial", "float", 20.012336730957031, 5, "obj-143", "live.text", "float", 0.0, 5, "obj-196", "slider", "float", 0.0, 5, "obj-139", "live.dial", "float", 1039.199951171875, 5, "obj-138", "live.dial", "float", 20.000999450683594, 5, "obj-100", "live.dial", "float", 0.0, 5, "obj-297", "live.dial", "float", 100.05999755859375, 5, "obj-286", "live.dial", "float", 50.0, 5, "obj-99", "live.text", "float", 0.0 ]
+			"data" : [ 5, "obj-214", "live.dial", "float", 1755.1981201171875, 5, "obj-145", "live.text", "float", 0.0, 5, "obj-148", "live.dial", "float", 59.058551788330078, 5, "obj-143", "live.text", "float", 0.0, 5, "obj-196", "slider", "float", 0.0, 5, "obj-139", "live.dial", "float", 1000.0, 5, "obj-138", "live.dial", "float", 20.0, 5, "obj-100", "live.dial", "float", 25.196849822998047, 5, "obj-297", "live.dial", "float", 100.0306396484375, 5, "obj-286", "live.dial", "float", 50.0, 5, "obj-99", "live.text", "float", 0.0 ]
+		}
+, 		{
+			"number" : 2,
+			"data" : [ 5, "obj-214", "live.dial", "float", 1755.1981201171875, 5, "obj-145", "live.text", "float", 1.0, 5, "obj-148", "live.dial", "float", 59.058551788330078, 5, "obj-143", "live.text", "float", 1.0, 5, "obj-196", "slider", "float", 0.20357708632946, 5, "obj-139", "live.dial", "float", 1000.0, 5, "obj-138", "live.dial", "float", 20.0, 5, "obj-100", "live.dial", "float", 25.196849822998047, 5, "obj-297", "live.dial", "float", 1937.2470703125, 5, "obj-286", "live.dial", "float", 62.992141723632812, 5, "obj-99", "live.text", "float", 1.0 ]
+		}
+, 		{
+			"number" : 3,
+			"data" : [ 5, "obj-214", "live.dial", "float", 1760.6075439453125, 5, "obj-145", "live.text", "float", 0.0, 5, "obj-148", "live.dial", "float", 59.157829284667969, 5, "obj-143", "live.text", "float", 0.0, 5, "obj-196", "slider", "float", 0.0, 5, "obj-139", "live.dial", "float", 1067.5135498046875, 5, "obj-138", "live.dial", "float", 23.495304107666016, 5, "obj-100", "live.dial", "float", 64.566932678222656, 5, "obj-297", "live.dial", "float", 17247.0078125, 5, "obj-286", "live.dial", "float", 62.204750061035156, 5, "obj-99", "live.text", "float", 0.0 ]
 		}
  ]
 }
