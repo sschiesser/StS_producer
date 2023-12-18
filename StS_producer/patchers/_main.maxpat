@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1113.0, 1308.0, 789.0, 810.0 ],
+		"rect" : [ 1136.0, 1300.0, 784.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -7628,7 +7628,6 @@
 			"obj-66::obj-6::obj-98" : [ "amxd~[25]", "live.text", 0 ],
 			"obj-66::obj-6::obj-99" : [ "amxd~[24]", "live.text", 0 ],
 			"obj-66::obj-8::obj-4" : [ "live.dial[34]", "live.dial[1]", 0 ],
-			"obj-72::obj-106" : [ "live.button[16]", "live.button", 0 ],
 			"obj-72::obj-109" : [ "vst~[233]", "vst~[1]", 0 ],
 			"obj-72::obj-136::obj-22::obj-2" : [ "fader_13", "fader", 0 ],
 			"obj-72::obj-136::obj-22::obj-68" : [ "cue_13", "cue", 0 ],
@@ -8153,6 +8152,10 @@
 ,
 				"obj-25.3::obj-161" : 				{
 					"parameter_longname" : "live.gain~[120]"
+				}
+,
+				"obj-25.3::obj-23::obj-13::obj-161" : 				{
+					"parameter_longname" : "cue.level[13]"
 				}
 ,
 				"obj-25.3::obj-23::obj-39" : 				{
@@ -10199,10 +10202,6 @@
 					"parameter_longname" : "live.dial[34]"
 				}
 ,
-				"obj-72::obj-106" : 				{
-					"parameter_longname" : "live.button[16]"
-				}
-,
 				"obj-72::obj-136::obj-22::obj-2" : 				{
 					"parameter_longname" : "fader_13"
 				}
@@ -10477,6 +10476,10 @@
 ,
 				"obj-77::obj-20::obj-17::obj-161" : 				{
 					"parameter_longname" : "cue.level[36]"
+				}
+,
+				"obj-77::obj-22::obj-17::obj-161" : 				{
+					"parameter_longname" : "cue.level[108]"
 				}
 ,
 				"obj-88::obj-40" : 				{
