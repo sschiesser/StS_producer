@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
+		"rect" : [ 0.0, 53.0, 1920.0, 1027.0 ],
 		"openrect" : [ 0.0, 0.0, 419.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,18 @@
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-220",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2223.024208224128415, 454.0, 48.0, 22.0 ],
+					"text" : "del 500"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-230",
 					"maxclass" : "newobj",
@@ -4953,7 +4965,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -12410,6 +12422,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-258", 0 ],
+					"source" : [ "obj-220", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-271", 0 ],
 					"source" : [ "obj-221", 0 ]
 				}
@@ -12644,7 +12663,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-220", 0 ],
+					"order" : 1,
+					"source" : [ "obj-229", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-245", 0 ],
+					"order" : 0,
 					"source" : [ "obj-229", 3 ]
 				}
 
@@ -12995,6 +13023,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-220", 0 ],
+					"order" : 1,
+					"source" : [ "obj-256", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-229", 0 ],
 					"midpoints" : [ 2169.557822861429486, 565.0, 2046.0, 565.0, 2046.0, 252.0, 2058.658548333402905, 252.0 ],
 					"source" : [ "obj-256", 1 ]
@@ -13004,6 +13040,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-245", 0 ],
+					"order" : 0,
 					"source" : [ "obj-256", 0 ]
 				}
 
@@ -14012,6 +14049,128 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-100" : [ "VST4_size", "size", 0 ],
+			"obj-107" : [ "vst~[61]", "vst~[3]", 0 ],
+			"obj-111" : [ "VST2_HPF", "live.text[8]", 0 ],
+			"obj-112" : [ "VST2_LPF", "live.text[8]", 0 ],
+			"obj-113" : [ "VST2_HPFfreq", "freq.", 0 ],
+			"obj-115" : [ "VST2_LPFfreq", "freq.", 0 ],
+			"obj-116" : [ "VST2_LPFq", "Q", 0 ],
+			"obj-119" : [ "VST2_HPFq", "Q", 0 ],
+			"obj-11::obj-71" : [ "bCueIn[2]", "live.text", 0 ],
+			"obj-125" : [ "VST2_drywet", "dry/wet", 0 ],
+			"obj-138" : [ "VST4_lowcut", "low-cut", 0 ],
+			"obj-139" : [ "VST4_highcut", "high-cut", 0 ],
+			"obj-143" : [ "VST4_damplow", "live.text[10]", 0 ],
+			"obj-145" : [ "VST4_damphigh", "live.text[10]", 0 ],
+			"obj-148" : [ "VST4_damplowfreq", "freq.", 0 ],
+			"obj-150" : [ "VST2_HPFslope", "VST2_HPFslope", 0 ],
+			"obj-156" : [ "VST2_LPFslope", "umenu", 0 ],
+			"obj-15::obj-13" : [ "fGainOut[2]", "out", 0 ],
+			"obj-15::obj-71" : [ "bCueOut[2]", "live.text", 0 ],
+			"obj-170" : [ "VST1_LPF", "live.text[8]", 0 ],
+			"obj-171" : [ "VST1_HPF", "live.text[8]", 0 ],
+			"obj-196" : [ "VST4_predelay", "slider", 0 ],
+			"obj-1::obj-13" : [ "fGainOut[1]", "out", 0 ],
+			"obj-1::obj-71" : [ "bCueOut[1]", "live.text", 0 ],
+			"obj-214" : [ "VST4_damphighfreq", "freq.", 0 ],
+			"obj-23::obj-71" : [ "bCueIn[3]", "live.text", 0 ],
+			"obj-25::obj-13" : [ "fGainOut[3]", "out", 0 ],
+			"obj-25::obj-71" : [ "bCueOut[3]", "live.text", 0 ],
+			"obj-286" : [ "VST4_drywet", "dry/wet", 0 ],
+			"obj-297" : [ "VST4_length", "length", 0 ],
+			"obj-33" : [ "VST3_freeze", "live.text[12]", 0 ],
+			"obj-35::obj-13" : [ "fGainOut", "out", 0 ],
+			"obj-35::obj-71" : [ "bCueOut", "live.text", 0 ],
+			"obj-38" : [ "bDelTap[2]", "tap", 0 ],
+			"obj-42" : [ "VST3_time", "slider", 0 ],
+			"obj-5" : [ "vst~[60]", "vst~", 0 ],
+			"obj-51" : [ "VST3_drywet", "dry/wet", 0 ],
+			"obj-52" : [ "VST3_mode", "live.tab", 0 ],
+			"obj-65::obj-71" : [ "bCueIn", "live.text", 0 ],
+			"obj-66::obj-71" : [ "bCueIn[1]", "live.text", 0 ],
+			"obj-69" : [ "VST3_feedback", "feedback", 0 ],
+			"obj-85" : [ "vst~[58]", "vst~[1]", 0 ],
+			"obj-86" : [ "vst~[59]", "vst~[1]", 0 ],
+			"obj-92" : [ "amxd~[5]", "live.text", 0 ],
+			"obj-93" : [ "VST1_threshold", "VST1_threshold", 0 ],
+			"obj-97" : [ "amxd~[6]", "live.text", 0 ],
+			"obj-98" : [ "amxd~[3]", "live.text", 0 ],
+			"obj-99" : [ "amxd~[4]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-11::obj-71" : 				{
+					"parameter_longname" : "bCueIn[2]"
+				}
+,
+				"obj-15::obj-13" : 				{
+					"parameter_longname" : "fGainOut[2]"
+				}
+,
+				"obj-15::obj-71" : 				{
+					"parameter_longname" : "bCueOut[2]"
+				}
+,
+				"obj-1::obj-13" : 				{
+					"parameter_longname" : "fGainOut[1]"
+				}
+,
+				"obj-1::obj-71" : 				{
+					"parameter_longname" : "bCueOut[1]"
+				}
+,
+				"obj-23::obj-71" : 				{
+					"parameter_longname" : "bCueIn[3]"
+				}
+,
+				"obj-25::obj-13" : 				{
+					"parameter_longname" : "fGainOut[3]"
+				}
+,
+				"obj-25::obj-71" : 				{
+					"parameter_longname" : "bCueOut[3]"
+				}
+,
+				"obj-66::obj-71" : 				{
+					"parameter_longname" : "bCueIn[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils_cueIN.maxpat",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils_cueOUT.maxpat",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-136", "obj-140", "obj-192", "obj-117", "obj-126", "obj-120", "obj-135", "obj-203", "obj-124", "obj-132", "obj-131", "obj-31", "obj-130", "obj-133", "obj-134", "obj-213", "obj-104", "obj-127" ]
 			}
