@@ -721,7 +721,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1412.440758079890202, 140.0, 151.0, 22.0 ],
-					"text" : "2050 27 2886 1427"
+					"text" : "62 59 898 1014"
 				}
 
 			}
@@ -1117,7 +1117,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 2 ],
+					"destination" : [ "obj-35", 1 ],
 					"order" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
@@ -1154,7 +1154,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
+					"destination" : [ "obj-35", 2 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

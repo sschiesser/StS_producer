@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1461.0, 1027.0 ],
+		"rect" : [ 0.0, 53.0, 1920.0, 1027.0 ],
 		"openrect" : [ 0.0, 0.0, 419.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -58,8 +58,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2948.063984340486058, 2455.0, 104.0, 22.0 ],
-					"text" : "s toOSCCtrlFader"
+					"patching_rect" : [ 2948.063984340486058, 2455.0, 80.0, 22.0 ],
+					"text" : "s toSingleCtrl"
 				}
 
 			}
@@ -264,8 +264,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2621.199570125398168, 2455.0, 104.0, 22.0 ],
-					"text" : "s toOSCCtrlFader"
+					"patching_rect" : [ 2621.199570125398168, 2455.0, 80.0, 22.0 ],
+					"text" : "s toSingleCtrl"
 				}
 
 			}
@@ -470,8 +470,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2286.204745182630177, 2455.0, 104.0, 22.0 ],
-					"text" : "s toOSCCtrlFader"
+					"patching_rect" : [ 2286.204745182630177, 2455.0, 80.0, 22.0 ],
+					"text" : "s toSingleCtrl"
 				}
 
 			}
@@ -688,8 +688,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1954.504639333543309, 2455.0, 104.0, 22.0 ],
-					"text" : "s toOSCCtrlFader"
+					"patching_rect" : [ 1954.504639333543309, 2455.0, 80.0, 22.0 ],
+					"text" : "s toSingleCtrl"
 				}
 
 			}
@@ -917,8 +917,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1619.509814390775318, 2455.0, 104.0, 22.0 ],
-					"text" : "s toOSCCtrlFader"
+					"patching_rect" : [ 1619.509814390775318, 2455.0, 80.0, 22.0 ],
+					"text" : "s toSingleCtrl"
 				}
 
 			}
