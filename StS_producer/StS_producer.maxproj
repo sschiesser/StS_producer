@@ -2,7 +2,7 @@
 	"name" : "StS_producer",
 	"version" : 1,
 	"creationdate" : 3749716720,
-	"modificationdate" : 3785836360,
+	"modificationdate" : 3785843429,
 	"viewrect" : [ 780.0, 205.0, 485.0, 786.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -37,6 +37,11 @@
 			}
 ,
 			"FX_1ch.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"FX_presetsMgmt.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -206,7 +211,12 @@
 				"local" : 1
 			}
 ,
-			"FX_presetsMgmt.maxpat" : 			{
+			"utils_objectSelector.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"_temps_selectorTest.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
