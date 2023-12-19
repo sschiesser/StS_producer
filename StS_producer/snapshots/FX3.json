@@ -1,7 +1,3 @@
 {
-	"preset_data" : [ 		{
-			"number" : 1,
-			"data" : [ 5, "obj-33", "live.text", "float", 0.0, 5, "obj-69", "live.dial", "float", 50.0, 5, "obj-42", "slider", "float", 0.0, 5, "obj-52", "live.tab", "float", 0.0, 5, "obj-51", "live.dial", "float", 50.0, 5, "obj-98", "live.text", "float", 0.0 ]
-		}
- ]
+
 }
