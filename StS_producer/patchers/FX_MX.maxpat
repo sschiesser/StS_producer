@@ -1157,7 +1157,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 1 ],
+					"destination" : [ "obj-37", 2 ],
 					"order" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
@@ -1194,7 +1194,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 2 ],
+					"destination" : [ "obj-37", 1 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1914,6 +1914,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FX_1ch.maxpat",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FX_presetsMgmt.maxpat",
 				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1920.0, 1027.0 ],
+		"rect" : [ 0.0, 53.0, 1461.0, 1027.0 ],
 		"openrect" : [ 0.0, 0.0, 419.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -373,7 +373,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2595.622186156365387, 1675.771088063717116, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 321.362566232681274, 539.000000000000114, 20.0, 20.0 ],
+					"presentation_rect" : [ 321.362566232681274, 536.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -405,7 +405,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2976.082714476343426, 1012.998952755312757, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 321.362566232681274, 374.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 321.362566232681274, 371.199999958276749, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -761,7 +761,7 @@
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 2494.536421456095013, 1608.925946876232047, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 209.158548333402905, 539.000000000000114, 100.0, 20.0 ],
+					"presentation_rect" : [ 209.158548333402905, 536.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"active1" : 						{
 							"expression" : "themecolor.live_active_automation"
@@ -803,7 +803,7 @@
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 2874.832714476343426, 953.557772594543394, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 209.158548333402905, 374.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 209.158548333402905, 371.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"active1" : 						{
 							"expression" : "themecolor.live_active_automation"
@@ -1272,15 +1272,33 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.784313725490196, 0.784313725490196, 0.784313725490196, 1.0 ],
+					"blinkcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"id" : "obj-200",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 398.186296694942371, 1245.142860889434814, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.859693080186844, 532.0, 16.0, 16.0 ]
+					"presentation_rect" : [ 48.859693080186844, 537.5, 16.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.live_inactive_automation"
+						}
+,
+						"blinkcolor" : 						{
+							"expression" : "themecolor.live_active_automation"
+						}
+,
+						"outlinecolor" : 						{
+							"expression" : "themecolor.live_led_bg"
+						}
+
+					}
+
 				}
 
 			}
@@ -1458,15 +1476,33 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.784313725490196, 0.784313725490196, 0.784313725490196, 1.0 ],
+					"blinkcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"id" : "obj-198",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 398.186296694942371, 971.766071677207947, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.859693080186844, 367.0, 16.0, 16.0 ]
+					"presentation_rect" : [ 48.859693080186844, 372.5, 16.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.live_inactive_automation"
+						}
+,
+						"blinkcolor" : 						{
+							"expression" : "themecolor.live_active_automation"
+						}
+,
+						"outlinecolor" : 						{
+							"expression" : "themecolor.live_led_bg"
+						}
+
+					}
+
 				}
 
 			}
@@ -1644,15 +1680,33 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.784313725490196, 0.784313725490196, 0.784313725490196, 1.0 ],
+					"blinkcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"id" : "obj-195",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 398.186296694942371, 718.046199167182976, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.859693080186844, 202.0, 16.0, 16.0 ]
+					"presentation_rect" : [ 48.859693080186844, 207.5, 16.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.live_inactive_automation"
+						}
+,
+						"blinkcolor" : 						{
+							"expression" : "themecolor.live_active_automation"
+						}
+,
+						"outlinecolor" : 						{
+							"expression" : "themecolor.live_led_bg"
+						}
+
+					}
+
 				}
 
 			}
@@ -2002,15 +2056,33 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.784313725490196, 0.784313725490196, 0.784313725490196, 1.0 ],
+					"blinkcolor" : [ 1.0, 0.345098039215686, 0.298039215686275, 1.0 ],
 					"id" : "obj-185",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 398.186296694942371, 458.857151746749878, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.859693, 37.0, 16.0, 16.0 ]
+					"presentation_rect" : [ 48.859693, 42.5, 16.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.live_inactive_automation"
+						}
+,
+						"blinkcolor" : 						{
+							"expression" : "themecolor.live_active_automation"
+						}
+,
+						"outlinecolor" : 						{
+							"expression" : "themecolor.live_led_bg"
+						}
+
+					}
+
 				}
 
 			}

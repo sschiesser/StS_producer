@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 836.0, 1400.0 ],
+		"rect" : [ 0.0, 53.0, 1920.0, 1027.0 ],
 		"openrect" : [ 0.0, 0.0, 836.0, 1400.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1117,7 +1117,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 1 ],
+					"destination" : [ "obj-35", 2 ],
 					"order" : 1,
 					"source" : [ "obj-51", 0 ]
 				}
@@ -1154,7 +1154,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 2 ],
+					"destination" : [ "obj-35", 1 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1874,6 +1874,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FX_1ch.maxpat",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FX_presetsMgmt.maxpat",
 				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
