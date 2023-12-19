@@ -68,8 +68,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 442.315637877307722, 797.09781277179718, 101.0, 22.0 ],
-					"text" : "s OSC2singleCtrl"
+					"patching_rect" : [ 442.315637877307722, 797.09781277179718, 94.0, 22.0 ],
+					"text" : "s fromSingleCtrl"
 				}
 
 			}
