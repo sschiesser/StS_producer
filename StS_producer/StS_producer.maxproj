@@ -2,7 +2,7 @@
 	"name" : "StS_producer",
 	"version" : 1,
 	"creationdate" : 3749716720,
-	"modificationdate" : 3785671771,
+	"modificationdate" : 3785836360,
 	"viewrect" : [ 780.0, 205.0, 485.0, 786.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -52,11 +52,6 @@
 			}
 ,
 			"FX_DO.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"FX_presets.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -207,6 +202,11 @@
 			}
 ,
 			"SRC_IO.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"FX_presetsMgmt.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
