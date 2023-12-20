@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1195.0, 742.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"openrect" : [ 0.0, 0.0, 282.0, 246.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -4122,7 +4122,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-73",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4336,7 +4336,7 @@
 				"box" : 				{
 					"comment" : "groove~ command",
 					"id" : "obj-93",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4390,13 +4390,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-161", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-100", 0 ]
@@ -5165,6 +5158,26 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-161" : [ "cue.level[22]", "cue.level", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "icst.button.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}
 

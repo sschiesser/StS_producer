@@ -9,7 +9,7 @@ import sys, os
 import shutil
 from sys import platform
 
-subSounds = ["_dummy", "Aletsch", "Elmau", "Heilbrunn", "Pottenstein", "Rooftop", "Wald", "Zugspitze"]
+subSounds = ["_dummy"]
 
 # SOURCE folders
 srcPathRoot = os.path.dirname(sys.argv[0])
