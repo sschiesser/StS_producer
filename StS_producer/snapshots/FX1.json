@@ -3,5 +3,9 @@
 			"number" : 1,
 			"data" : [ 5, "obj-170", "live.text", "float", 0.0, 5, "obj-171", "live.text", "float", 0.0, 5, "obj-93", "slider", "float", 0.0, 5, "obj-92", "live.text", "float", 0.0 ]
 		}
+, 		{
+			"number" : 2,
+			"data" : [ 5, "obj-170", "live.text", "float", 1.0, 5, "obj-171", "live.text", "float", 0.0, 5, "obj-93", "slider", "float", 0.575635135173798, 5, "obj-92", "live.text", "float", 1.0 ]
+		}
  ]
 }

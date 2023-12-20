@@ -1,3 +1,226 @@
 {
+	"1" : 	{
+		"label" : "label#1",
+		"location" : "Elmau",
+		"type" : "Air",
+		"color" : [ "clover", 0.0659, 0.5018, 0.0068, 1.0 ]
+	}
+,
+	"2" : 	{
+		"label" : "label#2",
+		"location" : "Elmau",
+		"type" : "Hydro",
+		"color" : [ "aqua", 0.0595, 0.5019, 0.9985, 1.0 ]
+	}
+,
+	"3" : 	{
+		"label" : "label#3",
+		"location" : "Elmau",
+		"type" : "Hydro",
+		"color" : [ "aqua", 0.0595, 0.5019, 0.9985, 1.0 ]
+	}
+,
+	"4" : 	{
+		"label" : "label#4",
+		"location" : "Elmau",
+		"type" : "Geofon",
+		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
+	}
+,
+	"5" : 	{
+		"label" : "label#5",
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
+	}
+,
+	"6" : 	{
+		"label" : "label#6",
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
+	}
+,
+	"7" : 	{
+		"label" : "label#7",
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
+	}
+,
+	"8" : 	{
+		"label" : "label#8",
+		"location" : "Elmau",
+		"type" : "Boden",
+		"color" : [ "lead", 0.098, 0.098, 0.098, 1.0 ]
+	}
+,
+	"9" : 	{
+		"label" : "Toit",
+		"location" : "Zugspitze",
+		"type" : "Air",
+		"color" : [ "clover", 0.0659, 0.5018, 0.0068, 1.0 ]
+	}
+,
+	"10" : 	{
+		"label" : "Neige",
+		"location" : "Zugspitze",
+		"type" : "Hydro",
+		"color" : [ "aqua", 0.0595, 0.5019, 0.9985, 1.0 ]
+	}
+,
+	"11" : 	{
+		"label" : [ "Metal", 1 ],
+		"location" : "Zugspitze",
+		"type" : "Geofon",
+		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
+	}
+,
+	"12" : 	{
+		"label" : [ "Metal", 2 ],
+		"location" : "Zugspitze",
+		"type" : "Contact",
+		"color" : [ "banana", 1.0, 1.0, 0.4, 1.0 ]
+	}
+,
+	"13" : 	{
+		"label" : "Poulailler",
+		"location" : "Rooftop",
+		"type" : "Air",
+		"color" : [ "clover", 0.0659, 0.5018, 0.0068, 1.0 ]
+	}
+,
+	"14" : 	{
+		"label" : "label#14",
+		"location" : "Rooftop",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"15" : 	{
+		"label" : [ "Tuyau", 1 ],
+		"location" : "Rooftop",
+		"type" : "Geofon",
+		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
+	}
+,
+	"16" : 	{
+		"label" : [ "Tuyau", 2 ],
+		"location" : "Rooftop",
+		"type" : "Geofon",
+		"color" : [ "mocha", 0.502, 0.251, 0.01, 1.0 ]
+	}
+,
+	"17" : 	{
+		"label" : "label#17",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"18" : 	{
+		"label" : "label#18",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"19" : 	{
+		"label" : "label#19",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"20" : 	{
+		"label" : "label#20",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"21" : 	{
+		"label" : "label#21",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"22" : 	{
+		"label" : "label#22",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"23" : 	{
+		"label" : "label#23",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"24" : 	{
+		"label" : "label#24",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"25" : 	{
+		"label" : "label#25",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"26" : 	{
+		"label" : "label#26",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"27" : 	{
+		"label" : "label#27",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"28" : 	{
+		"label" : "label#28",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"29" : 	{
+		"label" : "label#29",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"30" : 	{
+		"label" : "label#30",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"31" : 	{
+		"label" : "label#31",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
+,
+	"32" : 	{
+		"label" : "label#32",
+		"location" : "Aletsch",
+		"type" : "Air",
+		"color" : [ "aluminium", 0.6, 0.6, 0.6, 1.0 ]
+	}
 
 }
