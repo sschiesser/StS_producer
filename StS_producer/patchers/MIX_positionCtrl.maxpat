@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 886.0, 88.0, 1000.0, 821.0 ],
+		"rect" : [ 34.0, 87.0, 1289.0, 793.0 ],
 		"openrect" : [ 0.0, 0.0, 212.0, 55.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -57,8 +57,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 348.0, 302.82092634632113, 118.0, 22.0 ],
-					"text" : "print \"reading from: \""
+					"patching_rect" : [ 348.0, 302.82092634632113, 168.0, 22.0 ],
+					"text" : "print \"reading positions from: \""
 				}
 
 			}
@@ -68,8 +68,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.0, 1334.334547201591477, 98.0, 22.0 ],
-					"text" : "print \"saving to: \""
+					"patching_rect" : [ 700.0, 1334.334547201591477, 149.0, 22.0 ],
+					"text" : "print \"saving positions to: \""
 				}
 
 			}
@@ -584,7 +584,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -729,10 +729,10 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 879.878336429595834, 217.848625123500824, 220.5, 22.0 ],
+					"patching_rect" : [ 879.878336429595834, 217.848625123500824, 191.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2109.045682331619446, 503.666757583618164, 220.5, 22.0 ],
-					"text" : "combine root / fname"
+					"text" : "combine root / fname @triggers -1"
 				}
 
 			}
@@ -1161,11 +1161,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-163",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 63.51351301062823, 30.540534270782473, 30.0, 30.0 ]
 				}
 
@@ -1174,7 +1174,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-168",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1824,7 +1824,27 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-18" : [ "live.text[569]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "sadam.rapidXML.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
