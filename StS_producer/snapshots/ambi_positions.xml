@@ -1,158 +1,158 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ambiscore>
-	<snapshot index="_New-start">
+	<snapshot index="start">
 		<point>
 			<number>1</number>
-			<xyz>-0.303028 0.203098 0.000000</xyz>
+			<xyz>-0.728109 0.640562 0.000000</xyz>
 		</point>
 		<point>
 			<number>5</number>
 			<group>2</group>
-			<xyz>-0.695650 -0.002612 0.000000</xyz>
+			<xyz>0.743891 0.690905 0.000000</xyz>
 		</point>
 		<point>
 			<number>6</number>
 			<group>2</group>
-			<xyz>-0.495650 -0.002612 0.000000</xyz>
+			<xyz>-0.515751 -0.642725 0.000000</xyz>
 		</point>
 		<point>
 			<number>13</number>
 			<group>3</group>
-			<xyz>-0.134990 0.177094 0.000000</xyz>
+			<xyz>-0.500000 0.500000 0.000000</xyz>
 		</point>
 		<point>
 			<number>14</number>
 			<group>3</group>
-			<xyz>0.115010 0.177094 0.000000</xyz>
+			<xyz>-0.250000 0.500000 0.000000</xyz>
 		</point>
 		<point>
 			<number>15</number>
 			<group>3</group>
-			<xyz>-0.135426 0.227988 0.000000</xyz>
+			<xyz>-0.002024 -0.991145 0.000000</xyz>
 		</point>
 		<point>
 			<number>16</number>
 			<group>3</group>
-			<xyz>0.113574 0.232788 0.000000</xyz>
+			<xyz>0.247976 -0.991145 0.000000</xyz>
 		</point>
 		<point>
 			<number>7</number>
 			<group>2</group>
-			<xyz>-0.295650 -0.002612 0.000000</xyz>
+			<xyz>-0.315751 -0.642725 0.000000</xyz>
 		</point>
 		<point>
 			<number>8</number>
 			<group>2</group>
-			<xyz>-0.095650 -0.002612 0.000000</xyz>
+			<xyz>-0.115751 -0.642725 0.000000</xyz>
 		</point>
 		<point>
 			<number>9</number>
 			<group>2</group>
-			<xyz>0.104350 -0.002612 0.000000</xyz>
+			<xyz>0.084249 -0.642725 0.000000</xyz>
 		</point>
 		<point>
 			<number>10</number>
 			<group>2</group>
-			<xyz>0.304350 -0.002612 0.000000</xyz>
+			<xyz>0.284249 -0.642725 0.000000</xyz>
 		</point>
 		<point>
 			<number>11</number>
 			<group>2</group>
-			<xyz>0.504350 -0.002612 0.000000</xyz>
+			<xyz>-0.481845 -0.464208 0.000000</xyz>
 		</point>
 		<point>
 			<number>12</number>
 			<group>2</group>
-			<xyz>0.704350 -0.002612 0.000000</xyz>
+			<xyz>-0.281845 -0.464208 0.000000</xyz>
 		</point>
 		<point>
 			<number>2</number>
-			<xyz>-0.142980 0.328258 0.000000</xyz>
+			<xyz>0.434081 -0.850583 0.000000</xyz>
 		</point>
 		<point>
 			<number>3</number>
-			<xyz>0.115490 0.328596 0.000000</xyz>
+			<xyz>-0.521002 0.640562 0.000000</xyz>
 		</point>
 		<point>
 			<number>4</number>
-			<xyz>0.308748 0.205582 0.000000</xyz>
+			<xyz>0.226974 -0.850583 0.000000</xyz>
 		</point>
 	</snapshot>
-	<snapshot index="newpos">
+	<snapshot index="_prot">
 		<point>
 			<number>1</number>
-			<xyz>0.269278 0.549632 0.000000</xyz>
+			<xyz>-0.176805 0.351784 0.000000</xyz>
 		</point>
 		<point>
 			<number>5</number>
 			<group>2</group>
-			<xyz>-0.674648 -0.338645 0.000000</xyz>
+			<xyz>0.098078 0.087096 0.000000</xyz>
 		</point>
 		<point>
 			<number>6</number>
 			<group>2</group>
-			<xyz>-0.474648 -0.338645 0.000000</xyz>
+			<xyz>-0.410741 -0.086171 0.000000</xyz>
 		</point>
 		<point>
 			<number>13</number>
 			<group>3</group>
-			<xyz>0.437316 0.523628 0.000000</xyz>
+			<xyz>-0.500000 0.500000 0.000000</xyz>
 		</point>
 		<point>
 			<number>14</number>
 			<group>3</group>
-			<xyz>0.687316 0.523628 0.000000</xyz>
+			<xyz>-0.250000 0.500000 0.000000</xyz>
 		</point>
 		<point>
 			<number>15</number>
 			<group>3</group>
-			<xyz>0.436880 0.574522 0.000000</xyz>
+			<xyz>-0.002024 -0.991145 0.000000</xyz>
 		</point>
 		<point>
 			<number>16</number>
 			<group>3</group>
-			<xyz>0.685880 0.579322 0.000000</xyz>
+			<xyz>0.247976 -0.991145 0.000000</xyz>
 		</point>
 		<point>
 			<number>7</number>
 			<group>2</group>
-			<xyz>-0.274648 -0.338645 0.000000</xyz>
+			<xyz>-0.210741 -0.086171 0.000000</xyz>
 		</point>
 		<point>
 			<number>8</number>
 			<group>2</group>
-			<xyz>-0.074648 -0.338645 0.000000</xyz>
+			<xyz>-0.010741 -0.086171 0.000000</xyz>
 		</point>
 		<point>
 			<number>9</number>
 			<group>2</group>
-			<xyz>0.125352 -0.338645 0.000000</xyz>
+			<xyz>0.189259 -0.086171 0.000000</xyz>
 		</point>
 		<point>
 			<number>10</number>
 			<group>2</group>
-			<xyz>0.325352 -0.338645 0.000000</xyz>
+			<xyz>0.389259 -0.086171 0.000000</xyz>
 		</point>
 		<point>
 			<number>11</number>
 			<group>2</group>
-			<xyz>0.525352 -0.338645 0.000000</xyz>
+			<xyz>-0.376835 0.092346 0.000000</xyz>
 		</point>
 		<point>
 			<number>12</number>
 			<group>2</group>
-			<xyz>0.725352 -0.338645 0.000000</xyz>
+			<xyz>-0.176835 0.092346 0.000000</xyz>
 		</point>
 		<point>
 			<number>2</number>
-			<xyz>0.429326 0.674792 0.000000</xyz>
+			<xyz>0.035042 0.241523 0.000000</xyz>
 		</point>
 		<point>
 			<number>3</number>
-			<xyz>0.687796 0.675130 0.000000</xyz>
+			<xyz>0.030302 0.351784 0.000000</xyz>
 		</point>
 		<point>
 			<number>4</number>
-			<xyz>0.881054 0.552116 0.000000</xyz>
+			<xyz>-0.172065 0.241523 0.000000</xyz>
 		</point>
 	</snapshot>
 </ambiscore>

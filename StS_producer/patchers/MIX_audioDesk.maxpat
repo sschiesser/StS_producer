@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1971.0, 1218.0 ],
+		"rect" : [ 0.0, 53.0, 1920.0, 1027.0 ],
 		"openrect" : [ 0.0, 0.0, 782.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,20 @@
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.082352941176471, 1.0, 1.0 ],
+					"id" : "obj-168",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1181.964284837245941, 573.091396331787109, 64.0, 22.0 ],
+					"text" : "r StS_init3",
+					"textcolor" : [ 0.513725490196078, 0.556862745098039, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-219",
 					"maxclass" : "newobj",
@@ -483,20 +497,6 @@
 , 			{
 				"box" : 				{
 					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-167",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1181.964284837245941, 567.863641262054443, 64.0, 22.0 ],
-					"text" : "r StS_init0",
-					"textcolor" : [ 1.0, 0.451, 0.451, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-164",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -838,7 +838,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1160,7 +1160,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1687,7 +1687,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2090,7 +2090,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2312,7 +2312,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2727,7 +2727,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3333,7 +3333,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3367,7 +3367,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -3687,7 +3686,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6127,7 +6126,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1181.964284837245941, 597.091396331787109, 24.0, 24.0 ]
+					"patching_rect" : [ 1181.964284837245941, 597.091396331787109, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 697.704773664474487, 325.400764145055746, 24.0, 24.0 ]
 				}
 
 			}
@@ -7078,7 +7079,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-160", 0 ],
-					"source" : [ "obj-167", 0 ]
+					"source" : [ "obj-168", 0 ]
 				}
 
 			}
@@ -8904,6 +8905,10 @@
 				"obj-2::obj-85::obj-9" : 				{
 					"parameter_longname" : "ON_$"
 				}
+,
+				"obj-39::obj-18" : 				{
+					"parameter_longname" : "live.text[459]"
+				}
 
 			}
 ,
@@ -8912,56 +8917,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MIX_directOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_fader.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_faderStereo.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_mxOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_phonesOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_piano.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_positionCtrl.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_trajectoryCtrl.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -8984,7 +8989,7 @@
 			}
 , 			{
 				"name" : "lock.png",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/media",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
