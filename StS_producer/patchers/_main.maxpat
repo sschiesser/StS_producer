@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1170.0, 1300.0, 784.0, 810.0 ],
+		"rect" : [ 1086.0, 1296.0, 784.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,149 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-250",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1013.0, 504.0, 56.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 655.300870878936848, 41.536904999999997, 56.0, 18.0 ],
+					"text" : "write to file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-247",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1202.5, 199.058264553546906, 87.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 639.800870878936848, 78.497655579833975, 87.0, 18.0 ],
+					"text" : "open mapping file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-245",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1242.0, 222.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 673.300870878936848, 93.122530341148376, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-243",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1034.0, 526.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 673.300870878936848, 56.497655579833982, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-241",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1037.0, 570.0, 303.0, 49.0 ],
+					"text" : "write /Users/user/Desktop/StS_producer/StS_producer/snapshots/MIDI_mapping.maxmap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-239",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1269.0, 516.0, 81.0, 22.0 ],
+					"text" : "prepend write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-238",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1152.0, 515.894046720862434, 80.0, 22.0 ],
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-237",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1152.0, 423.689888954162598, 215.0, 22.0 ],
+					"text" : "combine path /MIDI_mapping.maxmap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-224",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1299.745805461796863, 359.087274849414825, 75.0, 22.0 ],
+					"text" : "v snapsPath"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.082352941176471, 1.0, 1.0 ],
+					"id" : "obj-222",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1299.745805461796863, 330.0, 64.0, 22.0 ],
+					"text" : "r StS_init3",
+					"textcolor" : [ 0.513725490196078, 0.556862745098039, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-217",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1242.0, 254.0, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-219",
@@ -1065,8 +1208,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 29.0, 59.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 588.460708968751987, 41.536904999999997, 59.0, 18.0 ],
 					"text" : "show paths"
 				}
 
@@ -1079,9 +1220,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.233892679214705, 52.28941398859024, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 607.960708968751874, 56.497655579833982, 20.0, 20.0 ]
+					"patching_rect" : [ 13.233892679214705, 52.28941398859024, 24.0, 24.0 ]
 				}
 
 			}
@@ -1120,7 +1259,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1332,7 +1471,7 @@
 									"patching_rect" : [ 117.0, 217.0, 273.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 116.0, 72.536905000000004, 462.0, 20.0 ],
-									"text" : "/Users/stsproducer/Desktop/StS/StS_producer/StS_producer/snapshots",
+									"text" : "/Users/user/Desktop/StS_producer/StS_producer/snapshots",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1359,7 +1498,7 @@
 									"patching_rect" : [ 117.0, 177.0, 248.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 116.0, 54.536905000000004, 462.0, 20.0 ],
-									"text" : "/Users/stsproducer/Desktop/StS/StS_producer/StS_producer/dicts",
+									"text" : "/Users/user/Desktop/StS_producer/StS_producer/dicts",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1386,7 +1525,7 @@
 									"patching_rect" : [ 117.0, 139.0, 282.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 116.0, 36.536905000000004, 462.0, 20.0 ],
-									"text" : "/Users/stsproducer/Desktop/StS/StS_producer/StS_producer/plugins/mac",
+									"text" : "/Users/user/Desktop/StS_producer/StS_producer/plugins/mac",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1413,7 +1552,7 @@
 									"patching_rect" : [ 117.0, 104.0, 260.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 116.0, 18.536905000000004, 462.0, 20.0 ],
-									"text" : "/Users/stsproducer/Desktop/StS/StS_producer/StS_producer/sounds",
+									"text" : "/Users/user/Desktop/StS_producer/StS_producer/sounds",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1440,7 +1579,7 @@
 									"patching_rect" : [ 117.0, 65.0, 226.0, 31.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 116.0, 0.536905000000004, 462.0, 20.0 ],
-									"text" : "/Users/stsproducer/Desktop/StS/StS_producer/StS_producer",
+									"text" : "/Users/user/Desktop/StS_producer/StS_producer",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2494,7 +2633,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1119.515764881854238, 35.28941398859024, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 673.300870878936848, 56.497655579833982, 20.0, 20.0 ]
+					"presentation_rect" : [ 596.75391433632285, 56.497655579833982, 20.0, 20.0 ]
 				}
 
 			}
@@ -2508,7 +2647,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1145.316425167815851, 35.28941398859024, 50.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 646.300870878936848, 41.536904999999997, 74.0, 18.0 ],
+					"presentation_rect" : [ 569.75391433632285, 41.536904999999997, 74.0, 18.0 ],
 					"text" : "MIDI mapping ",
 					"textjustification" : 1
 				}
@@ -3096,7 +3235,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3150,7 +3289,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 263.75, 530.0, 454.0, 22.0 ],
-									"text" : "/Users/stsproducer/Desktop/StS/StS_producer/StS_producer"
+									"text" : "/Users/user/Desktop/StS_producer/StS_producer"
 								}
 
 							}
@@ -3552,7 +3691,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 216.75, 496.950486421585083, 454.0, 22.0 ],
-									"text" : "\"Macintosh HD:/Users/stsproducer/Desktop/StS/StS_producer/StS_producer\""
+									"text" : "\"Macintosh HD:/Users/user/Desktop/StS_producer/StS_producer\""
 								}
 
 							}
@@ -3576,7 +3715,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 98.0, 458.950486421585083, 508.0, 22.0 ],
-									"text" : "\"Macintosh HD:/Users/stsproducer/Desktop/StS/StS_producer/StS_producer/patchers/\""
+									"text" : "\"Macintosh HD:/Users/user/Desktop/StS_producer/StS_producer/patchers/\""
 								}
 
 							}
@@ -4183,7 +4322,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6154,6 +6293,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-221", 0 ],
+					"source" : [ "obj-217", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
 					"order" : 1,
 					"source" : [ "obj-22", 0 ]
@@ -6194,6 +6340,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"source" : [ "obj-222", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
 					"order" : 1,
 					"source" : [ "obj-223", 0 ]
@@ -6205,6 +6358,13 @@
 					"destination" : [ "obj-233", 0 ],
 					"order" : 0,
 					"source" : [ "obj-223", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-237", 0 ],
+					"source" : [ "obj-224", 0 ]
 				}
 
 			}
@@ -6259,9 +6419,60 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-238", 0 ],
+					"order" : 1,
+					"source" : [ "obj-237", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-239", 0 ],
+					"order" : 0,
+					"source" : [ "obj-237", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-221", 0 ],
+					"source" : [ "obj-238", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 1 ],
+					"source" : [ "obj-239", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"midpoints" : [ 239.384257495403403, 379.898305267095566, 22.733892679214705, 379.898305267095566 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-221", 0 ],
+					"source" : [ "obj-241", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 0 ],
+					"source" : [ "obj-243", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-217", 0 ],
+					"source" : [ "obj-245", 0 ]
 				}
 
 			}
@@ -10598,20 +10809,6 @@
 					"flags" : 2
 				}
 ,
-				"ON_ö" : 				{
-					"srcname" : "23.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_ä" : 				{
-					"srcname" : "25.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
 				"ON_$" : 				{
 					"srcname" : "27.ctrl.0.chan.2.port.midi",
 					"min" : 0.0,
@@ -10682,20 +10879,6 @@
 					"flags" : 2
 				}
 ,
-				"fader_ö" : 				{
-					"srcname" : "24.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_ä" : 				{
-					"srcname" : "26.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
 				"fader_$" : 				{
 					"srcname" : "28.ctrl.0.chan.2.port.midi",
 					"min" : -70.0,
@@ -10723,154 +10906,154 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "EDIT_1ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EDIT_selectModes.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EDITmask.png",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/media",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EDITmodes.png",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/media",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FX_1ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FX_DO.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FX_MX.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FX_presetsMgmt.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IN_8ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IN_all.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IN_placeInstance.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_audioDesk.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_directOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_fader.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_faderStereo.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_mxOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_phonesOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_piano.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_positionCtrl.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_send2MX.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_send2MXb.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_trajectoryCtrl.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -10881,49 +11064,49 @@
 			}
 , 			{
 				"name" : "PB_1ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PB_4ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SRC_1ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SRC_8ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SRC_AFLIn.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SRC_komp.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SRC_pianoIn.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -10942,7 +11125,7 @@
 			}
 , 			{
 				"name" : "dictLookup.js",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/code",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -10957,14 +11140,14 @@
 			}
 , 			{
 				"name" : "getOtherPaths.js",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/code",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gettDateTime.js",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/code",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -10976,27 +11159,27 @@
 , 			{
 				"name" : "komp-ballistics.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/kompressor/lib",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/kompressor/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/kompressor/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kompressor.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lock.png",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/media",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nodeFs.js",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/code",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -11017,63 +11200,63 @@
 			}
 , 			{
 				"name" : "utils_DSPsettings.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_MIDIinverter.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_MIDIline.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_OSCsettings.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_channelDict.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_colorCodes.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_cueIN.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_cueOUT.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_dictionaries.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
