@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 7,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 317.0, 1332.0, 972.0, 320.0 ],
+		"rect" : [ 75.0, 95.0, 802.0, 435.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,63 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.376940233092682, 195.0, 39.0, 22.0 ],
+					"text" : "port c"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.376940233092682, 102.5, 39.0, 22.0 ],
+					"text" : "port b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.376940233092682, 31.0, 39.0, 22.0 ],
+					"text" : "port a"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.082352941176471, 1.0, 1.0 ],
+					"id" : "obj-181",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2.876940233092682, 3.0, 64.0, 22.0 ],
+					"text" : "r StS_init3",
+					"textcolor" : [ 0.513725490196078, 0.556862745098039, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 143.0, 108.0, 22.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 120.0, 376.443034887313843, 108.0, 22.0 ],
 					"text" : "départ console"
 				}
 
@@ -60,7 +109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 3.0, 78.0, 22.0 ],
+					"patching_rect" : [ 113.0, 236.443034887313843, 78.0, 22.0 ],
 					"text" : "sortie Max"
 				}
 
@@ -73,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 143.0, 82.0, 22.0 ],
+					"patching_rect" : [ 121.0, 195.0, 82.0, 22.0 ],
 					"text" : "entrée Max"
 				}
 
@@ -86,8 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 3.0, 111.0, 22.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 114.0, 55.0, 111.0, 22.0 ],
 					"text" : "arrivée console"
 				}
 
@@ -96,12 +144,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 261.0, 6.0, 30.0, 30.0 ]
+					"patching_rect" : [ 304.0, 58.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -112,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 18.0, 78.0, 18.0 ],
+					"patching_rect" : [ 113.0, 251.443034887313843, 78.0, 18.0 ],
 					"text" : "IAC Max to iRig"
 				}
 
@@ -124,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 160.0, 78.0, 18.0 ],
+					"patching_rect" : [ 121.0, 212.0, 78.0, 18.0 ],
 					"text" : "IAC iRig to Max"
 				}
 
@@ -136,7 +184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.0, 158.0, 58.0, 18.0 ],
+					"patching_rect" : [ 121.0, 391.443034887313843, 58.0, 18.0 ],
 					"text" : "iRig MIDI 2"
 				}
 
@@ -148,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 18.0, 58.0, 18.0 ],
+					"patching_rect" : [ 114.0, 70.0, 58.0, 18.0 ],
 					"text" : "iRig MIDI 2"
 				}
 
@@ -162,18 +210,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 682.0, 3.0, 280.0, 302.902374670184656 ],
-					"pic" : "/Users/stsproducer/Desktop/Capture d’écran 2023-12-15 à 18.55.26.png"
+					"patching_rect" : [ 389.594940543174744, 3.0, 400.253162980079651, 405.618486880616899 ],
+					"pic" : "Macintosh HD:/Users/stsproducer/Desktop/StS/StS_producer/StS_producer/media/MIDIsetup.png"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-4",
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 601.0, 3.0, 77.0, 20.0 ],
+					"patching_rect" : [ 351.594940543174744, 55.0, 18.0, 154.0 ],
 					"text" : "MIDI setup..."
 				}
 
@@ -194,7 +243,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.0, 40.0, 290.0, 89.0 ],
+					"patching_rect" : [ 62.0, 273.443034887313843, 290.0, 89.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -215,7 +264,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 40.0, 290.0, 89.0 ],
+					"patching_rect" : [ 62.0, 92.0, 290.0, 89.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -226,7 +275,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 143.0, 57.0, 22.0 ],
+					"patching_rect" : [ 62.0, 376.443034887313843, 57.0, 22.0 ],
 					"text" : "midiout a"
 				}
 
@@ -238,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 327.0, 3.0, 49.0, 22.0 ],
+					"patching_rect" : [ 62.0, 236.443034887313843, 49.0, 22.0 ],
 					"text" : "midiin c"
 				}
 
@@ -249,7 +298,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 143.0, 57.0, 22.0 ],
+					"patching_rect" : [ 62.0, 195.0, 57.0, 22.0 ],
 					"text" : "midiout b"
 				}
 
@@ -261,7 +310,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 19.0, 3.0, 50.0, 22.0 ],
+					"patching_rect" : [ 62.0, 55.0, 50.0, 22.0 ],
 					"text" : "midiin a"
 				}
 
@@ -271,6 +320,63 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 24.876940233092682, 87.0, 0.0, 87.0, 0.0, 372.0, 71.5, 372.0 ],
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"order" : 2,
+					"source" : [ "obj-181", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
+					"source" : [ "obj-181", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 12.376940233092682, 87.0, 0.0, 87.0, 0.0, 180.0, 24.876940233092682, 180.0 ],
+					"order" : 0,
+					"source" : [ "obj-181", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"midpoints" : [ 24.876940233092682, 180.0, 57.0, 180.0, 57.0, 186.0, 71.5, 186.0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -295,7 +401,29 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "MIDIsetup.png",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils_MIDIline.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
