@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 7,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1577.0, 859.0 ],
+		"rect" : [ 0.0, 53.0, 2048.0, 2251.0 ],
 		"openrect" : [ 0.0, 0.0, 782.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -958,7 +958,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1264,7 +1264,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1007.390412449836731, 1092.884612143039703, 262.0, 22.0 ],
-					"text" : "/ambimon/1 0.4956 0.5499"
+					"text" : "/ambimon/4 0.75 0.5"
 				}
 
 			}
@@ -1280,7 +1280,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1807,7 +1807,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2210,7 +2210,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2432,7 +2432,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2847,7 +2847,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3453,7 +3453,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3806,7 +3806,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 7,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5185,7 +5185,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-76",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -5662,7 +5662,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 953.318617124200046, 996.666740417480469, 262.0, 22.0 ],
-					"text" : "xyz 1 -0.008789 0.09976 0. 1"
+					"text" : "xyz 4 0.5 0. 0. 1"
 				}
 
 			}
@@ -5675,7 +5675,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 953.318617124200046, 970.666740417480469, 262.0, 22.0 ],
-					"text" : "aed 1 -5.034852 0. 0.100146 1"
+					"text" : "aed 4 90. 0. 0.5 1"
 				}
 
 			}
@@ -6011,7 +6011,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "ON_main[1]",
+							"parameter_longname" : "ON_main",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "ON",
 							"parameter_type" : 1
@@ -6074,7 +6074,7 @@
 							"parameter_initial" : [ -70.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "fader_main[1]",
+							"parameter_longname" : "fader_main",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "ST",
@@ -6890,7 +6890,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"order" : 1,
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -6904,24 +6903,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
-					"order" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 1 ],
-					"order" : 0,
-					"source" : [ "obj-14", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -8772,6 +8754,398 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-109" : [ "vst~[233]", "vst~[1]", 0 ],
+			"obj-136::obj-22::obj-2" : [ "fader_13", "fader", 0 ],
+			"obj-136::obj-22::obj-68" : [ "cue_13", "cue", 0 ],
+			"obj-136::obj-22::obj-9" : [ "ON_13", "ON", 0 ],
+			"obj-136::obj-34::obj-2" : [ "fader_14", "fader", 0 ],
+			"obj-136::obj-34::obj-68" : [ "cue_14", "cue", 0 ],
+			"obj-136::obj-34::obj-9" : [ "ON_14", "ON", 0 ],
+			"obj-14" : [ "fader_main", "ST", 0 ],
+			"obj-16" : [ "live.text[710]", "live.text", 0 ],
+			"obj-1::obj-14::obj-2" : [ "fader_d", "fader", 0 ],
+			"obj-1::obj-14::obj-68" : [ "cue_d", "cue", 0 ],
+			"obj-1::obj-14::obj-9" : [ "ON_d", "ON", 0 ],
+			"obj-1::obj-15::obj-2" : [ "fader_f", "fader", 0 ],
+			"obj-1::obj-15::obj-68" : [ "cue_f", "cue", 0 ],
+			"obj-1::obj-15::obj-9" : [ "ON_f", "ON", 0 ],
+			"obj-1::obj-77::obj-2" : [ "fader_a", "fader", 0 ],
+			"obj-1::obj-77::obj-68" : [ "cue_a", "cue", 0 ],
+			"obj-1::obj-77::obj-9" : [ "ON_a", "ON", 0 ],
+			"obj-1::obj-9::obj-2" : [ "fader_s", "fader", 0 ],
+			"obj-1::obj-9::obj-68" : [ "cue_s", "cue", 0 ],
+			"obj-1::obj-9::obj-9" : [ "ON_s", "ON", 0 ],
+			"obj-250" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-278::obj-39" : [ "live.text", "live.text", 0 ],
+			"obj-278::obj-46" : [ "live.text[387]", "live.text", 0 ],
+			"obj-278::obj-83" : [ "live.slider[17]", "X", 0 ],
+			"obj-278::obj-84" : [ "live.slider[16]", "Y", 0 ],
+			"obj-278::obj-87" : [ "live.slider[27]", "speed", 0 ],
+			"obj-278::obj-93" : [ "live.slider", "speed", 0 ],
+			"obj-279::obj-39" : [ "live.text[1]", "live.text", 0 ],
+			"obj-279::obj-46" : [ "live.text[2]", "live.text", 0 ],
+			"obj-279::obj-83" : [ "live.slider[28]", "X", 0 ],
+			"obj-279::obj-84" : [ "live.slider[29]", "Y", 0 ],
+			"obj-279::obj-87" : [ "live.slider[1]", "speed", 0 ],
+			"obj-279::obj-93" : [ "live.slider[30]", "speed", 0 ],
+			"obj-280::obj-39" : [ "live.text[4]", "live.text", 0 ],
+			"obj-280::obj-46" : [ "live.text[3]", "live.text", 0 ],
+			"obj-280::obj-83" : [ "live.slider[33]", "X", 0 ],
+			"obj-280::obj-84" : [ "live.slider[31]", "Y", 0 ],
+			"obj-280::obj-87" : [ "live.slider[32]", "speed", 0 ],
+			"obj-280::obj-93" : [ "live.slider[34]", "speed", 0 ],
+			"obj-29" : [ "vst~[232]", "vst~", 0 ],
+			"obj-2::obj-77::obj-2" : [ "fader_g", "fader", 0 ],
+			"obj-2::obj-77::obj-68" : [ "cue_g", "cue", 0 ],
+			"obj-2::obj-77::obj-9" : [ "ON_g", "ON", 0 ],
+			"obj-2::obj-79::obj-2" : [ "fader_h", "fader", 0 ],
+			"obj-2::obj-79::obj-68" : [ "cue_h", "cue", 0 ],
+			"obj-2::obj-79::obj-9" : [ "ON_h", "ON", 0 ],
+			"obj-2::obj-80::obj-2" : [ "fader_j", "fader", 0 ],
+			"obj-2::obj-80::obj-68" : [ "cue_j", "cue", 0 ],
+			"obj-2::obj-80::obj-9" : [ "ON_j", "ON", 0 ],
+			"obj-2::obj-81::obj-2" : [ "fader_k", "fader", 0 ],
+			"obj-2::obj-81::obj-68" : [ "cue_k", "cue", 0 ],
+			"obj-2::obj-81::obj-9" : [ "ON_k", "ON", 0 ],
+			"obj-2::obj-82::obj-2" : [ "fader_l", "fader", 0 ],
+			"obj-2::obj-82::obj-68" : [ "cue_l", "cue", 0 ],
+			"obj-2::obj-82::obj-9" : [ "ON_l", "ON", 0 ],
+			"obj-2::obj-83::obj-2" : [ "fader_é", "fader", 0 ],
+			"obj-2::obj-83::obj-68" : [ "cue_é", "cue", 0 ],
+			"obj-2::obj-83::obj-9" : [ "ON_é", "ON", 0 ],
+			"obj-2::obj-84::obj-2" : [ "fader_à", "fader", 0 ],
+			"obj-2::obj-84::obj-68" : [ "cue_à", "cue", 0 ],
+			"obj-2::obj-84::obj-9" : [ "ON_à", "ON", 0 ],
+			"obj-2::obj-85::obj-2" : [ "fader_$", "fader", 0 ],
+			"obj-2::obj-85::obj-68" : [ "cue_$", "cue", 0 ],
+			"obj-2::obj-85::obj-9" : [ "ON_$", "ON", 0 ],
+			"obj-39::obj-18" : [ "live.text[569]", "live.text", 0 ],
+			"obj-41" : [ "live.gain~[151]", "live.gain~", 0 ],
+			"obj-87::obj-4" : [ "rotary_phones", "rotary", 0 ],
+			"obj-9" : [ "ON_main", "ON", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-136::obj-22::obj-2" : 				{
+					"parameter_longname" : "fader_13"
+				}
+,
+				"obj-136::obj-22::obj-68" : 				{
+					"parameter_longname" : "cue_13"
+				}
+,
+				"obj-136::obj-22::obj-9" : 				{
+					"parameter_longname" : "ON_13"
+				}
+,
+				"obj-136::obj-34::obj-2" : 				{
+					"parameter_longname" : "fader_14"
+				}
+,
+				"obj-136::obj-34::obj-68" : 				{
+					"parameter_longname" : "cue_14"
+				}
+,
+				"obj-136::obj-34::obj-9" : 				{
+					"parameter_longname" : "ON_14"
+				}
+,
+				"obj-1::obj-14::obj-2" : 				{
+					"parameter_longname" : "fader_d"
+				}
+,
+				"obj-1::obj-14::obj-68" : 				{
+					"parameter_longname" : "cue_d"
+				}
+,
+				"obj-1::obj-14::obj-9" : 				{
+					"parameter_longname" : "ON_d"
+				}
+,
+				"obj-1::obj-15::obj-2" : 				{
+					"parameter_longname" : "fader_f"
+				}
+,
+				"obj-1::obj-15::obj-68" : 				{
+					"parameter_longname" : "cue_f"
+				}
+,
+				"obj-1::obj-15::obj-9" : 				{
+					"parameter_longname" : "ON_f"
+				}
+,
+				"obj-1::obj-77::obj-2" : 				{
+					"parameter_longname" : "fader_a"
+				}
+,
+				"obj-1::obj-77::obj-68" : 				{
+					"parameter_longname" : "cue_a"
+				}
+,
+				"obj-1::obj-77::obj-9" : 				{
+					"parameter_longname" : "ON_a"
+				}
+,
+				"obj-1::obj-9::obj-2" : 				{
+					"parameter_longname" : "fader_s"
+				}
+,
+				"obj-1::obj-9::obj-68" : 				{
+					"parameter_longname" : "cue_s"
+				}
+,
+				"obj-1::obj-9::obj-9" : 				{
+					"parameter_longname" : "ON_s"
+				}
+,
+				"obj-279::obj-39" : 				{
+					"parameter_longname" : "live.text[1]"
+				}
+,
+				"obj-279::obj-46" : 				{
+					"parameter_longname" : "live.text[2]"
+				}
+,
+				"obj-279::obj-83" : 				{
+					"parameter_longname" : "live.slider[28]"
+				}
+,
+				"obj-279::obj-84" : 				{
+					"parameter_longname" : "live.slider[29]"
+				}
+,
+				"obj-279::obj-87" : 				{
+					"parameter_longname" : "live.slider[1]"
+				}
+,
+				"obj-279::obj-93" : 				{
+					"parameter_longname" : "live.slider[30]"
+				}
+,
+				"obj-280::obj-39" : 				{
+					"parameter_longname" : "live.text[4]"
+				}
+,
+				"obj-280::obj-46" : 				{
+					"parameter_longname" : "live.text[3]"
+				}
+,
+				"obj-280::obj-83" : 				{
+					"parameter_longname" : "live.slider[33]"
+				}
+,
+				"obj-280::obj-84" : 				{
+					"parameter_longname" : "live.slider[31]"
+				}
+,
+				"obj-280::obj-87" : 				{
+					"parameter_longname" : "live.slider[32]"
+				}
+,
+				"obj-280::obj-93" : 				{
+					"parameter_longname" : "live.slider[34]"
+				}
+,
+				"obj-2::obj-77::obj-2" : 				{
+					"parameter_longname" : "fader_g"
+				}
+,
+				"obj-2::obj-77::obj-68" : 				{
+					"parameter_longname" : "cue_g"
+				}
+,
+				"obj-2::obj-77::obj-9" : 				{
+					"parameter_longname" : "ON_g"
+				}
+,
+				"obj-2::obj-79::obj-2" : 				{
+					"parameter_longname" : "fader_h"
+				}
+,
+				"obj-2::obj-79::obj-68" : 				{
+					"parameter_longname" : "cue_h"
+				}
+,
+				"obj-2::obj-79::obj-9" : 				{
+					"parameter_longname" : "ON_h"
+				}
+,
+				"obj-2::obj-80::obj-2" : 				{
+					"parameter_longname" : "fader_j"
+				}
+,
+				"obj-2::obj-80::obj-68" : 				{
+					"parameter_longname" : "cue_j"
+				}
+,
+				"obj-2::obj-80::obj-9" : 				{
+					"parameter_longname" : "ON_j"
+				}
+,
+				"obj-2::obj-81::obj-2" : 				{
+					"parameter_longname" : "fader_k"
+				}
+,
+				"obj-2::obj-81::obj-68" : 				{
+					"parameter_longname" : "cue_k"
+				}
+,
+				"obj-2::obj-81::obj-9" : 				{
+					"parameter_longname" : "ON_k"
+				}
+,
+				"obj-2::obj-82::obj-2" : 				{
+					"parameter_longname" : "fader_l"
+				}
+,
+				"obj-2::obj-82::obj-68" : 				{
+					"parameter_longname" : "cue_l"
+				}
+,
+				"obj-2::obj-82::obj-9" : 				{
+					"parameter_longname" : "ON_l"
+				}
+,
+				"obj-2::obj-83::obj-2" : 				{
+					"parameter_longname" : "fader_é"
+				}
+,
+				"obj-2::obj-83::obj-68" : 				{
+					"parameter_longname" : "cue_é"
+				}
+,
+				"obj-2::obj-83::obj-9" : 				{
+					"parameter_longname" : "ON_é"
+				}
+,
+				"obj-2::obj-84::obj-2" : 				{
+					"parameter_longname" : "fader_à"
+				}
+,
+				"obj-2::obj-84::obj-68" : 				{
+					"parameter_longname" : "cue_à"
+				}
+,
+				"obj-2::obj-84::obj-9" : 				{
+					"parameter_longname" : "ON_à"
+				}
+,
+				"obj-2::obj-85::obj-2" : 				{
+					"parameter_longname" : "fader_$"
+				}
+,
+				"obj-2::obj-85::obj-68" : 				{
+					"parameter_longname" : "cue_$"
+				}
+,
+				"obj-2::obj-85::obj-9" : 				{
+					"parameter_longname" : "ON_$"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "MIX_directOut.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIX_fader.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIX_faderStereo.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIX_mxOut.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIX_phonesOut.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIX_piano.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIX_positionCtrl.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIX_trajectoryCtrl.maxpat",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ambicontrol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ambiencode~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ambimonitor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "lock.png",
+				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sadam.rapidXML.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 	}
 
