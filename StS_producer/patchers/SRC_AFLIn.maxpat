@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2048.0, 2251.0 ],
+		"rect" : [ 187.0, 191.0, 1356.0, 746.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -21,16 +21,16 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 15,
+		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 617.833333333333485, 415.0, 249.0, 22.0 ],
+					"text" : "window size 1572 60 1894 165, window exec"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -58,9 +70,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 644.5, 33.0, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 147.5, 43.0, 50.0, 22.0 ]
+					"patching_rect" : [ 644.5, 33.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -84,9 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 249.0, 389.0, 157.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 81.5, 81.0, 157.0, 22.0 ],
-					"text" : "1573 60 1910 160"
+					"text" : "1572 60 1894 165"
 				}
 
 			}
@@ -130,7 +138,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -142,7 +150,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -392,7 +400,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 432.5, 229.852222889661789, 14.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.089545428752899, 43.142772257328033, 14.0, 14.0 ],
+					"presentation_rect" : [ 131.089545428752899, 8.142772257328033, 14.0, 14.0 ],
 					"uncheckedcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 
@@ -429,7 +437,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 623.0, 324.852222889661789, 298.0, 22.0 ],
-					"text" : "window size 1250 60 1712 160, window exec"
+					"text" : "window size 1250 60 1390 160, window exec"
 				}
 
 			}
@@ -570,7 +578,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -720,6 +728,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
@@ -729,13 +744,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -962,7 +970,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
+					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1025,59 +1042,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-2::obj-43" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-5::obj-43" : [ "live.gain~[183]", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-43" : 				{
-					"parameter_longname" : "live.gain~[1]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "SRC_1ch.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SRC_komp.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "komp-ballistics.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/kompressor/lib",
-				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/kompressor/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kompressor.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
