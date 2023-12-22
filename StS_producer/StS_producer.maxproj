@@ -2,7 +2,7 @@
 	"name" : "StS_producer",
 	"version" : 1,
 	"creationdate" : 3749716720,
-	"modificationdate" : 3785935662,
+	"modificationdate" : 3786079727,
 	"viewrect" : [ 780.0, 205.0, 485.0, 786.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -212,6 +212,11 @@
 			}
 ,
 			"_temps_selectorTest.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"SRC_AFLIn.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
