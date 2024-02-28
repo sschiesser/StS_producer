@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 1047.0 ],
+		"rect" : [ 1920.0, 148.0, 784.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1217,6 +1217,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 29.0, 59.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 338.095243334770203, 41.53690499999999, 59.0, 18.0 ],
 					"text" : "show paths"
 				}
 
@@ -1229,7 +1231,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.233892679214705, 52.28941398859024, 24.0, 24.0 ]
+					"patching_rect" : [ 13.233892679214705, 52.28941398859024, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 357.595243334770203, 56.497655579833975, 20.0, 20.0 ]
 				}
 
 			}
@@ -1268,7 +1272,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3244,7 +3248,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3345,8 +3349,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 352.550000000000011, 714.0, 166.0, 22.0 ],
-									"text" : "combine path os @triggers -1"
+									"patching_rect" : [ 352.550000000000011, 714.0, 162.0, 22.0 ],
+									"text" : "combine path os @triggers 0"
 								}
 
 							}
@@ -3357,8 +3361,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 367.0, 60.0, 48.0, 22.0 ],
-									"text" : "del 100"
+									"patching_rect" : [ 367.0, 60.0, 41.0, 22.0 ],
+									"text" : "del 10"
 								}
 
 							}
@@ -4075,7 +4079,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 1 ],
-									"midpoints" : [ 813.5, 705.0, 509.050000000000011, 705.0 ],
+									"midpoints" : [ 813.5, 705.0, 505.050000000000011, 705.0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -4083,7 +4087,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-25", 1 ],
-									"midpoints" : [ 850.5, 705.0, 509.050000000000011, 705.0 ],
+									"midpoints" : [ 850.5, 705.0, 505.050000000000011, 705.0 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -4331,7 +4335,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10745,208 +10749,6 @@
 			}
 ,
 			"inherited_shortname" : 1
-		}
-,
-		"parameter_map" : 		{
-			"midi" : 			{
-				"ON_a" : 				{
-					"srcname" : "5.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_s" : 				{
-					"srcname" : "7.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_d" : 				{
-					"srcname" : "9.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_f" : 				{
-					"srcname" : "11.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_g" : 				{
-					"srcname" : "13.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_h" : 				{
-					"srcname" : "15.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_j" : 				{
-					"srcname" : "17.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_k" : 				{
-					"srcname" : "19.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_l" : 				{
-					"srcname" : "21.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_$" : 				{
-					"srcname" : "27.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"fader_a" : 				{
-					"srcname" : "6.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_s" : 				{
-					"srcname" : "8.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_d" : 				{
-					"srcname" : "10.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_f" : 				{
-					"srcname" : "12.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_g" : 				{
-					"srcname" : "14.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_h" : 				{
-					"srcname" : "16.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_j" : 				{
-					"srcname" : "18.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_k" : 				{
-					"srcname" : "20.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_l" : 				{
-					"srcname" : "22.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_$" : 				{
-					"srcname" : "28.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_13" : 				{
-					"srcname" : "2.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_14" : 				{
-					"srcname" : "4.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_é" : 				{
-					"srcname" : "24.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"fader_à" : 				{
-					"srcname" : "26.ctrl.0.chan.2.port.midi",
-					"min" : -70.0,
-					"max" : 6.0,
-					"flags" : 2
-				}
-,
-				"ON_14" : 				{
-					"srcname" : "3.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_13" : 				{
-					"srcname" : "1.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_à" : 				{
-					"srcname" : "25.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-,
-				"ON_é" : 				{
-					"srcname" : "23.ctrl.0.chan.2.port.midi",
-					"min" : 0.0,
-					"max" : 1.0,
-					"flags" : 2
-				}
-
-			}
-
 		}
 ,
 		"dependency_cache" : [ 			{

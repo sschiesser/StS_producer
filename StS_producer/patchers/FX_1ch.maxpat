@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2048.0, 2251.0 ],
+		"rect" : [ 0.0, 53.0, 1920.0, 1115.0 ],
 		"openrect" : [ 0.0, 0.0, 419.0, 696.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -5544,8 +5544,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5748,8 +5748,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5952,8 +5952,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6124,14 +6124,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+						"rect" : [ 298.0, 278.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6161,13 +6161,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 142.0, 61.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-177",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 124.0, 245.0, 22.0 ],
-									"text" : "combine path /Bertom_DenoiserClassic.vst3"
+									"patching_rect" : [ 50.0, 124.0, 282.0, 22.0 ],
+									"text" : "combine path /Bertom_DenoiserClassic.component"
 								}
 
 							}
@@ -6203,7 +6215,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 102.259243278311487, 148.0, 694.0, 22.0 ],
-									"text" : "plug /Users/user/Desktop/StS_producer/StS_producer/plugins/mac/Bertom_DenoiserClassic.vst3"
+									"text" : "plug /Users/user/Desktop/StS_producer/StS_producer/plugins/mac/Bertom_DenoiserClassic.component"
 								}
 
 							}
@@ -6267,6 +6279,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-137", 0 ],
 									"source" : [ "obj-188", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-137", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -6528,7 +6547,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1389.857556252838549, 1600.880346536636353, 82.0, 22.0 ],
+					"patching_rect" : [ 1389.857556252838549, 1600.880346536636353, 83.0, 22.0 ],
 					"text" : "r #0bang3"
 				}
 
@@ -6791,6 +6810,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST3_feedback",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "feedback",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -6882,6 +6902,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST3_time",
 							"parameter_mmax" : 10000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "slider",
 							"parameter_type" : 0
 						}
@@ -6940,6 +6961,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST3_freeze",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[12]",
 							"parameter_type" : 2
 						}
@@ -6985,6 +7007,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "bDelTap[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "tap",
 							"parameter_type" : 2
 						}
@@ -7020,6 +7043,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST3_mode",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -7049,6 +7073,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST3_drywet",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "dry/wet",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7083,8 +7108,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7891,8 +7916,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8821,13 +8846,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1703.745532158672177, 435.456462740898132, 36.40411376953125, 35.0 ],
-					"text" : "0.524907"
+					"patching_rect" : [ 1703.745532158672177, 435.456462740898132, 36.40411376953125, 22.0 ],
+					"text" : "0."
 				}
 
 			}
@@ -8842,8 +8866,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10132,8 +10156,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10750,6 +10774,7 @@
 							"parameter_longname" : "VST4_damphighfreq",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "freq.",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -10781,6 +10806,7 @@
 							"parameter_longname" : "VST4_damplowfreq",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "freq.",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -10811,6 +10837,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST4_damphigh",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[10]",
 							"parameter_type" : 2
 						}
@@ -10842,6 +10869,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST4_damplow",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[10]",
 							"parameter_type" : 2
 						}
@@ -10903,6 +10931,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST4_predelay",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "slider",
 							"parameter_type" : 0
 						}
@@ -10934,6 +10963,7 @@
 							"parameter_longname" : "VST4_highcut",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 1000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "high-cut",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -10967,6 +10997,7 @@
 							"parameter_longname" : "VST4_lowcut",
 							"parameter_mmax" : 2000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "low-cut",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -10996,6 +11027,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST4_size",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "size",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -11025,6 +11057,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[60]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vst~",
 							"parameter_type" : 3
 						}
@@ -11065,6 +11098,7 @@
 							"parameter_longname" : "VST4_length",
 							"parameter_mmax" : 60000.0,
 							"parameter_mmin" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "length",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -11116,6 +11150,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST4_drywet",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "dry/wet",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -11161,8 +11196,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11391,8 +11426,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11727,6 +11762,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[59]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vst~[1]",
 							"parameter_type" : 3
 						}
@@ -11998,6 +12034,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST1_LPF",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
 						}
@@ -12034,6 +12071,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST1_HPF",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
 						}
@@ -12071,8 +12109,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12618,6 +12656,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST1_threshold",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "VST1_threshold",
 							"parameter_type" : 0
 						}
@@ -12686,8 +12725,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12994,8 +13033,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14082,6 +14121,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST2_LPFslope",
 							"parameter_mmax" : 11,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
@@ -14126,6 +14166,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST2_HPFslope",
 							"parameter_mmax" : 11,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "VST2_HPFslope",
 							"parameter_type" : 2
 						}
@@ -14189,6 +14230,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST2_drywet",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "dry/wet",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -14221,6 +14263,7 @@
 							"parameter_longname" : "VST2_HPFq",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : 0.05,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -14253,6 +14296,7 @@
 							"parameter_longname" : "VST2_LPFq",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : 0.05,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -14285,6 +14329,7 @@
 							"parameter_longname" : "VST2_LPFfreq",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "freq.",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -14317,6 +14362,7 @@
 							"parameter_longname" : "VST2_HPFfreq",
 							"parameter_mmax" : 20000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "freq.",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -14352,6 +14398,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST2_LPF",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
 						}
@@ -14388,6 +14435,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "VST2_HPF",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[8]",
 							"parameter_type" : 2
 						}
@@ -14501,8 +14549,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14762,6 +14810,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "amxd~[5]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -14784,8 +14833,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14932,6 +14981,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "amxd~[6]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -14955,8 +15005,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15207,6 +15257,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[61]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vst~[3]",
 							"parameter_type" : 3
 						}
@@ -15218,7 +15269,7 @@
 						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
-						"prefer" : "VST3"
+						"prefer" : "AudioUnit"
 					}
 ,
 					"text" : "vst~",
@@ -15238,8 +15289,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15526,6 +15577,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "amxd~[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -15565,6 +15617,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "amxd~[3]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -15595,6 +15648,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[58]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vst~[1]",
 							"parameter_type" : 3
 						}
@@ -22262,7 +22316,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FX_presetsMgmt.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -22275,14 +22329,14 @@
 			}
 , 			{
 				"name" : "utils_cueIN.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils_cueOUT.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

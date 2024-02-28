@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ambiscore>
-	<snapshot index="Vertical line">
+	<snapshot index="line">
 		<point>
 			<number>1</number>
-			<xyz>0.006963 -0.000000 0.000000</xyz>
+			<xyz>-0.707107 0.000000 0.000000</xyz>
 		</point>
 		<point>
 			<number>5</number>
@@ -66,93 +66,15 @@
 		</point>
 		<point>
 			<number>2</number>
-			<xyz>0.008789 0.441043 0.000000</xyz>
+			<xyz>0.707107 0.000000 0.000000</xyz>
 		</point>
 		<point>
 			<number>3</number>
-			<xyz>-0.027454 0.241524 0.000000</xyz>
+			<xyz>0.004049 0.540803 0.000000</xyz>
 		</point>
 		<point>
 			<number>4</number>
-			<xyz>-0.019801 0.687817 0.000000</xyz>
-		</point>
-	</snapshot>
-	<snapshot index="Star">
-		<point>
-			<number>1</number>
-			<xyz>0.017464 0.483047 0.000000</xyz>
-		</point>
-		<point>
-			<number>5</number>
-			<group>2</group>
-			<xyz>-0.453226 0.433630 0.000000</xyz>
-		</point>
-		<point>
-			<number>6</number>
-			<group>2</group>
-			<xyz>-0.174468 0.160603 0.000000</xyz>
-		</point>
-		<point>
-			<number>13</number>
-			<group>3</group>
-			<xyz>-0.500000 0.500000 0.000000</xyz>
-		</point>
-		<point>
-			<number>14</number>
-			<group>3</group>
-			<xyz>-0.250000 0.500000 0.000000</xyz>
-		</point>
-		<point>
-			<number>15</number>
-			<group>3</group>
-			<xyz>0.250000 0.500000 0.000000</xyz>
-		</point>
-		<point>
-			<number>16</number>
-			<group>3</group>
-			<xyz>0.500000 0.500000 0.000000</xyz>
-		</point>
-		<point>
-			<number>7</number>
-			<group>2</group>
-			<xyz>0.188298 0.144852 0.000000</xyz>
-		</point>
-		<point>
-			<number>8</number>
-			<group>2</group>
-			<xyz>0.530061 0.407377 0.000000</xyz>
-		</point>
-		<point>
-			<number>9</number>
-			<group>2</group>
-			<xyz>-0.393548 -0.500961 0.000000</xyz>
-		</point>
-		<point>
-			<number>10</number>
-			<group>2</group>
-			<xyz>-0.156794 -0.238436 0.000000</xyz>
-		</point>
-		<point>
-			<number>11</number>
-			<group>2</group>
-			<xyz>0.169218 -0.217434 0.000000</xyz>
-		</point>
-		<point>
-			<number>12</number>
-			<group>2</group>
-			<xyz>0.479479 -0.506212 0.000000</xyz>
-		</point>
-		<point>
-			<number>2</number>
-			<xyz>-0.001712 -0.498799 0.000000</xyz>
-		</point>
-		<point>
-			<number>3</number>
-			<xyz>0.004049 0.231022 0.000000</xyz>
-		</point>
-		<point>
-			<number>4</number>
-			<xyz>0.006452 -0.236273 0.000000</xyz>
+			<xyz>-0.009300 0.231022 0.000000</xyz>
 		</point>
 	</snapshot>
 </ambiscore>

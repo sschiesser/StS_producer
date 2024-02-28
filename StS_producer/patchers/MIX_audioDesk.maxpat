@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2048.0, 2251.0 ],
+		"rect" : [ 0.0, 53.0, 1920.0, 1115.0 ],
 		"openrect" : [ 0.0, 0.0, 782.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,44 @@
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-222",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 223.339394807815552, 1443.741225938844764, 81.0, 22.0 ],
+					"text" : "v pluginsPath"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-218",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 354.368927180767059, 1404.854349672794342, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.082352941176471, 1.0, 1.0 ],
+					"id" : "obj-207",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 223.339394807815552, 1401.342993001985633, 64.0, 22.0 ],
+					"text" : "r StS_init3",
+					"textcolor" : [ 0.513725490196078, 0.556862745098039, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-256",
 					"maxclass" : "message",
@@ -566,7 +604,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.339394807815552, 1407.93547123670578, 64.0, 22.0 ],
+					"patching_rect" : [ 150.0, 1401.342993001985633, 64.0, 22.0 ],
 					"text" : "r StS_init1",
 					"textcolor" : [ 0.980392156862745, 0.784313725490196, 0.427450980392157, 1.0 ]
 				}
@@ -957,8 +995,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1279,8 +1317,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1806,8 +1844,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2209,8 +2247,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2431,8 +2469,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2759,6 +2797,7 @@
 							"parameter_longname" : "live.gain~[151]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2846,8 +2885,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3452,8 +3491,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3805,8 +3844,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5110,6 +5149,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[233]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vst~[1]",
 							"parameter_type" : 3
 						}
@@ -5248,95 +5288,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"id" : "obj-107",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.339394807815552, 1519.741225938844764, 31.0, 22.0 ],
-					"text" : "Mac"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-105",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.339394807815552, 1519.741225938844764, 30.0, 22.0 ],
-					"text" : "Win"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-98",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 456.339394807815552, 1493.741225938844764, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-99",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 400.339394807815552, 1493.741225938844764, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-100",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 400.339394807815552, 1469.741225938844764, 131.0, 22.0 ],
-					"text" : "sel macintosh windows"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-101",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.339394807815552, 1443.741225938844764, 56.0, 22.0 ],
-					"text" : "r maxOS"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-74",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 459.800846338272095, 1418.861078262329102, 93.0, 47.0 ],
-					"text" : "check on which\nOS the project\nis running"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-32",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -5344,7 +5295,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.283839344978333, 1620.096175938844681, 256.0, 35.0 ],
-					"text" : "C:/_MYdocs/07-code/3.01-max/StS_producer/StS_producer/vst//BinauralDecoderWin.vst3"
+					"text" : "/Users/user/Desktop/StS_producer/StS_producer/plugins/mac/BinauralDecoder_Bertom.vst3"
 				}
 
 			}
@@ -5640,6 +5591,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[710]",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 1
 						}
@@ -5743,24 +5695,11 @@
 					"fontname" : "Arial",
 					"id" : "obj-30",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.339394807815552, 1559.096175938844681, 196.0, 22.0 ],
-					"text" : "sprintf %s/BinauralDecoder%s.vst3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-139",
-					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.339394807815552, 1443.741225938844764, 84.0, 22.0 ],
-					"text" : "v StS_vstPath"
+					"patching_rect" : [ 223.339394807815552, 1559.096175938844681, 225.0, 22.0 ],
+					"text" : "sprintf %s/BinauralDecoder_Bertom.vst3"
 				}
 
 			}
@@ -5796,6 +5735,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "vst~[232]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vst~",
 							"parameter_type" : 3
 						}
@@ -6013,6 +5953,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "ON_main",
 							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "ON",
 							"parameter_type" : 1
 						}
@@ -6077,6 +6018,7 @@
 							"parameter_longname" : "fader_main",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "ST",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -6228,6 +6170,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.toggle",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -6328,27 +6271,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
-					"source" : [ "obj-100", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
-					"source" : [ "obj-100", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-100", 0 ],
-					"source" : [ "obj-101", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
 					"source" : [ "obj-102", 0 ]
 				}
@@ -6374,20 +6296,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-104", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"source" : [ "obj-107", 0 ]
 				}
 
 			}
@@ -6882,13 +6790,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-139", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"source" : [ "obj-14", 1 ]
 				}
@@ -7173,6 +7074,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-168", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
 					"order" : 0,
 					"source" : [ "obj-169", 0 ]
@@ -7219,13 +7127,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-165", 0 ],
 					"source" : [ "obj-173", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-139", 0 ],
-					"source" : [ "obj-174", 0 ]
 				}
 
 			}
@@ -7582,6 +7483,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"source" : [ "obj-207", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 1 ],
 					"source" : [ "obj-209", 0 ]
 				}
@@ -7654,6 +7562,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"source" : [ "obj-218", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-219", 0 ]
 				}
@@ -7670,6 +7585,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-209", 0 ],
 					"source" : [ "obj-221", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-222", 0 ]
 				}
 
 			}
@@ -8739,20 +8661,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-105", 0 ],
-					"source" : [ "obj-98", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"source" : [ "obj-99", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
 			"obj-109" : [ "vst~[233]", "vst~[1]", 0 ],
@@ -9057,56 +8965,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MIX_directOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_fader.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_faderStereo.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_mxOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_phonesOut.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_piano.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_positionCtrl.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIX_trajectoryCtrl.maxpat",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/patchers",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9129,7 +9037,7 @@
 			}
 , 			{
 				"name" : "lock.png",
-				"bootpath" : "~/Desktop/StS/StS_producer/StS_producer/media",
+				"bootpath" : "~/Desktop/StS_producer/StS_producer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
